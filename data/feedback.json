@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T22:22:22.062Z",
+ "updated": "2026-10-22T22:22:34.261Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -278,6 +278,23 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T22:22:19.801Z"
+    }
+   }
+  },
+  "2026-10-28-industry-social-club-confections": {
+   "title": "Industry Social Club: Confections",
+   "category": "community",
+   "venue": "Baltimore Museum of Industry",
+   "tags": [
+    "history",
+    "making"
+   ],
+   "start": "2026-10-28T17:30",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T22:22:32.412Z"
     }
    }
   }
