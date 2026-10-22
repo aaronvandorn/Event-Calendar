@@ -244,7 +244,7 @@ def cmd_digest(a):
         badge = ('<span style="display:inline-block;border:1px solid #157f78;color:#157f78;border-radius:9px;padding:0 7px;'
                  'font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-left:6px">Free</span>') if e.get("free") is True else ""
         star = '<span style="color:#3b76b3">★ </span>' if e["_star"] else ""
-        opens = "Opens: " if e.get("_opening") else ""
+        opens = "Opens: " if e.get("_opening") and "(opens)" not in e["title"] else ""
         return (f'<tr><td style="padding:0 0 10px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
                 f'style="border:1px solid #c4ccd6;border-left:4px solid {col};border-radius:4px;background:#ffffff;{stripe}">'
                 f'<tr><td style="padding:10px 12px;font-family:Helvetica,Arial,sans-serif;color:#1f2733">'
