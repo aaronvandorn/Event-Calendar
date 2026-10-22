@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T19:09:30.515Z",
+ "updated": "2026-10-22T19:11:28.853Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -162,6 +162,23 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T19:09:28.709Z"
+    }
+   }
+  },
+  "2026-10-30-halloween-atp-21": {
+   "title": "Halloween ATP (21+)",
+   "category": "nightlife",
+   "venue": "Current Space",
+   "tags": [
+    "dj",
+    "halloween"
+   ],
+   "start": "2026-10-30T18:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T19:11:26.996Z"
     }
    }
   }
