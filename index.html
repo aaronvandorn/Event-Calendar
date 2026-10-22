@@ -295,7 +295,7 @@ function today(){ const d = new Date(); return new Date(d.getFullYear(), d.getMo
 function key(d){ return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; }
 function parseD(s){ const [y,m,d] = s.slice(0,10).split("-").map(Number); return new Date(y, m-1, d); }
 function addDays(d, n){ const x = new Date(d); x.setDate(x.getDate()+n); return x; }
-function startOfWeek(d){ return addDays(d, -d.getDay()); }
+function startOfWeek(d){ return addDays(d, -((d.getDay() + 6) % 7)); }  // weeks run Monday–Sunday
 function fmtTime(s){
   if(!s || s.length < 16) return "";
   let h = +s.slice(11,13), m = s.slice(14,16);
@@ -453,7 +453,7 @@ function renderMonth(){
   const c = S.cursor, first = new Date(c.getFullYear(), c.getMonth(), 1);
   const start = startOfWeek(first), t = key(today());
   $("#label").textContent = `${MON[c.getMonth()].toUpperCase()} ${c.getFullYear()}`;
-  let h = `<div class="month">` + DOW.map(d=>`<div class="dow">${d}</div>`).join("");
+  let h = `<div class="month">` + [1,2,3,4,5,6,0].map(i=>`<div class="dow">${DOW[i]}</div>`).join("");
   for(let i = 0; i < 42; i++){
     const d = addDays(start, i);
     if(i === 35 && d.getMonth() !== c.getMonth()) break;
