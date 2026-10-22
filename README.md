@@ -11,7 +11,7 @@ Events Aaron is likely to enjoy in Baltimore (and wherever he's traveling), refr
 - **Flag** each event: ★ Interested puts it on *My calendar* (switch with the "All events / My calendar" menu); ✕ Not interested removes it. "Show events I marked Not interested" in Settings brings them back.
 - **Ten per day.** Each day lists its ten best-fit events. A busier day gets an orange count badge and a "Show N more" button.
 - Long runs (exhibitions, theater runs) sit in an **Also on view** drawer on each day so they don't crowd out one-night events.
-- **Light/Dark** toggle in the header (dark hardware-console look by default; light uses the Logic-Rhythm colorway).
+- **Light/Dark** toggle in the header (light Logic-Rhythm colorway by default; dark is the Tape Loop Deck hardware-console look). Your choice is remembered per browser.
 
 ## How flags teach the agent
 Flags save in your browser instantly. To share them with the weekly agent (and your other devices), open **Settings → Sync flags to GitHub** and paste a fine-grained personal access token:
@@ -23,7 +23,9 @@ Flags save in your browser instantly. To share them with the weekly agent (and y
    - Newer layout: click **+ Add permissions**, tick **Contents**, then change its access from "Read-only" to **Read and write**.
    - **Metadata: Read-only** is added automatically; that's expected. Leave everything else alone.
 5. **Generate token** and copy it right away (GitHub shows it only once).
-6. On the calendar: ⚙ Settings → *Sync flags to GitHub* → paste → **Save**.
+6. On the calendar: ⚙ Settings → *Sync flags to GitHub* → paste → **Save**. When the browser offers to save it as a password, accept.
+
+**Phone and laptop:** the token is stored per browser, but you only paste it once if you let your password manager save it. In Chrome signed into your Google account, the saved token syncs through Google Password Manager and the calendar picks it up automatically on your other devices (on iPhone, tap the password field in Settings and choose it from the autofill bar, then Save). Flags themselves sync through the repo, so both devices see the same Interested / Not interested marks.
 
 Each Thursday the agent runs `scripts/calendar_tool.py learn`, which turns your flags into category, venue and tag weights, and searches harder for what you mark Interested.
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Barlow+Condensed:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Tape Loop Deck hardware-console look (dark default) + Logic-Rhythm light colorway. */
+/* Tape Loop Deck hardware-console look + Logic-Rhythm light colorway (light is the default). */
 :root{
   color-scheme:dark;
   --bg:#161814;--panel:#21241e;--panel-2:#2a2e26;--well:#10120e;--line:#3a3f34;
@@ -218,7 +218,12 @@ dialog::backdrop{background:var(--scrim)}
     <fieldset>
       <legend>Sync flags to GitHub</legend>
       <p class="hint">Your Interested / Not interested flags are saved in this browser right away. To let the weekly agent learn from them, paste a fine-grained GitHub token with <b>Contents: read and write</b> on the Event-Calendar repo only. It stays in this browser.</p>
-      <div class="row"><input type="password" id="tokenIn" placeholder="github_pat_…" autocomplete="off"><button class="btn small primary" id="saveToken">Save</button><button class="btn small" id="syncNow">Sync now</button></div>
+      <form id="tokenForm" class="row" method="post" action="#" autocomplete="on">
+        <input type="text" name="username" id="tokenUser" value="Event Calendar (GitHub token)" autocomplete="username" readonly hidden>
+        <input type="password" name="password" id="tokenIn" placeholder="github_pat_…" autocomplete="current-password">
+        <button class="btn small primary" type="submit" id="saveToken">Save</button><button class="btn small" type="button" id="syncNow">Sync now</button>
+      </form>
+      <p class="hint">When your browser offers to save this as a password, say yes: Google Password Manager (or iCloud Keychain) then fills it in on your other devices.</p>
       <p class="hint" id="tokenState"></p>
     </fieldset>
     <fieldset>
@@ -553,7 +558,6 @@ function toast(t){
 function applyTheme(t){
   document.documentElement.setAttribute("data-theme", t);
   $("#themeBtn").textContent = t === "light" ? "☾ Dark" : "☀ Light";
-  store.set("ec.theme", t);
 }
 function step(dir){
   const c = S.cursor;
@@ -584,13 +588,31 @@ document.addEventListener("change", ev => {
 $("#prev").onclick = () => step(-1);
 $("#next").onclick = () => step(1);
 $("#todayBtn").onclick = () => { S.cursor = today(); render(); };
-$("#themeBtn").onclick = () => applyTheme(document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light");
+$("#themeBtn").onclick = () => { const t = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light"; applyTheme(t); store.set("ec.themeChoice", t); };
 $("#areaSel").onchange = e => { S.area = e.target.value; store.set("ec.area", S.area); render(); };
 $("#modeSel").onchange = e => { S.mode = e.target.value; render(); };
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
-$("#settingsBtn").onclick = () => { $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
-$("#saveToken").onclick = () => { store.set("ec.token", $("#tokenIn").value.trim()); $("#tokenIn").value = ""; $("#tokenState").textContent = token() ? "Token saved in this browser." : "Token cleared."; queueSync(); };
+$("#settingsBtn").onclick = () => { $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
+$("#tokenForm").onsubmit = async ev => {
+  ev.preventDefault();
+  const t = $("#tokenIn").value.trim();
+  store.set("ec.token", t);
+  $("#tokenState").textContent = t ? "Token saved in this browser." : "Token cleared.";
+  // Offer to save it to the browser's password manager so it follows you to other devices.
+  if(t && window.PasswordCredential && navigator.credentials){
+    try{ await navigator.credentials.store(new PasswordCredential({id:$("#tokenUser").value, password:t, name:"Event Calendar"})); }catch(e){}
+  }
+  queueSync();
+};
+// No token here yet? Ask the browser's password manager for one saved on another device.
+async function tokenFromPasswordManager(){
+  if(token() || !window.PasswordCredential || !navigator.credentials) return;
+  try{
+    const c = await navigator.credentials.get({password:true, mediation:"optional"});
+    if(c && c.password && /^(github_pat_|ghp_)/.test(c.password)){ store.set("ec.token", c.password); setSync("Flags sync on"); queueSync(); }
+  }catch(e){}
+}
 $("#syncNow").onclick = () => syncFeedback();
 $("#dlIcs").onclick = () => download("event-calendar-interested.ics", icsFor(S.events.filter(e => status(e) === "interested")), "text/calendar");
 $("#dlFb").onclick = () => download("feedback.json", JSON.stringify({version:1, updated:new Date().toISOString(), items:S.feedback}, null, 1), "application/json");
@@ -622,7 +644,7 @@ function readHash(){
 
 /* ---------- boot */
 (async function boot(){
-  applyTheme(store.get("ec.theme", "dark"));
+  applyTheme(store.get("ec.themeChoice", "light"));
   readHash();
   renderLegend();
   const bust = `?v=${Date.now()}`;
@@ -647,7 +669,7 @@ function readHash(){
   $("#updated").textContent = (u ? `Updated ${MON[u.getMonth()]} ${u.getDate()}, ${u.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"})}` : "") + ` · ${S.events.length} events`;
   renderAreas();
   render();
-  if(token()) setSync("Flags sync on");
+  if(token()) setSync("Flags sync on"); else tokenFromPasswordManager();
 })();
 </script>
 </body>
