@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T22:21:36.569Z",
+ "updated": "2026-10-22T22:22:22.062Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -261,6 +261,23 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T22:21:34.686Z"
+    }
+   }
+  },
+  "2026-10-28-profs-pints-the-haunted-house": {
+   "title": "Profs & Pints: The Haunted House",
+   "category": "talk",
+   "venue": "Guilford Hall Brewery",
+   "tags": [
+    "history",
+    "old houses"
+   ],
+   "start": "2026-10-28T18:30",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T22:22:19.801Z"
     }
    }
   }
