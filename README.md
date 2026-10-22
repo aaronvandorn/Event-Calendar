@@ -15,8 +15,8 @@ Events Aaron is likely to enjoy in Baltimore (and wherever he's traveling), refr
 
 ## How flags teach the agent
 Flags save in your browser instantly. To share them with the weekly agent (and your other devices), open **Settings → Sync flags to GitHub** and paste a fine-grained personal access token:
-1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.
-2. Repository access: *Only select repositories* → `Event-Calendar`.
+1. Open https://github.com/settings/personal-access-tokens/new in a web browser (the GitHub phone app doesn't offer this). It's your account settings — profile picture → Settings → Developer settings at the very bottom of the left sidebar → Personal access tokens → Fine-grained tokens — not the repo's Settings tab.
+2. Name it, pick an expiration, then Repository access: *Only select repositories* → `Event-Calendar`.
 3. Permissions: *Contents* → Read and write. Nothing else.
 
 Each Thursday the agent runs `scripts/calendar_tool.py learn`, which turns your flags into category, venue and tag weights, and searches harder for what you mark Interested.
