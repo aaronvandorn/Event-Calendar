@@ -1,5 +1,103 @@
 {
-  "version": 1,
-  "updated": null,
-  "items": {}
+ "version": 1,
+ "updated": "2026-10-22T17:53:24.973Z",
+ "items": {
+  "2026-10-22-junglist-heights-drum-bass": {
+   "status": "interested",
+   "ts": "2026-10-22T17:33:56.697Z",
+   "title": "Junglist Heights (drum & bass)",
+   "category": "nightlife",
+   "venue": "Peabody Heights Brewery",
+   "tags": [
+    "electronic",
+    "dj"
+   ],
+   "start": "2026-10-22T18:00",
+   "area": "baltimore"
+  },
+  "2026-10-18-different-words-for-happiness": {
+   "status": "interested",
+   "ts": "2026-10-22T17:34:10.592Z",
+   "title": "Different Words for Happiness",
+   "category": "theater",
+   "venue": "Everyman Theatre",
+   "tags": [],
+   "start": "2026-10-18",
+   "area": "baltimore"
+  },
+  "2026-10-23-bmore-horror-film-fest": {
+   "status": "interested",
+   "ts": "2026-10-22T17:34:14.479Z",
+   "title": "Bmore Horror Film Fest",
+   "category": "film",
+   "venue": "Old Major, 2640 Space, Black Cherry Puppet Theater",
+   "tags": [
+    "horror",
+    "festival"
+   ],
+   "start": "2026-10-23",
+   "area": "baltimore"
+  },
+  "2026-10-22-beth-lapides-it-s-a-lot": {
+   "status": "interested",
+   "ts": "2026-10-22T17:35:15.392Z",
+   "title": "Beth Lapides: It's A Lot",
+   "category": "comedy",
+   "venue": "Creative Alliance",
+   "tags": [],
+   "start": "2026-10-22T19:30",
+   "area": "baltimore"
+  },
+  "2026-10-23-trio-sir-nes": {
+   "status": "interested",
+   "ts": "2026-10-22T17:35:56.042Z",
+   "title": "Trio Sirènes",
+   "category": "music",
+   "venue": "St. David's Church",
+   "tags": [
+    "classical"
+   ],
+   "start": "2026-10-23T19:30",
+   "area": "baltimore"
+  },
+  "2026-10-24-doors-open-baltimore": {
+   "status": "interested",
+   "ts": "2026-10-22T17:36:23.177Z",
+   "title": "Doors Open Baltimore",
+   "category": "community",
+   "venue": "52 buildings citywide",
+   "tags": [
+    "architecture",
+    "history",
+    "old houses"
+   ],
+   "start": "2026-10-24T10:00",
+   "area": "baltimore"
+  },
+  "2026-10-24-microgreens-workshop": {
+   "status": "interested",
+   "ts": "2026-10-22T17:36:26.980Z",
+   "title": "Microgreens Workshop",
+   "category": "community",
+   "venue": "Filbert Street Garden",
+   "tags": [
+    "gardening"
+   ],
+   "start": "2026-10-24T11:00",
+   "area": "baltimore"
+  },
+  "2026-10-24-mushroom-city-arts-festival": {
+   "status": "interested",
+   "ts": "2026-10-22T17:36:38.927Z",
+   "title": "Mushroom City Arts Festival",
+   "category": "festival",
+   "venue": "Carrie Murray Nature Center",
+   "tags": [
+    "nature",
+    "art"
+   ],
+   "start": "2026-10-24T12:00",
+   "area": "baltimore"
+  }
+ }
 }
