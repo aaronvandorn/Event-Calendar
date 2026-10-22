@@ -62,7 +62,8 @@ Each event in `data/events.json` → `events[]`:
   "free": true,                                     // true | false | null (unknown)
   "url": "https://…",
   "base": 86,                                       // 0–100 fit for Aaron (see below)
-  "summary": "One plain sentence on why it's worth it.",
+  "description": "1–3 plain sentences on what the event is: who's performing or showing, what the film/show/exhibit is about, what happens there.",
+  "summary": "Optional short practical note: extra dates, set times, sold out, etc.",
   "tags": ["architecture", "history"],              // lower-case; reuse existing tags so learning carries over
   "source": "Baltimore Magazine"
 }
@@ -70,6 +71,7 @@ Each event in `data/events.json` → `events[]`:
 
 `base` is a household score — fit for Aaron and Stacey together (Stacey's tastes come from her flags until `profile.json → people.stacey.likes` has entries). Guidance: 75–90 strong fit (revival film, adventurous jazz, experimental/electronic nights, historic-building tours, maker/DIY electronics, photography shows); 55–74 good; 35–54 maybe; below 35 only if the day is thin. Apply what `learn` showed: nudge whole categories, venues and tags up or down.
 
+- **Descriptions:** give every event a `description`, written from the event page or listing (open it — don't stop at the title). Say what it actually is: the artist's style, the film's director/year/premise, what the exhibition shows, what you do at a workshop. Well-established public facts (a classic film's director, a known band's genre) are fine; never invent details about an unfamiliar act or show — if the page says little, describe it plainly from what it does say.
 - **Map links:** every event gets a Google Maps link to its venue. Use the same `venue` spelling each time, and when you meet a new venue whose street address you found on its site or a listing, add it to `data/venues.json` (`"Venue name": {"address": "…"}`). Without an address the link searches "venue, city", which usually works. Set `"map": false` (on the event or in venues.json) for citywide or multi-venue events. Never guess an address.
 - Update an existing event in place (same `id`) if details changed; don't duplicate.
 - Leave events anyone flagged `interested` alone even if they are in the past.

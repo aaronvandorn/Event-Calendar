@@ -5,36 +5,36 @@ X-WR-CALNAME:Event Calendar — Aaron interested
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-10-18-different-words-for-happiness@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Different Words for Happiness
 LOCATION:Everyman Theatre
-DESCRIPTION:$12.50–105.50 — https://everymantheatre.org/event/different-words/
+DESCRIPTION:$12.50–105.50 — A new play in Everyman Theatre's season\, staged by its resident company in the downtown theater on Fayette Street. — https://everymantheatre.org/event/different-words/
 URL:https://everymantheatre.org/event/different-words/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-beth-lapides-it-s-a-lot@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261022T193000
 DTEND;TZID=America/New_York:20261022T213000
 SUMMARY:Beth Lapides: It's A Lot
 LOCATION:Creative Alliance
-DESCRIPTION:$28–51 — Solo comedy from the UnCabaret founder. — https://creativealliance.org/event/beth-lapides-its-a-lot/
+DESCRIPTION:$28–51 — Beth Lapides\, founder of LA's long-running UnCabaret alt-comedy show\, performs her solo show It's A Lot. — https://creativealliance.org/event/beth-lapides-its-a-lot/
 URL:https://creativealliance.org/event/beth-lapides-its-a-lot/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-junglist-heights-drum-bass@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T200000
 SUMMARY:Junglist Heights (drum & bass)
 LOCATION:Peabody Heights Brewery
-DESCRIPTION:$10 — https://peabodyheightsbrewery.com/event/junglist-heights/
+DESCRIPTION:$10 — A drum & bass and jungle DJ night in the taproom at Peabody Heights Brewery. — https://peabodyheightsbrewery.com/event/junglist-heights/
 URL:https://peabodyheightsbrewery.com/event/junglist-heights/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-bmore-horror-film-fest@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Bmore Horror Film Fest
 LOCATION:Old Major\, 2640 Space\, Black Cherry Puppet Theater
@@ -43,17 +43,17 @@ URL:https://www.bmorehorrorfest.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-trio-sir-nes@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261023T193000
 DTEND;TZID=America/New_York:20261023T213000
 SUMMARY:Trio Sirènes
 LOCATION:St. David's Church
-DESCRIPTION:Free (donation) — Chamber trio. — https://stdavidsbaltimore.org/music/event-tickets/
+DESCRIPTION:Free (donation) — A free evening of chamber music by Trio Sirènes in St. David's Church\, Roland Park (donations welcome). — https://stdavidsbaltimore.org/music/event-tickets/
 URL:https://stdavidsbaltimore.org/music/event-tickets/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-doors-open-baltimore@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T170000
 SUMMARY:Doors Open Baltimore
@@ -63,62 +63,72 @@ URL:https://www.doorsopenbaltimore.org/sites/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261024T160000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:Great Baltimore Lantern Parade + Día de los Muertos Festival
 LOCATION:Patterson Park
-DESCRIPTION:Free — Festival at 4\, parade at 7 p.m. — https://creativealliance.org/event/the-great-baltimore-lantern-parade/
+DESCRIPTION:Free — Creative Alliance's beloved night parade: hundreds of handmade lanterns wind through Patterson Park after a Día de los Muertos festival. Festival 4 p.m.\, parade 7 p.m. — https://creativealliance.org/event/the-great-baltimore-lantern-parade/
 URL:https://creativealliance.org/event/the-great-baltimore-lantern-parade/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-mushroom-city-arts-festival@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:Mushroom City Arts Festival
 LOCATION:Carrie Murray Nature Center
-DESCRIPTION:See site — https://www.facebook.com/events/1052371247444380/
+DESCRIPTION:See site — A small arts festival at the Carrie Murray Nature Center in Gwynns Falls/Leakin Park. — https://www.facebook.com/events/1052371247444380/
 URL:https://www.facebook.com/events/1052371247444380/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-24-a-very-no-land-beyond-halloween-battle-of-the-bands@event-calendar
+DTSTAMP:20261022T201402Z
+DTSTART;TZID=America/New_York:20261024T190000
+DTEND;TZID=America/New_York:20261024T210000
+SUMMARY:A Very No Land Beyond Halloween Battle of the Bands
+LOCATION:No Land Beyond
+DESCRIPTION:$5–15 sliding — Costumed local bands compete at No Land Beyond\, the Station North bar known for board games and shows. Sliding scale. — https://www.instagram.com/p/DdkJvXHDZPX/
+URL:https://www.instagram.com/p/DdkJvXHDZPX/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-24-microgreens-workshop@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261024T110000
 DTEND;TZID=America/New_York:20261024T130000
 SUMMARY:Microgreens Workshop
 LOCATION:Filbert Street Garden
-DESCRIPTION:See site — https://filbertstreetgarden.org/baltimore-garden-events/
+DESCRIPTION:See site — A hands-on workshop on growing microgreens at Filbert Street Garden\, a community farm in Curtis Bay. — https://filbertstreetgarden.org/baltimore-garden-events/
 URL:https://filbertstreetgarden.org/baltimore-garden-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-halloween-atp-21@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261030T180000
 DTEND;TZID=America/New_York:20261030T200000
 SUMMARY:Halloween ATP (21+)
 LOCATION:Current Space
-DESCRIPTION:$15–19 — https://pools.events/event/zmmSicAW/halloween-atp/
+DESCRIPTION:$15–19 — A Halloween DJ party at Current Space. — https://pools.events/event/zmmSicAW/halloween-atp/
 URL:https://pools.events/event/zmmSicAW/halloween-atp/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31-after-life-kore-eda-revival@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261031T113000
 DTEND;TZID=America/New_York:20261031T133000
 SUMMARY:After Life (Kore-eda) — Revival
 LOCATION:The Charles Theatre
-DESCRIPTION:See site — The newly dead choose one memory to keep forever. Quietly devastating. — https://thecharles.com/movie/after-life/
+DESCRIPTION:See site — Hirokazu Kore-eda's 1998 film: in a way station after death\, the newly dead have a week to choose one memory to keep forever. Quietly devastating. — https://thecharles.com/movie/after-life/
 URL:https://thecharles.com/movie/after-life/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol@event-calendar
-DTSTAMP:20261022T192553Z
+DTSTAMP:20261022T201402Z
 DTSTART;TZID=America/New_York:20261106T200000
 DTEND;TZID=America/New_York:20261106T220000
 SUMMARY:Arbouretum\, Stinking Lizaveta\, Deathbird Earth\, Darsombra Sol
 LOCATION:Ottobar
-DESCRIPTION:See site — All-Baltimore heavy-psych bill. — https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/
+DESCRIPTION:See site — An all-Baltimore heavy-psych night: Arbouretum's slow-burning folk-rock plus Stinking Lizaveta\, Deathbird Earth and Darsombra Sol. — https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/
 URL:https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/
 END:VEVENT
 END:VCALENDAR

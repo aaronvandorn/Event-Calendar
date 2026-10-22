@@ -459,7 +459,7 @@ function item(e, day){
     <h3 data-id="${esc(e.id)}">${esc(e.title)}</h3>
     ${marks(e)}
     <div class="meta">${venueLink(e)}${e.cost?` · <span class="cost">${esc(e.cost)}</span>`:""}${e.free===true && !/free/i.test(e.cost||"")?" · free":""}</div>
-    ${e.summary?`<div class="summ">${esc(e.summary)}</div>`:""}
+    ${e.description||e.summary?`<div class="summ">${esc(e.description||e.summary)}</div>`:""}
     <div class="r3">${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>`:"<span></span>"}${flagSelect(e)}</div>
   </article>`;
 }
@@ -540,7 +540,8 @@ function openEvent(id){
     <p class="mono" style="font-size:14px;color:var(--amber)">${esc(fmtDay(parseD(e.start)))}${e.allDay?"":" · "+esc(whenText(e))}${e.until?` → ${esc(fmtDay(parseD(e.until)))}`:""}</p>
     <p>${venueLink(e)}${e.address||S.venues[e.venue]?.address?`<br><span class="hint">${esc(e.address||S.venues[e.venue].address)}</span>`:""}</p>
     <p><b>Cost:</b> ${esc(e.cost || "Not listed")}</p>
-    ${e.summary?`<p>${esc(e.summary)}</p>`:""}
+    ${e.description?`<p>${esc(e.description)}</p>`:""}
+    ${e.summary && e.summary !== e.description && !(e.description||"").includes(e.summary)?`<p class="hint">${esc(e.summary)}</p>`:""}
     ${marks(e)}
     <div class="row">${e.url?`<a class="btn small primary" href="${esc(e.url)}" target="_blank" rel="noopener">Event page ↗</a>`:""}${flagSelect(e)}</div>
     <p class="hint">Source: ${esc(e.source||"—")} · fit score ${Math.round(e._score)}</p>`;

@@ -188,7 +188,7 @@ def ics_text(events, areas, label="Interested"):
                 (dt.datetime.fromisoformat(s) + dt.timedelta(hours=2)).strftime("%Y-%m-%dT%H:%M")
             out.append(f"DTEND;TZID={z}:{end.replace('-', '').replace(':', '')}00")
         out += [f"SUMMARY:{esc(e['title'])}", f"LOCATION:{esc(e.get('venue'))}",
-                f"DESCRIPTION:{esc(' — '.join(x for x in [e.get('cost'), e.get('summary'), e.get('url')] if x))}"]
+                f"DESCRIPTION:{esc(' — '.join(x for x in [e.get('cost'), e.get('description') or e.get('summary'), e.get('url')] if x))}"]
         if e.get("url"):
             out.append(f"URL:{e['url']}")
         out.append("END:VEVENT")
@@ -279,8 +279,8 @@ def cmd_digest(a):
         t.append(CATS[c][0].upper())
         for e in groups[c]:
             t.append(f"  • {e['_mark'] + ' · ' if e['_star'] else ''}{e['title']}\n    {when(e)} · {e['venue']} · {cost(e)}")
-            if e.get("summary"):
-                t.append(f"    {e['summary']}")
+            if e.get("description") or e.get("summary"):
+                t.append(f"    {e.get('description') or e['summary']}")
             t.append(f"    {e['url']}")
             if e["_map"]:
                 t.append(f"    Map: {e['_map']}")
@@ -311,7 +311,7 @@ def cmd_digest(a):
                 f'<div style="font-size:13px;color:#64707f">{h(when(e))} · '
                 + (f'<a href="{h(e["_map"])}" style="color:#64707f">📍 {h(e["venue"])}</a>' if e["_map"] else h(e["venue"]))
                 + f' · <span style="color:#1f2733">{h(cost(e))}</span></div>'
-                + (f'<div style="font-size:14px;margin-top:5px">{h(e["summary"])}</div>' if e.get("summary") else "")
+                + (f'<div style="font-size:14px;margin-top:5px">{h(e.get("description") or e["summary"])}</div>' if e.get("description") or e.get("summary") else "")
                 + f'<div style="font-size:13px;margin-top:6px"><a href="{h(e["url"])}" style="color:#3b76b3">Event page</a>'
                 + (f' &nbsp;·&nbsp; <a href="{h(e["_map"])}" style="color:#3b76b3">Map</a>' if e["_map"] else "")
                 + f' &nbsp;·&nbsp; <a href="{h(day_link(e))}" style="color:#3b76b3">On the calendar</a></div>'

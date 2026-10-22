@@ -19,7 +19,8 @@
    ],
    "source": "BMA",
    "until": "2027-02-21",
-   "allDay": true
+   "allDay": true,
+   "description": "First full survey of Baltimore photography, 1840 to now: 200+ images by 90 artists."
   },
   {
    "id": "2026-09-16-jerrell-gibbs-come-home-with-me",
@@ -38,7 +39,8 @@
    ],
    "source": "BMA",
    "until": "2027-05-02",
-   "allDay": true
+   "allDay": true,
+   "description": "About 30 new paintings drawn from family photographs."
   },
   {
    "id": "2026-10-25-woven-monuments-tapestry-and-identity-in-senegal-opens",
@@ -57,7 +59,8 @@
    ],
    "source": "BMA schedule",
    "until": "2027-03-07",
-   "allDay": true
+   "allDay": true,
+   "description": "Twelve large tapestries from post-independence Senegal."
   },
   {
    "id": "2026-11-08-diedrick-brackens-lights-at-the-end-of-the-world-opens",
@@ -76,7 +79,8 @@
    ],
    "source": "BMA schedule",
    "until": "2027-02-28",
-   "allDay": true
+   "allDay": true,
+   "description": "Hand-woven tapestries on emancipation and labor around the Chesapeake."
   },
   {
    "id": "2026-11-14-speaking-across-languages-global-modernism-opens",
@@ -95,7 +99,8 @@
    ],
    "source": "BMA schedule",
    "until": "2027-12-30",
-   "allDay": true
+   "allDay": true,
+   "description": "About 50 modernist works from many countries in the Cone Galleries."
   },
   {
    "id": "2026-10-08-with-profit-and-pleasure-the-legacy-of-japanese-prints",
@@ -115,7 +120,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2027-06-27",
-   "allDay": true
+   "allDay": true,
+   "description": "Japanese woodblock prints in a Gilded Age mansion. Tue–Sun 11–4."
   },
   {
    "id": "2026-10-28-decoys-of-the-chesapeake-opens",
@@ -135,7 +141,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2027-05-07",
-   "allDay": true
+   "allDay": true,
+   "description": "Folk art and craft of Chesapeake decoy carving. Opening reception Oct 28, 5–8 p.m."
   },
   {
    "id": "2026-10-09-mary-shelley-s-frankenstein",
@@ -154,7 +161,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2026-11-08",
-   "allDay": true
+   "allDay": true,
+   "description": "Adaptation with Mary Shelley herself as a central figure."
   },
   {
    "id": "2026-10-18-different-words-for-happiness",
@@ -171,7 +179,8 @@
    "tags": [],
    "source": "Baltimore Magazine",
    "until": "2026-11-15",
-   "allDay": true
+   "allDay": true,
+   "description": "A new play in Everyman Theatre's season, staged by its resident company in the downtown theater on Fayette Street."
   },
   {
    "id": "2026-10-09-sweeney-todd",
@@ -188,7 +197,8 @@
    "tags": [],
    "source": "Baltimore Magazine",
    "until": "2026-11-15",
-   "allDay": true
+   "allDay": true,
+   "description": "Sondheim's macabre musical thriller about a vengeful barber and his pie-making accomplice, staged by the Vagabond Players, one of the country's oldest community theaters."
   },
   {
    "id": "2026-10-02-the-pansy-hour",
@@ -208,7 +218,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2026-11-15",
-   "allDay": true
+   "allDay": true,
+   "description": "Immersive cabaret on the 1920s 'Pansy Craze' and Maryland history."
   },
   {
    "id": "2026-10-16-the-rocky-horror-show-stage",
@@ -225,7 +236,8 @@
    "tags": [],
    "source": "Baltimore Magazine",
    "until": "2026-11-07",
-   "allDay": true
+   "allDay": true,
+   "description": "Iron Crow Theatre, Baltimore's queer theater company, stages Richard O'Brien's original rock musical — the show the cult film came from."
   },
   {
    "id": "2026-10-09-terra-almost-firma",
@@ -244,7 +256,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2026-12-14",
-   "allDay": true
+   "allDay": true,
+   "description": "A group exhibition split between Zo Gallery off Graffiti Alley and studios in Hampden's Fox Building."
   },
   {
    "id": "2026-10-16-big-bang-baby",
@@ -257,13 +270,14 @@
    "free": true,
    "url": "https://www.atriumartspace.com",
    "base": 40,
-   "summary": "Fri–Sat 2–5 p.m.",
+   "summary": "",
    "tags": [
     "gallery"
    ],
    "source": "Baltimore Magazine",
    "until": "2026-12-15",
-   "allDay": true
+   "allDay": true,
+   "description": "A group show at Atrium Artspace in Charles Village. Open Fridays and Saturdays, 2–5 p.m."
   },
   {
    "id": "2026-10-15-stars-and-stripes-group-show",
@@ -282,7 +296,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2027-02-05",
-   "allDay": true
+   "allDay": true,
+   "description": "Gallery's 20th-year show rethinking national symbols. Thu–Sat 2–6."
   },
   {
    "id": "2026-09-25-emma-childs-chora",
@@ -295,13 +310,14 @@
    "free": true,
    "url": "https://www.eventbrite.com/e/emma-childs-chora-opening-reception-tickets-1993874810231",
    "base": 45,
-   "summary": "Large solo show staged in the church.",
+   "summary": "",
    "tags": [
     "gallery"
    ],
    "source": "Baltimore Magazine",
    "until": "2027-02-01",
-   "allDay": true
+   "allDay": true,
+   "description": "Emma Childs' largest solo exhibition to date, curated by Teri Henderson and installed in the dramatic interior of Mount Vernon Place Church."
   },
   {
    "id": "2026-09-25-shan-wallace-folks-at-intimate-play",
@@ -314,14 +330,15 @@
    "free": true,
    "url": "https://pools.events/event/wfZ44uJ3/opening-reception-of-folks-at-intimate-play-by-shan-wallace/",
    "base": 52,
-   "summary": "Photography.",
+   "summary": "",
    "tags": [
     "photography",
     "gallery"
    ],
    "source": "Current Space",
    "until": "2026-11-07",
-   "allDay": true
+   "allDay": true,
+   "description": "Photographs by Baltimore artist SHAN Wallace, whose work documents Black life and community in the city."
   },
   {
    "id": "2026-10-09-paul-daniel-altered-course",
@@ -340,7 +357,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2026-11-20",
-   "allDay": true
+   "allDay": true,
+   "description": "Paul Daniel's exhibition at Goya Contemporary in the Mill Centre. Tue–Fri 10–6, Sat 12–4."
   },
   {
    "id": "2026-11-06-american-beekeeper-exhibition",
@@ -360,7 +378,8 @@
    ],
    "source": "Baltimore Magazine",
    "until": "2026-12-12",
-   "allDay": true
+   "allDay": true,
+   "description": "Multimedia show on bees, ecology and food sovereignty."
   },
   {
    "id": "2026-11-11-august-wilson-s-jitney",
@@ -373,13 +392,14 @@
    "free": null,
    "url": "https://www.fpct.org/jitney",
    "base": 55,
-   "summary": "Character-driven drama about a Pittsburgh jitney station.",
+   "summary": "",
    "tags": [
     "character actors"
    ],
    "source": "Baltimore Magazine",
    "until": "2026-12-13",
-   "allDay": true
+   "allDay": true,
+   "description": "August Wilson's play about the drivers at a 1970s Pittsburgh jitney station facing its demolition — a showcase for an ensemble of character actors. Runs to Dec 13."
   },
   {
    "id": "2026-11-21-christmas-village-in-baltimore",
@@ -398,7 +418,8 @@
    ],
    "source": "baltimore-christmas.com",
    "until": "2026-12-27",
-   "allDay": true
+   "allDay": true,
+   "description": "German-style holiday market. Wed–Sun; closed Mon–Tue."
   },
   {
    "id": "2026-10-22-twin-peaks-season-two-eps-2-3",
@@ -411,12 +432,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-2-3/",
    "base": 74,
-   "summary": "Big-screen Twin Peaks, one night only.",
+   "summary": "",
    "tags": [
     "tv",
     "lynch"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "The Charles is screening Twin Peaks season two two episodes at a time on Thursday nights — Lynch and Frost's small-town mystery on a big screen."
   },
   {
    "id": "2026-10-22-tempesst-uk-w-glorian",
@@ -433,7 +455,8 @@
    "tags": [
     "indie"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Psychedelic indie rock from the London-based band Tempesst, with local support from Glorian."
   },
   {
    "id": "2026-10-22-beth-lapides-it-s-a-lot",
@@ -446,9 +469,10 @@
    "free": false,
    "url": "https://creativealliance.org/event/beth-lapides-its-a-lot/",
    "base": 55,
-   "summary": "Solo comedy from the UnCabaret founder.",
+   "summary": "",
    "tags": [],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Beth Lapides, founder of LA's long-running UnCabaret alt-comedy show, performs her solo show It's A Lot."
   },
   {
    "id": "2026-10-22-junglist-heights-drum-bass",
@@ -466,7 +490,8 @@
     "electronic",
     "dj"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A drum & bass and jungle DJ night in the taproom at Peabody Heights Brewery."
   },
   {
    "id": "2026-10-22-maniac-cop-screening-panel",
@@ -483,7 +508,8 @@
    "tags": [
     "horror"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A screening of the 1988 cult horror film Maniac Cop followed by a panel discussion, at Peabody Heights Brewery."
   },
   {
    "id": "2026-10-23-hellraisers-stoop-storytelling",
@@ -501,7 +527,8 @@
     "storytelling",
     "podcast"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "True stories about rebels and rabble-rousers."
   },
   {
    "id": "2026-10-23-the-makado-make-america-kingly-again",
@@ -514,11 +541,12 @@
    "free": false,
    "url": "https://theatreproject.org/upcoming-shows/",
    "base": 44,
-   "summary": "Also Sat 7:30, Sun 2:30.",
+   "summary": "",
    "tags": [
     "satire"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A political satire riffing on Gilbert & Sullivan's The Mikado, at the Baltimore Theatre Project. Also Sat 7:30, Sun 2:30."
   },
   {
    "id": "2026-10-23-version-21",
@@ -531,12 +559,13 @@
    "free": false,
    "url": "https://pools.events/event/KOGStSTW/version/",
    "base": 64,
-   "summary": "Club night at the downtown artist-run space.",
+   "summary": "",
    "tags": [
     "electronic",
     "dj"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A club night at Current Space, the artist-run gallery and venue on Howard Street."
   },
   {
    "id": "2026-10-23-bmore-horror-film-fest",
@@ -556,7 +585,8 @@
    ],
    "source": "Baltimore Fishbowl",
    "until": "2026-10-25",
-   "allDay": true
+   "allDay": true,
+   "description": "Indie horror festival, Oct 23–25 across several venues."
   },
   {
    "id": "2026-10-23-trio-sir-nes",
@@ -569,11 +599,12 @@
    "free": true,
    "url": "https://stdavidsbaltimore.org/music/event-tickets/",
    "base": 46,
-   "summary": "Chamber trio.",
+   "summary": "",
    "tags": [
     "classical"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A free evening of chamber music by Trio Sirènes in St. David's Church, Roland Park (donations welcome)."
   },
   {
    "id": "2026-10-23-mozart-meets-latin-masters-bso",
@@ -586,11 +617,12 @@
    "free": null,
    "url": "https://my.bsomusic.org/overview/20343",
    "base": 44,
-   "summary": "Giancarlo Guerrero conducts. Also Oct 24–25.",
+   "summary": "",
    "tags": [
     "classical"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "The Baltimore Symphony with guest conductor Giancarlo Guerrero pairs Mozart with music by Latin American composers. Also Oct 24–25."
   },
   {
    "id": "2026-10-23-death-of-summer-part-6",
@@ -603,9 +635,10 @@
    "free": false,
    "url": "https://metrobmore.com/listing/death-of-summer-part-6/",
    "base": 40,
-   "summary": "Two-day local lineup (also Sat 4 p.m.).",
+   "summary": "",
    "tags": [],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A two-day showcase of local bands at Metro Baltimore (Fri 7 p.m., Sat 4 p.m.)."
   },
   {
    "id": "2026-10-23-onlyfangs",
@@ -618,11 +651,12 @@
    "free": false,
    "url": "https://www.instagram.com/p/DeH6Wtktjkm/",
    "base": 40,
-   "summary": "Vampire-themed night at the Parkway.",
+   "summary": "",
    "tags": [
     "halloween"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A vampire-themed Halloween party inside the restored SNF Parkway Theatre. Suggested donation."
   },
   {
    "id": "2026-10-23-arbooretum",
@@ -639,7 +673,8 @@
    "tags": [
     "gardening"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Halloween in the arboretum gardens (also Oct 29–30)."
   },
   {
    "id": "2026-10-23-kut-klose",
@@ -652,9 +687,10 @@
    "free": false,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 30,
-   "summary": "R&B. 6 & 9 p.m.",
+   "summary": "",
    "tags": [],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "The '90s R&B group behind \"I Like\" plays two sets at Keystone Korner. 6 & 9 p.m."
   },
   {
    "id": "2026-10-24-doors-open-baltimore",
@@ -674,7 +710,8 @@
     "old houses"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-24T17:00"
+   "end": "2026-10-24T17:00",
+   "description": "Rarely open historic buildings, from the Basilica to the Dentistry museum. Hours vary by site (10–2 or 1–5)."
   },
   {
    "id": "2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival",
@@ -687,13 +724,14 @@
    "free": true,
    "url": "https://creativealliance.org/event/the-great-baltimore-lantern-parade/",
    "base": 78,
-   "summary": "Festival at 4, parade at 7 p.m.",
+   "summary": "",
    "tags": [
     "parade",
     "community"
    ],
    "source": "Creative Alliance",
-   "end": "2026-10-24T21:00"
+   "end": "2026-10-24T21:00",
+   "description": "Creative Alliance's beloved night parade: hundreds of handmade lanterns wind through Patterson Park after a Día de los Muertos festival. Festival 4 p.m., parade 7 p.m."
   },
   {
    "id": "2026-10-24-curse-of-the-demon-revival-series",
@@ -706,12 +744,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/curse-of-the-demon/",
    "base": 72,
-   "summary": "Jacques Tourneur's 1957 folk-horror classic. Revival shows usually Sat 11:30, Mon 7, Thu 9.",
+   "summary": "",
    "tags": [
     "revival",
     "horror"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Jacques Tourneur's 1957 folk-horror classic about a skeptical psychologist and a cult leader's curse. Revival shows usually Sat 11:30, Mon 7, Thu 9."
   },
   {
    "id": "2026-10-24-cindy-blackman-santana-w-ravi-coltrane",
@@ -728,7 +767,8 @@
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Jazz drummer with Ravi Coltrane. Sat 6 & 8:30, Sun 5 & 7:30."
   },
   {
    "id": "2026-10-24-halloween-baltimore-21",
@@ -741,12 +781,13 @@
    "free": false,
    "url": "https://www.mdsci.org/events/halloween/",
    "base": 40,
-   "summary": "Costume party in the science museum.",
+   "summary": "",
    "tags": [
     "halloween"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-25T01:00"
+   "end": "2026-10-25T01:00",
+   "description": "A 21+ costume party that takes over all three floors of the Maryland Science Center."
   },
   {
    "id": "2026-10-24-barcstoberfest",
@@ -759,11 +800,12 @@
    "free": null,
    "url": "https://www.barcstoberfest.org/page/event-faqs",
    "base": 28,
-   "summary": "Dog festival benefiting BARCS.",
+   "summary": "",
    "tags": [
     "dogs"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A dog-friendly festival and fun run in Patterson Park benefiting BARCS, Baltimore's city animal shelter."
   },
   {
    "id": "2026-10-24-mushroom-city-arts-festival",
@@ -781,7 +823,8 @@
     "nature",
     "art"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A small arts festival at the Carrie Murray Nature Center in Gwynns Falls/Leakin Park."
   },
   {
    "id": "2026-10-24-asher-white-w-dickgirl-little-lungs",
@@ -794,12 +837,13 @@
    "free": false,
    "url": "https://www.eventbrite.com/e/asher-white-w-dickgirl-little-lungs-tickets-1993978385026",
    "base": 58,
-   "summary": "Experimental pop at a DIY venue.",
+   "summary": "",
    "tags": [
     "experimental",
     "diy"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Asher White makes intricate, sample-heavy experimental pop; with Dickgirl and Little Lungs at a DIY venue in Remington."
   },
   {
    "id": "2026-10-24-gunz-of-steel-18",
@@ -814,7 +858,8 @@
    "base": 40,
    "summary": "",
    "tags": [],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "An all-ages-ish (18+) night at Current Space. See the listing for the lineup."
   },
   {
    "id": "2026-10-24-a-very-no-land-beyond-halloween-battle-of-the-bands",
@@ -831,7 +876,8 @@
    "tags": [
     "halloween"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "Costumed local bands compete at No Land Beyond, the Station North bar known for board games and shows. Sliding scale."
   },
   {
    "id": "2026-10-24-harford-road-spooktacular",
@@ -850,7 +896,8 @@
     "community"
    ],
    "source": "Baltimore Fishbowl",
-   "end": "2026-10-24T21:00"
+   "end": "2026-10-24T21:00",
+   "description": "A free neighborhood Halloween festival along Harford Road in Hamilton-Lauraville."
   },
   {
    "id": "2026-10-24-charles-mcbee-you-had-to-be-there",
@@ -865,7 +912,8 @@
    "base": 40,
    "summary": "",
    "tags": [],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Stand-up from comedian Charles McBee on his You Had To Be There tour."
   },
   {
    "id": "2026-10-24-jordan-jensen",
@@ -878,9 +926,10 @@
    "free": false,
    "url": "https://www.baltimoresoundstage.com/events/jordan-jensen-18-2/",
    "base": 45,
-   "summary": "Late show 9:30 p.m.; early show sold out.",
+   "summary": "",
    "tags": [],
-   "source": "Baltimore Soundstage"
+   "source": "Baltimore Soundstage",
+   "description": "Stand-up from comedian Jordan Jensen. Early show sold out; late show at 9:30 p.m."
   },
   {
    "id": "2026-10-24-floozy-carmichael-s-pleasure-planet",
@@ -897,7 +946,8 @@
    "tags": [
     "dance"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A burlesque and variety show at Mobtown Ballroom, the swing-dance hall in Station North."
   },
   {
    "id": "2026-10-24-baltimore-blacktoberfest-21",
@@ -914,7 +964,8 @@
    "tags": [
     "beer"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A downtown street festival celebrating Black-owned breweries, food and music on Redwood Street."
   },
   {
    "id": "2026-10-24-bmore-flea-market",
@@ -933,7 +984,8 @@
     "vintage"
    ],
    "source": "Baltimore Beat",
-   "end": "2026-10-24T15:00"
+   "end": "2026-10-24T15:00",
+   "description": "A vintage and maker flea market inside Fells Point's historic Broadway Market."
   },
   {
    "id": "2026-10-24-microgreens-workshop",
@@ -950,7 +1002,8 @@
    "tags": [
     "gardening"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A hands-on workshop on growing microgreens at Filbert Street Garden, a community farm in Curtis Bay."
   },
   {
    "id": "2026-10-25-downtown-columbia-maker-faire",
@@ -970,7 +1023,8 @@
     "electronics"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-25T16:00"
+   "end": "2026-10-25T16:00",
+   "description": "Makers, electronics, 3D printing and DIY tinkering. ~30 min drive."
   },
   {
    "id": "2026-10-25-howard-street-haunt-ottobar-halloween-market",
@@ -983,13 +1037,14 @@
    "free": true,
    "url": "https://theottobar.com/event/ottobars-7th-annual-halloween-market/ottobar/baltimore-maryland/",
    "base": 52,
-   "summary": "Vendor market and block-wide haunt.",
+   "summary": "",
    "tags": [
     "market",
     "halloween"
    ],
    "source": "Ottobar",
-   "end": "2026-10-25T17:00"
+   "end": "2026-10-25T17:00",
+   "description": "Ottobar's annual Halloween vendor market anchors a block-wide haunt along Howard Street in Remington."
   },
   {
    "id": "2026-10-25-coco-live-to-film-concert-bso",
@@ -1006,7 +1061,8 @@
    "tags": [
     "live score"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Pixar's Coco on the big screen with the Baltimore Symphony playing the score live."
   },
   {
    "id": "2026-10-25-baltimore-art-haul",
@@ -1019,13 +1075,14 @@
    "free": null,
    "url": "https://events.baltimoremagazine.com/event/baltimore-arthaul",
    "base": 44,
-   "summary": "Artist trunk market.",
+   "summary": "",
    "tags": [
     "market",
     "art"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-25T18:00"
+   "end": "2026-10-25T18:00",
+   "description": "An outdoor artists' market in the Mill Centre lot off Falls Road."
   },
   {
    "id": "2026-10-25-charm-city-moon-market",
@@ -1043,7 +1100,8 @@
     "market"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-25T16:00"
+   "end": "2026-10-25T16:00",
+   "description": "A free makers' and oddities market at Ministry of Brewing, a brewery in a converted church."
   },
   {
    "id": "2026-10-25-first-flush-area-405",
@@ -1061,7 +1119,8 @@
     "gallery"
    ],
    "source": "Baltimore Beat",
-   "end": "2026-10-25T16:00"
+   "end": "2026-10-25T16:00",
+   "description": "An open studios-style art event at Area 405, the artist building in Greenmount West."
   },
   {
    "id": "2026-10-25-black-celebration-21",
@@ -1079,7 +1138,8 @@
     "synth",
     "dj"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Long-running Depeche Mode / synth-wave dance night."
   },
   {
    "id": "2026-10-26-onelinedrawing-w-american-motors-knub",
@@ -1096,7 +1156,8 @@
    "tags": [
     "indie"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Onelinedrawing, the solo project of Jonah Matranga (Far, New End Original), plays an intimate set with American Motors and KNUB."
   },
   {
    "id": "2026-10-26-spooky-monday-movies",
@@ -1113,7 +1174,8 @@
    "tags": [
     "horror"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "Free horror movie night at Golden West Cafe on 36th Street in Hampden."
   },
   {
    "id": "2026-10-26-dat-feel-good-jazz-jam",
@@ -1130,7 +1192,8 @@
    "tags": [
     "jazz"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "An open jazz jam session at Motor House in Station North. Pay what you can."
   },
   {
    "id": "2026-10-27-rasputina-w-dust-bowl-faeries",
@@ -1143,11 +1206,12 @@
    "free": false,
    "url": "https://theottobar.com/event/rasputina-dust-bowl-faeries/ottobar/baltimore-maryland/",
    "base": 56,
-   "summary": "Gothic cello rock.",
+   "summary": "",
    "tags": [
     "gothic"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Rasputina, Melora Creager's Victorian-costumed cello rock band, with Dust Bowl Faeries."
   },
   {
    "id": "2026-10-27-bat-walk",
@@ -1160,11 +1224,12 @@
    "free": null,
    "url": "https://filbertstreetgarden.org/baltimore-garden-events/",
    "base": 40,
-   "summary": "With Masonville Cove Partnership.",
+   "summary": "",
    "tags": [
     "nature"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "An evening walk to spot bats with the Masonville Cove Partnership, starting at Filbert Street Garden."
   },
   {
    "id": "2026-10-27-riley-black-tyrant-lizard-queen",
@@ -1177,12 +1242,13 @@
    "free": null,
    "url": "https://www.eventbrite.com/e/riley-black-tyrant-lizard-queen-tickets-1992774806089",
    "base": 50,
-   "summary": "Paleontology writer on T. rex.",
+   "summary": "",
    "tags": [
     "books",
     "science"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Science writer Riley Black talks about her book on Sue, the most complete T. rex ever found, at the Pratt's Central Library."
   },
   {
    "id": "2026-10-28-profs-pints-the-haunted-house",
@@ -1200,7 +1266,8 @@
     "history",
     "old houses"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Folklorist Brittany Warman on haunted-house lore. Doors 5."
   },
   {
    "id": "2026-10-28-industry-social-club-confections",
@@ -1219,7 +1286,8 @@
     "making"
    ],
    "source": "BMI",
-   "end": "2026-10-28T20:00"
+   "end": "2026-10-28T20:00",
+   "description": "A free after-hours social at the Baltimore Museum of Industry, themed around candy and confection-making."
   },
   {
    "id": "2026-10-28-maryland-folk-art-craft-opening-reception",
@@ -1237,7 +1305,8 @@
     "folk art"
    ],
    "source": "Baltimore Beat",
-   "end": "2026-10-28T20:00"
+   "end": "2026-10-28T20:00",
+   "description": "Opening reception for the Maryland Center for History and Culture's folk art and craft exhibition, including Chesapeake decoys."
   },
   {
    "id": "2026-10-28-jim-emison-murder-on-the-hatchie",
@@ -1254,7 +1323,8 @@
    "tags": [
     "books"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Author Jim Emison, in conversation with India Artis, on his book about a historical murder case on Tennessee's Hatchie River."
   },
   {
    "id": "2026-10-29-possession-u-awski-one-night-only",
@@ -1267,12 +1337,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/possession/",
    "base": 82,
-   "summary": "Isabelle Adjani and Sam Neill in the 1981 marital-horror cult film.",
+   "summary": "",
    "tags": [
     "revival",
     "horror"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Andrzej Żuławski's 1981 cult film — Isabelle Adjani and Sam Neill as a couple whose breakup turns into full-blown horror. One night only."
   },
   {
    "id": "2026-10-29-spookey-ruben-w-fetcher-salon-monkey",
@@ -1289,7 +1360,8 @@
    "tags": [
     "indie"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Spookey Ruben, the cult '90s Toronto indie-pop eccentric, with Fetcher, Salon and Monkey."
   },
   {
    "id": "2026-10-29-pangelica-moth-broth-albert-bagman",
@@ -1306,7 +1378,8 @@
    "tags": [
     "experimental"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "A bill of local experimental and noise-leaning acts at Current Space."
   },
   {
    "id": "2026-10-29-zo-tall-black-guy-feat-deb-rah-bond",
@@ -1319,12 +1392,13 @@
    "free": false,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 50,
-   "summary": "Neo-soul and beat-maker set.",
+   "summary": "",
    "tags": [
     "soul",
     "beats"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Neo-soul producer Zo! and beat-maker Tall Black Guy, with vocalist Debórah Bond."
   },
   {
    "id": "2026-10-29-craft-and-cinema-night-the-craft",
@@ -1341,7 +1415,8 @@
    "tags": [
     "horror"
    ],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Make a craft, then watch the 1996 teen-witch classic The Craft at Creative Alliance."
   },
   {
    "id": "2026-10-29-express-explore-tour-death-and-the-afterlife",
@@ -1354,12 +1429,13 @@
    "free": true,
    "url": "https://thewalters.org/event/eetour-afterlife/",
    "base": 48,
-   "summary": "30-minute gallery tour.",
+   "summary": "",
    "tags": [
     "tour"
    ],
    "source": "The Walters",
-   "end": "2026-10-29T18:30"
+   "end": "2026-10-29T18:30",
+   "description": "A free 30-minute gallery tour on how cultures in the Walters collection pictured death and the afterlife."
   },
   {
    "id": "2026-10-29-rocky-horror-picture-show-screening",
@@ -1372,11 +1448,12 @@
    "free": false,
    "url": "https://baltimore.broadway.com/shows/the-rocky-horror-picture-show-movie-screening/",
    "base": 32,
-   "summary": "Oct 29–31.",
+   "summary": "",
    "tags": [
     "cult"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "The 1975 cult film at the Hippodrome, with the usual audience participation. Oct 29–31."
   },
   {
    "id": "2026-10-29-halloween-movie-watch-party",
@@ -1393,7 +1470,8 @@
    "tags": [
     "horror"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "A free Halloween movie night at The Duchess in Hampden."
   },
   {
    "id": "2026-10-30-fled-to-the-spirit-world-victorian-spiritualists-of-green-mo",
@@ -1413,7 +1491,8 @@
     "tour"
    ],
    "source": "Baltimore Beat",
-   "end": "2026-10-30T12:00"
+   "end": "2026-10-30T12:00",
+   "description": "Pratt Library walking tour. Also Sat Oct 31, noon–2."
   },
   {
    "id": "2026-10-30-psycho-in-concert-bso",
@@ -1426,12 +1505,13 @@
    "free": false,
    "url": "https://my.bsomusic.org/overview/20456",
    "base": 74,
-   "summary": "Herrmann's score played live to Hitchcock's film. Also Sun Nov 1, 3 p.m.",
+   "summary": "",
    "tags": [
     "hitchcock",
     "live score"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Hitchcock's Psycho on the big screen while the Baltimore Symphony plays Bernard Herrmann's all-strings score live. Also Sun Nov 1, 3 p.m."
   },
   {
    "id": "2026-10-30-wild-horse-nine-early-access-screening",
@@ -1448,7 +1528,8 @@
    "tags": [
     "new release"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "An early screening of the new film Wild Horse Nine at The Charles, ahead of its release."
   },
   {
    "id": "2026-10-30-halloween-atp-21",
@@ -1466,7 +1547,8 @@
     "dj",
     "halloween"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "A Halloween DJ party at Current Space."
   },
   {
    "id": "2026-10-30-fairies-foes-false-lovers-a-celtic-halloween",
@@ -1483,7 +1565,8 @@
    "tags": [
     "folk"
    ],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Traditional Celtic ballads and tunes of the uncanny for Halloween, at Creative Alliance."
   },
   {
    "id": "2026-10-30-the-orb-of-pondering",
@@ -1496,10 +1579,11 @@
    "free": null,
    "url": "https://www.zionbaltimore.org/",
    "base": 40,
-   "summary": "Runs through Nov 7.",
+   "summary": "",
    "tags": [],
    "source": "Baltimore Magazine",
-   "until": "2026-11-07"
+   "until": "2026-11-07",
+   "description": "A theater piece staged in Zion Church, downtown Baltimore's historic German Lutheran church. Runs through Nov 7."
   },
   {
    "id": "2026-10-30-billy-strings",
@@ -1512,11 +1596,12 @@
    "free": null,
    "url": "https://cfgbankarena.com/event/billy-strings-5/",
    "base": 32,
-   "summary": "Also Oct 31.",
+   "summary": "",
    "tags": [
     "bluegrass"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Grammy-winning bluegrass guitarist Billy Strings and his band, known for long, jam-heavy shows. Also Oct 31."
   },
   {
    "id": "2026-10-31-after-life-kore-eda-revival",
@@ -1529,12 +1614,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/after-life/",
    "base": 80,
-   "summary": "The newly dead choose one memory to keep forever. Quietly devastating.",
+   "summary": "",
    "tags": [
     "revival",
     "sad"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Hirokazu Kore-eda's 1998 film: in a way station after death, the newly dead have a week to choose one memory to keep forever. Quietly devastating."
   },
   {
    "id": "2026-10-31-sun-ra-arkestra-halloween-spectacular",
@@ -1547,12 +1633,13 @@
    "free": false,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 84,
-   "summary": "Cosmic big band on its favorite holiday. 6 & 9 p.m.",
+   "summary": "",
    "tags": [
     "jazz",
     "experimental"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "The Sun Ra Arkestra, still led by Marshall Allen, brings its cosmic big-band jazz and costumes to its favorite holiday. 6 & 9 p.m."
   },
   {
    "id": "2026-10-31-hampden-halloweenfest",
@@ -1571,7 +1658,8 @@
     "community"
    ],
    "source": "Baltimore Fishbowl",
-   "end": "2026-10-31T20:00"
+   "end": "2026-10-31T20:00",
+   "description": "Free Halloween fun along The Avenue (36th Street) in Hampden."
   },
   {
    "id": "2026-10-31-bmore-horror-halloween-costume-dance-party",
@@ -1588,7 +1676,8 @@
    "tags": [
     "halloween"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "The Bmore Horror crew's costume and dance party at Peabody Heights Brewery."
   },
   {
    "id": "2026-10-31-creative-alliance-halloween-party-21",
@@ -1605,7 +1694,8 @@
    "tags": [
     "halloween"
    ],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Creative Alliance's 21+ Halloween costume party in its Highlandtown theater."
   },
   {
    "id": "2026-10-31-surrealism-at-w-c-harlan",
@@ -1618,12 +1708,13 @@
    "free": null,
    "url": "https://www.instagram.com/p/Dd9xsEdt4mC/",
    "base": 46,
-   "summary": "Speakeasy goes surrealist for Halloween.",
+   "summary": "",
    "tags": [
     "cocktails",
     "halloween"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "The Remington speakeasy W.C. Harlan goes surrealist for Halloween."
   },
   {
    "id": "2026-10-31-the-cask-of-amontillado-at-bar-dal",
@@ -1636,12 +1727,13 @@
    "free": null,
    "url": "https://www.bardalibaltimore.com/halloween",
    "base": 44,
-   "summary": "Poe-themed Halloween.",
+   "summary": "",
    "tags": [
     "poe",
     "halloween"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "A Poe-themed Halloween at Bar Dalí in Mount Vernon. Downstairs is free; the upstairs celebration is ticketed."
   },
   {
    "id": "2026-10-31-rocket-to-venus-costume-party",
@@ -1658,7 +1750,8 @@
    "tags": [
     "halloween"
    ],
-   "source": "Baltimore Fishbowl"
+   "source": "Baltimore Fishbowl",
+   "description": "A free late-night costume party at Rocket to Venus in Hampden."
   },
   {
    "id": "2026-10-31-monster-menagerie",
@@ -1676,7 +1769,8 @@
     "halloween"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-10-31T22:00"
+   "end": "2026-10-31T22:00",
+   "description": "A Halloween party at Manor Mill, a historic mill turned event space in Monkton, north of the city."
   },
   {
    "id": "2026-11-01-full-circle-dance-ritual-and-revolution",
@@ -1689,11 +1783,12 @@
    "free": false,
    "url": "https://artbma.org/event/full-circle-dance-company-presents-ritual-and-revolution/",
    "base": 44,
-   "summary": "Premieres by five choreographers. 2 & 6 p.m.",
+   "summary": "",
    "tags": [
     "dance"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Full Circle Dance Company premieres works by five choreographers at the BMA. 2 & 6 p.m."
   },
   {
    "id": "2026-11-01-exploring-rare-judaica-at-johns-hopkins",
@@ -1711,7 +1806,8 @@
     "rare books"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-01T15:00"
+   "end": "2026-11-01T15:00",
+   "description": "A look at rare Judaica from the Johns Hopkins collections, in the Carriage House at Evergreen Museum."
   },
   {
    "id": "2026-11-01-the-strayaways",
@@ -1728,7 +1824,8 @@
    "tags": [
     "folk"
    ],
-   "source": "Creative Alliance"
+   "source": "Creative Alliance",
+   "description": "Americana and folk from The Strayaways at Creative Alliance."
   },
   {
    "id": "2026-11-01-lucy-darling-as-you-wish",
@@ -1745,7 +1842,8 @@
    "tags": [
     "magic"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Comedy-magic show. Check time on the listing."
   },
   {
    "id": "2026-11-02-monthly-pinball-happy-hour",
@@ -1763,7 +1861,8 @@
     "games"
    ],
    "source": "Baltimore Beat",
-   "end": "2026-11-02T21:00"
+   "end": "2026-11-02T21:00",
+   "description": "Peabody Heights Brewery's monthly pinball happy hour."
   },
   {
    "id": "2026-11-03-ak-chamel-ecology-homestones",
@@ -1776,12 +1875,13 @@
    "free": false,
    "url": "https://theottobar.com/event/akchamel-ecology-homestones/ottobar/baltimore-maryland/",
    "base": 60,
-   "summary": "Texas psych-drone collective.",
+   "summary": "",
    "tags": [
     "experimental",
     "drone"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Ak'chamel, a masked Texas collective making ritualistic psych-drone, with Ecology: Homestones."
   },
   {
    "id": "2026-11-03-hubert-laws-w-peabody-graduate-jazz-ensemble",
@@ -1794,11 +1894,12 @@
    "free": true,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 66,
-   "summary": "Flute legend, free Education Series night.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Flute legend Hubert Laws sits in with the Peabody Graduate Jazz Ensemble. Free, part of Keystone's Education Series."
   },
   {
    "id": "2026-11-04-paris-marx-hyperscale",
@@ -1811,13 +1912,14 @@
    "free": null,
    "url": "https://redemmas.org/events/paris-marx-presents-hyperscale-the-ambition-and-excess-of-big-tech-s-data-empires/",
    "base": 60,
-   "summary": "Tech-critic and podcaster on Big Tech data centers.",
+   "summary": "",
    "tags": [
     "books",
     "tech",
     "podcast"
    ],
-   "source": "Baltimore Beat"
+   "source": "Baltimore Beat",
+   "description": "Tech critic Paris Marx, host of the podcast Tech Won't Save Us, on the ambition and excess behind Big Tech's data centers."
   },
   {
    "id": "2026-11-04-david-hockney-at-the-royal-academy-exhibition-on-screen",
@@ -1830,11 +1932,12 @@
    "free": null,
    "url": "https://thecharles.com/movie/david-hockney-at-the-royal-academy-of-arts/",
    "base": 48,
-   "summary": "Also Sat Nov 7, 11:45 a.m.",
+   "summary": "",
    "tags": [
     "art doc"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "An Exhibition on Screen documentary about David Hockney's shows at London's Royal Academy. Also Sat Nov 7, 11:45 a.m."
   },
   {
    "id": "2026-11-04-peabody-jazz-faculty",
@@ -1851,7 +1954,8 @@
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Peabody's jazz faculty play a free set at Keystone Korner."
   },
   {
    "id": "2026-11-05-twin-peaks-season-two-eps-4-5",
@@ -1864,12 +1968,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-4-5/",
    "base": 74,
-   "summary": "One night only.",
+   "summary": "",
    "tags": [
     "tv",
     "lynch"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Twin Peaks season two continues on the big screen at The Charles. One night only."
   },
   {
    "id": "2026-11-05-free-first-thursday",
@@ -1887,7 +1992,8 @@
     "history"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-05T17:00"
+   "end": "2026-11-05T17:00",
+   "description": "Free admission all day at the Maryland Center for History and Culture."
   },
   {
    "id": "2026-11-05-unofficial-improvised-musical",
@@ -1904,7 +2010,8 @@
    "tags": [
     "improv"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A free, fully improvised musical from the Baltimore Improv Group."
   },
   {
    "id": "2026-11-05-room-corners-w-geeker-calico",
@@ -1921,7 +2028,8 @@
    "tags": [
     "indie"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A bill of local indie bands at Metro Baltimore."
   },
   {
    "id": "2026-11-05-built-to-spill",
@@ -1934,11 +2042,12 @@
    "free": false,
    "url": "https://theottobar.com/event/built-to-spill-fall-2026-tour/union-craft-brewing/baltimore-maryland/",
    "base": 52,
-   "summary": "Sold out — resale only.",
+   "summary": "",
    "tags": [
     "indie"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Doug Martsch's Built to Spill, the sprawling, guitar-heavy Idaho indie rock band, at Union Craft Brewing. Sold out — resale only."
   },
   {
    "id": "2026-11-05-make-and-mingle-diy-fashion-show",
@@ -1956,7 +2065,8 @@
     "making"
    ],
    "source": "The Walters",
-   "end": "2026-11-05T19:30"
+   "end": "2026-11-05T19:30",
+   "description": "A hands-on evening at the Walters making wearable pieces, ending in a DIY fashion show."
   },
   {
    "id": "2026-11-06-sweaty-eyeballs-animation-festival",
@@ -1969,13 +2079,14 @@
    "free": null,
    "url": "https://www.sweatyeyeballs.com/",
    "base": 72,
-   "summary": "International and Baltimore animated shorts, Nov 6–7; companion show at Area 405.",
+   "summary": "",
    "tags": [
     "animation",
     "festival"
    ],
    "source": "Baltimore Magazine",
-   "until": "2026-11-07"
+   "until": "2026-11-07",
+   "description": "Baltimore's animation festival, in its 14th year: international shorts, a Baltimore showcase and independent features at MICA, with a companion show at Area 405. Nov 6–7."
   },
   {
    "id": "2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol",
@@ -1988,12 +2099,13 @@
    "free": null,
    "url": "https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/",
    "base": 64,
-   "summary": "All-Baltimore heavy-psych bill.",
+   "summary": "",
    "tags": [
     "psych",
     "local"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "An all-Baltimore heavy-psych night: Arbouretum's slow-burning folk-rock plus Stinking Lizaveta, Deathbird Earth and Darsombra Sol."
   },
   {
    "id": "2026-11-06-norman-brown",
@@ -2006,11 +2118,12 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 34,
-   "summary": "Smooth jazz guitar. Also Nov 7.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Smooth-jazz guitarist Norman Brown plays two nights at Keystone Korner."
   },
   {
    "id": "2026-11-07-sabotage-hitchcock-1936-revival",
@@ -2028,7 +2141,8 @@
     "revival",
     "hitchcock"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Hitchcock's 1936 thriller adapted from Joseph Conrad's The Secret Agent, about a London cinema owner with a terrible secret."
   },
   {
    "id": "2026-11-07-luxury-loss-opening-day-artist-talks",
@@ -2041,12 +2155,13 @@
    "free": true,
    "url": "https://thewalters.org/event/luxury-loss-opening/",
    "base": 56,
-   "summary": "New exhibition opens.",
+   "summary": "",
    "tags": [
     "exhibition"
    ],
    "source": "The Walters",
-   "end": "2026-11-07T16:00"
+   "end": "2026-11-07T16:00",
+   "description": "Artist talks on opening day of the Walters' new exhibition Luxury & Loss."
   },
   {
    "id": "2026-11-07-bank-of-america-museums-on-us-free-admission",
@@ -2059,11 +2174,12 @@
    "free": true,
    "url": "https://events.baltimoremagazine.com/event/bank-of-america-museums-on-us-offers-free-admission-november-7th-and-8th-630",
    "base": 30,
-   "summary": "Nov 7–8.",
+   "summary": "",
    "tags": [
     "museum"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Free entry to the Maryland Science Center and Reginald F. Lewis Museum with a Bank of America card. Nov 7–8."
   },
   {
    "id": "2026-11-07-mini-maker-s-market-sweater-weather",
@@ -2082,7 +2198,8 @@
     "maker"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-07T18:00"
+   "end": "2026-11-07T18:00",
+   "description": "A small makers' market at R. House food hall in Remington."
   },
   {
    "id": "2026-11-07-eswa-holiday-book-festival",
@@ -2100,7 +2217,8 @@
     "books"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-07T16:00"
+   "end": "2026-11-07T16:00",
+   "description": "A free holiday book fair with local authors at Cult Classic Brewing."
   },
   {
    "id": "2026-11-07-it-s-not-all-online-discover-your-family-history",
@@ -2118,7 +2236,8 @@
     "history"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-07T14:00"
+   "end": "2026-11-07T14:00",
+   "description": "A workshop on researching family history using archives and records beyond the internet."
   },
   {
    "id": "2026-11-08-afghan-whigs-soft-control-tour",
@@ -2135,7 +2254,8 @@
    "tags": [
     "rock"
    ],
-   "source": "Baltimore Soundstage"
+   "source": "Baltimore Soundstage",
+   "description": "Greg Dulli's Afghan Whigs, the dark, soul-inflected '90s alt-rock band, on their Soft Control tour."
   },
   {
    "id": "2026-11-08-hubert-laws",
@@ -2148,11 +2268,12 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 58,
-   "summary": "5 & 8 p.m.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Hubert Laws, one of jazz's great flutists, plays his own shows at Keystone Korner. 5 & 8 p.m."
   },
   {
    "id": "2026-11-08-curator-tour-impermanence-and-buddhist-art",
@@ -2170,7 +2291,8 @@
     "tour"
    ],
    "source": "The Walters",
-   "end": "2026-11-08T14:30"
+   "end": "2026-11-08T14:30",
+   "description": "A free 30-minute curator tour on impermanence in the Walters' Buddhist art collection."
   },
   {
    "id": "2026-11-10-ami-taf-ra-kamasi-washington",
@@ -2183,11 +2305,12 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 80,
-   "summary": "Kamasi Washington in a 150-seat jazz club.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Saxophonist Kamasi Washington, known for sweeping spiritual jazz, with singer Ami Taf Ra — in a room that seats about 150."
   },
   {
    "id": "2026-11-11-the-u-s-army-blues",
@@ -2200,11 +2323,12 @@
    "free": true,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 40,
-   "summary": "Veterans Day big band.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "The U.S. Army's premier jazz big band plays a free Veterans Day show."
   },
   {
    "id": "2026-11-11-bedlam-brass-band-bwncr-krime-slugs",
@@ -2221,7 +2345,8 @@
    "tags": [
     "local"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "A local bill led by Bedlam Brass Band at Ottobar."
   },
   {
    "id": "2026-11-12-i-shot-andy-warhol-one-night-only",
@@ -2234,11 +2359,12 @@
    "free": null,
    "url": "https://thecharles.com/movie/i-shot-andy-warhol/",
    "base": 66,
-   "summary": "Lili Taylor as Valerie Solanas.",
+   "summary": "",
    "tags": [
     "revival"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Mary Harron's 1996 film with Lili Taylor as Valerie Solanas, the radical writer who shot Warhol. One night only."
   },
   {
    "id": "2026-11-12-express-explore-tour-contemporary-interventions",
@@ -2256,7 +2382,8 @@
     "tour"
    ],
    "source": "The Walters",
-   "end": "2026-11-12T18:30"
+   "end": "2026-11-12T18:30",
+   "description": "A free 30-minute tour of contemporary artworks placed among the Walters' historic collection."
   },
   {
    "id": "2026-11-13-ebban-ephraim-dorsey",
@@ -2269,12 +2396,13 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 54,
-   "summary": "Young Baltimore jazz siblings, late set.",
+   "summary": "",
    "tags": [
     "jazz",
     "local"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Young Baltimore jazz siblings Ebban (saxophone) and Ephraim Dorsey play the late set."
   },
   {
    "id": "2026-11-14-vertigo-hitchcock-revival",
@@ -2292,7 +2420,8 @@
     "revival",
     "hitchcock"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Hitchcock's 1958 masterpiece of obsession, with James Stewart and Kim Novak, back on the big screen."
   },
   {
    "id": "2026-11-14-maryland-irish-festival",
@@ -2310,7 +2439,8 @@
     "festival"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-14T23:00"
+   "end": "2026-11-14T23:00",
+   "description": "Irish music, dance, food and vendors at the Timonium Fairgrounds."
   },
   {
    "id": "2026-11-14-political-appetites-food-in-revolutionary-america-nancy-sieg",
@@ -2329,7 +2459,8 @@
     "food"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-14T12:30"
+   "end": "2026-11-14T12:30",
+   "description": "Art historian Nancy Siegel on the politics of food in Revolutionary America."
   },
   {
    "id": "2026-11-14-dam-jam-festival",
@@ -2347,7 +2478,8 @@
     "outdoors"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-14T14:00"
+   "end": "2026-11-14T14:00",
+   "description": "A family-friendly fall festival at Lake Roland Park."
   },
   {
    "id": "2026-11-14-family-day-friends-and-food",
@@ -2365,7 +2497,8 @@
     "family"
    ],
    "source": "The Walters",
-   "end": "2026-11-14T16:00"
+   "end": "2026-11-14T16:00",
+   "description": "A free family day at the Walters with art-making around food and friendship."
   },
   {
    "id": "2026-11-15-the-bad-plus-farewell-tour",
@@ -2378,11 +2511,12 @@
    "free": false,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 74,
-   "summary": "Last chance for the genre-bending jazz trio. 5 & 7:30 p.m.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "The Bad Plus, the trio known for reinventing rock and pop songs as adventurous jazz, on their farewell tour. 5 & 7:30 p.m."
   },
   {
    "id": "2026-11-15-profs-pints-the-course-of-the-appalachian-trail",
@@ -2401,7 +2535,8 @@
     "outdoors"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-15T18:30"
+   "end": "2026-11-15T18:30",
+   "description": "A professor's talk over beers on the history and route of the Appalachian Trail."
   },
   {
    "id": "2026-11-15-greyhaven-w-fox-lake-commoner",
@@ -2418,7 +2553,8 @@
    "tags": [
     "rock"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Louisville post-hardcore band Greyhaven with Fox Lake and Commoner."
   },
   {
    "id": "2026-11-15-beethoven-s-5th-symphony",
@@ -2435,7 +2571,8 @@
    "tags": [
     "classical"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "A performance of Beethoven's Fifth Symphony at the Church of the Redeemer on North Charles Street."
   },
   {
    "id": "2026-11-18-brooke-candy-w-bbyafricka-mel-4ever",
@@ -2452,7 +2589,8 @@
    "tags": [
     "pop"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Provocative LA rapper and pop artist Brooke Candy, with BbyAfricka and Mel 4Ever."
   },
   {
    "id": "2026-11-19-twin-peaks-season-two-eps-6-7",
@@ -2465,12 +2603,13 @@
    "free": null,
    "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-6-7/",
    "base": 72,
-   "summary": "One night only.",
+   "summary": "",
    "tags": [
     "tv",
     "lynch"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Twin Peaks season two continues on the big screen at The Charles. One night only."
   },
   {
    "id": "2026-11-19-sketching-sessions",
@@ -2483,12 +2622,13 @@
    "free": null,
    "url": "https://thewalters.org/event/sketching-sessions-2/",
    "base": 44,
-   "summary": "Drawing in the Across Asia galleries.",
+   "summary": "",
    "tags": [
     "drawing"
    ],
    "source": "The Walters",
-   "end": "2026-11-19T19:30"
+   "end": "2026-11-19T19:30",
+   "description": "Bring a sketchbook and draw in the Walters' Across Asia galleries."
   },
   {
    "id": "2026-11-19-the-menzingers",
@@ -2505,7 +2645,8 @@
    "tags": [
     "punk"
    ],
-   "source": "Baltimore Soundstage"
+   "source": "Baltimore Soundstage",
+   "description": "Pennsylvania punk band The Menzingers on their Everything I Ever Saw tour."
   },
   {
    "id": "2026-11-20-bat-club-goth-dance-party",
@@ -2523,7 +2664,8 @@
     "goth",
     "dj"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "A goth and darkwave dance night at Ottobar."
   },
   {
    "id": "2026-11-20-kim-waters",
@@ -2540,7 +2682,8 @@
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Smooth-jazz saxophonist Kim Waters, a Baltimore native. 6 & 8:30 p.m."
   },
   {
    "id": "2026-11-21-out-of-the-past-tourneur-revival",
@@ -2553,13 +2696,14 @@
    "free": null,
    "url": "https://thecharles.com/movie/out-of-the-past/",
    "base": 78,
-   "summary": "Robert Mitchum noir; Kirk Douglas and a great bench of character actors.",
+   "summary": "",
    "tags": [
     "revival",
     "noir",
     "character actors"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Jacques Tourneur's 1947 noir with Robert Mitchum, Jane Greer and Kirk Douglas — a former private eye can't outrun an old job."
   },
   {
    "id": "2026-11-21-matt-mccusker",
@@ -2576,7 +2720,8 @@
    "tags": [
     "stand-up"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "Stand-up from Matt McCusker, co-host of the Matt and Shane's Secret Podcast."
   },
   {
    "id": "2026-11-21-secret-society-big-band",
@@ -2589,11 +2734,12 @@
    "free": false,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 48,
-   "summary": "6 & 8:30 p.m.",
+   "summary": "",
    "tags": [
     "jazz"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Secret Society, a big band, plays two sets at Keystone Korner. 6 & 8:30 p.m."
   },
   {
    "id": "2026-11-21-b-o-unlocked-b-o-no-147",
@@ -2606,13 +2752,14 @@
    "free": null,
    "url": "https://events.baltimoremagazine.com/event/bo-unlocked-bo-no-147",
    "base": 44,
-   "summary": "Climb into a rarely opened locomotive.",
+   "summary": "",
    "tags": [
     "history",
     "trains"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-21T16:00"
+   "end": "2026-11-21T16:00",
+   "description": "The B&O Railroad Museum opens up a historic locomotive normally kept closed so you can climb aboard."
   },
   {
    "id": "2026-11-21-under-2500-art-sale",
@@ -2625,13 +2772,14 @@
    "free": null,
    "url": "https://events.baltimoremagazine.com/event/under-2500-5172",
    "base": 40,
-   "summary": "Benefit art sale.",
+   "summary": "",
    "tags": [
     "art",
     "gallery"
    ],
    "source": "Baltimore Magazine",
-   "end": "2026-11-21T16:00"
+   "end": "2026-11-21T16:00",
+   "description": "Maryland Art Place's benefit art sale: work by regional artists, all priced under $2,500."
   },
   {
    "id": "2026-11-21-alicia-keys-hell-s-kitchen",
@@ -2648,7 +2796,8 @@
    "tags": [
     "musical"
    ],
-   "source": "Baltimore Magazine"
+   "source": "Baltimore Magazine",
+   "description": "The Broadway musical built on Alicia Keys' songs, about a teenager growing up in Hell's Kitchen."
   },
   {
    "id": "2026-11-22-sunday-screening-the-wild-robot",
@@ -2666,7 +2815,8 @@
     "family"
    ],
    "source": "The Walters",
-   "end": "2026-11-22T16:00"
+   "end": "2026-11-22T16:00",
+   "description": "A free family screening of the animated film The Wild Robot at the Walters."
   },
   {
    "id": "2026-11-24-kurt-vile-and-the-violators-w-twisted-teens",
@@ -2679,11 +2829,12 @@
    "free": false,
    "url": "https://theottobar.com/event/kurt-vile-and-the-violators-twisted-teens/ottobar/baltimore-maryland/",
    "base": 52,
-   "summary": "Sold out — resale only.",
+   "summary": "",
    "tags": [
     "indie"
    ],
-   "source": "Ottobar"
+   "source": "Ottobar",
+   "description": "Kurt Vile's laid-back, fingerpicked Philly guitar rock with his band, The Violators. Sold out — resale only."
   },
   {
    "id": "2026-11-25-todd-marcus-virginia-macdonald-quintet",
@@ -2696,12 +2847,13 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 56,
-   "summary": "Bass clarinet-led Baltimore jazz.",
+   "summary": "",
    "tags": [
     "jazz",
     "local"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Baltimore bass clarinetist Todd Marcus co-leads a quintet with clarinetist Virginia MacDonald."
   },
   {
    "id": "2026-11-27-the-emo-show-black-parade-friday",
@@ -2718,7 +2870,8 @@
    "tags": [
     "dj"
    ],
-   "source": "Baltimore Soundstage"
+   "source": "Baltimore Soundstage",
+   "description": "An emo dance party and tribute night."
   },
   {
    "id": "2026-11-28-lolita-kubrick-revival",
@@ -2731,11 +2884,12 @@
    "free": null,
    "url": "https://thecharles.com/movie/lolita/",
    "base": 62,
-   "summary": "James Mason and Peter Sellers.",
+   "summary": "",
    "tags": [
     "revival"
    ],
-   "source": "The Charles"
+   "source": "The Charles",
+   "description": "Kubrick's 1962 adaptation of Nabokov, with James Mason and Peter Sellers."
   },
   {
    "id": "2026-11-28-the-charm-city-junction",
@@ -2748,12 +2902,13 @@
    "free": null,
    "url": "https://www.songkick.com/concerts/43389323-charm-city-junction-at-stony-run-friends-meeting-house",
    "base": 40,
-   "summary": "Local Celtic-bluegrass.",
+   "summary": "",
    "tags": [
     "folk",
     "local"
    ],
-   "source": "Songkick"
+   "source": "Songkick",
+   "description": "Charm City Junction, a local band blending Celtic and bluegrass, in the Stony Run Friends Meeting House."
   },
   {
    "id": "2026-11-29-carl-filipiak-quartet-feat-lafayette-gilchrist",
@@ -2766,12 +2921,13 @@
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
    "base": 60,
-   "summary": "Fusion guitar with Baltimore's great pianist. 5 & 7:30 p.m.",
+   "summary": "",
    "tags": [
     "jazz",
     "local"
    ],
-   "source": "Keystone Korner"
+   "source": "Keystone Korner",
+   "description": "Fusion guitarist Carl Filipiak's quartet with Lafayette Gilchrist, Baltimore's great funk-jazz pianist. 5 & 7:30 p.m."
   }
  ]
 }
