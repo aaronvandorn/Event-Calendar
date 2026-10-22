@@ -1,0 +1,7 @@
+{
+  "about": "Who gets the Weekend Events Digest. The weekly agent emails only 'recipients'. Move an address from 'pending' to 'recipients' once Aaron approves.",
+  "recipients": ["[address removed]"],
+  "pending": ["[address removed]"],
+  "send": "Thursday around lunch, America/New_York",
+  "weekend": "Friday through Sunday after the send date"
+}

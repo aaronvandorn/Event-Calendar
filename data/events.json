@@ -1,0 +1,2777 @@
+{
+ "updated": "2026-10-22T13:30:00-04:00",
+ "events": [
+  {
+   "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
+   "area": "baltimore",
+   "title": "Flashback: Two Centuries of Baltimore Photography",
+   "category": "museum",
+   "start": "2026-10-04",
+   "venue": "Baltimore Museum of Art",
+   "cost": "$15 (members free)",
+   "free": false,
+   "url": "https://artbma.org/exhibition/flashback-baltimore-photography/",
+   "base": 82,
+   "summary": "First full survey of Baltimore photography, 1840 to now: 200+ images by 90 artists.",
+   "tags": [
+    "photography",
+    "history"
+   ],
+   "source": "BMA",
+   "until": "2027-02-21",
+   "allDay": true
+  },
+  {
+   "id": "2026-09-16-jerrell-gibbs-come-home-with-me",
+   "area": "baltimore",
+   "title": "Jerrell Gibbs: Come home with me",
+   "category": "museum",
+   "start": "2026-09-16",
+   "venue": "Baltimore Museum of Art",
+   "cost": "Free",
+   "free": true,
+   "url": "https://artbma.org/exhibition/jerrell-gibbs-come-home-with-me/",
+   "base": 62,
+   "summary": "About 30 new paintings drawn from family photographs.",
+   "tags": [
+    "painting"
+   ],
+   "source": "BMA",
+   "until": "2027-05-02",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-25-woven-monuments-tapestry-and-identity-in-senegal-opens",
+   "area": "baltimore",
+   "title": "Woven Monuments: Tapestry and Identity in Senegal (opens)",
+   "category": "museum",
+   "start": "2026-10-25",
+   "venue": "Baltimore Museum of Art",
+   "cost": "Free",
+   "free": true,
+   "url": "https://artbma.org",
+   "base": 55,
+   "summary": "Twelve large tapestries from post-independence Senegal.",
+   "tags": [
+    "textiles"
+   ],
+   "source": "BMA schedule",
+   "until": "2027-03-07",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-08-diedrick-brackens-lights-at-the-end-of-the-world-opens",
+   "area": "baltimore",
+   "title": "Diedrick Brackens: lights at the end of the world (opens)",
+   "category": "museum",
+   "start": "2026-11-08",
+   "venue": "Baltimore Museum of Art",
+   "cost": "Free",
+   "free": true,
+   "url": "https://artbma.org",
+   "base": 60,
+   "summary": "Hand-woven tapestries on emancipation and labor around the Chesapeake.",
+   "tags": [
+    "textiles"
+   ],
+   "source": "BMA schedule",
+   "until": "2027-02-28",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-14-speaking-across-languages-global-modernism-opens",
+   "area": "baltimore",
+   "title": "Speaking Across Languages: Global Modernism (opens)",
+   "category": "museum",
+   "start": "2026-11-14",
+   "venue": "Baltimore Museum of Art",
+   "cost": "Free",
+   "free": true,
+   "url": "https://artbma.org",
+   "base": 52,
+   "summary": "About 50 modernist works from many countries in the Cone Galleries.",
+   "tags": [
+    "modernism"
+   ],
+   "source": "BMA schedule",
+   "until": "2027-12-30",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-08-with-profit-and-pleasure-the-legacy-of-japanese-prints",
+   "area": "baltimore",
+   "title": "With Profit and Pleasure: The Legacy of Japanese Prints",
+   "category": "museum",
+   "start": "2026-10-08",
+   "venue": "Evergreen Museum & Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://museums.jhu.edu/exhibitions/current/with-profit-and-pleasure-the-legacy-of-japanese-prints/",
+   "base": 58,
+   "summary": "Japanese woodblock prints in a Gilded Age mansion. Tue–Sun 11–4.",
+   "tags": [
+    "prints",
+    "historic house"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2027-06-27",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-28-decoys-of-the-chesapeake-opens",
+   "area": "baltimore",
+   "title": "Decoys of the Chesapeake (opens)",
+   "category": "museum",
+   "start": "2026-10-28",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.mdhistory.org",
+   "base": 48,
+   "summary": "Folk art and craft of Chesapeake decoy carving. Opening reception Oct 28, 5–8 p.m.",
+   "tags": [
+    "folk art",
+    "history"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2027-05-07",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-09-mary-shelley-s-frankenstein",
+   "area": "baltimore",
+   "title": "Mary Shelley's Frankenstein",
+   "category": "theater",
+   "start": "2026-10-09",
+   "venue": "Chesapeake Shakespeare Company",
+   "cost": "$35–111",
+   "free": false,
+   "url": "https://www.chesapeakeshakespeare.com/shows-tickets/frankenstein/",
+   "base": 60,
+   "summary": "Adaptation with Mary Shelley herself as a central figure.",
+   "tags": [
+    "gothic"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-08",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-18-different-words-for-happiness",
+   "area": "baltimore",
+   "title": "Different Words for Happiness",
+   "category": "theater",
+   "start": "2026-10-18",
+   "venue": "Everyman Theatre",
+   "cost": "$12.50–105.50",
+   "free": false,
+   "url": "https://everymantheatre.org/event/different-words/",
+   "base": 50,
+   "summary": "",
+   "tags": [],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-15",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-09-sweeney-todd",
+   "area": "baltimore",
+   "title": "Sweeney Todd",
+   "category": "theater",
+   "start": "2026-10-09",
+   "venue": "Vagabond Players, Fells Point",
+   "cost": "$18–28",
+   "free": false,
+   "url": "https://vagabondplayers.org/show/158/sweeney-todd-the-demon-barber-of-fleet-street",
+   "base": 45,
+   "summary": "",
+   "tags": [],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-15",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-02-the-pansy-hour",
+   "area": "baltimore",
+   "title": "The Pansy Hour",
+   "category": "theater",
+   "start": "2026-10-02",
+   "venue": "Submersive Productions, Hampden",
+   "cost": "$37–156",
+   "free": false,
+   "url": "https://www.submersive.org/the-pansy-hour/",
+   "base": 50,
+   "summary": "Immersive cabaret on the 1920s 'Pansy Craze' and Maryland history.",
+   "tags": [
+    "immersive",
+    "history"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-15",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-16-the-rocky-horror-show-stage",
+   "area": "baltimore",
+   "title": "The Rocky Horror Show (stage)",
+   "category": "theater",
+   "start": "2026-10-16",
+   "venue": "Iron Crow Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://ironcrowtheatre.thundertix.com/events/270808?only_one=true",
+   "base": 38,
+   "summary": "",
+   "tags": [],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-07",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-09-terra-almost-firma",
+   "area": "baltimore",
+   "title": "Terra Almost Firma",
+   "category": "museum",
+   "start": "2026-10-09",
+   "venue": "Zo Gallery (Graffiti Alley) + Fox Building",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.zogallery.com",
+   "base": 45,
+   "summary": "",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-12-14",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-16-big-bang-baby",
+   "area": "baltimore",
+   "title": "Big Bang Baby",
+   "category": "museum",
+   "start": "2026-10-16",
+   "venue": "Atrium Artspace",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.atriumartspace.com",
+   "base": 40,
+   "summary": "Fri–Sat 2–5 p.m.",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-12-15",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-15-stars-and-stripes-group-show",
+   "area": "baltimore",
+   "title": "Stars and Stripes (group show)",
+   "category": "museum",
+   "start": "2026-10-15",
+   "venue": "Galerie Myrtis",
+   "cost": "Free",
+   "free": true,
+   "url": "https://galeriemyrtis.net/stars-and-stripes/",
+   "base": 42,
+   "summary": "Gallery's 20th-year show rethinking national symbols. Thu–Sat 2–6.",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2027-02-05",
+   "allDay": true
+  },
+  {
+   "id": "2026-09-25-emma-childs-chora",
+   "area": "baltimore",
+   "title": "Emma Childs: Chora",
+   "category": "museum",
+   "start": "2026-09-25",
+   "venue": "Mount Vernon Place Church",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.eventbrite.com/e/emma-childs-chora-opening-reception-tickets-1993874810231",
+   "base": 45,
+   "summary": "Large solo show staged in the church.",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2027-02-01",
+   "allDay": true
+  },
+  {
+   "id": "2026-09-25-shan-wallace-folks-at-intimate-play",
+   "area": "baltimore",
+   "title": "SHAN Wallace: Folks at Intimate Play",
+   "category": "museum",
+   "start": "2026-09-25",
+   "venue": "Current Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://pools.events/event/wfZ44uJ3/opening-reception-of-folks-at-intimate-play-by-shan-wallace/",
+   "base": 52,
+   "summary": "Photography.",
+   "tags": [
+    "photography",
+    "gallery"
+   ],
+   "source": "Current Space",
+   "until": "2026-11-07",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-09-paul-daniel-altered-course",
+   "area": "baltimore",
+   "title": "Paul Daniel: Altered Course",
+   "category": "museum",
+   "start": "2026-10-09",
+   "venue": "Goya Contemporary",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.goyacontemporary.com",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-20",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-06-american-beekeeper-exhibition",
+   "area": "baltimore",
+   "title": "American Beekeeper (exhibition)",
+   "category": "museum",
+   "start": "2026-11-06",
+   "venue": "Making Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.makingspacebmore.com/",
+   "base": 50,
+   "summary": "Multimedia show on bees, ecology and food sovereignty.",
+   "tags": [
+    "gardening",
+    "ecology"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-12-12",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-11-august-wilson-s-jitney",
+   "area": "baltimore",
+   "title": "August Wilson's Jitney",
+   "category": "theater",
+   "start": "2026-11-11",
+   "venue": "Fells Point Corner Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.fpct.org/jitney",
+   "base": 55,
+   "summary": "Character-driven drama about a Pittsburgh jitney station.",
+   "tags": [
+    "character actors"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-12-13",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-21-christmas-village-in-baltimore",
+   "area": "baltimore",
+   "title": "Christmas Village in Baltimore",
+   "category": "festival",
+   "start": "2026-11-21",
+   "venue": "West Shore Park, Inner Harbor",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimore-christmas.com/",
+   "base": 40,
+   "summary": "German-style holiday market. Wed–Sun; closed Mon–Tue.",
+   "tags": [
+    "market"
+   ],
+   "source": "baltimore-christmas.com",
+   "until": "2026-12-27",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-22-twin-peaks-season-two-eps-2-3",
+   "area": "baltimore",
+   "title": "Twin Peaks Season Two, Eps 2–3",
+   "category": "film",
+   "start": "2026-10-22T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-2-3/",
+   "base": 74,
+   "summary": "Big-screen Twin Peaks, one night only.",
+   "tags": [
+    "tv",
+    "lynch"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-10-22-tempesst-uk-w-glorian",
+   "area": "baltimore",
+   "title": "Tempesst (UK) w/ Glorian",
+   "category": "music",
+   "start": "2026-10-22T19:00",
+   "venue": "Metro Baltimore",
+   "cost": "$31",
+   "free": false,
+   "url": "https://metrobmore.com/listing/tempesst-uk/",
+   "base": 45,
+   "summary": "",
+   "tags": [
+    "indie"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-22-beth-lapides-it-s-a-lot",
+   "area": "baltimore",
+   "title": "Beth Lapides: It's A Lot",
+   "category": "comedy",
+   "start": "2026-10-22T19:30",
+   "venue": "Creative Alliance",
+   "cost": "$28–51",
+   "free": false,
+   "url": "https://creativealliance.org/event/beth-lapides-its-a-lot/",
+   "base": 55,
+   "summary": "Solo comedy from the UnCabaret founder.",
+   "tags": [],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-10-22-junglist-heights-drum-bass",
+   "area": "baltimore",
+   "title": "Junglist Heights (drum & bass)",
+   "category": "nightlife",
+   "start": "2026-10-22T18:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "$10",
+   "free": false,
+   "url": "https://peabodyheightsbrewery.com/event/junglist-heights/",
+   "base": 52,
+   "summary": "",
+   "tags": [
+    "electronic",
+    "dj"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-22-maniac-cop-screening-panel",
+   "area": "baltimore",
+   "title": "“Maniac Cop” screening + panel",
+   "category": "film",
+   "start": "2026-10-22T19:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://peabodyheightsbrewery.com/event/maniac-cop/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "horror"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-23-hellraisers-stoop-storytelling",
+   "area": "baltimore",
+   "title": "HELLRAISERS (Stoop Storytelling)",
+   "category": "talk",
+   "start": "2026-10-23T19:00",
+   "venue": "Mount Vernon Place Church",
+   "cost": "$25",
+   "free": false,
+   "url": "https://stoopstorytelling.com/event/hellraisers-stories-about-rebels-rabble-rousers-and-the-moments-we-decided-to-stop-playing-nice/",
+   "base": 66,
+   "summary": "True stories about rebels and rabble-rousers.",
+   "tags": [
+    "storytelling",
+    "podcast"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-23-the-makado-make-america-kingly-again",
+   "area": "baltimore",
+   "title": "The Makado: Make America Kingly Again!",
+   "category": "theater",
+   "start": "2026-10-23T19:30",
+   "venue": "Baltimore Theatre Project",
+   "cost": "$25–35",
+   "free": false,
+   "url": "https://theatreproject.org/upcoming-shows/",
+   "base": 44,
+   "summary": "Also Sat 7:30, Sun 2:30.",
+   "tags": [
+    "satire"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-23-version-21",
+   "area": "baltimore",
+   "title": "VERSION (21+)",
+   "category": "nightlife",
+   "start": "2026-10-23T19:00",
+   "venue": "Current Space",
+   "cost": "$12–14",
+   "free": false,
+   "url": "https://pools.events/event/KOGStSTW/version/",
+   "base": 64,
+   "summary": "Club night at the downtown artist-run space.",
+   "tags": [
+    "electronic",
+    "dj"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-23-bmore-horror-film-fest",
+   "area": "baltimore",
+   "title": "Bmore Horror Film Fest",
+   "category": "film",
+   "start": "2026-10-23",
+   "venue": "Old Major, 2640 Space, Black Cherry Puppet Theater",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.bmorehorrorfest.com/",
+   "base": 58,
+   "summary": "Indie horror festival, Oct 23–25 across several venues.",
+   "tags": [
+    "horror",
+    "festival"
+   ],
+   "source": "Baltimore Fishbowl",
+   "until": "2026-10-25",
+   "allDay": true
+  },
+  {
+   "id": "2026-10-23-trio-sir-nes",
+   "area": "baltimore",
+   "title": "Trio Sirènes",
+   "category": "music",
+   "start": "2026-10-23T19:30",
+   "venue": "St. David's Church",
+   "cost": "Free (donation)",
+   "free": true,
+   "url": "https://stdavidsbaltimore.org/music/event-tickets/",
+   "base": 46,
+   "summary": "Chamber trio.",
+   "tags": [
+    "classical"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-23-mozart-meets-latin-masters-bso",
+   "area": "baltimore",
+   "title": "Mozart Meets Latin Masters (BSO)",
+   "category": "music",
+   "start": "2026-10-23T20:00",
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://my.bsomusic.org/overview/20343",
+   "base": 44,
+   "summary": "Giancarlo Guerrero conducts. Also Oct 24–25.",
+   "tags": [
+    "classical"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-23-death-of-summer-part-6",
+   "area": "baltimore",
+   "title": "Death of Summer: Part 6",
+   "category": "music",
+   "start": "2026-10-23T19:00",
+   "venue": "Metro Baltimore",
+   "cost": "$14–34",
+   "free": false,
+   "url": "https://metrobmore.com/listing/death-of-summer-part-6/",
+   "base": 40,
+   "summary": "Two-day local lineup (also Sat 4 p.m.).",
+   "tags": [],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-23-onlyfangs",
+   "area": "baltimore",
+   "title": "OnlyFANGS",
+   "category": "nightlife",
+   "start": "2026-10-23T19:00",
+   "venue": "SNF Parkway Theatre",
+   "cost": "$5–15 suggested",
+   "free": false,
+   "url": "https://www.instagram.com/p/DeH6Wtktjkm/",
+   "base": 40,
+   "summary": "Vampire-themed night at the Parkway.",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-23-arbooretum",
+   "area": "baltimore",
+   "title": "ARBOOretum",
+   "category": "festival",
+   "start": "2026-10-23T17:30",
+   "venue": "Cylburn Arboretum",
+   "cost": "$5–10",
+   "free": false,
+   "url": "https://cylburn.org/programs-events/arbooretum/",
+   "base": 45,
+   "summary": "Halloween in the arboretum gardens (also Oct 29–30).",
+   "tags": [
+    "gardening"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-23-kut-klose",
+   "area": "baltimore",
+   "title": "Kut Klose",
+   "category": "music",
+   "start": "2026-10-23T18:00",
+   "venue": "Keystone Korner",
+   "cost": "$20–65",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 30,
+   "summary": "R&B. 6 & 9 p.m.",
+   "tags": [],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-10-24-doors-open-baltimore",
+   "area": "baltimore",
+   "title": "Doors Open Baltimore",
+   "category": "community",
+   "start": "2026-10-24T10:00",
+   "venue": "52 buildings citywide",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.doorsopenbaltimore.org/sites/",
+   "base": 86,
+   "summary": "Rarely open historic buildings, from the Basilica to the Dentistry museum. Hours vary by site (10–2 or 1–5).",
+   "tags": [
+    "architecture",
+    "history",
+    "old houses"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-24T17:00"
+  },
+  {
+   "id": "2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival",
+   "area": "baltimore",
+   "title": "Great Baltimore Lantern Parade + Día de los Muertos Festival",
+   "category": "festival",
+   "start": "2026-10-24T16:00",
+   "venue": "Patterson Park",
+   "cost": "Free",
+   "free": true,
+   "url": "https://creativealliance.org/event/the-great-baltimore-lantern-parade/",
+   "base": 78,
+   "summary": "Festival at 4, parade at 7 p.m.",
+   "tags": [
+    "parade",
+    "community"
+   ],
+   "source": "Creative Alliance",
+   "end": "2026-10-24T21:00"
+  },
+  {
+   "id": "2026-10-24-curse-of-the-demon-revival-series",
+   "area": "baltimore",
+   "title": "Curse of the Demon (Revival Series)",
+   "category": "film",
+   "start": "2026-10-24T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/curse-of-the-demon/",
+   "base": 72,
+   "summary": "Jacques Tourneur's 1957 folk-horror classic. Revival shows usually Sat 11:30, Mon 7, Thu 9.",
+   "tags": [
+    "revival",
+    "horror"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-10-24-cindy-blackman-santana-w-ravi-coltrane",
+   "area": "baltimore",
+   "title": "Cindy Blackman Santana w/ Ravi Coltrane",
+   "category": "music",
+   "start": "2026-10-24T18:00",
+   "venue": "Keystone Korner",
+   "cost": "$15–55",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 66,
+   "summary": "Jazz drummer with Ravi Coltrane. Sat 6 & 8:30, Sun 5 & 7:30.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-10-24-halloween-baltimore-21",
+   "area": "baltimore",
+   "title": "Halloween Baltimore (21+)",
+   "category": "nightlife",
+   "start": "2026-10-24T20:00",
+   "venue": "Maryland Science Center",
+   "cost": "$55–120",
+   "free": false,
+   "url": "https://www.mdsci.org/events/halloween/",
+   "base": 40,
+   "summary": "Costume party in the science museum.",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-25T01:00"
+  },
+  {
+   "id": "2026-10-24-barcstoberfest",
+   "area": "baltimore",
+   "title": "BARCStoberfest",
+   "category": "festival",
+   "start": "2026-10-24T08:00",
+   "venue": "Patterson Park",
+   "cost": "Varies",
+   "free": null,
+   "url": "https://www.barcstoberfest.org/page/event-faqs",
+   "base": 28,
+   "summary": "Dog festival benefiting BARCS.",
+   "tags": [
+    "dogs"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-24-mushroom-city-arts-festival",
+   "area": "baltimore",
+   "title": "Mushroom City Arts Festival",
+   "category": "festival",
+   "start": "2026-10-24T12:00",
+   "venue": "Carrie Murray Nature Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.facebook.com/events/1052371247444380/",
+   "base": 50,
+   "summary": "",
+   "tags": [
+    "nature",
+    "art"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-24-asher-white-w-dickgirl-little-lungs",
+   "area": "baltimore",
+   "title": "Asher White w/ Dickgirl & Little Lungs",
+   "category": "music",
+   "start": "2026-10-24T19:00",
+   "venue": "The Compound",
+   "cost": "$15",
+   "free": false,
+   "url": "https://www.eventbrite.com/e/asher-white-w-dickgirl-little-lungs-tickets-1993978385026",
+   "base": 58,
+   "summary": "Experimental pop at a DIY venue.",
+   "tags": [
+    "experimental",
+    "diy"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-24-gunz-of-steel-18",
+   "area": "baltimore",
+   "title": "Gunz of Steel (18+)",
+   "category": "music",
+   "start": "2026-10-24T19:00",
+   "venue": "Current Space",
+   "cost": "$15–20",
+   "free": false,
+   "url": "https://pools.events/event/3IK0O4mL/gunz-of-steel/",
+   "base": 40,
+   "summary": "",
+   "tags": [],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-24-a-very-no-land-beyond-halloween-battle-of-the-bands",
+   "area": "baltimore",
+   "title": "A Very No Land Beyond Halloween Battle of the Bands",
+   "category": "music",
+   "start": "2026-10-24T19:00",
+   "venue": "No Land Beyond",
+   "cost": "$5–15 sliding",
+   "free": false,
+   "url": "https://www.instagram.com/p/DdkJvXHDZPX/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-24-harford-road-spooktacular",
+   "area": "baltimore",
+   "title": "Harford Road Spooktacular",
+   "category": "festival",
+   "start": "2026-10-24T16:00",
+   "venue": "Harford Rd, Hamilton-Lauraville",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.instagram.com/p/DeCLN8SK6JN/",
+   "base": 35,
+   "summary": "",
+   "tags": [
+    "halloween",
+    "community"
+   ],
+   "source": "Baltimore Fishbowl",
+   "end": "2026-10-24T21:00"
+  },
+  {
+   "id": "2026-10-24-charles-mcbee-you-had-to-be-there",
+   "area": "baltimore",
+   "title": "Charles McBee: You Had To Be There",
+   "category": "comedy",
+   "start": "2026-10-24T19:00",
+   "venue": "Creative Alliance",
+   "cost": "$40",
+   "free": false,
+   "url": "https://creativealliance.org/event/charles-mcbee-you-had-to-be-there-tour/",
+   "base": 40,
+   "summary": "",
+   "tags": [],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-10-24-jordan-jensen",
+   "area": "baltimore",
+   "title": "Jordan Jensen",
+   "category": "comedy",
+   "start": "2026-10-24T19:00",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site (7 pm sold out)",
+   "free": false,
+   "url": "https://www.baltimoresoundstage.com/events/jordan-jensen-18-2/",
+   "base": 45,
+   "summary": "Late show 9:30 p.m.; early show sold out.",
+   "tags": [],
+   "source": "Baltimore Soundstage"
+  },
+  {
+   "id": "2026-10-24-floozy-carmichael-s-pleasure-planet",
+   "area": "baltimore",
+   "title": "Floozy Carmichael's Pleasure Planet",
+   "category": "nightlife",
+   "start": "2026-10-24T20:00",
+   "venue": "Mobtown Ballroom",
+   "cost": "$20",
+   "free": false,
+   "url": "https://www.mobtownballroom.com/events-calendar",
+   "base": 35,
+   "summary": "",
+   "tags": [
+    "dance"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-24-baltimore-blacktoberfest-21",
+   "area": "baltimore",
+   "title": "Baltimore Blacktoberfest (21+)",
+   "category": "food",
+   "start": "2026-10-24T13:00",
+   "venue": "200 block of Redwood St",
+   "cost": "Free–$15",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/baltimore-blacktoberfest-2026-tickets-2002977079363",
+   "base": 35,
+   "summary": "",
+   "tags": [
+    "beer"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-24-bmore-flea-market",
+   "area": "baltimore",
+   "title": "Bmore Flea Market",
+   "category": "food",
+   "start": "2026-10-24T11:00",
+   "venue": "Broadway Market",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimoremarkets.org/event/bmore-flea-market-broadway-market-19/",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "market",
+    "vintage"
+   ],
+   "source": "Baltimore Beat",
+   "end": "2026-10-24T15:00"
+  },
+  {
+   "id": "2026-10-24-microgreens-workshop",
+   "area": "baltimore",
+   "title": "Microgreens Workshop",
+   "category": "community",
+   "start": "2026-10-24T11:00",
+   "venue": "Filbert Street Garden",
+   "cost": "See site",
+   "free": null,
+   "url": "https://filbertstreetgarden.org/baltimore-garden-events/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "gardening"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-25-downtown-columbia-maker-faire",
+   "area": "baltimore",
+   "title": "Downtown Columbia Maker Faire",
+   "category": "community",
+   "start": "2026-10-25T12:00",
+   "venue": "Merriweather Park, Columbia",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/downtown-columbia-maker-faire-342",
+   "base": 74,
+   "summary": "Makers, electronics, 3D printing and DIY tinkering. ~30 min drive.",
+   "tags": [
+    "maker",
+    "diy",
+    "electronics"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-25T16:00"
+  },
+  {
+   "id": "2026-10-25-howard-street-haunt-ottobar-halloween-market",
+   "area": "baltimore",
+   "title": "Howard Street Haunt + Ottobar Halloween Market",
+   "category": "festival",
+   "start": "2026-10-25T12:00",
+   "venue": "Ottobar & Remington venues",
+   "cost": "Free",
+   "free": true,
+   "url": "https://theottobar.com/event/ottobars-7th-annual-halloween-market/ottobar/baltimore-maryland/",
+   "base": 52,
+   "summary": "Vendor market and block-wide haunt.",
+   "tags": [
+    "market",
+    "halloween"
+   ],
+   "source": "Ottobar",
+   "end": "2026-10-25T17:00"
+  },
+  {
+   "id": "2026-10-25-coco-live-to-film-concert-bso",
+   "area": "baltimore",
+   "title": "Coco Live-to-Film Concert (BSO)",
+   "category": "film",
+   "start": "2026-10-25T15:00",
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://my.bsomusic.org/overview/20540",
+   "base": 35,
+   "summary": "",
+   "tags": [
+    "live score"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-25-baltimore-art-haul",
+   "area": "baltimore",
+   "title": "Baltimore [Art]Haul",
+   "category": "museum",
+   "start": "2026-10-25T12:00",
+   "venue": "Mill Centre parking lot",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/baltimore-arthaul",
+   "base": 44,
+   "summary": "Artist trunk market.",
+   "tags": [
+    "market",
+    "art"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-25T18:00"
+  },
+  {
+   "id": "2026-10-25-charm-city-moon-market",
+   "area": "baltimore",
+   "title": "Charm City Moon Market",
+   "category": "food",
+   "start": "2026-10-25T12:00",
+   "venue": "Ministry of Brewing",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/charm-city-moon-market",
+   "base": 34,
+   "summary": "",
+   "tags": [
+    "market"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-25T16:00"
+  },
+  {
+   "id": "2026-10-25-first-flush-area-405",
+   "area": "baltimore",
+   "title": "First Flush (Area 405)",
+   "category": "museum",
+   "start": "2026-10-25T10:00",
+   "venue": "Area 405",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.instagram.com/p/DeHZr6RHCp7/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "gallery"
+   ],
+   "source": "Baltimore Beat",
+   "end": "2026-10-25T16:00"
+  },
+  {
+   "id": "2026-10-25-black-celebration-21",
+   "area": "baltimore",
+   "title": "Black Celebration! (21+)",
+   "category": "nightlife",
+   "start": "2026-10-25T21:00",
+   "venue": "Ottobar Upstairs",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/event/black-celebration-43/upstairs-ottobar/baltimore-maryland/",
+   "base": 46,
+   "summary": "Long-running Depeche Mode / synth-wave dance night.",
+   "tags": [
+    "synth",
+    "dj"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-10-26-onelinedrawing-w-american-motors-knub",
+   "area": "baltimore",
+   "title": "onelinedrawing w/ American Motors & KNUB",
+   "category": "music",
+   "start": "2026-10-26T18:00",
+   "venue": "Metro Baltimore",
+   "cost": "$20",
+   "free": false,
+   "url": "https://metrobmore.com/listing/onelinedrawing-w-american-motors-and-knub/",
+   "base": 48,
+   "summary": "",
+   "tags": [
+    "indie"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-26-spooky-monday-movies",
+   "area": "baltimore",
+   "title": "Spooky Monday Movies",
+   "category": "film",
+   "start": "2026-10-26T18:00",
+   "venue": "Golden West Cafe, Hampden",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.instagram.com/goldenwestcafe/p/DeE2fuFODb_/",
+   "base": 38,
+   "summary": "",
+   "tags": [
+    "horror"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-26-dat-feel-good-jazz-jam",
+   "area": "baltimore",
+   "title": "Dat Feel Good Jazz Jam",
+   "category": "music",
+   "start": "2026-10-26T19:00",
+   "venue": "Motor House",
+   "cost": "Pay what you can",
+   "free": null,
+   "url": "https://www.motorhousebaltimore.com/events/dat-feel-good-jazz-jam-2026-10-26-19-00",
+   "base": 44,
+   "summary": "",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-27-rasputina-w-dust-bowl-faeries",
+   "area": "baltimore",
+   "title": "Rasputina w/ Dust Bowl Faeries",
+   "category": "music",
+   "start": "2026-10-27T19:00",
+   "venue": "Ottobar",
+   "cost": "$42",
+   "free": false,
+   "url": "https://theottobar.com/event/rasputina-dust-bowl-faeries/ottobar/baltimore-maryland/",
+   "base": 56,
+   "summary": "Gothic cello rock.",
+   "tags": [
+    "gothic"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-10-27-bat-walk",
+   "area": "baltimore",
+   "title": "Bat Walk",
+   "category": "community",
+   "start": "2026-10-27T20:00",
+   "venue": "Filbert Street Garden",
+   "cost": "See site",
+   "free": null,
+   "url": "https://filbertstreetgarden.org/baltimore-garden-events/",
+   "base": 40,
+   "summary": "With Masonville Cove Partnership.",
+   "tags": [
+    "nature"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-27-riley-black-tyrant-lizard-queen",
+   "area": "baltimore",
+   "title": "Riley Black: Tyrant Lizard Queen",
+   "category": "talk",
+   "start": "2026-10-27T19:00",
+   "venue": "Enoch Pratt Central Library",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/riley-black-tyrant-lizard-queen-tickets-1992774806089",
+   "base": 50,
+   "summary": "Paleontology writer on T. rex.",
+   "tags": [
+    "books",
+    "science"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-28-profs-pints-the-haunted-house",
+   "area": "baltimore",
+   "title": "Profs & Pints: The Haunted House",
+   "category": "talk",
+   "start": "2026-10-28T18:30",
+   "venue": "Guilford Hall Brewery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.facebook.com/events/3301416703377038/",
+   "base": 66,
+   "summary": "Folklorist Brittany Warman on haunted-house lore. Doors 5.",
+   "tags": [
+    "history",
+    "old houses"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-28-industry-social-club-confections",
+   "area": "baltimore",
+   "title": "Industry Social Club: Confections",
+   "category": "community",
+   "start": "2026-10-28T17:30",
+   "venue": "Baltimore Museum of Industry",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.thebmi.org/event/industry-social-club-confections/",
+   "base": 46,
+   "summary": "",
+   "tags": [
+    "history",
+    "making"
+   ],
+   "source": "BMI",
+   "end": "2026-10-28T20:00"
+  },
+  {
+   "id": "2026-10-28-maryland-folk-art-craft-opening-reception",
+   "area": "baltimore",
+   "title": "Maryland Folk Art & Craft opening reception",
+   "category": "museum",
+   "start": "2026-10-28T17:00",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.mdhistory.org/calendar/exhibition-opening-reception-celebrating-marylands-folk-art-craft/",
+   "base": 46,
+   "summary": "",
+   "tags": [
+    "folk art"
+   ],
+   "source": "Baltimore Beat",
+   "end": "2026-10-28T20:00"
+  },
+  {
+   "id": "2026-10-28-jim-emison-murder-on-the-hatchie",
+   "area": "baltimore",
+   "title": "Jim Emison: Murder on the Hatchie",
+   "category": "talk",
+   "start": "2026-10-28T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/jim-emison-presents-murder-on-the-hatchie-in-conversation-w-india-artis/",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "books"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-29-possession-u-awski-one-night-only",
+   "area": "baltimore",
+   "title": "Possession (Żuławski) — one night only",
+   "category": "film",
+   "start": "2026-10-29T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/possession/",
+   "base": 82,
+   "summary": "Isabelle Adjani and Sam Neill in the 1981 marital-horror cult film.",
+   "tags": [
+    "revival",
+    "horror"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-10-29-spookey-ruben-w-fetcher-salon-monkey",
+   "area": "baltimore",
+   "title": "Spookey Ruben w/ Fetcher, Salon & Monkey",
+   "category": "music",
+   "start": "2026-10-29T19:00",
+   "venue": "Metro Baltimore",
+   "cost": "$15",
+   "free": false,
+   "url": "https://metrobmore.com/listing/spookey-ruben-w-fetcher-salon-and-monkey/",
+   "base": 50,
+   "summary": "",
+   "tags": [
+    "indie"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-29-pangelica-moth-broth-albert-bagman",
+   "area": "baltimore",
+   "title": "Pangelica, Moth Broth, Albert Bagman",
+   "category": "music",
+   "start": "2026-10-29T18:00",
+   "venue": "Current Space",
+   "cost": "$12–15",
+   "free": false,
+   "url": "https://pools.events/event/fY1oe3uG/pangelica-moth-broth-albert-bagman/",
+   "base": 52,
+   "summary": "",
+   "tags": [
+    "experimental"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-29-zo-tall-black-guy-feat-deb-rah-bond",
+   "area": "baltimore",
+   "title": "ZO! & Tall Black Guy feat. Debórah Bond",
+   "category": "music",
+   "start": "2026-10-29T19:00",
+   "venue": "Keystone Korner",
+   "cost": "$15–45",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 50,
+   "summary": "Neo-soul and beat-maker set.",
+   "tags": [
+    "soul",
+    "beats"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-10-29-craft-and-cinema-night-the-craft",
+   "area": "baltimore",
+   "title": "Craft and Cinema Night: The Craft",
+   "category": "film",
+   "start": "2026-10-29T19:30",
+   "venue": "Creative Alliance",
+   "cost": "$13–18",
+   "free": false,
+   "url": "https://creativealliance.org/event/craft-and-cinema-night-the-craft/",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "horror"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-10-29-express-explore-tour-death-and-the-afterlife",
+   "area": "baltimore",
+   "title": "Express & Explore Tour: Death and the Afterlife",
+   "category": "museum",
+   "start": "2026-10-29T18:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/eetour-afterlife/",
+   "base": 48,
+   "summary": "30-minute gallery tour.",
+   "tags": [
+    "tour"
+   ],
+   "source": "The Walters",
+   "end": "2026-10-29T18:30"
+  },
+  {
+   "id": "2026-10-29-rocky-horror-picture-show-screening",
+   "area": "baltimore",
+   "title": "Rocky Horror Picture Show (screening)",
+   "category": "film",
+   "start": "2026-10-29T19:00",
+   "venue": "Hippodrome / M&T Bank Exchange",
+   "cost": "$36–80",
+   "free": false,
+   "url": "https://baltimore.broadway.com/shows/the-rocky-horror-picture-show-movie-screening/",
+   "base": 32,
+   "summary": "Oct 29–31.",
+   "tags": [
+    "cult"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-29-halloween-movie-watch-party",
+   "area": "baltimore",
+   "title": "Halloween Movie Watch Party",
+   "category": "film",
+   "start": "2026-10-29T21:00",
+   "venue": "The Duchess, Hampden",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.instagram.com/p/Dd9TW0lFroI/",
+   "base": 36,
+   "summary": "",
+   "tags": [
+    "horror"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-30-fled-to-the-spirit-world-victorian-spiritualists-of-green-mo",
+   "area": "baltimore",
+   "title": "Fled to the Spirit World: Victorian Spiritualists of Green Mount",
+   "category": "community",
+   "start": "2026-10-30T10:00",
+   "venue": "Green Mount Cemetery",
+   "cost": "Free (registration)",
+   "free": true,
+   "url": "https://calendar.prattlibrary.org/event/fled-to-the-spirit-world-the-victorian-spiritualists-of-green-mount-cemetery-9097",
+   "base": 70,
+   "summary": "Pratt Library walking tour. Also Sat Oct 31, noon–2.",
+   "tags": [
+    "history",
+    "victorian",
+    "tour"
+   ],
+   "source": "Baltimore Beat",
+   "end": "2026-10-30T12:00"
+  },
+  {
+   "id": "2026-10-30-psycho-in-concert-bso",
+   "area": "baltimore",
+   "title": "Psycho in Concert (BSO)",
+   "category": "film",
+   "start": "2026-10-30T19:30",
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "$29–133",
+   "free": false,
+   "url": "https://my.bsomusic.org/overview/20456",
+   "base": 74,
+   "summary": "Herrmann's score played live to Hitchcock's film. Also Sun Nov 1, 3 p.m.",
+   "tags": [
+    "hitchcock",
+    "live score"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-30-wild-horse-nine-early-access-screening",
+   "area": "baltimore",
+   "title": "Wild Horse Nine — early access screening",
+   "category": "film",
+   "start": "2026-10-30T19:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/wild-horse-nine/",
+   "base": 48,
+   "summary": "",
+   "tags": [
+    "new release"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-10-30-halloween-atp-21",
+   "area": "baltimore",
+   "title": "Halloween ATP (21+)",
+   "category": "nightlife",
+   "start": "2026-10-30T18:00",
+   "venue": "Current Space",
+   "cost": "$15–19",
+   "free": false,
+   "url": "https://pools.events/event/zmmSicAW/halloween-atp/",
+   "base": 54,
+   "summary": "",
+   "tags": [
+    "dj",
+    "halloween"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-30-fairies-foes-false-lovers-a-celtic-halloween",
+   "area": "baltimore",
+   "title": "Fairies, Foes & False Lovers: A Celtic Halloween",
+   "category": "music",
+   "start": "2026-10-30T19:30",
+   "venue": "Creative Alliance",
+   "cost": "$30–46",
+   "free": false,
+   "url": "https://creativealliance.org/event/fairies-foes-and-false-lovers-a-celtic-halloween/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "folk"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-10-30-the-orb-of-pondering",
+   "area": "baltimore",
+   "title": "The Orb of Pondering",
+   "category": "theater",
+   "start": "2026-10-30T18:00",
+   "venue": "Zion Church",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.zionbaltimore.org/",
+   "base": 40,
+   "summary": "Runs through Nov 7.",
+   "tags": [],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-07"
+  },
+  {
+   "id": "2026-10-30-billy-strings",
+   "area": "baltimore",
+   "title": "Billy Strings",
+   "category": "music",
+   "start": "2026-10-30T20:00",
+   "venue": "CFG Bank Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cfgbankarena.com/event/billy-strings-5/",
+   "base": 32,
+   "summary": "Also Oct 31.",
+   "tags": [
+    "bluegrass"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-10-31-after-life-kore-eda-revival",
+   "area": "baltimore",
+   "title": "After Life (Kore-eda) — Revival",
+   "category": "film",
+   "start": "2026-10-31T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/after-life/",
+   "base": 80,
+   "summary": "The newly dead choose one memory to keep forever. Quietly devastating.",
+   "tags": [
+    "revival",
+    "sad"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-10-31-sun-ra-arkestra-halloween-spectacular",
+   "area": "baltimore",
+   "title": "Sun Ra Arkestra Halloween Spectacular",
+   "category": "music",
+   "start": "2026-10-31T18:00",
+   "venue": "Keystone Korner",
+   "cost": "$20–65",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 84,
+   "summary": "Cosmic big band on its favorite holiday. 6 & 9 p.m.",
+   "tags": [
+    "jazz",
+    "experimental"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-10-31-hampden-halloweenfest",
+   "area": "baltimore",
+   "title": "Hampden Halloweenfest",
+   "category": "festival",
+   "start": "2026-10-31T17:00",
+   "venue": "W. 36th St, Hampden",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.facebook.com/events/hampden/hampden-halloweenfest-2026/1072481895788242/",
+   "base": 44,
+   "summary": "",
+   "tags": [
+    "halloween",
+    "community"
+   ],
+   "source": "Baltimore Fishbowl",
+   "end": "2026-10-31T20:00"
+  },
+  {
+   "id": "2026-10-31-bmore-horror-halloween-costume-dance-party",
+   "area": "baltimore",
+   "title": "Bmore Horror Halloween Costume & Dance Party",
+   "category": "nightlife",
+   "start": "2026-10-31T18:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://peabodyheightsbrewery.com/event/bmore-horror-presents-halloween-costume-dance-party/",
+   "base": 38,
+   "summary": "",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-10-31-creative-alliance-halloween-party-21",
+   "area": "baltimore",
+   "title": "Creative Alliance Halloween Party (21+)",
+   "category": "nightlife",
+   "start": "2026-10-31T20:00",
+   "venue": "Creative Alliance",
+   "cost": "$15–18",
+   "free": false,
+   "url": "https://creativealliance.org/event/halloween-party/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-10-31-surrealism-at-w-c-harlan",
+   "area": "baltimore",
+   "title": "Surrealism at W.C. Harlan",
+   "category": "nightlife",
+   "start": "2026-10-31T19:00",
+   "venue": "W.C. Harlan",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.instagram.com/p/Dd9xsEdt4mC/",
+   "base": 46,
+   "summary": "Speakeasy goes surrealist for Halloween.",
+   "tags": [
+    "cocktails",
+    "halloween"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-31-the-cask-of-amontillado-at-bar-dal",
+   "area": "baltimore",
+   "title": "The Cask of Amontillado at Bar Dalí",
+   "category": "nightlife",
+   "start": "2026-10-31T20:00",
+   "venue": "Bar Dalí, Mount Vernon",
+   "cost": "Free downstairs / $79–99",
+   "free": null,
+   "url": "https://www.bardalibaltimore.com/halloween",
+   "base": 44,
+   "summary": "Poe-themed Halloween.",
+   "tags": [
+    "poe",
+    "halloween"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-31-rocket-to-venus-costume-party",
+   "area": "baltimore",
+   "title": "Rocket to Venus Costume Party",
+   "category": "nightlife",
+   "start": "2026-10-31T22:00",
+   "venue": "Rocket to Venus, Hampden",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.instagram.com/p/Dec6msktz8A/",
+   "base": 34,
+   "summary": "",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-10-31-monster-menagerie",
+   "area": "baltimore",
+   "title": "Monster Menagerie",
+   "category": "festival",
+   "start": "2026-10-31T19:00",
+   "venue": "Manor Mill, Monkton",
+   "cost": "$24–40",
+   "free": false,
+   "url": "https://www.manor-mill.com/event/monster-menagerie",
+   "base": 30,
+   "summary": "",
+   "tags": [
+    "halloween"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-10-31T22:00"
+  },
+  {
+   "id": "2026-11-01-full-circle-dance-ritual-and-revolution",
+   "area": "baltimore",
+   "title": "Full Circle Dance: Ritual and Revolution",
+   "category": "theater",
+   "start": "2026-11-01T14:00",
+   "venue": "Baltimore Museum of Art",
+   "cost": "$25–35",
+   "free": false,
+   "url": "https://artbma.org/event/full-circle-dance-company-presents-ritual-and-revolution/",
+   "base": 44,
+   "summary": "Premieres by five choreographers. 2 & 6 p.m.",
+   "tags": [
+    "dance"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-11-01-exploring-rare-judaica-at-johns-hopkins",
+   "area": "baltimore",
+   "title": "Exploring Rare Judaica at Johns Hopkins",
+   "category": "talk",
+   "start": "2026-11-01T13:00",
+   "venue": "Evergreen Museum, Carriage House",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/exploring-rare-judaica-at-johns-hopkins",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "rare books"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-01T15:00"
+  },
+  {
+   "id": "2026-11-01-the-strayaways",
+   "area": "baltimore",
+   "title": "The Strayaways",
+   "category": "music",
+   "start": "2026-11-01T19:00",
+   "venue": "Creative Alliance",
+   "cost": "$30–46",
+   "free": false,
+   "url": "https://creativealliance.org/event/the-strayaways/",
+   "base": 34,
+   "summary": "",
+   "tags": [
+    "folk"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-11-01-lucy-darling-as-you-wish",
+   "area": "baltimore",
+   "title": "Lucy Darling: As You Wish",
+   "category": "comedy",
+   "start": "2026-11-01T19:30",
+   "venue": "The Lyric",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/lucy-darling-as-you-wish",
+   "base": 40,
+   "summary": "Comedy-magic show. Check time on the listing.",
+   "tags": [
+    "magic"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-02-monthly-pinball-happy-hour",
+   "area": "baltimore",
+   "title": "Monthly Pinball Happy Hour",
+   "category": "nightlife",
+   "start": "2026-11-02T16:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://peabodyheightsbrewery.com/event/monthly-pinball-happy-hour/2026-11-02/",
+   "base": 40,
+   "summary": "",
+   "tags": [
+    "games"
+   ],
+   "source": "Baltimore Beat",
+   "end": "2026-11-02T21:00"
+  },
+  {
+   "id": "2026-11-03-ak-chamel-ecology-homestones",
+   "area": "baltimore",
+   "title": "Ak'chamel, Ecology Homestones",
+   "category": "music",
+   "start": "2026-11-03T19:00",
+   "venue": "Ottobar",
+   "cost": "$28",
+   "free": false,
+   "url": "https://theottobar.com/event/akchamel-ecology-homestones/ottobar/baltimore-maryland/",
+   "base": 60,
+   "summary": "Texas psych-drone collective.",
+   "tags": [
+    "experimental",
+    "drone"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-03-hubert-laws-w-peabody-graduate-jazz-ensemble",
+   "area": "baltimore",
+   "title": "Hubert Laws w/ Peabody Graduate Jazz Ensemble",
+   "category": "music",
+   "start": "2026-11-03T19:00",
+   "venue": "Keystone Korner",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 66,
+   "summary": "Flute legend, free Education Series night.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-04-paris-marx-hyperscale",
+   "area": "baltimore",
+   "title": "Paris Marx: Hyperscale",
+   "category": "talk",
+   "start": "2026-11-04T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/paris-marx-presents-hyperscale-the-ambition-and-excess-of-big-tech-s-data-empires/",
+   "base": 60,
+   "summary": "Tech-critic and podcaster on Big Tech data centers.",
+   "tags": [
+    "books",
+    "tech",
+    "podcast"
+   ],
+   "source": "Baltimore Beat"
+  },
+  {
+   "id": "2026-11-04-david-hockney-at-the-royal-academy-exhibition-on-screen",
+   "area": "baltimore",
+   "title": "David Hockney at the Royal Academy (Exhibition on Screen)",
+   "category": "film",
+   "start": "2026-11-04T19:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/david-hockney-at-the-royal-academy-of-arts/",
+   "base": 48,
+   "summary": "Also Sat Nov 7, 11:45 a.m.",
+   "tags": [
+    "art doc"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-04-peabody-jazz-faculty",
+   "area": "baltimore",
+   "title": "Peabody Jazz Faculty",
+   "category": "music",
+   "start": "2026-11-04T19:00",
+   "venue": "Keystone Korner",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 54,
+   "summary": "",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-05-twin-peaks-season-two-eps-4-5",
+   "area": "baltimore",
+   "title": "Twin Peaks Season Two, Eps 4–5",
+   "category": "film",
+   "start": "2026-11-05T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-4-5/",
+   "base": 74,
+   "summary": "One night only.",
+   "tags": [
+    "tv",
+    "lynch"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-05-free-first-thursday",
+   "area": "baltimore",
+   "title": "Free First Thursday",
+   "category": "museum",
+   "start": "2026-11-05T10:00",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/free-first-thursday-6669",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "history"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-05T17:00"
+  },
+  {
+   "id": "2026-11-05-unofficial-improvised-musical",
+   "area": "baltimore",
+   "title": "Unofficial! Improvised Musical",
+   "category": "comedy",
+   "start": "2026-11-05T19:00",
+   "venue": "Baltimore Improv Group",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/free-show-unofficial-improvised-musical-at-baltimore-improv-group",
+   "base": 44,
+   "summary": "",
+   "tags": [
+    "improv"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-05-room-corners-w-geeker-calico",
+   "area": "baltimore",
+   "title": "Room Corners w/ Geeker & Calico",
+   "category": "music",
+   "start": "2026-11-05T19:00",
+   "venue": "Metro Baltimore",
+   "cost": "$15",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/room-corners-with-geeker-and-calico-at-metro-baltimore",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "indie"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-05-built-to-spill",
+   "area": "baltimore",
+   "title": "Built to Spill",
+   "category": "music",
+   "start": "2026-11-05T19:00",
+   "venue": "Union Craft Brewing",
+   "cost": "Sold out",
+   "free": false,
+   "url": "https://theottobar.com/event/built-to-spill-fall-2026-tour/union-craft-brewing/baltimore-maryland/",
+   "base": 52,
+   "summary": "Sold out — resale only.",
+   "tags": [
+    "indie"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-05-make-and-mingle-diy-fashion-show",
+   "area": "baltimore",
+   "title": "Make and Mingle: DIY Fashion Show",
+   "category": "museum",
+   "start": "2026-11-05T18:00",
+   "venue": "Walters Art Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thewalters.org/event/make-mingle-fashion/",
+   "base": 38,
+   "summary": "",
+   "tags": [
+    "making"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-05T19:30"
+  },
+  {
+   "id": "2026-11-06-sweaty-eyeballs-animation-festival",
+   "area": "baltimore",
+   "title": "Sweaty Eyeballs Animation Festival",
+   "category": "film",
+   "start": "2026-11-06T19:00",
+   "venue": "MICA Falvey Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.sweatyeyeballs.com/",
+   "base": 72,
+   "summary": "International and Baltimore animated shorts, Nov 6–7; companion show at Area 405.",
+   "tags": [
+    "animation",
+    "festival"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-07"
+  },
+  {
+   "id": "2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol",
+   "area": "baltimore",
+   "title": "Arbouretum, Stinking Lizaveta, Deathbird Earth, Darsombra Sol",
+   "category": "music",
+   "start": "2026-11-06T20:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/",
+   "base": 64,
+   "summary": "All-Baltimore heavy-psych bill.",
+   "tags": [
+    "psych",
+    "local"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-06-norman-brown",
+   "area": "baltimore",
+   "title": "Norman Brown",
+   "category": "music",
+   "start": "2026-11-06T18:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 34,
+   "summary": "Smooth jazz guitar. Also Nov 7.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-07-sabotage-hitchcock-1936-revival",
+   "area": "baltimore",
+   "title": "Sabotage (Hitchcock, 1936) — Revival",
+   "category": "film",
+   "start": "2026-11-07T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/sabotage/",
+   "base": 72,
+   "summary": "",
+   "tags": [
+    "revival",
+    "hitchcock"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-07-luxury-loss-opening-day-artist-talks",
+   "area": "baltimore",
+   "title": "Luxury & Loss opening-day artist talks",
+   "category": "museum",
+   "start": "2026-11-07T15:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/luxury-loss-opening/",
+   "base": 56,
+   "summary": "New exhibition opens.",
+   "tags": [
+    "exhibition"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-07T16:00"
+  },
+  {
+   "id": "2026-11-07-bank-of-america-museums-on-us-free-admission",
+   "area": "baltimore",
+   "title": "Bank of America Museums on Us: free admission",
+   "category": "museum",
+   "start": "2026-11-07T10:00",
+   "venue": "Maryland Science Center & Reginald F. Lewis Museum",
+   "cost": "Free (BofA card)",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/bank-of-america-museums-on-us-offers-free-admission-november-7th-and-8th-630",
+   "base": 30,
+   "summary": "Nov 7–8.",
+   "tags": [
+    "museum"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-07-mini-maker-s-market-sweater-weather",
+   "area": "baltimore",
+   "title": "Mini Maker's Market: Sweater Weather",
+   "category": "food",
+   "start": "2026-11-07T12:00",
+   "venue": "R. House",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/mini-makers-market-sweater-weather",
+   "base": 38,
+   "summary": "",
+   "tags": [
+    "market",
+    "maker"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-07T18:00"
+  },
+  {
+   "id": "2026-11-07-eswa-holiday-book-festival",
+   "area": "baltimore",
+   "title": "ESWA Holiday Book Festival",
+   "category": "talk",
+   "start": "2026-11-07T12:00",
+   "venue": "Cult Classic Brewing",
+   "cost": "Free",
+   "free": true,
+   "url": "https://events.baltimoremagazine.com/event/eswa-holiday-book-festival-at-cult-classic",
+   "base": 36,
+   "summary": "",
+   "tags": [
+    "books"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-07T16:00"
+  },
+  {
+   "id": "2026-11-07-it-s-not-all-online-discover-your-family-history",
+   "area": "baltimore",
+   "title": "It's Not All Online: Discover Your Family History",
+   "category": "talk",
+   "start": "2026-11-07T11:00",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "$15",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/its-not-all-online-discover-your-family-history",
+   "base": 38,
+   "summary": "",
+   "tags": [
+    "history"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-07T14:00"
+  },
+  {
+   "id": "2026-11-08-afghan-whigs-soft-control-tour",
+   "area": "baltimore",
+   "title": "Afghan Whigs: Soft Control Tour",
+   "category": "music",
+   "start": "2026-11-08T19:30",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimoresoundstage.com/events/afghan-whigs/",
+   "base": 50,
+   "summary": "",
+   "tags": [
+    "rock"
+   ],
+   "source": "Baltimore Soundstage"
+  },
+  {
+   "id": "2026-11-08-hubert-laws",
+   "area": "baltimore",
+   "title": "Hubert Laws",
+   "category": "music",
+   "start": "2026-11-08T17:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 58,
+   "summary": "5 & 8 p.m.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-08-curator-tour-impermanence-and-buddhist-art",
+   "area": "baltimore",
+   "title": "Curator Tour: Impermanence and Buddhist Art",
+   "category": "museum",
+   "start": "2026-11-08T14:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/curator-tour-impermanence-and-buddhist-art/",
+   "base": 54,
+   "summary": "",
+   "tags": [
+    "tour"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-08T14:30"
+  },
+  {
+   "id": "2026-11-10-ami-taf-ra-kamasi-washington",
+   "area": "baltimore",
+   "title": "Ami Taf Ra & Kamasi Washington",
+   "category": "music",
+   "start": "2026-11-10T19:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 80,
+   "summary": "Kamasi Washington in a 150-seat jazz club.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-11-the-u-s-army-blues",
+   "area": "baltimore",
+   "title": "The U.S. Army Blues",
+   "category": "music",
+   "start": "2026-11-11T19:00",
+   "venue": "Keystone Korner",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 40,
+   "summary": "Veterans Day big band.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-11-bedlam-brass-band-bwncr-krime-slugs",
+   "area": "baltimore",
+   "title": "Bedlam Brass Band, bwncr, Krime Slugs",
+   "category": "music",
+   "start": "2026-11-11T19:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/event/bedlam-brass-band-bwncr-krime-slugs/ottobar/baltimore-maryland/",
+   "base": 44,
+   "summary": "",
+   "tags": [
+    "local"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-12-i-shot-andy-warhol-one-night-only",
+   "area": "baltimore",
+   "title": "I Shot Andy Warhol — one night only",
+   "category": "film",
+   "start": "2026-11-12T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/i-shot-andy-warhol/",
+   "base": 66,
+   "summary": "Lili Taylor as Valerie Solanas.",
+   "tags": [
+    "revival"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-12-express-explore-tour-contemporary-interventions",
+   "area": "baltimore",
+   "title": "Express & Explore Tour: Contemporary Interventions",
+   "category": "museum",
+   "start": "2026-11-12T18:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/eetour-contemporary/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "tour"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-12T18:30"
+  },
+  {
+   "id": "2026-11-13-ebban-ephraim-dorsey",
+   "area": "baltimore",
+   "title": "Ebban & Ephraim Dorsey",
+   "category": "music",
+   "start": "2026-11-13T21:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 54,
+   "summary": "Young Baltimore jazz siblings, late set.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-14-vertigo-hitchcock-revival",
+   "area": "baltimore",
+   "title": "Vertigo (Hitchcock) — Revival",
+   "category": "film",
+   "start": "2026-11-14T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/vertigo/",
+   "base": 78,
+   "summary": "",
+   "tags": [
+    "revival",
+    "hitchcock"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-14-maryland-irish-festival",
+   "area": "baltimore",
+   "title": "Maryland Irish Festival",
+   "category": "festival",
+   "start": "2026-11-14T12:00",
+   "venue": "Timonium Fairgrounds",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/maryland-irish-festival",
+   "base": 30,
+   "summary": "",
+   "tags": [
+    "festival"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-14T23:00"
+  },
+  {
+   "id": "2026-11-14-political-appetites-food-in-revolutionary-america-nancy-sieg",
+   "area": "baltimore",
+   "title": "Political Appetites: Food in Revolutionary America (Nancy Siegel)",
+   "category": "talk",
+   "start": "2026-11-14T11:00",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "$15–30",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/wye-oak-seriespolitical-appetites-the-power-of-food-in-revolutionary-america-with-nancy-siegel",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "history",
+    "food"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-14T12:30"
+  },
+  {
+   "id": "2026-11-14-dam-jam-festival",
+   "area": "baltimore",
+   "title": "Dam Jam Festival",
+   "category": "festival",
+   "start": "2026-11-14T10:00",
+   "venue": "Lake Roland Park",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/dam-jam-festival-3025",
+   "base": 34,
+   "summary": "",
+   "tags": [
+    "outdoors"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-14T14:00"
+  },
+  {
+   "id": "2026-11-14-family-day-friends-and-food",
+   "area": "baltimore",
+   "title": "Family Day: Friends and Food",
+   "category": "museum",
+   "start": "2026-11-14T13:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/family-day-friends-and-food/",
+   "base": 24,
+   "summary": "",
+   "tags": [
+    "family"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-14T16:00"
+  },
+  {
+   "id": "2026-11-15-the-bad-plus-farewell-tour",
+   "area": "baltimore",
+   "title": "The Bad Plus: Farewell Tour",
+   "category": "music",
+   "start": "2026-11-15T17:00",
+   "venue": "Keystone Korner",
+   "cost": "$15–50",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 74,
+   "summary": "Last chance for the genre-bending jazz trio. 5 & 7:30 p.m.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-15-profs-pints-the-course-of-the-appalachian-trail",
+   "area": "baltimore",
+   "title": "Profs & Pints: The Course of the Appalachian Trail",
+   "category": "talk",
+   "start": "2026-11-15T16:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50–17",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/profs-pints-baltimore-the-course-of-the-appalachian-trail",
+   "base": 46,
+   "summary": "",
+   "tags": [
+    "history",
+    "outdoors"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-15T18:30"
+  },
+  {
+   "id": "2026-11-15-greyhaven-w-fox-lake-commoner",
+   "area": "baltimore",
+   "title": "Greyhaven w/ Fox Lake & Commoner",
+   "category": "music",
+   "start": "2026-11-15T19:00",
+   "venue": "Metro Baltimore",
+   "cost": "$25",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/greyhaven-with-fox-lake-and-commoner-metro-baltimore",
+   "base": 30,
+   "summary": "",
+   "tags": [
+    "rock"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-15-beethoven-s-5th-symphony",
+   "area": "baltimore",
+   "title": "Beethoven's 5th Symphony",
+   "category": "music",
+   "start": "2026-11-15T16:00",
+   "venue": "Church of the Redeemer",
+   "cost": "$39–45",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/beethovens-5th-symphony",
+   "base": 36,
+   "summary": "",
+   "tags": [
+    "classical"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-18-brooke-candy-w-bbyafricka-mel-4ever",
+   "area": "baltimore",
+   "title": "Brooke Candy w/ BbyAfricka & Mel 4Ever",
+   "category": "music",
+   "start": "2026-11-18T19:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/event/brooke-candy-with-bbyafricka-and-mel-4ever/ottobar/baltimore-maryland/",
+   "base": 36,
+   "summary": "",
+   "tags": [
+    "pop"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-19-twin-peaks-season-two-eps-6-7",
+   "area": "baltimore",
+   "title": "Twin Peaks Season Two, Eps 6–7",
+   "category": "film",
+   "start": "2026-11-19T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/twin-peaks-season-two-episodes-6-7/",
+   "base": 72,
+   "summary": "One night only.",
+   "tags": [
+    "tv",
+    "lynch"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-19-sketching-sessions",
+   "area": "baltimore",
+   "title": "Sketching Sessions",
+   "category": "museum",
+   "start": "2026-11-19T18:00",
+   "venue": "Walters Art Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thewalters.org/event/sketching-sessions-2/",
+   "base": 44,
+   "summary": "Drawing in the Across Asia galleries.",
+   "tags": [
+    "drawing"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-19T19:30"
+  },
+  {
+   "id": "2026-11-19-the-menzingers",
+   "area": "baltimore",
+   "title": "The Menzingers",
+   "category": "music",
+   "start": "2026-11-19T19:00",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimoresoundstage.com/events/the-menzingers-everything-i-ever-saw-north-american-tour/",
+   "base": 32,
+   "summary": "",
+   "tags": [
+    "punk"
+   ],
+   "source": "Baltimore Soundstage"
+  },
+  {
+   "id": "2026-11-20-bat-club-goth-dance-party",
+   "area": "baltimore",
+   "title": "Bat Club: Goth Dance Party",
+   "category": "nightlife",
+   "start": "2026-11-20T20:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/event/bat-club-goth-dance-party-2/ottobar/baltimore-maryland/",
+   "base": 42,
+   "summary": "",
+   "tags": [
+    "goth",
+    "dj"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-20-kim-waters",
+   "area": "baltimore",
+   "title": "Kim Waters",
+   "category": "music",
+   "start": "2026-11-20T18:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 28,
+   "summary": "",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-21-out-of-the-past-tourneur-revival",
+   "area": "baltimore",
+   "title": "Out of the Past (Tourneur) — Revival",
+   "category": "film",
+   "start": "2026-11-21T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/out-of-the-past/",
+   "base": 78,
+   "summary": "Robert Mitchum noir; Kirk Douglas and a great bench of character actors.",
+   "tags": [
+    "revival",
+    "noir",
+    "character actors"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-21-matt-mccusker",
+   "area": "baltimore",
+   "title": "Matt McCusker",
+   "category": "comedy",
+   "start": "2026-11-21T19:00",
+   "venue": "The Lyric",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/matt-mccusker",
+   "base": 46,
+   "summary": "",
+   "tags": [
+    "stand-up"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-21-secret-society-big-band",
+   "area": "baltimore",
+   "title": "Secret Society (big band)",
+   "category": "music",
+   "start": "2026-11-21T18:00",
+   "venue": "Keystone Korner",
+   "cost": "$15–45",
+   "free": false,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 48,
+   "summary": "6 & 8:30 p.m.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-21-b-o-unlocked-b-o-no-147",
+   "area": "baltimore",
+   "title": "B&O Unlocked: B&O No. 147",
+   "category": "museum",
+   "start": "2026-11-21T10:00",
+   "venue": "B&O Railroad Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/bo-unlocked-bo-no-147",
+   "base": 44,
+   "summary": "Climb into a rarely opened locomotive.",
+   "tags": [
+    "history",
+    "trains"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-21T16:00"
+  },
+  {
+   "id": "2026-11-21-under-2500-art-sale",
+   "area": "baltimore",
+   "title": "Under $2500 (art sale)",
+   "category": "museum",
+   "start": "2026-11-21T12:00",
+   "venue": "Maryland Art Place",
+   "cost": "See site",
+   "free": null,
+   "url": "https://events.baltimoremagazine.com/event/under-2500-5172",
+   "base": 40,
+   "summary": "Benefit art sale.",
+   "tags": [
+    "art",
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-21T16:00"
+  },
+  {
+   "id": "2026-11-21-alicia-keys-hell-s-kitchen",
+   "area": "baltimore",
+   "title": "Alicia Keys' Hell's Kitchen",
+   "category": "theater",
+   "start": "2026-11-21T14:00",
+   "venue": "Hippodrome Theatre",
+   "cost": "$89–244",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/alicia-keys-hells-kitchen",
+   "base": 30,
+   "summary": "",
+   "tags": [
+    "musical"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-22-sunday-screening-the-wild-robot",
+   "area": "baltimore",
+   "title": "Sunday Screening: The Wild Robot",
+   "category": "film",
+   "start": "2026-11-22T13:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/the-wild-robot/",
+   "base": 30,
+   "summary": "",
+   "tags": [
+    "family"
+   ],
+   "source": "The Walters",
+   "end": "2026-11-22T16:00"
+  },
+  {
+   "id": "2026-11-24-kurt-vile-and-the-violators-w-twisted-teens",
+   "area": "baltimore",
+   "title": "Kurt Vile and the Violators w/ Twisted Teens",
+   "category": "music",
+   "start": "2026-11-24T19:00",
+   "venue": "Ottobar",
+   "cost": "Sold out",
+   "free": false,
+   "url": "https://theottobar.com/event/kurt-vile-and-the-violators-twisted-teens/ottobar/baltimore-maryland/",
+   "base": 52,
+   "summary": "Sold out — resale only.",
+   "tags": [
+    "indie"
+   ],
+   "source": "Ottobar"
+  },
+  {
+   "id": "2026-11-25-todd-marcus-virginia-macdonald-quintet",
+   "area": "baltimore",
+   "title": "Todd Marcus & Virginia MacDonald Quintet",
+   "category": "music",
+   "start": "2026-11-25T19:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 56,
+   "summary": "Bass clarinet-led Baltimore jazz.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Keystone Korner"
+  },
+  {
+   "id": "2026-11-27-the-emo-show-black-parade-friday",
+   "area": "baltimore",
+   "title": "The Emo Show: Black Parade Friday",
+   "category": "nightlife",
+   "start": "2026-11-27T18:30",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimoresoundstage.com/events/the-emo-show-black-parade-friday-2/",
+   "base": 24,
+   "summary": "",
+   "tags": [
+    "dj"
+   ],
+   "source": "Baltimore Soundstage"
+  },
+  {
+   "id": "2026-11-28-lolita-kubrick-revival",
+   "area": "baltimore",
+   "title": "Lolita (Kubrick) — Revival",
+   "category": "film",
+   "start": "2026-11-28T11:30",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movie/lolita/",
+   "base": 62,
+   "summary": "James Mason and Peter Sellers.",
+   "tags": [
+    "revival"
+   ],
+   "source": "The Charles"
+  },
+  {
+   "id": "2026-11-28-the-charm-city-junction",
+   "area": "baltimore",
+   "title": "The Charm City Junction",
+   "category": "music",
+   "start": "2026-11-28T19:00",
+   "venue": "Stony Run Friends Meeting House",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43389323-charm-city-junction-at-stony-run-friends-meeting-house",
+   "base": 40,
+   "summary": "Local Celtic-bluegrass.",
+   "tags": [
+    "folk",
+    "local"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-29-carl-filipiak-quartet-feat-lafayette-gilchrist",
+   "area": "baltimore",
+   "title": "Carl Filipiak Quartet feat. Lafayette Gilchrist",
+   "category": "music",
+   "start": "2026-11-29T17:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.keystonekornerbaltimore.com/",
+   "base": 60,
+   "summary": "Fusion guitar with Baltimore's great pianist. 5 & 7:30 p.m.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Keystone Korner"
+  }
+ ]
+}

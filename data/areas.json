@@ -1,0 +1,11 @@
+{
+  "areas": [
+    {
+      "id": "baltimore",
+      "name": "Baltimore, MD",
+      "home": true,
+      "timezone": "America/New_York",
+      "note": "Home area. Researched every week for the next six weeks."
+    }
+  ]
+}

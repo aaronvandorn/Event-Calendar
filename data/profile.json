@@ -1,0 +1,25 @@
+{
+ "about": "Taste notes the weekly agent uses to set each event's base score (0-100). Edit freely; feedback on the calendar is learned on top of this.",
+ "likes": [
+  "Repertory and revival film, noir, Hitchcock, Lynch; character actors and sad, humane stories",
+  "Electronic, experimental, ambient and microhouse-adjacent music; DJ nights at artist-run spaces",
+  "Jazz, especially adventurous or spiritual jazz in small rooms",
+  "DIY electronics, synths, maker fairs, hardware hacking",
+  "Historic architecture, old houses, Victorian history, walking tours",
+  "Photography and contemporary art exhibitions; small galleries",
+  "Storytelling, author talks, podcasts and interview-style events",
+  "Gardening and nature programs"
+ ],
+ "lessLikely": [
+  "Arena pop and tribute acts",
+  "Kids-only programming",
+  "Sports",
+  "Pub crawls and generic bar parties"
+ ],
+ "learned": {
+  "updated": "2026-10-22T13:24",
+  "category": {},
+  "venue": {},
+  "tag": {}
+ }
+}
