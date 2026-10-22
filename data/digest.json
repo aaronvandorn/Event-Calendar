@@ -1,7 +1,7 @@
 {
-  "about": "Who gets the Weekend Events Digest. The weekly agent emails only 'recipients'. Move an address from 'pending' to 'recipients' once Aaron approves.",
-  "recipients": ["[address removed]"],
-  "pending": ["[address removed]"],
+  "about": "Who gets the Weekend Events Digest. Email addresses are NOT kept in this public repo; they live only in the scheduled task's instructions in Claude. Names here just record who is on the list.",
+  "recipients": ["Aaron"],
+  "pending": ["Stacey"],
   "send": "Thursday around lunch, America/New_York",
   "weekend": "Friday through Sunday after the send date"
 }

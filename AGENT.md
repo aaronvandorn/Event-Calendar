@@ -15,7 +15,7 @@ Goal: refresh `data/events.json` with events Aaron is likely to enjoy, learn fro
 - `data/feedback.json` — flags set on the calendar. Version 2: `items[id].by[person] = {status, ts}` (`interested`, `not_interested`, or empty = cleared), plus a snapshot of the event's category, venue and tags. An old-style item with a top-level `status` is Aaron's; the tool handles both.
 - `data/areas.json` — Baltimore (home) plus any trips (`from`/`to` dates).
 - `data/taste.json` — a plain-language summary per person of what you've learned about their tastes. It is shown and editable in the calendar's Settings.
-- `data/digest.json` — who gets the email. **Only email `recipients`. Never email anyone in `pending`.**
+- `data/digest.json` — who is on the email list, by name. **Email addresses are never stored in this repo**; they are in the scheduled task's own instructions. Never write an email address into any file here.
 - Run `python3 scripts/calendar_tool.py learn` and read its per-person summary. Search harder for categories, venues and tags either person flags Interested, and especially for things both flagged (♥). Something one person marks Not interested is fine to keep if the other might like it; things both reject get less coverage.
 
 ### Taste summaries (`data/taste.json`)
@@ -86,7 +86,7 @@ The page shows at most 10 events per day (highest `base` + the viewer's learned 
   If a trip overlaps that weekend, also build one for the trip area (`--area <id> --area-name "<Name>" --out digests/<FRI>-<id>`) and send it as its own email.
 - The digest ranks by both people's learned scores, puts flagged events first, marks them `★ Name` or `♥ Aaron & Stacey`, and drops events someone rejected unless the other person is interested.
 - Read `digests/<FRI>.txt` and sanity-check it: dates right, nothing both rejected, links present.
-- Send with the connected Gmail (`send_message`) **to each address in `data/digest.json → recipients` only**, every week, even if it's thin:
+- Send with the connected Gmail (`send_message`) **only to the addresses listed in your scheduled task's instructions**, every week, even if it's thin:
   - Subject: `Weekend Events Digest · <Fri Mon D> – <Sun Mon D>`
   - HTML body: contents of `digests/<FRI>.html`; plain-text body: contents of `digests/<FRI>.txt`.
 
