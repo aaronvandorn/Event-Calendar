@@ -168,6 +168,7 @@ dialog::backdrop{background:var(--scrim)}
 .dlg fieldset{border:1px solid var(--line);border-radius:6px;padding:10px 12px;display:grid;gap:8px;margin:0}
 .dlg legend{padding:0 6px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
 .hint{color:var(--muted);font-size:14px}
+.dlg textarea{width:100%;background:var(--well);border:1px solid var(--line);border-radius:4px;padding:8px 10px;font:inherit;font-size:15px;line-height:1.4;color:var(--ink);resize:vertical}
 .pill{display:inline-block;border:1px solid var(--c,var(--line));color:var(--c,var(--muted));border-radius:10px;padding:0 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
 .sw{display:inline-block;width:42px;height:16px;border-radius:3px;vertical-align:middle;background:var(--c-museum)}
 .sw.free{background-image:repeating-linear-gradient(135deg,transparent 0 6px,var(--stripe) 6px 9px)}
@@ -253,6 +254,13 @@ dialog::backdrop{background:var(--scrim)}
       <label class="toggle"><input type="checkbox" id="showHidden"> Show events I marked Not interested</label>
     </fieldset>
     <fieldset>
+      <legend>What the agent has learned</legend>
+      <div class="row"><select class="sel" id="tastePerson" aria-label="Whose tastes"></select><span class="hint" id="tasteMeta"></span></div>
+      <p class="hint" id="tasteLive"></p>
+      <textarea id="tasteText" rows="14" spellcheck="true" aria-label="What the agent has learned"></textarea>
+      <div class="row"><button class="btn small primary" id="saveTaste">Save changes</button><span class="hint">Edit anything that's wrong or missing. The agent treats your edits as fact and builds on them each week.</span></div>
+    </fieldset>
+    <fieldset>
       <legend>Key</legend>
       <p class="hint">Color = event type. <span class="sw free" style="--c-museum:var(--c-museum)"></span> Diagonal stripe = free. ★ = you flagged Interested, ☆ = the other person did, ♥ = you both did. The orange count badge means more than ten events that day — open the day to see the rest.</p>
     </fieldset>
@@ -284,6 +292,7 @@ const S = {
   feedback: normalizeAll(store.get("ec.feedback", {})),
   people: [{id:"aaron", name:"Aaron"}, {id:"stacey", name:"Stacey"}],
   person: store.get("ec.person", "aaron"),
+  taste: {people:{}},
   view: "month", cursor: today(), area: store.get("ec.area", "baltimore"),
   mode: "all", freeOnly: false, showHidden: false,
   cats: store.get("ec.cats", Object.fromEntries(Object.keys(CATS).map(k=>[k,true]))),
@@ -653,7 +662,7 @@ function renderPeople(){
 }
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
-$("#settingsBtn").onclick = () => { $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
+$("#settingsBtn").onclick = () => { renderTaste(S.person); $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
 $("#tokenForm").onsubmit = async ev => {
   ev.preventDefault();
   const t = $("#tokenIn").value.trim();
@@ -674,6 +683,41 @@ async function tokenFromPasswordManager(){
   }catch(e){}
 }
 $("#syncNow").onclick = () => syncFeedback();
+
+/* ---------- what the agent has learned (data/taste.json) */
+function liveLean(pid){
+  const L = learned(pid), cat = Object.entries(L.category).map(([k,a]) => [k, aff(L.category,k), a]);
+  const nI = Object.values(S.feedback).filter(f => f.by?.[pid]?.status === "interested").length;
+  const nN = Object.values(S.feedback).filter(f => f.by?.[pid]?.status === "not_interested").length;
+  if(!nI && !nN) return `${pname(pid)} hasn't flagged anything yet.`;
+  const lab = k => CATS[k]?.label || k;
+  const up = cat.filter(c => c[1] > 0).sort((a,b) => b[1]-a[1]).slice(0,4).map(c => lab(c[0]));
+  const down = cat.filter(c => c[1] < 0).sort((a,b) => a[1]-b[1]).slice(0,3).map(c => lab(c[0]));
+  return `Live from flags: ${nI} Interested, ${nN} Not interested.` + (up.length ? ` Leaning toward ${up.join(", ")}.` : "") + (down.length ? ` Away from ${down.join(", ")}.` : "");
+}
+function renderTaste(pid = $("#tastePerson").value || S.person){
+  $("#tastePerson").innerHTML = S.people.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join("");
+  $("#tastePerson").value = pid;
+  const t = S.taste.people?.[pid] || {};
+  $("#tasteText").value = t.summary || "";
+  const when = t.updated ? new Date(t.updated) : null;
+  $("#tasteMeta").textContent = when ? `Last updated ${MON[when.getMonth()]} ${when.getDate()} by ${t.updatedBy === "agent" ? "the agent" : pname(t.updatedBy)}` : "";
+  $("#tasteLive").textContent = liveLean(pid);
+}
+$("#tastePerson").onchange = e => renderTaste(e.target.value);
+$("#saveTaste").onclick = async () => {
+  const pid = $("#tastePerson").value, summary = $("#tasteText").value.trim();
+  if(!token()){ toast("Save a GitHub token above first"); return; }
+  try{
+    const next = await putJson("data/taste.json", cur => {
+      const o = cur || {people:{}};
+      o.people = o.people || {};
+      o.people[pid] = {summary, updated:new Date().toISOString(), updatedBy:S.person};
+      return o;
+    }, `Edit learned tastes for ${pname(pid)}`);
+    S.taste = next; renderTaste(pid); toast("Saved — the agent will use this next run");
+  }catch(err){ toast(`Couldn't save (${err.message})`); }
+};
 $("#dlIcs").onclick = () => download(`event-calendar-${S.person}.ics`, icsFor(S.events.filter(e => status(e) === "interested")), "text/calendar");
 $("#dlFb").onclick = () => download("feedback.json", JSON.stringify({version:2, updated:new Date().toISOString(), items:S.feedback}, null, 1), "application/json");
 $("#addTrip").onclick = async () => {
@@ -709,12 +753,14 @@ function readHash(){
   renderLegend();
   const bust = `?v=${Date.now()}`;
   try{
-    const [ev, ar, fb, pp] = await Promise.all([
+    const [ev, ar, fb, pp, tt] = await Promise.all([
       fetch("data/events.json"+bust).then(r => r.json()),
       fetch("data/areas.json"+bust).then(r => r.json()).catch(() => ({areas:[]})),
       fetch("data/feedback.json"+bust).then(r => r.json()).catch(() => ({items:{}})),
-      fetch("data/people.json"+bust).then(r => r.json()).catch(() => null)
+      fetch("data/people.json"+bust).then(r => r.json()).catch(() => null),
+      fetch("data/taste.json"+bust).then(r => r.json()).catch(() => ({people:{}}))
     ]);
+    S.taste = tt;
     if(pp?.people?.length) S.people = pp.people;
     S.events = ev.events || []; S.updated = ev.updated; S.areas = ar.areas || [];
     // merge flags synced from other devices and people: per person, newer timestamp wins

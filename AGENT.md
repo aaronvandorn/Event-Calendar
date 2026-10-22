@@ -1,6 +1,8 @@
 # Weekly run — Event Calendar
 
-This is the runbook the scheduled agent follows every Thursday around lunch (America/New_York).
+This is the runbook for two scheduled runs (America/New_York):
+- **Thursday ~11:40 a.m. — full run:** every step below, including the digest email.
+- **Monday ~8:30 a.m. — mid-week refresh:** every step except 4 (no digest, no email). Focus research on the next 10 days and newly announced events.
 Goal: refresh `data/events.json` with events Aaron is likely to enjoy, learn from his flags, publish the site, and email the Weekend Events Digest.
 
 ## 0. Setup
@@ -12,8 +14,13 @@ Goal: refresh `data/events.json` with events Aaron is likely to enjoy, learn fro
 - `data/people.json` — who flags on the calendar (Aaron, Stacey).
 - `data/feedback.json` — flags set on the calendar. Version 2: `items[id].by[person] = {status, ts}` (`interested`, `not_interested`, or empty = cleared), plus a snapshot of the event's category, venue and tags. An old-style item with a top-level `status` is Aaron's; the tool handles both.
 - `data/areas.json` — Baltimore (home) plus any trips (`from`/`to` dates).
+- `data/taste.json` — a plain-language summary per person of what you've learned about their tastes. It is shown and editable in the calendar's Settings.
 - `data/digest.json` — who gets the email. **Only email `recipients`. Never email anyone in `pending`.**
 - Run `python3 scripts/calendar_tool.py learn` and read its per-person summary. Search harder for categories, venues and tags either person flags Interested, and especially for things both flagged (♥). Something one person marks Not interested is fine to keep if the other might like it; things both reject get less coverage.
+
+### Taste summaries (`data/taste.json`)
+- If a person's entry has `updatedBy` other than `"agent"`, that person (or their partner) edited it: **every statement in it is authoritative.** Keep those statements, follow them when scoring and researching, and never contradict or quietly drop them. Also fold any new likes/dislikes from the edit into `profile.json` (`likes` / `lessLikely` for Aaron, `people.<id>.likes` for others).
+- At the end of every run, rewrite each person's `summary` in plain language (short bullet lines, no jargon, no scores): what they clearly like, what they pass on, any shift since last time, and how many flags it's based on. Preserve user-written statements verbatim or near-verbatim, under a line such as "You told me:". Set `updated` to now and `updatedBy` to `"agent"`.
 
 ## 2. Research
 Windows:
@@ -84,4 +91,6 @@ The page shows at most 10 events per day (highest `base` + the viewer's learned 
 - `git push origin main`. The site is GitHub Pages from `main` at https://aaronvandorn.github.io/Event-Calendar/
 
 ## 6. Finish
+On the Monday refresh, skip step 4 and say so in the summary.
+
 Reply with a short summary: events added/updated per area, flags per person and how many both liked, what the learning shifted, and confirmation the email went out (to whom).

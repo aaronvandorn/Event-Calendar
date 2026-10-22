@@ -1,0 +1,15 @@
+{
+ "about": "Plain-language summary of what the agent has learned about each person's tastes. Shown and editable under Settings on the calendar. When a person edits their summary, the agent treats every statement in it as correct and keeps it.",
+ "people": {
+  "aaron": {
+   "summary": "Starting point (from what I know of you):\n- Big yes: repertory and revival film — noir, Hitchcock, Lynch, character actors, sad and humane stories.\n- Electronic, experimental and ambient music; DJ nights at artist-run spaces like Current Space.\n- Adventurous jazz in small rooms (Keystone Korner).\n- DIY electronics, synths and maker fairs.\n- Historic buildings, old houses, Victorian history and walking tours.\n- Photography and contemporary art, small galleries.\n- Storytelling, author talks and interview-style events.\n- Gardening and nature programs.\n- Less likely: arena pop and tribute acts, kids-only programming, sports, pub crawls.\n\nFrom your flags so far (9 Interested, none Not interested):\n- You leaned toward free, outdoor and community events: Doors Open Baltimore, the Lantern Parade, Mushroom City Arts Festival and a microgreens workshop at Filbert Street Garden.\n- Also flagged: a drum & bass night (Junglist Heights), the Bmore Horror Film Fest, Beth Lapides' comedy show, Everyman Theatre's Different Words for Happiness and a free chamber concert (Trio Sirènes).\n- Takeaway: comedy, theater and classical concerts are more welcome than I assumed, and festivals and gardening deserve more room.",
+   "updated": "2026-10-22T15:10:00-04:00",
+   "updatedBy": "agent"
+  },
+  "stacey": {
+   "summary": "Nothing learned yet. As Stacey flags events Interested or Not interested, this fills in. You can also write what she likes here and the agent will use it.",
+   "updated": "2026-10-22T15:10:00-04:00",
+   "updatedBy": "agent"
+  }
+ }
+}

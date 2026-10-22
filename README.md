@@ -1,6 +1,6 @@
 # Event Calendar
 
-Events Aaron is likely to enjoy in Baltimore (and wherever he's traveling), refreshed every Thursday by a scheduled Claude task, with a Weekend Events Digest email.
+Events Aaron and Stacey are likely to enjoy in Baltimore (and wherever they're traveling). A scheduled Claude task does a full refresh plus the Weekend Events Digest email every Thursday around lunch, and a lighter refresh (no email) every Monday morning.
 
 **Live page:** https://aaronvandorn.github.io/Event-Calendar/
 
@@ -32,6 +32,9 @@ Flags save in your browser instantly, tagged with who set them. To share them wi
 Each Thursday the agent runs `scripts/calendar_tool.py learn`, which turns each person's flags into their own category, venue and tag weights, and searches harder for what either of you — and especially both of you — mark Interested. The digest marks picks ★ Aaron, ★ Stacey or ♥ Aaron & Stacey.
 
 **Stacey's setup:** open the calendar on her phone, pick **Stacey** in the 👤 menu, and paste a token in Settings (best: a second token made the same way, so either can be revoked on its own).
+
+## What the agent has learned
+Settings → *What the agent has learned* shows a plain-language summary for each person, plus a live line computed from current flags. Edit it and Save (needs the token): the agent treats your edits as fact and rewrites the rest each run.
 
 ## Trips
 Settings → *Trips & other areas* → place + dates (needs the token), or just tell Claude. The next weekly run researches that city for those dates and adds it to the Area menu.
