@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T19:11:28.853Z",
+ "updated": "2026-10-22T19:13:40.491Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -179,6 +179,23 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T19:11:26.996Z"
+    }
+   }
+  },
+  "2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol": {
+   "title": "Arbouretum, Stinking Lizaveta, Deathbird Earth, Darsombra Sol",
+   "category": "music",
+   "venue": "Ottobar",
+   "tags": [
+    "psych",
+    "local"
+   ],
+   "start": "2026-11-06T20:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T19:13:38.596Z"
     }
    }
   }
