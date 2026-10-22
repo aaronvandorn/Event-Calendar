@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T19:54:22.481Z",
+ "updated": "2026-10-22T20:16:38.277Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -212,6 +212,22 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T19:54:20.540Z"
+    }
+   }
+  },
+  "2026-10-25-woven-monuments-tapestry-and-identity-in-senegal-opens": {
+   "title": "Woven Monuments: Tapestry and Identity in Senegal (opens)",
+   "category": "museum",
+   "venue": "Baltimore Museum of Art",
+   "tags": [
+    "textiles"
+   ],
+   "start": "2026-10-25",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T20:16:36.459Z"
     }
    }
   }
