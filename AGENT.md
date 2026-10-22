@@ -4,7 +4,7 @@ This is the runbook the scheduled agent follows every Thursday around lunch (Ame
 Goal: refresh `data/events.json` with events Aaron is likely to enjoy, learn from his flags, publish the site, and email the Weekend Events Digest.
 
 ## 0. Setup
-- Work in a clone of `aaronvandorn/Event-Calendar-` (push access). Pull first: `git pull --rebase origin main`.
+- Work in a clone of `aaronvandorn/Event-Calendar` (push access). Pull first: `git pull --rebase origin main`.
 - Today's date comes from the clock tool, in America/New_York.
 
 ## 1. Read the state
@@ -79,7 +79,7 @@ The page shows at most 10 events per day (highest `base` + learned score, Intere
 ## 5. Publish
 - `git add -A && git commit -m "Weekly update <date>"`.
 - `git pull --rebase origin main` before pushing — the calendar page commits `data/feedback.json` and `data/areas.json` on its own. On a conflict in either of those two files, keep the remote version and re-run `weekly`.
-- `git push origin main`. The site is GitHub Pages from `main` at https://aaronvandorn.github.io/Event-Calendar-/
+- `git push origin main`. The site is GitHub Pages from `main` at https://aaronvandorn.github.io/Event-Calendar/
 
 ## 6. Finish
 Reply with a short summary: events added/updated per area, how many he has flagged, what the learning shifted, and confirmation the email went out (to whom).

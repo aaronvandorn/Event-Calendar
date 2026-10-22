@@ -217,7 +217,7 @@ dialog::backdrop{background:var(--scrim)}
     <div class="row"><h2>Settings</h2><button class="btn small x" data-close>Close</button></div>
     <fieldset>
       <legend>Sync flags to GitHub</legend>
-      <p class="hint">Your Interested / Not interested flags are saved in this browser right away. To let the weekly agent learn from them, paste a fine-grained GitHub token with <b>Contents: read and write</b> on the Event-Calendar- repo only. It stays in this browser.</p>
+      <p class="hint">Your Interested / Not interested flags are saved in this browser right away. To let the weekly agent learn from them, paste a fine-grained GitHub token with <b>Contents: read and write</b> on the Event-Calendar repo only. It stays in this browser.</p>
       <div class="row"><input type="password" id="tokenIn" placeholder="github_pat_…" autocomplete="off"><button class="btn small primary" id="saveToken">Save</button><button class="btn small" id="syncNow">Sync now</button></div>
       <p class="hint" id="tokenState"></p>
     </fieldset>
@@ -251,7 +251,7 @@ dialog::backdrop{background:var(--scrim)}
 
 <script>
 "use strict";
-const REPO = "aaronvandorn/Event-Calendar-";
+const REPO = "aaronvandorn/Event-Calendar";
 const CATS = {
   music:{label:"Concert"}, film:{label:"Film"}, museum:{label:"Museum & art"}, theater:{label:"Theater & dance"},
   comedy:{label:"Comedy"}, festival:{label:"Festival"}, talk:{label:"Talks & books"}, nightlife:{label:"Nightlife"},

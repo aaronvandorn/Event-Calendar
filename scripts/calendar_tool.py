@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-SITE = "https://aaronvandorn.github.io/Event-Calendar-/"
+SITE = "https://aaronvandorn.github.io/Event-Calendar/"
 CATS = {
     "music": ("Concerts", "#c4701f"), "film": ("Film", "#3b6fc0"), "museum": ("Museums & art", "#157f78"),
     "theater": ("Theater & dance", "#b8432c"), "comedy": ("Comedy", "#a88a12"), "festival": ("Festivals", "#b0447f"),

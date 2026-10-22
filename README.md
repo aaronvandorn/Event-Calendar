@@ -2,7 +2,7 @@
 
 Events Aaron is likely to enjoy in Baltimore (and wherever he's traveling), refreshed every Thursday by a scheduled Claude task, with a Weekend Events Digest email.
 
-**Live page:** https://aaronvandorn.github.io/Event-Calendar-/
+**Live page:** https://aaronvandorn.github.io/Event-Calendar/
 
 ## Using the calendar
 - **Month / Week / Day** views. Tap a day in Month to open it. Keyboard: ← → to move, `m` `w` `d` to switch views.
@@ -16,7 +16,7 @@ Events Aaron is likely to enjoy in Baltimore (and wherever he's traveling), refr
 ## How flags teach the agent
 Flags save in your browser instantly. To share them with the weekly agent (and your other devices), open **Settings → Sync flags to GitHub** and paste a fine-grained personal access token:
 1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token.
-2. Repository access: *Only select repositories* → `Event-Calendar-`.
+2. Repository access: *Only select repositories* → `Event-Calendar`.
 3. Permissions: *Contents* → Read and write. Nothing else.
 
 Each Thursday the agent runs `scripts/calendar_tool.py learn`, which turns your flags into category, venue and tag weights, and searches harder for what you mark Interested.
@@ -25,7 +25,7 @@ Each Thursday the agent runs `scripts/calendar_tool.py learn`, which turns your 
 Settings → *Trips & other areas* → place + dates (needs the token), or just tell Claude. The next weekly run researches that city for those dates and adds it to the Area menu.
 
 ## Your calendar elsewhere
-`interested.ics` is rebuilt every week. Subscribe to `https://aaronvandorn.github.io/Event-Calendar-/interested.ics` in Google or Apple Calendar, or download a snapshot from Settings.
+`interested.ics` is rebuilt every week. Subscribe to `https://aaronvandorn.github.io/Event-Calendar/interested.ics` in Google or Apple Calendar, or download a snapshot from Settings.
 
 ## Files
 - `index.html` — the whole site.
