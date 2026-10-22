@@ -143,6 +143,8 @@ select.sel{background:var(--well);border:1px solid var(--line);border-radius:4px
 .item h3:hover{text-decoration:underline}
 .item .meta{font-size:13px;color:var(--muted)}
 .item .meta .cost{color:var(--ink)}
+a.venue{color:inherit;text-decoration:underline;text-decoration-color:color-mix(in srgb,currentColor 35%,transparent);text-underline-offset:2px}
+a.venue:hover{color:var(--teal)}
 .item .summ{font-size:14px}
 .item .r3{display:flex;flex-wrap:wrap;gap:6px;align-items:center;justify-content:space-between}
 .tag{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--c);font-weight:600}
@@ -293,6 +295,7 @@ const S = {
   people: [{id:"aaron", name:"Aaron"}, {id:"stacey", name:"Stacey"}],
   person: store.get("ec.person", "aaron"),
   taste: {people:{}},
+  venues: {},
   view: "month", cursor: today(), area: store.get("ec.area", "baltimore"),
   mode: "all", freeOnly: false, showHidden: false,
   cats: store.get("ec.cats", Object.fromEntries(Object.keys(CATS).map(k=>[k,true]))),
@@ -429,6 +432,19 @@ function whenText(e, day){
   if(e.allDay) return "All day";
   return fmtTime(e.start) + (e.end && e.end.length >= 16 ? `–${fmtTime(e.end)}` : "");
 }
+// Google Maps link for the venue: explicit address, then data/venues.json, then a search for "venue, city".
+function mapUrl(e){
+  const v = S.venues[e.venue] || {};
+  if(e.map === false || v.map === false || !e.venue) return "";
+  const city = S.areas.find(a => a.id === e.area)?.name || "";
+  const addr = e.address || v.address;
+  const q = addr ? `${e.venue}, ${addr}` : `${e.venue}, ${city}`;
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+function venueLink(e){
+  const u = mapUrl(e);
+  return u ? `<a class="venue" href="${esc(u)}" target="_blank" rel="noopener" title="Open in Google Maps">📍 ${esc(e.venue)}</a>` : esc(e.venue);
+}
 function marks(e){
   const f = fans(e);
   if(f.length > 1 && f.length === S.people.length) return `<div class="marks"><span class="mk both">♥ ${f.map(p=>esc(p.name)).join(" & ")}</span></div>`;
@@ -442,7 +458,7 @@ function item(e, day){
     <div class="r1"><span class="tag">${esc(CATS[e.category]?.label||e.category)}</span><span class="tm">${esc(whenText(e, e.until?day:undefined))}</span></div>
     <h3 data-id="${esc(e.id)}">${esc(e.title)}</h3>
     ${marks(e)}
-    <div class="meta">${esc(e.venue)}${e.cost?` · <span class="cost">${esc(e.cost)}</span>`:""}${e.free===true && !/free/i.test(e.cost||"")?" · free":""}</div>
+    <div class="meta">${venueLink(e)}${e.cost?` · <span class="cost">${esc(e.cost)}</span>`:""}${e.free===true && !/free/i.test(e.cost||"")?" · free":""}</div>
     ${e.summary?`<div class="summ">${esc(e.summary)}</div>`:""}
     <div class="r3">${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>`:"<span></span>"}${flagSelect(e)}</div>
   </article>`;
@@ -522,7 +538,7 @@ function openEvent(id){
   $("#evBody").innerHTML = `<div class="row"><span class="pill" data-c="${esc(e.category)}" style="--c:var(--c-${esc(e.category)})">${esc(c)}</span>${e.free===true?`<span class="pill">Free</span>`:""}<button class="btn small x" data-close>Close</button></div>
     <h2>${esc(e.title)}</h2>
     <p class="mono" style="font-size:14px;color:var(--amber)">${esc(fmtDay(parseD(e.start)))}${e.allDay?"":" · "+esc(whenText(e))}${e.until?` → ${esc(fmtDay(parseD(e.until)))}`:""}</p>
-    <p>${esc(e.venue)}</p>
+    <p>${venueLink(e)}${e.address||S.venues[e.venue]?.address?`<br><span class="hint">${esc(e.address||S.venues[e.venue].address)}</span>`:""}</p>
     <p><b>Cost:</b> ${esc(e.cost || "Not listed")}</p>
     ${e.summary?`<p>${esc(e.summary)}</p>`:""}
     ${marks(e)}
@@ -753,13 +769,15 @@ function readHash(){
   renderLegend();
   const bust = `?v=${Date.now()}`;
   try{
-    const [ev, ar, fb, pp, tt] = await Promise.all([
+    const [ev, ar, fb, pp, tt, vn] = await Promise.all([
       fetch("data/events.json"+bust).then(r => r.json()),
       fetch("data/areas.json"+bust).then(r => r.json()).catch(() => ({areas:[]})),
       fetch("data/feedback.json"+bust).then(r => r.json()).catch(() => ({items:{}})),
       fetch("data/people.json"+bust).then(r => r.json()).catch(() => null),
-      fetch("data/taste.json"+bust).then(r => r.json()).catch(() => ({people:{}}))
+      fetch("data/taste.json"+bust).then(r => r.json()).catch(() => ({people:{}})),
+      fetch("data/venues.json"+bust).then(r => r.json()).catch(() => ({venues:{}}))
     ]);
+    S.venues = vn.venues || {};
     S.taste = tt;
     if(pp?.people?.length) S.people = pp.people;
     S.events = ev.events || []; S.updated = ev.updated; S.areas = ar.areas || [];

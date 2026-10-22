@@ -56,6 +56,8 @@ Each event in `data/events.json` → `events[]`:
   "end": "2026-10-24T17:00",                        // optional
   "until": "2027-02-21",                            // optional, for multi-day runs (exhibitions, theater runs, festivals)
   "venue": "52 buildings citywide",
+  "address": "1711 N Charles St, Baltimore, MD",   // optional; or add the venue to data/venues.json once
+  "map": false,                                     // optional; only for citywide / multi-venue events
   "cost": "Free",                                   // human text as listed: "$15–55", "Pay what you can", "See site"
   "free": true,                                     // true | false | null (unknown)
   "url": "https://…",
@@ -68,6 +70,7 @@ Each event in `data/events.json` → `events[]`:
 
 `base` is a household score — fit for Aaron and Stacey together (Stacey's tastes come from her flags until `profile.json → people.stacey.likes` has entries). Guidance: 75–90 strong fit (revival film, adventurous jazz, experimental/electronic nights, historic-building tours, maker/DIY electronics, photography shows); 55–74 good; 35–54 maybe; below 35 only if the day is thin. Apply what `learn` showed: nudge whole categories, venues and tags up or down.
 
+- **Map links:** every event gets a Google Maps link to its venue. Use the same `venue` spelling each time, and when you meet a new venue whose street address you found on its site or a listing, add it to `data/venues.json` (`"Venue name": {"address": "…"}`). Without an address the link searches "venue, city", which usually works. Set `"map": false` (on the event or in venues.json) for citywide or multi-venue events. Never guess an address.
 - Update an existing event in place (same `id`) if details changed; don't duplicate.
 - Leave events anyone flagged `interested` alone even if they are in the past.
 - Set the top-level `"updated"` to now (ISO with offset).

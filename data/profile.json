@@ -17,14 +17,14 @@
   "Pub crawls and generic bar parties"
  ],
  "learned": {
-  "updated": "2026-10-22T15:03",
+  "updated": "2026-10-22T15:25",
   "aaron": {
    "category": {
-    "nightlife": 0.333,
+    "nightlife": 0.5,
     "theater": 0.333,
-    "film": 0.333,
+    "film": 0.5,
     "comedy": 0.333,
-    "music": 0.333,
+    "music": 0.5,
     "community": 0.5,
     "festival": 0.5
    },
@@ -37,11 +37,14 @@
     "52 buildings citywide": 0.333,
     "Filbert Street Garden": 0.333,
     "Carrie Murray Nature Center": 0.333,
-    "Patterson Park": 0.333
+    "Patterson Park": 0.333,
+    "The Charles Theatre": 0.333,
+    "Current Space": 0.333,
+    "Ottobar": 0.333
    },
    "tag": {
     "electronic": 0.333,
-    "dj": 0.333,
+    "dj": 0.5,
     "horror": 0.333,
     "festival": 0.333,
     "classical": 0.333,
@@ -52,7 +55,12 @@
     "nature": 0.333,
     "art": 0.333,
     "parade": 0.333,
-    "community": 0.333
+    "community": 0.333,
+    "revival": 0.333,
+    "sad": 0.333,
+    "halloween": 0.333,
+    "psych": 0.333,
+    "local": 0.333
    }
   },
   "stacey": {

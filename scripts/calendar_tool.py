@@ -39,6 +39,20 @@ def d(s):
 
 
 # ---------------------------------------------------------------- scoring
+def map_url(e, venues=None, areas=None):
+    """Google Maps link for an event's venue, or "" for citywide / multi-venue events."""
+    from urllib.parse import quote
+    venues = venues if venues is not None else load("venues.json").get("venues", {})
+    areas = areas if areas is not None else load("areas.json")["areas"]
+    v = venues.get(e.get("venue"), {})
+    if e.get("map") is False or v.get("map") is False or not e.get("venue"):
+        return ""
+    addr = e.get("address") or v.get("address")
+    city = next((a["name"] for a in areas if a["id"] == e.get("area")), "")
+    q = f"{e['venue']}, {addr}" if addr else f"{e['venue']}, {city}"
+    return "https://www.google.com/maps/search/?api=1&query=" + quote(q)
+
+
 def people():
     try:
         return load("people.json")["people"]
@@ -219,6 +233,7 @@ def cmd_digest(a):
     start, end = dt.date.fromisoformat(a.frm), dt.date.fromisoformat(a.to)
     items, ppl = fb_items(), people()
     Ls = {p["id"]: learned(items, p["id"]) for p in ppl}
+    venues, areas_all = load("venues.json").get("venues", {}), load("areas.json")["areas"]
     evs = []
     for e in load("events.json")["events"]:
         if a.area != "all" and e["area"] != a.area:
@@ -232,7 +247,7 @@ def cmd_digest(a):
         base = sum(score(e, Ls[p["id"]]) for p in ppl) / len(ppl)
         mark = ("♥ " + " & ".join(p["name"] for p in f) if len(f) == len(ppl) > 1 else
                 " ".join("★ " + p["name"] for p in f))
-        e = dict(e, _score=base + 60 * len(f), _star=bool(f), _mark=mark, _run=is_run and not opening,
+        e = dict(e, _map=map_url(e, venues, areas_all), _score=base + 60 * len(f), _star=bool(f), _mark=mark, _run=is_run and not opening,
                  _opening=opening)
         evs.append(e)
     dated = sorted([e for e in evs if not e["_run"]], key=lambda e: -e["_score"])
@@ -267,6 +282,8 @@ def cmd_digest(a):
             if e.get("summary"):
                 t.append(f"    {e['summary']}")
             t.append(f"    {e['url']}")
+            if e["_map"]:
+                t.append(f"    Map: {e['_map']}")
         t.append("")
     if runs:
         t.append("ALSO ON VIEW")
@@ -291,10 +308,13 @@ def cmd_digest(a):
                 + (f'<div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:{col};font-weight:bold">{h(name)}</div>' if show_cat else "")
                 + f'<div style="font-size:{18 if big else 16}px;font-weight:bold;margin:2px 0 3px">{star}{opens}'
                 f'<a href="{h(e["url"])}" style="color:#1f2733;text-decoration:none">{h(e["title"])}</a>{badge}</div>'
-                f'<div style="font-size:13px;color:#64707f">{h(when(e))} · {h(e["venue"])} · <span style="color:#1f2733">{h(cost(e))}</span></div>'
+                f'<div style="font-size:13px;color:#64707f">{h(when(e))} · '
+                + (f'<a href="{h(e["_map"])}" style="color:#64707f">📍 {h(e["venue"])}</a>' if e["_map"] else h(e["venue"]))
+                + f' · <span style="color:#1f2733">{h(cost(e))}</span></div>'
                 + (f'<div style="font-size:14px;margin-top:5px">{h(e["summary"])}</div>' if e.get("summary") else "")
                 + f'<div style="font-size:13px;margin-top:6px"><a href="{h(e["url"])}" style="color:#3b76b3">Event page</a>'
-                f' &nbsp;·&nbsp; <a href="{h(day_link(e))}" style="color:#3b76b3">On the calendar</a></div>'
+                + (f' &nbsp;·&nbsp; <a href="{h(e["_map"])}" style="color:#3b76b3">Map</a>' if e["_map"] else "")
+                + f' &nbsp;·&nbsp; <a href="{h(day_link(e))}" style="color:#3b76b3">On the calendar</a></div>'
                 f'</td></tr></table></td></tr>')
 
     def section(label, col, rows):

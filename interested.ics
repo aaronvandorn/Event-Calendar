@@ -5,7 +5,7 @@ X-WR-CALNAME:Event Calendar — Anyone interested
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-10-18-different-words-for-happiness@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Different Words for Happiness
 LOCATION:Everyman Theatre
@@ -14,7 +14,7 @@ URL:https://everymantheatre.org/event/different-words/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-beth-lapides-it-s-a-lot@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261022T193000
 DTEND;TZID=America/New_York:20261022T213000
 SUMMARY:Beth Lapides: It's A Lot
@@ -24,7 +24,7 @@ URL:https://creativealliance.org/event/beth-lapides-its-a-lot/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-junglist-heights-drum-bass@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T200000
 SUMMARY:Junglist Heights (drum & bass)
@@ -34,7 +34,7 @@ URL:https://peabodyheightsbrewery.com/event/junglist-heights/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-bmore-horror-film-fest@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Bmore Horror Film Fest
 LOCATION:Old Major\, 2640 Space\, Black Cherry Puppet Theater
@@ -43,7 +43,7 @@ URL:https://www.bmorehorrorfest.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-trio-sir-nes@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261023T193000
 DTEND;TZID=America/New_York:20261023T213000
 SUMMARY:Trio Sirènes
@@ -53,7 +53,7 @@ URL:https://stdavidsbaltimore.org/music/event-tickets/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-doors-open-baltimore@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T170000
 SUMMARY:Doors Open Baltimore
@@ -63,7 +63,7 @@ URL:https://www.doorsopenbaltimore.org/sites/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261024T160000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:Great Baltimore Lantern Parade + Día de los Muertos Festival
@@ -73,7 +73,7 @@ URL:https://creativealliance.org/event/the-great-baltimore-lantern-parade/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-mushroom-city-arts-festival@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:Mushroom City Arts Festival
@@ -83,12 +83,42 @@ URL:https://www.facebook.com/events/1052371247444380/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-microgreens-workshop@event-calendar
-DTSTAMP:20261022T181039Z
+DTSTAMP:20261022T192553Z
 DTSTART;TZID=America/New_York:20261024T110000
 DTEND;TZID=America/New_York:20261024T130000
 SUMMARY:Microgreens Workshop
 LOCATION:Filbert Street Garden
 DESCRIPTION:See site — https://filbertstreetgarden.org/baltimore-garden-events/
 URL:https://filbertstreetgarden.org/baltimore-garden-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30-halloween-atp-21@event-calendar
+DTSTAMP:20261022T192553Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Halloween ATP (21+)
+LOCATION:Current Space
+DESCRIPTION:$15–19 — https://pools.events/event/zmmSicAW/halloween-atp/
+URL:https://pools.events/event/zmmSicAW/halloween-atp/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-31-after-life-kore-eda-revival@event-calendar
+DTSTAMP:20261022T192553Z
+DTSTART;TZID=America/New_York:20261031T113000
+DTEND;TZID=America/New_York:20261031T133000
+SUMMARY:After Life (Kore-eda) — Revival
+LOCATION:The Charles Theatre
+DESCRIPTION:See site — The newly dead choose one memory to keep forever. Quietly devastating. — https://thecharles.com/movie/after-life/
+URL:https://thecharles.com/movie/after-life/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol@event-calendar
+DTSTAMP:20261022T192553Z
+DTSTART;TZID=America/New_York:20261106T200000
+DTEND;TZID=America/New_York:20261106T220000
+SUMMARY:Arbouretum\, Stinking Lizaveta\, Deathbird Earth\, Darsombra Sol
+LOCATION:Ottobar
+DESCRIPTION:See site — All-Baltimore heavy-psych bill. — https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/
+URL:https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol/ottobar/baltimore-maryland/
 END:VEVENT
 END:VCALENDAR

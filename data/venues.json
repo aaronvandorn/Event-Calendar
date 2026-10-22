@@ -1,0 +1,167 @@
+{
+ "about": "Venue addresses for map links. Key = the event's `venue` text. Use addresses from venue sites or listings only; leave a venue out if unsure (the map link then searches the venue name in the event's city). \"map\": false for citywide or multi-venue events.",
+ "venues": {
+  "200 block of Redwood St": {
+   "address": "200 E Redwood St, Baltimore, MD"
+  },
+  "Area 405": {
+   "address": "405 E Oliver St, Baltimore, MD"
+  },
+  "Atrium Artspace": {
+   "address": "2029 Maryland Ave, Baltimore, MD"
+  },
+  "Baltimore Museum of Art": {
+   "address": "10 Art Museum Dr, Baltimore, MD"
+  },
+  "Baltimore Museum of Industry": {
+   "address": "1415 Key Hwy, Baltimore, MD"
+  },
+  "Baltimore Theatre Project": {
+   "address": "45 W Preston St, Baltimore, MD"
+  },
+  "Bar Dalí, Mount Vernon": {
+   "address": "909 N Charles St, Baltimore, MD"
+  },
+  "Broadway Market": {
+   "address": "1640 Aliceanna St, Baltimore, MD"
+  },
+  "Chesapeake Shakespeare Company": {
+   "address": "7 S Calvert St, Baltimore, MD"
+  },
+  "Creative Alliance": {
+   "address": "3134 Eastern Ave, Baltimore, MD"
+  },
+  "Current Space": {
+   "address": "421 N Howard St, Baltimore, MD"
+  },
+  "Cylburn Arboretum": {
+   "address": "4915 Greenspring Ave, Baltimore, MD"
+  },
+  "Enoch Pratt Central Library": {
+   "address": "400 Cathedral St, Baltimore, MD"
+  },
+  "Evergreen Museum & Library": {
+   "address": "4545 N Charles St, Baltimore, MD"
+  },
+  "Evergreen Museum, Carriage House": {
+   "address": "4545 N Charles St, Baltimore, MD"
+  },
+  "Everyman Theatre": {
+   "address": "315 W Fayette St, Baltimore, MD"
+  },
+  "Filbert Street Garden": {
+   "address": "1321 Filbert St, Baltimore, MD"
+  },
+  "Galerie Myrtis": {
+   "address": "2224 N Charles St, Baltimore, MD"
+  },
+  "Golden West Cafe, Hampden": {
+   "address": "1105 W 36th St, Baltimore, MD"
+  },
+  "Goya Contemporary": {
+   "address": "3000 Chestnut Ave, Baltimore, MD"
+  },
+  "Green Mount Cemetery": {
+   "address": "1501 Greenmount Ave, Baltimore, MD"
+  },
+  "Hippodrome / M&T Bank Exchange": {
+   "address": "12 N Eutaw St, Baltimore, MD"
+  },
+  "Hippodrome Theatre": {
+   "address": "12 N Eutaw St, Baltimore, MD"
+  },
+  "Keystone Korner": {
+   "address": "1350 Lancaster St, Baltimore, MD"
+  },
+  "Making Space": {
+   "address": "709 N Howard St, Baltimore, MD"
+  },
+  "Manor Mill, Monkton": {
+   "address": "2029 Monkton Rd, Monkton, MD"
+  },
+  "Maryland Center for History and Culture": {
+   "address": "610 Park Ave, Baltimore, MD"
+  },
+  "Maryland Science Center": {
+   "address": "601 Light St, Baltimore, MD"
+  },
+  "Metro Baltimore": {
+   "address": "1700 N Charles St, Baltimore, MD"
+  },
+  "Meyerhoff Symphony Hall": {
+   "address": "1212 Cathedral St, Baltimore, MD"
+  },
+  "Mobtown Ballroom": {
+   "address": "30 W North Ave, Baltimore, MD"
+  },
+  "Motor House": {
+   "address": "120 W North Ave, Baltimore, MD"
+  },
+  "Mount Vernon Place Church": {
+   "address": "10 E Mount Vernon Pl, Baltimore, MD"
+  },
+  "No Land Beyond": {
+   "address": "108 W North Ave, Baltimore, MD"
+  },
+  "Ottobar": {
+   "address": "2549 N Howard St, Baltimore, MD"
+  },
+  "Ottobar & Remington venues": {
+   "address": "2549 N Howard St, Baltimore, MD"
+  },
+  "Ottobar Upstairs": {
+   "address": "2549 N Howard St, Baltimore, MD"
+  },
+  "Patterson Park": {
+   "address": "2601 E Baltimore St, Baltimore, MD"
+  },
+  "Peabody Heights Brewery": {
+   "address": "401 E 30th St, Baltimore, MD"
+  },
+  "R. House": {
+   "address": "301 W 29th St, Baltimore, MD"
+  },
+  "Red Emma's": {
+   "address": "3128 Greenmount Ave, Baltimore, MD"
+  },
+  "Rocket to Venus, Hampden": {
+   "address": "3360 Chestnut Ave, Baltimore, MD"
+  },
+  "SNF Parkway Theatre": {
+   "address": "5 W North Ave, Baltimore, MD"
+  },
+  "The Charles Theatre": {
+   "address": "1711 N Charles St, Baltimore, MD"
+  },
+  "The Compound": {
+   "address": "2239 Kirk Ave, Baltimore, MD"
+  },
+  "The Duchess, Hampden": {
+   "address": "1000 W 36th St, Baltimore, MD"
+  },
+  "Union Craft Brewing": {
+   "address": "1700 W 41st St, Baltimore, MD"
+  },
+  "W.C. Harlan": {
+   "address": "400 W 23rd St, Baltimore, MD"
+  },
+  "Walters Art Museum": {
+   "address": "600 N Charles St, Baltimore, MD"
+  },
+  "Zion Church": {
+   "address": "400 E Lexington St, Baltimore, MD"
+  },
+  "Zo Gallery (Graffiti Alley) + Fox Building": {
+   "address": "1905 N Howard St, Baltimore, MD"
+  },
+  "52 buildings citywide": {
+   "map": false
+  },
+  "Old Major, 2640 Space, Black Cherry Puppet Theater": {
+   "map": false
+  },
+  "Maryland Science Center & Reginald F. Lewis Museum": {
+   "map": false
+  }
+ }
+}
