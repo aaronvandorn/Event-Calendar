@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-22T17:53:24.973Z",
+ "updated": "2026-10-22T17:53:45.202Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "status": "interested",
@@ -97,6 +97,19 @@
     "art"
    ],
    "start": "2026-10-24T12:00",
+   "area": "baltimore"
+  },
+  "2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival": {
+   "status": "interested",
+   "ts": "2026-10-22T17:53:43.511Z",
+   "title": "Great Baltimore Lantern Parade + Día de los Muertos Festival",
+   "category": "festival",
+   "venue": "Patterson Park",
+   "tags": [
+    "parade",
+    "community"
+   ],
+   "start": "2026-10-24T16:00",
    "area": "baltimore"
   }
  }
