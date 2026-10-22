@@ -1,11 +1,18 @@
 {
-  "areas": [
-    {
-      "id": "baltimore",
-      "name": "Baltimore, MD",
-      "home": true,
-      "timezone": "America/New_York",
-      "note": "Home area. Researched every week for the next six weeks."
-    }
-  ]
+ "areas": [
+  {
+   "id": "baltimore",
+   "name": "Baltimore, MD",
+   "home": true,
+   "timezone": "America/New_York",
+   "note": "Home area. Researched every week for the next six weeks."
+  },
+  {
+   "id": "lima-peru-2026-11",
+   "name": "Lima, Peru",
+   "from": "2026-11-27",
+   "to": "2026-12-04",
+   "note": "Added from the calendar. Agent fills in timezone and events on the next run."
+  }
+ ]
 }
