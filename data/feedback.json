@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T22:22:34.261Z",
+ "updated": "2026-10-22T22:23:10.074Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -295,6 +295,22 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T22:22:32.412Z"
+    }
+   }
+  },
+  "2026-10-30-fairies-foes-false-lovers-a-celtic-halloween": {
+   "title": "Fairies, Foes & False Lovers: A Celtic Halloween",
+   "category": "music",
+   "venue": "Creative Alliance",
+   "tags": [
+    "folk"
+   ],
+   "start": "2026-10-30T19:30",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-10-22T22:23:07.842Z"
     }
    }
   }
