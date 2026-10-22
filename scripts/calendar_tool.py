@@ -39,7 +39,33 @@ def d(s):
 
 
 # ---------------------------------------------------------------- scoring
-def learned(feedback):
+def people():
+    try:
+        return load("people.json")["people"]
+    except Exception:
+        return [{"id": "aaron", "name": "Aaron"}]
+
+
+def fb_items():
+    """Feedback v2: items[id] = {meta..., by: {person: {status, ts}}}. A v1 item ({status, ts}) was Aaron's."""
+    out = {}
+    for k, f in load("feedback.json").get("items", {}).items():
+        if "by" not in f:
+            f = dict({x: y for x, y in f.items() if x not in ("status", "ts")},
+                     by={"aaron": {"status": f.get("status"), "ts": f.get("ts")}} if f.get("status") else {})
+        out[k] = f
+    return out
+
+
+def status(items, eid, person):
+    return (items.get(eid, {}).get("by", {}).get(person) or {}).get("status") or ""
+
+
+def fans(items, eid):
+    return [p for p in people() if status(items, eid, p["id"]) == "interested"]
+
+
+def learned(items, person):
     L = {"category": {}, "venue": {}, "tag": {}}
 
     def bump(kind, k, st):
@@ -48,8 +74,8 @@ def learned(feedback):
         a = L[kind].setdefault(k, {"i": 0, "n": 0})
         a["i" if st == "interested" else "n"] += 1
 
-    for f in feedback.get("items", {}).values():
-        st = f.get("status")
+    for f in items.values():
+        st = (f.get("by", {}).get(person) or {}).get("status")
         if not st:
             continue
         bump("category", f.get("category"), st)
@@ -100,25 +126,28 @@ def cmd_validate(_):
 
 
 def cmd_learn(_):
-    fb = load("feedback.json")
-    L = learned(fb)
+    items = fb_items()
     prof = load("profile.json")
-    prof["learned"] = {"updated": dt.datetime.now().isoformat(timespec="minutes"), **{
-        k: {n: round(aff(v, n), 3) for n in v} for k, v in L.items()}}
+    prof["learned"] = {"updated": dt.datetime.now().isoformat(timespec="minutes")}
+    for p in people():
+        L = learned(items, p["id"])
+        prof["learned"][p["id"]] = {k: {n: round(aff(v, n), 3) for n in v} for k, v in L.items()}
+        sts = [status(items, k, p["id"]) for k in items]
+        print(f"{p['name']}: {sts.count('interested')} interested, {sts.count('not_interested')} not interested")
+        for kind in ("category", "venue", "tag"):
+            ranked = sorted(prof["learned"][p["id"]][kind].items(), key=lambda kv: kv[1])
+            if ranked:
+                print(f"  {kind}: less {ranked[:3]}  more {ranked[-3:]}")
+    both = [k for k in items if len(fans(items, k)) == len(people()) > 1]
+    print(f"both interested: {len(both)}")
     save("profile.json", prof)
-    items = fb.get("items", {})
-    i = sum(1 for f in items.values() if f.get("status") == "interested")
-    print(f"feedback: {i} interested, {len(items) - i} not interested")
-    for kind in ("category", "venue", "tag"):
-        ranked = sorted(prof["learned"][kind].items(), key=lambda kv: kv[1])
-        if ranked:
-            print(f"  {kind}: less {ranked[:3]}  more {ranked[-3:]}")
     return 0
 
 
 def cmd_prune(a):
     obj = load("events.json")
-    flagged = {k for k, f in load("feedback.json").get("items", {}).items() if f.get("status") == "interested"}
+    items = fb_items()
+    flagged = {k for k in items if fans(items, k)}
     cutoff = dt.date.today() - dt.timedelta(days=a.keep_days)
     keep = [e for e in obj["events"] if e["id"] in flagged or d(e.get("until") or e.get("end") or e["start"]) >= cutoff]
     print(f"pruned {len(obj['events']) - len(keep)} events older than {cutoff}")
@@ -127,12 +156,12 @@ def cmd_prune(a):
     return 0
 
 
-def ics_text(events, areas):
+def ics_text(events, areas, label="Interested"):
     tz = {x["id"]: x.get("timezone", "America/New_York") for x in areas}
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     esc = lambda s: re.sub(r"([,;\\])", r"\\\1", str(s or "")).replace("\n", "\\n")
     out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//aaronvandorn//Event Calendar//EN",
-           "X-WR-CALNAME:Event Calendar — Interested", "X-PUBLISHED-TTL:PT12H"]
+           f"X-WR-CALNAME:Event Calendar — {label}", "X-PUBLISHED-TTL:PT12H"]
     for e in events:
         out += ["BEGIN:VEVENT", f"UID:{e['id']}@event-calendar", f"DTSTAMP:{now}"]
         s = e["start"]
@@ -154,10 +183,17 @@ def ics_text(events, areas):
 
 
 def cmd_ics(_):
-    items = load("feedback.json").get("items", {})
-    ev = [e for e in load("events.json")["events"] if items.get(e["id"], {}).get("status") == "interested"]
-    (ROOT / "interested.ics").write_text(ics_text(ev, load("areas.json")["areas"]))
-    print(f"interested.ics: {len(ev)} events")
+    items, evs, areas = fb_items(), load("events.json")["events"], load("areas.json")["areas"]
+    ppl = people()
+    files = {"interested.ics": ("Anyone interested", lambda e: fans(items, e["id"]))}
+    for p in ppl:
+        files[f"interested-{p['id']}.ics"] = (f"{p['name']} interested", lambda e, pid=p["id"]: status(items, e["id"], pid) == "interested")
+    if len(ppl) > 1:
+        files["interested-both.ics"] = ("Both interested", lambda e: len(fans(items, e["id"])) == len(ppl))
+    for name, (label, keep) in files.items():
+        ev = [e for e in evs if keep(e)]
+        (ROOT / name).write_text(ics_text(ev, areas, label))
+        print(f"{name}: {len(ev)} events")
     return 0
 
 
@@ -181,18 +217,22 @@ def occurs(e, a, b):
 
 def cmd_digest(a):
     start, end = dt.date.fromisoformat(a.frm), dt.date.fromisoformat(a.to)
-    items = load("feedback.json").get("items", {})
-    L = learned(load("feedback.json"))
+    items, ppl = fb_items(), people()
+    Ls = {p["id"]: learned(items, p["id"]) for p in ppl}
     evs = []
     for e in load("events.json")["events"]:
         if a.area != "all" and e["area"] != a.area:
             continue
-        st = items.get(e["id"], {}).get("status")
-        if st == "not_interested" or not occurs(e, start, end):
+        f = fans(items, e["id"])
+        nos = [p for p in ppl if status(items, e["id"], p["id"]) == "not_interested"]
+        if (nos and not f) or not occurs(e, start, end):
             continue
         is_run = bool(e.get("until")) and (d(e["until"]) - d(e["start"])).days >= RUN_DAYS
         opening = is_run and start <= d(e["start"]) <= end
-        e = dict(e, _score=score(e, L) + (100 if st == "interested" else 0), _star=st == "interested", _run=is_run and not opening,
+        base = sum(score(e, Ls[p["id"]]) for p in ppl) / len(ppl)
+        mark = ("♥ " + " & ".join(p["name"] for p in f) if len(f) == len(ppl) > 1 else
+                " ".join("★ " + p["name"] for p in f))
+        e = dict(e, _score=base + 60 * len(f), _star=bool(f), _mark=mark, _run=is_run and not opening,
                  _opening=opening)
         evs.append(e)
     dated = sorted([e for e in evs if not e["_run"]], key=lambda e: -e["_score"])
@@ -218,12 +258,12 @@ def cmd_digest(a):
     if top3:
         t.append("DON'T MISS")
         for e in top3:
-            t.append(f"  {'★ ' if e['_star'] else ''}{e['title']} — {when(e)}, {e['venue']} ({cost(e)})")
+            t.append(f"  {e['_mark'] + ' · ' if e['_star'] else ''}{e['title']} — {when(e)}, {e['venue']} ({cost(e)})")
         t.append("")
     for c in order:
         t.append(CATS[c][0].upper())
         for e in groups[c]:
-            t.append(f"  • {'★ ' if e['_star'] else ''}{e['title']}\n    {when(e)} · {e['venue']} · {cost(e)}")
+            t.append(f"  • {e['_mark'] + ' · ' if e['_star'] else ''}{e['title']}\n    {when(e)} · {e['venue']} · {cost(e)}")
             if e.get("summary"):
                 t.append(f"    {e['summary']}")
             t.append(f"    {e['url']}")
@@ -243,7 +283,7 @@ def cmd_digest(a):
         stripe = "background-image:repeating-linear-gradient(135deg,transparent 0 8px,rgba(31,39,51,.06) 8px 12px);" if e.get("free") is True else ""
         badge = ('<span style="display:inline-block;border:1px solid #157f78;color:#157f78;border-radius:9px;padding:0 7px;'
                  'font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-left:6px">Free</span>') if e.get("free") is True else ""
-        star = '<span style="color:#3b76b3">★ </span>' if e["_star"] else ""
+        star = f'<span style="color:#3b76b3;font-size:13px">{h(e["_mark"])} · </span>' if e["_star"] else ""
         opens = "Opens: " if e.get("_opening") and "(opens)" not in e["title"] else ""
         return (f'<tr><td style="padding:0 0 10px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" '
                 f'style="border:1px solid #c4ccd6;border-left:4px solid {col};border-radius:4px;background:#ffffff;{stripe}">'

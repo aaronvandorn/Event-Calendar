@@ -77,8 +77,14 @@ select.sel{background:var(--well);border:1px solid var(--line);border-radius:4px
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
 .ev.free{background-image:repeating-linear-gradient(135deg,transparent 0 6px,var(--stripe) 6px 9px)}
 .ev .t{font-family:var(--mono);font-size:11px;color:var(--muted);margin-right:4px}
-.ev.star::after{content:"★";position:absolute;right:4px;top:1px;font-size:11px;color:var(--amber)}
-.ev.star{padding-right:16px}
+.ev[data-mark]::after{content:attr(data-mark);position:absolute;right:4px;top:1px;font-size:11px;color:var(--amber)}
+.ev[data-mark]{padding-right:16px}
+.ev.partner::after{opacity:.7}
+.who{display:inline-flex;align-items:center;gap:4px;font-size:14px}
+.marks{display:flex;flex-wrap:wrap;gap:4px}
+.mk{font-size:11px;letter-spacing:.06em;border:1px solid var(--amber);color:var(--amber);border-radius:9px;padding:0 7px}
+.mk.no{border-color:var(--line);color:var(--muted)}
+.mk.both{background:var(--amber);color:var(--bg)}
 .ev.dim{opacity:.45}
 
 /* ---------- month */
@@ -197,11 +203,10 @@ dialog::backdrop{background:var(--scrim)}
 
 <main>
   <section class="filters" aria-label="Filters">
+    <label class="who" title="Who is flagging on this device">👤 <select class="sel" id="personSel" aria-label="Flagging as"></select></label>
     <label class="lbl" for="areaSel">Area</label>
     <select class="sel" id="areaSel"></select>
     <select class="sel" id="modeSel" aria-label="Calendar">
-      <option value="all">All events</option>
-      <option value="mine">★ My calendar</option>
     </select>
     <div class="legend" id="legend"></div>
     <label class="toggle"><input type="checkbox" id="freeOnly"> Free only</label>
@@ -217,7 +222,7 @@ dialog::backdrop{background:var(--scrim)}
     <div class="row"><h2>Settings</h2><button class="btn small x" data-close>Close</button></div>
     <fieldset>
       <legend>Sync flags to GitHub</legend>
-      <p class="hint">Your Interested / Not interested flags are saved in this browser right away. To let the weekly agent learn from them, paste a fine-grained GitHub token with <b>Contents: read and write</b> on the Event-Calendar repo only. It stays in this browser.</p>
+      <p class="hint">Flags are saved per person (pick who you are with the 👤 menu) and in this browser right away. To let the weekly agent learn from them, paste a fine-grained GitHub token with <b>Contents: read and write</b> on the Event-Calendar repo only. It stays in this browser.</p>
       <form id="tokenForm" class="row" method="post" action="#" autocomplete="on">
         <input type="text" name="username" id="tokenUser" value="Event Calendar (GitHub token)" autocomplete="username" readonly hidden>
         <input type="password" name="password" id="tokenIn" placeholder="github_pat_…" autocomplete="current-password">
@@ -242,14 +247,14 @@ dialog::backdrop{background:var(--scrim)}
       <legend>Your calendar</legend>
       <div class="row">
         <button class="btn small" id="dlIcs">Download Interested (.ics)</button>
-        <a class="btn small" id="subIcs" href="interested.ics">Subscribe link</a>
+        <a class="btn small" id="subIcs" href="interested-both.ics">Both (.ics feed)</a>
         <button class="btn small" id="dlFb">Export flags (.json)</button>
       </div>
       <label class="toggle"><input type="checkbox" id="showHidden"> Show events I marked Not interested</label>
     </fieldset>
     <fieldset>
       <legend>Key</legend>
-      <p class="hint">Color = event type. <span class="sw free" style="--c-museum:var(--c-museum)"></span> Diagonal stripe = free. ★ = flagged Interested. The orange count badge means more than ten events that day — open the day to see the rest.</p>
+      <p class="hint">Color = event type. <span class="sw free" style="--c-museum:var(--c-museum)"></span> Diagonal stripe = free. ★ = you flagged Interested, ☆ = the other person did, ♥ = you both did. The orange count badge means more than ten events that day — open the day to see the rest.</p>
     </fieldset>
   </div>
 </dialog>
@@ -275,7 +280,10 @@ const store = {
 
 const S = {
   events: [], areas: [], updated: null,
-  feedback: store.get("ec.feedback", {}),       // id -> {status, ts, title, category, venue, tags}
+  // id -> {title, category, venue, tags, start, area, by:{person:{status, ts}}}
+  feedback: normalizeAll(store.get("ec.feedback", {})),
+  people: [{id:"aaron", name:"Aaron"}, {id:"stacey", name:"Stacey"}],
+  person: store.get("ec.person", "aaron"),
   view: "month", cursor: today(), area: store.get("ec.area", "baltimore"),
   mode: "all", freeOnly: false, showHidden: false,
   cats: store.get("ec.cats", Object.fromEntries(Object.keys(CATS).map(k=>[k,true]))),
@@ -298,19 +306,40 @@ function fmtDay(d){ return `${DOW[d.getDay()]}, ${MON[d.getMonth()]} ${d.getDate
 function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
 
 /* ---------- learning: same formula as scripts/calendar_tool.py */
-function learned(){
+/* Feedback v2 keeps a status per person. A v1 entry ({status, ts}) was Aaron's. */
+function normalize(f){
+  if(!f) return null;
+  if(f.by) return f;
+  const {status, ts, ...meta} = f;
+  return {...meta, by: status ? {aaron:{status, ts}} : {}};
+}
+function normalizeAll(items){ const o = {}; for(const [id,f] of Object.entries(items||{})){ const n = normalize(f); if(n) o[id] = n; } return o; }
+// Merge two feedback maps: per event, per person, the newer timestamp wins. Empty status = cleared.
+function mergeFb(a, b){
+  const out = {...a};
+  for(const [id, f] of Object.entries(b)){
+    const cur = out[id];
+    if(!cur){ out[id] = f; continue; }
+    const by = {...cur.by};
+    for(const [p, v] of Object.entries(f.by||{})) if(!by[p] || (by[p].ts||"") < (v.ts||"")) by[p] = v;
+    out[id] = {...cur, ...f, by};
+  }
+  return out;
+}
+function learned(person){
   const L = {category:{}, venue:{}, tag:{}};
   const bump = (map, k, s) => { if(!k) return; const a = map[k] ||= {i:0,n:0}; s === "interested" ? a.i++ : a.n++; };
   for(const f of Object.values(S.feedback)){
-    if(!f || !f.status) continue;
-    bump(L.category, f.category, f.status); bump(L.venue, f.venue, f.status);
-    (f.tags||[]).forEach(t => bump(L.tag, t, f.status));
+    const st = f.by?.[person]?.status;
+    if(!st) continue;
+    bump(L.category, f.category, st); bump(L.venue, f.venue, st);
+    (f.tags||[]).forEach(t => bump(L.tag, t, st));
   }
   return L;
 }
 function aff(map, k){ const a = map[k]; return a ? (a.i - a.n) / (a.i + a.n + 2) : 0; }
 function scoreAll(){
-  const L = learned();
+  const L = learned(S.person);
   for(const e of S.events){
     const tags = e.tags||[];
     const t = tags.length ? tags.reduce((s,x)=>s+aff(L.tag,x),0)/tags.length : 0;
@@ -319,7 +348,16 @@ function scoreAll(){
 }
 
 /* ---------- event selection */
-function status(e){ return S.feedback[e.id]?.status || ""; }
+function status(e, p = S.person){ return S.feedback[e.id]?.by?.[p]?.status || ""; }
+function fans(e){ return S.people.filter(p => status(e, p.id) === "interested"); }
+function others(){ return S.people.filter(p => p.id !== S.person); }
+function pname(id){ return S.people.find(p => p.id === id)?.name || id; }
+// ★ = you're interested, ♥ = everyone is, ☆ = someone else is
+function mark(e){
+  const n = fans(e).length, me = status(e) === "interested";
+  if(n && n === S.people.length && n > 1) return "♥";
+  return me ? "★" : n ? "☆" : "";
+}
 function isRun(e){ return e.until && (parseD(e.until) - parseD(e.start)) / 864e5 >= RUN_DAYS; }
 function visible(e){
   if(S.area !== "all" && e.area !== S.area) return false;
@@ -327,12 +365,14 @@ function visible(e){
   if(S.freeOnly && e.free !== true) return false;
   const st = status(e);
   if(st === "not_interested" && !S.showHidden) return false;
-  if(S.mode === "mine" && st !== "interested") return false;
+  if(S.mode === "both" && fans(e).length < S.people.length) return false;
+  if(S.mode === "either" && !fans(e).length) return false;
+  if(S.mode.startsWith("p:") && status(e, S.mode.slice(2)) !== "interested") return false;
   return true;
 }
 function rank(a, b){
-  const ia = status(a) === "interested", ib = status(b) === "interested";
-  if(ia !== ib) return ia ? -1 : 1;
+  const w = e => (status(e) === "interested" ? 2 : 0) + fans(e).filter(p => p.id !== S.person).length;
+  if(w(a) !== w(b)) return w(b) - w(a);
   if(b._score !== a._score) return b._score - a._score;
   return (a.start||"").localeCompare(b.start||"");
 }
@@ -361,13 +401,13 @@ function dayEvents(d){
 /* ---------- rendering */
 const $ = s => document.querySelector(s);
 function chip(e, day){
-  const st = status(e), opens = e.until && isRun(e) && day === e.start.slice(0,10);
-  return `<button class="ev${e.free===true?" free":""}${st==="interested"?" star":""}${st==="not_interested"?" dim":""}" data-c="${esc(e.category)}" data-id="${esc(e.id)}" title="${esc(e.title)}">`
+  const st = status(e), mk = mark(e), opens = e.until && isRun(e) && day === e.start.slice(0,10);
+  return `<button class="ev${e.free===true?" free":""}${mk==="☆"?" partner":""}${st==="not_interested"?" dim":""}" data-c="${esc(e.category)}" data-id="${esc(e.id)}" title="${esc(e.title)}"${mk?` data-mark="${mk}"`:""}>`
     + (e.allDay ? "" : `<span class="t">${esc(fmtTime(e.start))}</span>`) + (opens ? "Opens: " : "") + esc(e.title) + `</button>`;
 }
 function flagSelect(e){
   const st = status(e);
-  return `<select class="flag ${st}" data-flag="${esc(e.id)}" aria-label="Flag ${esc(e.title)}">
+  return `<select class="flag ${st}" data-flag="${esc(e.id)}" aria-label="Flag ${esc(e.title)} as ${esc(pname(S.person))}" title="Flagging as ${esc(pname(S.person))}">
     <option value=""${st===""?" selected":""}>— Flag</option>
     <option value="interested"${st==="interested"?" selected":""}>★ Interested</option>
     <option value="not_interested"${st==="not_interested"?" selected":""}>✕ Not interested</option></select>`;
@@ -380,11 +420,19 @@ function whenText(e, day){
   if(e.allDay) return "All day";
   return fmtTime(e.start) + (e.end && e.end.length >= 16 ? `–${fmtTime(e.end)}` : "");
 }
+function marks(e){
+  const f = fans(e);
+  if(f.length > 1 && f.length === S.people.length) return `<div class="marks"><span class="mk both">♥ ${f.map(p=>esc(p.name)).join(" & ")}</span></div>`;
+  const nos = S.people.filter(p => p.id !== S.person && status(e, p.id) === "not_interested");
+  const bits = f.map(p => `<span class="mk">★ ${esc(p.name)}</span>`).concat(nos.map(p => `<span class="mk no">✕ ${esc(p.name)}</span>`));
+  return bits.length ? `<div class="marks">${bits.join("")}</div>` : "";
+}
 function item(e, day){
   const st = status(e);
   return `<article class="item${e.free===true?" free":""}${st==="interested"?" star":""}" data-c="${esc(e.category)}">
     <div class="r1"><span class="tag">${esc(CATS[e.category]?.label||e.category)}</span><span class="tm">${esc(whenText(e, e.until?day:undefined))}</span></div>
-    <h3 data-id="${esc(e.id)}">${st==="interested"?"★ ":""}${esc(e.title)}</h3>
+    <h3 data-id="${esc(e.id)}">${esc(e.title)}</h3>
+    ${marks(e)}
     <div class="meta">${esc(e.venue)}${e.cost?` · <span class="cost">${esc(e.cost)}</span>`:""}${e.free===true && !/free/i.test(e.cost||"")?" · free":""}</div>
     ${e.summary?`<div class="summ">${esc(e.summary)}</div>`:""}
     <div class="r3">${e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">Details ↗</a>`:"<span></span>"}${flagSelect(e)}</div>
@@ -434,7 +482,7 @@ function renderWeek(){
 function renderDay(){
   const D = dayEvents(S.cursor);
   $("#label").textContent = fmtDay(S.cursor).toUpperCase();
-  $("#view").innerHTML = `<div class="day">${overNote(D)}${D.shown.map(x=>item(x,D.k)).join("") || `<div class="empty">Nothing listed for this day${S.mode==="mine"?" in your calendar":""}.</div>`}${runsBlock(D)}</div>`;
+  $("#view").innerHTML = `<div class="day">${overNote(D)}${D.shown.map(x=>item(x,D.k)).join("") || `<div class="empty">Nothing listed for this day${S.mode!=="all"?" in this calendar":""}.</div>`}${runsBlock(D)}</div>`;
 }
 function render(){
   scoreAll();
@@ -468,6 +516,7 @@ function openEvent(id){
     <p>${esc(e.venue)}</p>
     <p><b>Cost:</b> ${esc(e.cost || "Not listed")}</p>
     ${e.summary?`<p>${esc(e.summary)}</p>`:""}
+    ${marks(e)}
     <div class="row">${e.url?`<a class="btn small primary" href="${esc(e.url)}" target="_blank" rel="noopener">Event page ↗</a>`:""}${flagSelect(e)}</div>
     <p class="hint">Source: ${esc(e.source||"—")} · fit score ${Math.round(e._score)}</p>`;
   $("#evDlg").showModal();
@@ -476,11 +525,13 @@ function openEvent(id){
 /* ---------- feedback + sync */
 function setFlag(id, val){
   const e = S.events.find(x => x.id === id); if(!e) return;
-  if(val){ const c = store.get("ec.cleared", {}); delete c[id]; store.set("ec.cleared", c); }
-  if(!val) delete S.feedback[id];
-  else S.feedback[id] = {status:val, ts:new Date().toISOString(), title:e.title, category:e.category, venue:e.venue, tags:e.tags||[], start:e.start, area:e.area};
+  const prev = S.feedback[id]?.by || {};
+  S.feedback[id] = {title:e.title, category:e.category, venue:e.venue, tags:e.tags||[], start:e.start, area:e.area,
+    by:{...prev, [S.person]:{status:val, ts:new Date().toISOString()}}};
   store.set("ec.feedback", S.feedback);
-  toast(val==="interested" ? "Added to My calendar" : val==="not_interested" ? "Removed from the calendar" : "Flag cleared");
+  const me = pname(S.person);
+  toast(val==="interested" ? (fans(e).length === S.people.length && S.people.length > 1 ? "♥ You're both interested" : `Added to ${me}'s calendar`)
+    : val==="not_interested" ? `Hidden for ${me}` : "Flag cleared");
   render(); queueSync();
 }
 let syncTimer = null;
@@ -511,11 +562,9 @@ async function syncFeedback(){
   setSync("Syncing…");
   try{
     await putJson("data/feedback.json", remote => {
-      const items = {...(remote?.items||{})};
-      // local wins when newer; local removals delete the remote entry
-      for(const [id,f] of Object.entries(S.feedback)) if(!items[id] || (items[id].ts||"") <= f.ts) items[id] = f;
-      for(const id of Object.keys(items)) if(!S.feedback[id] && store.get("ec.cleared", {})[id]) delete items[id];
-      return {version:1, updated:new Date().toISOString(), items};
+      const items = mergeFb(normalizeAll(remote?.items), S.feedback);
+      S.feedback = items; store.set("ec.feedback", items);
+      return {version:2, updated:new Date().toISOString(), items};
     }, "Update event flags from calendar");
     setSync(`Flags synced <b>✓</b>`);
   }catch(err){ setSync(`Sync failed (${esc(err.message)})`); }
@@ -580,7 +629,6 @@ document.addEventListener("click", ev => {
 document.addEventListener("change", ev => {
   const f = ev.target.closest("[data-flag]");
   if(f){
-    if(!f.value){ const c = store.get("ec.cleared", {}); c[f.dataset.flag] = 1; store.set("ec.cleared", c); }
     setFlag(f.dataset.flag, f.value);
     if($("#evDlg").open) openEvent(f.dataset.flag);
   }
@@ -591,6 +639,18 @@ $("#todayBtn").onclick = () => { S.cursor = today(); render(); };
 $("#themeBtn").onclick = () => { const t = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light"; applyTheme(t); store.set("ec.themeChoice", t); };
 $("#areaSel").onchange = e => { S.area = e.target.value; store.set("ec.area", S.area); render(); };
 $("#modeSel").onchange = e => { S.mode = e.target.value; render(); };
+$("#personSel").onchange = e => { S.person = e.target.value; store.set("ec.person", S.person); renderPeople(); render(); toast(`Flagging as ${pname(S.person)}`); };
+function renderPeople(){
+  if(!S.people.some(p => p.id === S.person)) S.person = S.people[0].id;
+  $("#personSel").innerHTML = S.people.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join("");
+  $("#personSel").value = S.person;
+  const opts = [["all","All events"], [`p:${S.person}`, `★ ${pname(S.person)}'s calendar`]]
+    .concat(others().map(p => [`p:${p.id}`, `★ ${p.name}'s calendar`]));
+  if(S.people.length > 1) opts.push(["both", "♥ Both interested"], ["either", "★ Either of us"]);
+  if(!opts.some(o => o[0] === S.mode)) S.mode = "all";
+  $("#modeSel").innerHTML = opts.map(([v,l]) => `<option value="${v}">${esc(l)}</option>`).join("");
+  $("#modeSel").value = S.mode;
+}
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
 $("#settingsBtn").onclick = () => { $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
@@ -614,8 +674,8 @@ async function tokenFromPasswordManager(){
   }catch(e){}
 }
 $("#syncNow").onclick = () => syncFeedback();
-$("#dlIcs").onclick = () => download("event-calendar-interested.ics", icsFor(S.events.filter(e => status(e) === "interested")), "text/calendar");
-$("#dlFb").onclick = () => download("feedback.json", JSON.stringify({version:1, updated:new Date().toISOString(), items:S.feedback}, null, 1), "application/json");
+$("#dlIcs").onclick = () => download(`event-calendar-${S.person}.ics`, icsFor(S.events.filter(e => status(e) === "interested")), "text/calendar");
+$("#dlFb").onclick = () => download("feedback.json", JSON.stringify({version:2, updated:new Date().toISOString(), items:S.feedback}, null, 1), "application/json");
 $("#addTrip").onclick = async () => {
   const name = $("#tripName").value.trim(), from = $("#tripFrom").value, to = $("#tripTo").value;
   if(!name || !from || !to || to < from){ toast("Add a place and a valid date range"); return; }
@@ -649,18 +709,16 @@ function readHash(){
   renderLegend();
   const bust = `?v=${Date.now()}`;
   try{
-    const [ev, ar, fb] = await Promise.all([
+    const [ev, ar, fb, pp] = await Promise.all([
       fetch("data/events.json"+bust).then(r => r.json()),
       fetch("data/areas.json"+bust).then(r => r.json()).catch(() => ({areas:[]})),
-      fetch("data/feedback.json"+bust).then(r => r.json()).catch(() => ({items:{}}))
+      fetch("data/feedback.json"+bust).then(r => r.json()).catch(() => ({items:{}})),
+      fetch("data/people.json"+bust).then(r => r.json()).catch(() => null)
     ]);
+    if(pp?.people?.length) S.people = pp.people;
     S.events = ev.events || []; S.updated = ev.updated; S.areas = ar.areas || [];
-    // merge flags already synced from another device: newer timestamp wins, local otherwise
-    const cleared = store.get("ec.cleared", {});
-    for(const [id,f] of Object.entries(fb.items || {})){
-      if(cleared[id]) continue;
-      if(!S.feedback[id] || (S.feedback[id].ts||"") < (f.ts||"")) S.feedback[id] = f;
-    }
+    // merge flags synced from other devices and people: per person, newer timestamp wins
+    S.feedback = mergeFb(normalizeAll(fb.items), S.feedback);
     store.set("ec.feedback", S.feedback);
   }catch(err){
     $("#view").innerHTML = `<p class="empty">Couldn't load events (${esc(err.message)}).</p>`;
@@ -668,6 +726,7 @@ function readHash(){
   const u = S.updated ? new Date(S.updated) : null;
   $("#updated").textContent = (u ? `Updated ${MON[u.getMonth()]} ${u.getDate()}, ${u.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"})}` : "") + ` · ${S.events.length} events`;
   renderAreas();
+  renderPeople();
   render();
   if(token()) setSync("Flags sync on"); else tokenFromPasswordManager();
 })();

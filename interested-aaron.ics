@@ -1,0 +1,94 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//aaronvandorn//Event Calendar//EN
+X-WR-CALNAME:Event Calendar — Aaron interested
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2026-10-18-different-words-for-happiness@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Different Words for Happiness
+LOCATION:Everyman Theatre
+DESCRIPTION:$12.50–105.50 — https://everymantheatre.org/event/different-words/
+URL:https://everymantheatre.org/event/different-words/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-beth-lapides-it-s-a-lot@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261022T193000
+DTEND;TZID=America/New_York:20261022T213000
+SUMMARY:Beth Lapides: It's A Lot
+LOCATION:Creative Alliance
+DESCRIPTION:$28–51 — Solo comedy from the UnCabaret founder. — https://creativealliance.org/event/beth-lapides-its-a-lot/
+URL:https://creativealliance.org/event/beth-lapides-its-a-lot/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-22-junglist-heights-drum-bass@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T200000
+SUMMARY:Junglist Heights (drum & bass)
+LOCATION:Peabody Heights Brewery
+DESCRIPTION:$10 — https://peabodyheightsbrewery.com/event/junglist-heights/
+URL:https://peabodyheightsbrewery.com/event/junglist-heights/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-bmore-horror-film-fest@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;VALUE=DATE:20261023
+SUMMARY:Bmore Horror Film Fest
+LOCATION:Old Major\, 2640 Space\, Black Cherry Puppet Theater
+DESCRIPTION:See site — Indie horror festival\, Oct 23–25 across several venues. — https://www.bmorehorrorfest.com/
+URL:https://www.bmorehorrorfest.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-23-trio-sir-nes@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261023T193000
+DTEND;TZID=America/New_York:20261023T213000
+SUMMARY:Trio Sirènes
+LOCATION:St. David's Church
+DESCRIPTION:Free (donation) — Chamber trio. — https://stdavidsbaltimore.org/music/event-tickets/
+URL:https://stdavidsbaltimore.org/music/event-tickets/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-doors-open-baltimore@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T170000
+SUMMARY:Doors Open Baltimore
+LOCATION:52 buildings citywide
+DESCRIPTION:Free — Rarely open historic buildings\, from the Basilica to the Dentistry museum. Hours vary by site (10–2 or 1–5). — https://www.doorsopenbaltimore.org/sites/
+URL:https://www.doorsopenbaltimore.org/sites/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261024T160000
+DTEND;TZID=America/New_York:20261024T210000
+SUMMARY:Great Baltimore Lantern Parade + Día de los Muertos Festival
+LOCATION:Patterson Park
+DESCRIPTION:Free — Festival at 4\, parade at 7 p.m. — https://creativealliance.org/event/the-great-baltimore-lantern-parade/
+URL:https://creativealliance.org/event/the-great-baltimore-lantern-parade/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-mushroom-city-arts-festival@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T140000
+SUMMARY:Mushroom City Arts Festival
+LOCATION:Carrie Murray Nature Center
+DESCRIPTION:See site — https://www.facebook.com/events/1052371247444380/
+URL:https://www.facebook.com/events/1052371247444380/
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-microgreens-workshop@event-calendar
+DTSTAMP:20261022T181039Z
+DTSTART;TZID=America/New_York:20261024T110000
+DTEND;TZID=America/New_York:20261024T130000
+SUMMARY:Microgreens Workshop
+LOCATION:Filbert Street Garden
+DESCRIPTION:See site — https://filbertstreetgarden.org/baltimore-garden-events/
+URL:https://filbertstreetgarden.org/baltimore-garden-events/
+END:VEVENT
+END:VCALENDAR

@@ -1,5 +1,5 @@
 {
- "about": "Taste notes the weekly agent uses to set each event's base score (0-100). Edit freely; feedback on the calendar is learned on top of this.",
+ "about": "Taste notes the weekly agent uses to set each event's base score (0-100). 'likes'/'lessLikely' are Aaron's; 'people' holds anyone else's. Calendar flags are learned per person on top of this.",
  "likes": [
   "Repertory and revival film, noir, Hitchcock, Lynch; character actors and sad, humane stories",
   "Electronic, experimental, ambient and microhouse-adjacent music; DJ nights at artist-run spaces",
@@ -17,9 +17,54 @@
   "Pub crawls and generic bar parties"
  ],
  "learned": {
-  "updated": "2026-10-22T13:24",
-  "category": {},
-  "venue": {},
-  "tag": {}
+  "updated": "2026-10-22T14:10",
+  "aaron": {
+   "category": {
+    "nightlife": 0.333,
+    "theater": 0.333,
+    "film": 0.333,
+    "comedy": 0.333,
+    "music": 0.333,
+    "community": 0.5,
+    "festival": 0.5
+   },
+   "venue": {
+    "Peabody Heights Brewery": 0.333,
+    "Everyman Theatre": 0.333,
+    "Old Major, 2640 Space, Black Cherry Puppet Theater": 0.333,
+    "Creative Alliance": 0.333,
+    "St. David's Church": 0.333,
+    "52 buildings citywide": 0.333,
+    "Filbert Street Garden": 0.333,
+    "Carrie Murray Nature Center": 0.333,
+    "Patterson Park": 0.333
+   },
+   "tag": {
+    "electronic": 0.333,
+    "dj": 0.333,
+    "horror": 0.333,
+    "festival": 0.333,
+    "classical": 0.333,
+    "architecture": 0.333,
+    "history": 0.333,
+    "old houses": 0.333,
+    "gardening": 0.333,
+    "nature": 0.333,
+    "art": 0.333,
+    "parade": 0.333,
+    "community": 0.333
+   }
+  },
+  "stacey": {
+   "category": {},
+   "venue": {},
+   "tag": {}
+  }
+ },
+ "people": {
+  "stacey": {
+   "likes": [],
+   "note": "Nothing stated yet; learned from her flags on the calendar."
+  }
  }
 }

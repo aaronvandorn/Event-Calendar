@@ -8,11 +8,12 @@ Goal: refresh `data/events.json` with events Aaron is likely to enjoy, learn fro
 - Today's date comes from the clock tool, in America/New_York.
 
 ## 1. Read the state
-- `data/profile.json` — Aaron's tastes (`likes`, `lessLikely`) plus `learned` weights.
-- `data/feedback.json` — flags he set on the calendar (`interested` / `not_interested`), with a snapshot of each event's category, venue and tags.
+- `data/profile.json` — Aaron's tastes (`likes`, `lessLikely`), anyone else's under `people`, plus `learned` weights per person.
+- `data/people.json` — who flags on the calendar (Aaron, Stacey).
+- `data/feedback.json` — flags set on the calendar. Version 2: `items[id].by[person] = {status, ts}` (`interested`, `not_interested`, or empty = cleared), plus a snapshot of the event's category, venue and tags. An old-style item with a top-level `status` is Aaron's; the tool handles both.
 - `data/areas.json` — Baltimore (home) plus any trips (`from`/`to` dates).
 - `data/digest.json` — who gets the email. **Only email `recipients`. Never email anyone in `pending`.**
-- Run `python3 scripts/calendar_tool.py learn` and read its summary: categories, venues and tags he flags Interested should get more coverage and higher base scores this week; ones he flags Not interested get less.
+- Run `python3 scripts/calendar_tool.py learn` and read its per-person summary. Search harder for categories, venues and tags either person flags Interested, and especially for things both flagged (♥). Something one person marks Not interested is fine to keep if the other might like it; things both reject get less coverage.
 
 ## 2. Research
 Windows:
@@ -58,20 +59,21 @@ Each event in `data/events.json` → `events[]`:
 }
 ```
 
-`base` guidance: 75–90 strong fit (revival film, adventurous jazz, experimental/electronic nights, historic-building tours, maker/DIY electronics, photography shows); 55–74 good; 35–54 maybe; below 35 only if the day is thin. Apply what `learn` showed: nudge whole categories, venues and tags up or down.
+`base` is a household score — fit for Aaron and Stacey together (Stacey's tastes come from her flags until `profile.json → people.stacey.likes` has entries). Guidance: 75–90 strong fit (revival film, adventurous jazz, experimental/electronic nights, historic-building tours, maker/DIY electronics, photography shows); 55–74 good; 35–54 maybe; below 35 only if the day is thin. Apply what `learn` showed: nudge whole categories, venues and tags up or down.
 
 - Update an existing event in place (same `id`) if details changed; don't duplicate.
-- Leave events Aaron flagged `interested` alone even if they are in the past.
+- Leave events anyone flagged `interested` alone even if they are in the past.
 - Set the top-level `"updated"` to now (ISO with offset).
-- Run `python3 scripts/calendar_tool.py weekly` (validates, prunes events older than 45 days, refreshes `profile.json → learned`, writes `interested.ics`). Fix any validation errors.
+- Run `python3 scripts/calendar_tool.py weekly` (validates, prunes events older than 45 days, refreshes `profile.json → learned` per person, writes `interested.ics` (anyone), `interested-<person>.ics` and `interested-both.ics`). Fix any validation errors.
 
-The page shows at most 10 events per day (highest `base` + learned score, Interested always first) and flags busier days, so it's fine — good, even — to list more than 10 on a busy day.
+The page shows at most 10 events per day (highest `base` + the viewer's learned score, their Interested flags first) and flags busier days, so it's fine — good, even — to list more than 10 on a busy day.
 
 ## 4. Digest email
 - Weekend = the Friday–Sunday after today. Build it:
   `python3 scripts/calendar_tool.py digest --from <FRI> --to <SUN> --area baltimore --area-name Baltimore`
   If a trip overlaps that weekend, also build one for the trip area (`--area <id> --area-name "<Name>" --out digests/<FRI>-<id>`) and send it as its own email.
-- Read `digests/<FRI>.txt` and sanity-check it: dates right, nothing he flagged Not interested, links present.
+- The digest ranks by both people's learned scores, puts flagged events first, marks them `★ Name` or `♥ Aaron & Stacey`, and drops events someone rejected unless the other person is interested.
+- Read `digests/<FRI>.txt` and sanity-check it: dates right, nothing both rejected, links present.
 - Send with the connected Gmail (`send_message`) **to each address in `data/digest.json → recipients` only**, every week, even if it's thin:
   - Subject: `Weekend Events Digest · <Fri Mon D> – <Sun Mon D>`
   - HTML body: contents of `digests/<FRI>.html`; plain-text body: contents of `digests/<FRI>.txt`.
@@ -82,4 +84,4 @@ The page shows at most 10 events per day (highest `base` + learned score, Intere
 - `git push origin main`. The site is GitHub Pages from `main` at https://aaronvandorn.github.io/Event-Calendar/
 
 ## 6. Finish
-Reply with a short summary: events added/updated per area, how many he has flagged, what the learning shifted, and confirmation the email went out (to whom).
+Reply with a short summary: events added/updated per area, flags per person and how many both liked, what the learning shifted, and confirmation the email went out (to whom).
