@@ -9,6 +9,7 @@ Events Aaron and Stacey are likely to enjoy in Baltimore (and wherever they're t
 - **Color** = event type (Concert, Film, Museum & art, Theater & dance, Comedy, Festival, Talks & books, Nightlife, Food & markets, Tours & community). Tap a legend chip to hide or show a type.
 - **Diagonal stripe** = free.
 - **Who's flagging:** the 👤 menu picks Aaron or Stacey on this device (it's remembered). Flags, hiding and the ranking are per person.
+- **People:** ⚙ Settings → People renames either person or removes the second one (their old flags stay in the repo but stop counting). With only one person, the 👤 menu offers "+ Add a second person…" to register someone new by name; every device defaults to the first person (Aaron) until it picks someone.
 - **Flag** each event: ★ Interested puts it on that person's calendar; ✕ Not interested hides it for that person only. "Show events I marked Not interested" in Settings brings them back.
 - **Calendars** (the menu next to Area): All events · ★ Aaron's · ★ Stacey's · ♥ Both interested · ★ Either of us. On event cards, ★ = you're interested, ☆ = the other person is, ♥ = you both are; the detail line shows names (and ✕ if the other person passed).
 - **Ten per day.** Each day lists its ten best-fit events. A busier day gets an orange count badge and a "Show N more" button.

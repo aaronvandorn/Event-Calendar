@@ -220,6 +220,15 @@ dialog::backdrop{background:var(--scrim)}
 
 <dialog id="evDlg"><div class="dlg" id="evBody"></div></dialog>
 
+<dialog id="regDlg">
+  <form class="dlg" id="regForm" method="dialog" autocomplete="off">
+    <h2 id="regTitle">Welcome</h2>
+    <p class="hint" id="regHint"></p>
+    <div class="row"><input type="text" id="regName" placeholder="Your name" maxlength="40" required></div>
+    <div class="row"><button class="btn small primary" type="submit">Register</button><button class="btn small" type="button" id="regLater">Not now</button></div>
+  </form>
+</dialog>
+
 <dialog id="setDlg">
   <div class="dlg">
     <div class="row"><h2>Settings</h2><button class="btn small x" data-close>Close</button></div>
@@ -233,6 +242,15 @@ dialog::backdrop{background:var(--scrim)}
       </form>
       <p class="hint">When your browser offers to save this as a password, say yes: Google Password Manager (or iCloud Keychain) then fills it in on your other devices.</p>
       <p class="hint" id="tokenState"></p>
+    </fieldset>
+    <fieldset>
+      <legend>People</legend>
+      <div id="peopleList" style="display:grid;gap:6px"></div>
+      <div class="row" id="addPersonRow">
+        <input type="text" id="newPerson" placeholder="Second person's name" maxlength="40" autocomplete="off">
+        <button class="btn small primary" id="addPerson">Add second person</button>
+      </div>
+      <p class="hint" id="peopleHint"></p>
     </fieldset>
     <fieldset>
       <legend>Trips &amp; other areas</legend>
@@ -665,10 +683,104 @@ $("#todayBtn").onclick = () => { S.cursor = today(); render(); };
 $("#themeBtn").onclick = () => { const t = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light"; applyTheme(t); store.set("ec.themeChoice", t); };
 $("#areaSel").onchange = e => { S.area = e.target.value; store.set("ec.area", S.area); render(); };
 $("#modeSel").onchange = e => { S.mode = e.target.value; render(); };
-$("#personSel").onchange = e => { S.person = e.target.value; store.set("ec.person", S.person); renderPeople(); render(); toast(`Flagging as ${pname(S.person)}`); };
+$("#personSel").onchange = e => {
+  if(e.target.value === "__add"){ e.target.value = S.person; openRegister(SECOND_ID); return; }
+  S.person = e.target.value; store.set("ec.person", S.person); renderPeople(); render(); toast(`Flagging as ${pname(S.person)}`);
+};
+
+/* ---------- people: the first person is the default; a second person is optional */
+const MAX_PEOPLE = 2, SECOND_ID = "person2";
+// Union by id. Remote wins, except a remote placeholder ("Person 1") loses to a name registered on this device.
+function mergePeople(remote, local){
+  const out = (remote||[]).map(r => { const l = (local||[]).find(x => x.id === r.id); return l && r.placeholder && !l.placeholder ? l : r; });
+  for(const l of local||[]) if(!out.some(x => x.id === l.id)) out.push(l);
+  return out.slice(0, MAX_PEOPLE);
+}
+// Apply a change to the people list here, then (with a token) to data/people.json. fn must be idempotent.
+async function savePeople(fn, msg){
+  S.people = fn(S.people.map(p => ({...p})));
+  store.set("ec.people", S.people);
+  renderPeople(); renderPeopleSettings(); render();
+  if(!token()) return false;
+  try{
+    const next = await putJson("data/people.json", cur => {
+      const o = cur || {};
+      o.people = fn(mergePeople(o.people, S.people));
+      return o;
+    }, msg);
+    S.people = next.people; store.set("ec.people", []);  // synced: nothing pending on this device
+    renderPeople(); renderPeopleSettings();
+    return true;
+  }catch(err){ toast(`Couldn't save to GitHub (${err.message})`); return false; }
+}
+// Give a newly registered person an entry in taste.json so Settings → What the agent has learned works for them.
+async function ensureTaste(id){
+  if(!token() || S.taste.people?.[id]) return;
+  try{
+    S.taste = await putJson("data/taste.json", cur => {
+      const o = cur || {people:{}}; o.people = o.people || {};
+      o.people[id] ||= {summary:"Nothing learned yet. Edit this to describe what you enjoy (and what you don't), or just flag events and the agent will fill it in.", updated:null, updatedBy:"agent"};
+      return o;
+    }, `Add taste notes for ${pname(id)}`);
+  }catch(e){}
+}
+const upsert = (id, name) => list => { const i = list.findIndex(p => p.id === id), p = {id, name}; if(i >= 0) list[i] = p; else list.push(p); return list; };
+async function register(id, name){
+  name = name.trim().replace(/\s+/g, " ").slice(0, 40);
+  if(!name){ toast("Add a name"); return; }
+  if(S.people.some(p => p.id !== id && p.name.toLowerCase() === name.toLowerCase())){ toast(`${name} is already registered`); return; }
+  const isNew = !S.people.some(p => p.id === id);
+  const synced = await savePeople(upsert(id, name), isNew ? `Register ${name}` : `Rename to ${name}`);
+  if(isNew || id === S.person){ S.person = id; store.set("ec.person", id); }
+  await ensureTaste(id);
+  renderPeople(); render();
+  toast(synced ? `Registered ${name} — flagging as ${name} on this device` : `Registered ${name} on this device. Save a GitHub token in Settings to share it.`);
+}
+let regTarget = null;
+function openRegister(id){
+  regTarget = id;
+  const first = S.people[0], adding = id !== first.id;
+  $("#regTitle").textContent = adding ? "Add a second person" : "Welcome";
+  $("#regHint").textContent = adding
+    ? `Register with your name. This device will flag as you; other devices keep defaulting to ${first.placeholder ? "the first person" : first.name}. Flags, rankings and the learned-taste notes are kept separately for each of you.`
+    : "What's your name? The calendar starts with just you. Someone else can register as a second person later, from the 👤 menu or Settings.";
+  $("#regName").value = adding ? "" : (first.placeholder ? "" : first.name);
+  $("#regDlg").showModal();
+  setTimeout(() => $("#regName").focus(), 50);
+}
+$("#regForm").onsubmit = ev => { ev.preventDefault(); const n = $("#regName").value; $("#regDlg").close(); register(regTarget, n); };
+$("#regLater").onclick = () => { $("#regDlg").close(); if(regTarget === S.people[0].id) store.set("ec.regSkip", true); };
+let rmArmed = null;
+function renderPeopleSettings(){
+  $("#peopleList").innerHTML = S.people.map((p, i) => `<div class="row">
+      <input type="text" data-pname="${esc(p.id)}" value="${p.placeholder ? "" : esc(p.name)}" placeholder="${esc(p.name)}" maxlength="40" aria-label="Name for person ${i+1}">
+      <span class="hint">${i === 0 ? "default" : "second"}${p.id === S.person ? " · this device" : ""}</span>
+      ${i > 0 ? `<button class="btn small" data-rmperson="${esc(p.id)}">${rmArmed === p.id ? "Tap again to remove" : "Remove"}</button>` : ""}
+    </div>`).join("");
+  $("#addPersonRow").hidden = S.people.length >= MAX_PEOPLE;
+  $("#peopleHint").textContent = S.people.length < MAX_PEOPLE
+    ? "Just you? Leave this empty — the calendar runs for one person. A second person registers with their name and then has their own flags, ★ calendar and .ics feed. Edit a name above and press Enter to rename."
+    : `${S.people[0].placeholder ? "The first person" : S.people[0].name} is the default on any device that hasn't picked someone in the 👤 menu. Removing the second person keeps their old flags in the repo but stops using them.`;
+}
+$("#addPerson").onclick = () => register(SECOND_ID, $("#newPerson").value).then(() => { $("#newPerson").value = ""; });
+$("#newPerson").onkeydown = e => { if(e.key === "Enter"){ e.preventDefault(); $("#addPerson").click(); } };
+$("#peopleList").addEventListener("change", e => { const i = e.target.closest("[data-pname]"); if(i && i.value.trim()) register(i.dataset.pname, i.value); });
+$("#peopleList").addEventListener("click", async e => {
+  const b = e.target.closest("[data-rmperson]"); if(!b) return;
+  const id = b.dataset.rmperson;
+  if(rmArmed !== id){ rmArmed = id; renderPeopleSettings(); return; }
+  rmArmed = null;
+  if(!token()){ toast("Save a GitHub token first to remove someone"); renderPeopleSettings(); return; }
+  const name = pname(id);
+  if(S.person === id){ S.person = S.people[0].id; store.set("ec.person", S.person); }
+  await savePeople(list => list.filter(p => p.id !== id), `Remove ${name}`);
+  toast(`Removed ${name}`);
+});
+
 function renderPeople(){
   if(!S.people.some(p => p.id === S.person)) S.person = S.people[0].id;
-  $("#personSel").innerHTML = S.people.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join("");
+  $("#personSel").innerHTML = S.people.map(p => `<option value="${esc(p.id)}">${esc(p.name)}</option>`).join("")
+    + (S.people.length < MAX_PEOPLE ? `<option value="__add">+ Add a second person…</option>` : "");
   $("#personSel").value = S.person;
   const opts = [["all","All events"], [`p:${S.person}`, `★ ${pname(S.person)}'s calendar`]]
     .concat(others().map(p => [`p:${p.id}`, `★ ${p.name}'s calendar`]));
@@ -679,7 +791,7 @@ function renderPeople(){
 }
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
-$("#settingsBtn").onclick = () => { renderTaste(S.person); $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
+$("#settingsBtn").onclick = () => { rmArmed = null; renderPeopleSettings(); renderTaste(S.person); $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
 $("#tokenForm").onsubmit = async ev => {
   ev.preventDefault();
   const t = $("#tokenIn").value.trim();
@@ -690,6 +802,7 @@ $("#tokenForm").onsubmit = async ev => {
     try{ await navigator.credentials.store(new PasswordCredential({id:$("#tokenUser").value, password:t, name:"Event Calendar"})); }catch(e){}
   }
   queueSync();
+  if(t && store.get("ec.people", []).length) savePeople(list => list, "Sync people from calendar").then(ok => { if(ok){ S.people.forEach(p => ensureTaste(p.id)); toast("People synced"); } });
 };
 // No token here yet? Ask the browser's password manager for one saved on another device.
 async function tokenFromPasswordManager(){
@@ -780,7 +893,10 @@ function readHash(){
     ]);
     S.venues = vn.venues || {};
     S.taste = tt;
-    if(pp?.people?.length) S.people = pp.people;
+    // people.json is the shared list; a name registered on this device without a token is kept here until it can sync.
+    const localPeople = store.get("ec.people", []);
+    S.people = mergePeople(pp?.people?.length ? pp.people : S.people, localPeople);
+    if(token() && localPeople.length && JSON.stringify(S.people) !== JSON.stringify(pp?.people || [])) savePeople(list => list, "Sync people from calendar");
     S.events = ev.events || []; S.updated = ev.updated; S.areas = ar.areas || [];
     // merge flags synced from other devices and people: per person, newer timestamp wins
     S.feedback = mergeFb(normalizeAll(fb.items), S.feedback);
@@ -794,6 +910,7 @@ function readHash(){
   renderPeople();
   render();
   if(token()) setSync("Flags sync on"); else tokenFromPasswordManager();
+  if(S.people[0]?.placeholder && !store.get("ec.regSkip", false)) openRegister(S.people[0].id);
 })();
 </script>
 </body>
