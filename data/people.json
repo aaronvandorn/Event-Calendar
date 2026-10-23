@@ -1,7 +1,9 @@
 {
-  "about": "People who flag events on the calendar. Each browser picks who is flagging; flags, learning and calendar views are kept per person.",
-  "people": [
-    {"id": "aaron", "name": "Aaron"},
-    {"id": "stacey", "name": "Stacey"}
-  ]
+ "about": "People who flag events on the calendar. Each browser picks who is flagging; flags, learning and calendar views are kept per person.",
+ "people": [
+  {
+   "id": "aaron",
+   "name": "Aaron"
+  }
+ ]
 }
