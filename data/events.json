@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T13:30:00-04:00",
+ "updated": "2026-10-26T08:55:00-04:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -2928,6 +2928,583 @@
    ],
    "source": "Keystone Korner",
    "description": "Fusion guitarist Carl Filipiak's quartet with Lafayette Gilchrist, Baltimore's great funk-jazz pianist. 5 & 7:30 p.m."
+  },
+  {
+   "id": "2026-10-27-xor-leprechaun-catering-dual-electronics-duos",
+   "title": "XOR + Leprechaun Catering (Dual Electronics DUOS!)",
+   "category": "music",
+   "start": "2026-10-27T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$10–20 sliding / pay what you can",
+   "free": false,
+   "url": "https://www.redroom.org/xor-leprechaun-catering-dual-electronics-duos/",
+   "base": 84,
+   "description": "A double bill of electronic duos at the Red Room, Baltimore's long-running experimental music space. XOR is Sam Pluta with instrument designer Jeff Snyder; local duo Leprechaun Catering also plays, and the listing hints the two might join as a quartet.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "synth",
+    "local"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-10-27-the-larry-brown-quintet",
+   "title": "The Larry Brown Quintet",
+   "category": "music",
+   "start": "2026-10-27T19:00",
+   "end": "2026-10-27T20:30",
+   "venue": "Keystone Korner",
+   "cost": "$15–35",
+   "free": false,
+   "url": "https://baltimore.org/event/the-larry-brown-quintet/",
+   "base": 52,
+   "description": "Straight-ahead, post-bop jazz led by pianist Larry Brown (influences Bill Evans, Wynton Kelly, Miles Davis), with Thad Wilson on trumpet, Peter Fraize on tenor sax, Kent Miller on bass and Greg Holloway on drums. A multiple Wammie-winning Mid-Atlantic group.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Visit Baltimore",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-10-26-folks-at-intimate-play-shan-wallace",
+   "title": "Folks at Intimate Play — SHAN Wallace (closing Nov 7)",
+   "category": "museum",
+   "start": "2026-10-26",
+   "allDay": true,
+   "until": "2026-11-07",
+   "venue": "Current Space",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.currentspace.com/",
+   "base": 62,
+   "description": "An exhibition by Baltimore photographer and artist SHAN Wallace at the artist-run Current Space, shown alongside \"Katey and Jessie\" by Jessie and Katey.",
+   "summary": "On view since Sept 25; closes Nov 7. Check the site for gallery hours.",
+   "tags": [
+    "photography",
+    "gallery",
+    "art",
+    "local"
+   ],
+   "source": "Current Space",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-02-clara-la-san",
+   "title": "Clara La San",
+   "category": "music",
+   "start": "2026-11-02T20:00",
+   "venue": "Nevermore Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.ticketsmarter.com/e/clara-la-san-tickets-baltimore-11-2-2026-nevermore-hall/3470971",
+   "base": 46,
+   "description": "UK singer-songwriter Clara La San brings her hazy, electronic-tinged alt-R&B to Nevermore Hall downtown.",
+   "summary": "Only resale listings found; check the venue for face-value tickets.",
+   "tags": [
+    "electronic",
+    "r&b"
+   ],
+   "source": "Songkick / TicketSmarter",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-05-experimental-music-with-john-berndt-and-friends",
+   "title": "Experimental Music with John Berndt and Friends",
+   "category": "music",
+   "start": "2026-11-05T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$8 sliding scale",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 70,
+   "description": "Baltimore experimental-music fixture John Berndt (a founder of the High Zero festival) plays an open-ended improvised set with guests; the listing says new and near-new sounds are the point.",
+   "tags": [
+    "experimental",
+    "local"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-06-nate-wooley-w-dave-ballou-john-dierker-and-mike-kuhl",
+   "title": "Nate Wooley w/ Dave Ballou, John Dierker and Mike Kuhl",
+   "category": "music",
+   "start": "2026-11-06T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "Sliding scale",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 78,
+   "description": "Trumpeter and composer Nate Wooley — a leading figure in avant-garde jazz whose music the New York Times called \"the most progressive campfire music ever\" — plays with Baltimore trumpeter Dave Ballou, reedist John Dierker and drummer Mike Kuhl.",
+   "tags": [
+    "jazz",
+    "experimental"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-10-sonic-chambers-quartet-steve-olson",
+   "title": "Sonic Chambers Quartet | Steve Olson",
+   "category": "music",
+   "start": "2026-11-10T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$10–20",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 58,
+   "description": "An evening of experimental music at the Red Room with the Sonic Chambers Quartet and Steve Olson; the listing gives few other details.",
+   "tags": [
+    "experimental"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-13-diffusion-night-one-elephant-and-some-new-works",
+   "title": "DIFFUSION Night One — \"Elephant\" and some new works",
+   "category": "music",
+   "start": "2026-11-13T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$15",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 74,
+   "description": "First of four nights of DIFFUSION, the Red Room's multichannel speaker-array series for electronic and electro-acoustic music, now in its tenth year. Program details are still to be announced.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "ambient"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-14-diffusion-night-two-favorite-works-from-10-years",
+   "title": "DIFFUSION Night Two — Favorite works from 10 years",
+   "category": "music",
+   "start": "2026-11-14T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$15 sliding",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 78,
+   "description": "A best-of from ten years of DIFFUSION: immersive multichannel sound works by IDM Theftable, Marja Ahti, Obie Feldi and others, played through a surround speaker array.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "ambient"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-20-diffusion-night-3-marcin-pietrewszewski-max-eilbacher",
+   "title": "DIFFUSION Night 3 — Marcin Pietrewszewski + Max Eilbacher",
+   "category": "music",
+   "start": "2026-11-20T20:00",
+   "venue": "2640 Space",
+   "cost": "$15",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 76,
+   "description": "New multichannel electronic works by Polish composer Marcin Pietrewszewski and Baltimore's Max Eilbacher, presented by the Red Room's DIFFUSION series at the 2640 St. Paul Street space.",
+   "tags": [
+    "electronic",
+    "experimental"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-21-diffusion-night-four-multichannel-electro-acoustic-music-of-poland",
+   "title": "DIFFUSION Night Four — Multichannel electro-acoustic music of Poland",
+   "category": "music",
+   "start": "2026-11-21T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$15",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 70,
+   "description": "Marcin Pietrewszewski presents a listening history of Polish electro-acoustic music, played in multichannel sound.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "history"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-07-quentin-tolimieri-electronics-melodica",
+   "title": "Quentin Tolimieri: Electronics & Melodica",
+   "category": "music",
+   "start": "2026-12-07T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "$10–20",
+   "free": false,
+   "url": "https://www.redroom.org/category/events/",
+   "base": 64,
+   "description": "Berlin-based pianist, composer and improviser Quentin Tolimieri plays electronics and melodica; his recent work is minimal and reduced, closer to sound sculpture than a conventional concert.",
+   "tags": [
+    "experimental",
+    "electronic",
+    "ambient"
+   ],
+   "source": "The Red Room",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-03-machine-girl",
+   "area": "lima-peru-2026-11",
+   "title": "Machine Girl",
+   "category": "music",
+   "start": "2026-12-03T19:00",
+   "venue": "Yield Rock",
+   "cost": "From S/ 159",
+   "free": false,
+   "url": "https://www.songkick.com/concerts/43402695-machine-girl-at-yield-rock",
+   "base": 72,
+   "description": "Machine Girl, the US electronic/experimental act (breakcore, digital hardcore), headlines a club show at Yield Rock, a small rock venue facing Plaza San Martín in the historic centre.",
+   "summary": "19:00 is doors; no set time or support listed. Tickets via Joinnus — confirm price there.",
+   "tags": [
+    "electronic",
+    "experimental"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-27-contemporaneo-1-materia-alquimia-dispositivo-flujo",
+   "area": "lima-peru-2026-11",
+   "title": "Contemporáneo 1. Materia :: Alquimia :: Dispositivo :: Flujo",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-31",
+   "venue": "MAC Lima",
+   "cost": "See site",
+   "free": null,
+   "url": "https://maclima.pe/exposiciones/",
+   "base": 75,
+   "description": "A long-running exhibition of contemporary art from the MAC Lima collection, in Sala 3 of the Barranco museum.",
+   "summary": "Open Tue–Sun 10:00–19:00; closed Mondays (closed Nov 30). Easy to pair with a walk around Barranco.",
+   "tags": [
+    "art",
+    "gallery"
+   ],
+   "source": "MAC Lima"
+  },
+  {
+   "id": "2026-11-27-donacion-patricia-phelps-de-cisneros-obras-para-el-mali",
+   "area": "lima-peru-2026-11",
+   "title": "Donación Patricia Phelps de Cisneros. Obras para el MALI",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-31",
+   "venue": "Museo de Arte de Lima (MALI)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://diariocorreo.pe/cultura/mali-presenta-obras-donadas-por-patricia-phelps-de-cisneros-hasta-diciembre-noticia/",
+   "base": 70,
+   "description": "Modern and contemporary works donated to MALI by collector Patricia Phelps de Cisneros, shown across Sala 2 and rooms 20 and 26 of the collection galleries.",
+   "summary": "Runs Aug 25 – Dec 31. MALI is in a 19th-century exhibition palace in Parque de la Exposición.",
+   "tags": [
+    "art",
+    "modernism"
+   ],
+   "source": "Diario Correo"
+  },
+  {
+   "id": "2026-11-27-pacchas-agua-ritual-y-ofrenda-en-los-andes",
+   "area": "lima-peru-2026-11",
+   "title": "Pacchas: agua, ritual y ofrenda en los Andes",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2027-02-28",
+   "venue": "Museo de Arte de Lima (MALI)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.arteinformado.com/agenda/f/pacchas-agua-ritual-y-ofrenda-en-los-andes-247196",
+   "base": 64,
+   "description": "Pre-Columbian and colonial ritual vessels (pacchas) shown for their ties to water, fertility and Andean practices of offering and reciprocity.",
+   "summary": "Runs Oct 27, 2026 – Feb 28, 2027.",
+   "tags": [
+    "history",
+    "art"
+   ],
+   "source": "ArteInformado"
+  },
+  {
+   "id": "2026-11-27-el-tejido-como-memoria-centro-de-textiles-tradicionales-del-cusco",
+   "area": "lima-peru-2026-11",
+   "title": "El tejido como memoria. Centro de Textiles Tradicionales del Cusco",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2027-03-14",
+   "venue": "Museo de Arte de Lima (MALI)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.arteinformado.com/agenda/f/el-tejido-como-memoria-centro-de-textiles-tradicionales-del-cusco-247197",
+   "base": 64,
+   "description": "Work by Cusco weavers carrying on textile techniques passed down through generations, presented as living Andean heritage.",
+   "summary": "Runs Oct 30, 2026 – Mar 14, 2027.",
+   "tags": [
+    "textiles",
+    "art",
+    "making"
+   ],
+   "source": "ArteInformado"
+  },
+  {
+   "id": "2026-11-27-el-nuevo-poema-obra-y-pensamiento-de-magda-portal",
+   "area": "lima-peru-2026-11",
+   "title": "El nuevo poema: obra y pensamiento de Magda Portal",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-11-29",
+   "venue": "Centro Cultural Inca Garcilaso",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.ccincagarcilaso.gob.pe/en/activities/el-nuevo-poema-obra-y-pensamiento-de-magda-portal/",
+   "base": 66,
+   "description": "An exhibition, curated by Kristel Best, on poet and activist Magda Portal from the 1920s to 1980 — first editions, periodicals and photographs of her avant-garde and social poetry. Housed in a colonial-era mansion in the historic centre.",
+   "summary": "Closes Nov 29. Fri 10:00–20:00, Sat–Sun 10:00–18:00.",
+   "tags": [
+    "books",
+    "history",
+    "architecture"
+   ],
+   "source": "Centro Cultural Inca Garcilaso"
+  },
+  {
+   "id": "2026-11-27-desde-adentro-ricardo-inga-arizola",
+   "area": "lima-peru-2026-11",
+   "title": "Desde Adentro (Ricardo Inga Arizola)",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-11-29",
+   "venue": "Galería Casa Tambo",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.infobae.com/peru/2026/10/23/agenda-cultural-en-lima-del-23-al-30-de-octubre-ferias-musica-criolla-y-propuestas-de-halloween/",
+   "base": 63,
+   "description": "A solo exhibition by artist Ricardo Inga Arizola at a small gallery on Jirón de la Unión in the historic centre.",
+   "summary": "Until Nov 29, daily 13:00–19:00. Easy to fold into a centro walk.",
+   "tags": [
+    "gallery",
+    "art"
+   ],
+   "source": "Infobae"
+  },
+  {
+   "id": "2026-11-27-una-mirada-britanica-kate-hepburn-60-anos-de-arte-y-diseno",
+   "area": "lima-peru-2026-11",
+   "title": "Una mirada británica: Kate Hepburn, 60 años de arte y diseño",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-20",
+   "venue": "Galería John Harriman, Británico Cultural",
+   "cost": "Free",
+   "free": true,
+   "url": "https://britanico.edu.pe/cultural/eventos/una-mirada-britanica-kate-hepburn-60-a-de-arte-y-diseno/",
+   "base": 60,
+   "description": "A retrospective of nearly six decades of work by London graphic designer and artist Kate Hepburn (1947–2024), focused on typography, colour and form.",
+   "summary": "Tue–Sun 13:00–21:00.",
+   "tags": [
+    "gallery",
+    "art",
+    "design"
+   ],
+   "source": "Británico"
+  },
+  {
+   "id": "2026-11-27-sobreviviendo-en-azul-y-tierra-erika-humala",
+   "area": "lima-peru-2026-11",
+   "title": "Sobreviviendo en azul y tierra (Erika Humala)",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2027-02-15",
+   "venue": "LUM – Lugar de la Memoria",
+   "cost": "Free",
+   "free": true,
+   "url": "https://lum.cultura.pe/",
+   "base": 50,
+   "description": "An exhibition by Erika Humala at LUM, the clifftop memory museum in Miraflores known for its architecture.",
+   "summary": "Tue–Sun 10:00–18:00. Free; bring ID.",
+   "tags": [
+    "art",
+    "architecture"
+   ],
+   "source": "LUM"
+  },
+  {
+   "id": "2026-11-27-blanca-ponte-un-alma",
+   "area": "lima-peru-2026-11",
+   "title": "Blanca, ponte un alma",
+   "category": "theater",
+   "start": "2026-11-27T20:30",
+   "until": "2026-11-29",
+   "venue": "Auditorio Británico Miraflores",
+   "cost": "S/ 40 (S/ 30 students/seniors)",
+   "free": false,
+   "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=14841",
+   "base": 58,
+   "description": "A play about Peruvian poet Blanca Varela that moves through her life using her poetry, written and directed by K'intu Galiano.",
+   "summary": "Final weekend: Fri–Sat 20:30, Sun Nov 29 20:00. In Spanish.",
+   "tags": [
+    "books",
+    "theater"
+   ],
+   "source": "Británico"
+  },
+  {
+   "id": "2026-11-27-sueno",
+   "area": "lima-peru-2026-11",
+   "title": "Sueño",
+   "category": "theater",
+   "start": "2026-11-27T20:00",
+   "until": "2026-12-06",
+   "venue": "Teatro La Plaza",
+   "cost": "See site",
+   "free": null,
+   "url": "https://diariocorreo.pe/cultura/sueno-llega-al-teatro-la-plaza-de-lima-fecha-de-estreno-elenco-y-entradas-noticia/",
+   "base": 48,
+   "description": "A contemporary Peruvian take on Shakespeare's A Midsummer Night's Dream, written and directed by Josué Castañeda and Daniela Zea; it closes Teatro La Plaza's 2026 season.",
+   "summary": "Wed–Sat 20:00, Sun 19:00, at Larcomar in Miraflores. In Spanish.",
+   "tags": [
+    "theater"
+   ],
+   "source": "Diario Correo"
+  },
+  {
+   "id": "2026-11-27-la-mujer-de-negro",
+   "area": "lima-peru-2026-11",
+   "title": "La mujer de negro (The Woman in Black)",
+   "category": "theater",
+   "start": "2026-11-27T20:00",
+   "until": "2026-12-06",
+   "venue": "Teatro Británico",
+   "cost": "S/ 65 (S/ 40 students)",
+   "free": false,
+   "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=13376",
+   "base": 42,
+   "description": "Stephen Mallatratt's stage adaptation of Susan Hill's ghost story, directed by Norma Martínez, with Alberto Isola and Nicolás Galindo.",
+   "summary": "Thu–Sat 20:00, Sun 19:00. Likely in Spanish. One source says the run ends Nov 29 — check before going.",
+   "tags": [
+    "theater",
+    "gothic"
+   ],
+   "source": "Británico"
+  },
+  {
+   "id": "2026-11-29-leo-middea",
+   "area": "lima-peru-2026-11",
+   "title": "Leo Middea",
+   "category": "music",
+   "start": "2026-11-29",
+   "allDay": true,
+   "venue": "Centro de Convenciones Bianca",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/metro-areas/31493-peru-lima/november-2026",
+   "base": 42,
+   "description": "A Lima concert by Brazilian singer-songwriter Leo Middea.",
+   "summary": "No time or price found.",
+   "tags": [
+    "folk"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-27-ca7riel-paco-amoroso-free-spirits-world-tour",
+   "area": "lima-peru-2026-11",
+   "title": "CA7RIEL & Paco Amoroso – Free Spirits World Tour",
+   "category": "music",
+   "start": "2026-11-27",
+   "allDay": true,
+   "venue": "Multiespacio Costa 21",
+   "cost": "See site",
+   "free": null,
+   "url": "https://teleticket.com.pe/ca7riel-y-paco",
+   "base": 38,
+   "description": "A tour stop by the playful Argentine art-pop duo CA7RIEL & Paco Amoroso, at a large venue in San Miguel.",
+   "summary": "No time or price confirmed.",
+   "tags": [
+    "indie"
+   ],
+   "source": "Teleticket"
+  },
+  {
+   "id": "2026-11-28-ballet-nacional-cascanueces",
+   "area": "lima-peru-2026-11",
+   "title": "Ballet Nacional (Cascanueces)",
+   "category": "theater",
+   "start": "2026-11-28",
+   "allDay": true,
+   "until": "2026-12-06",
+   "venue": "Gran Teatro Nacional",
+   "cost": "See site",
+   "free": null,
+   "url": "https://granteatronacional.pe/evento/ballet-nacional-2",
+   "base": 34,
+   "description": "Dates reserved for the Ballet Nacional at the Gran Teatro Nacional; the page image suggests The Nutcracker, with programme and times still to be announced.",
+   "summary": "Times and prices not announced yet.",
+   "tags": [
+    "dance"
+   ],
+   "source": "Gran Teatro Nacional"
+  },
+  {
+   "id": "2026-12-04-cascanueces-ballet-municipal-de-lima",
+   "area": "lima-peru-2026-11",
+   "title": "Cascanueces – Ballet Municipal de Lima",
+   "category": "theater",
+   "start": "2026-12-04",
+   "allDay": true,
+   "until": "2026-12-27",
+   "venue": "Teatro Municipal de Lima",
+   "cost": "See site",
+   "free": null,
+   "url": "https://teleticket.com.pe/cascanueces-bml-2026",
+   "base": 38,
+   "description": "The Ballet Municipal de Lima's Nutcracker season opens at the historic Teatro Municipal in the centro.",
+   "summary": "Opens Dec 4, the trip's last day. Time not confirmed.",
+   "tags": [
+    "dance",
+    "architecture"
+   ],
+   "source": "Teleticket"
+  },
+  {
+   "id": "2026-11-27-algo-mas-cerca-de-la-verdad",
+   "area": "lima-peru-2026-11",
+   "title": "Algo más cerca de la verdad: Paisaje peruano de Londres a Lima",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-12",
+   "venue": "Galería Santa Anita (Británico)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://britanico.edu.pe/cultural/eventos/algo-mas-cerca-de-la-verdad-santa-anita/",
+   "base": 36,
+   "description": "Prize-winning watercolours of Peruvian landscapes from Británico's John Constable Prize, a show earlier presented in London.",
+   "summary": "Mon–Sat 10:00–18:00. The gallery is in Santa Anita, far from Miraflores and Barranco.",
+   "tags": [
+    "painting",
+    "art"
+   ],
+   "source": "Británico"
   }
  ]
 }

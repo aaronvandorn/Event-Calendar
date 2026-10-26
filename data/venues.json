@@ -162,6 +162,36 @@
   },
   "Maryland Science Center & Reginald F. Lewis Museum": {
    "map": false
+  },
+  "The Red Room at Normals Books and Records": {
+   "address": "425 E 31st St, Baltimore, MD 21218"
+  },
+  "2640 Space": {
+   "address": "2640 St Paul St, Baltimore, MD"
+  },
+  "Nevermore Hall": {
+   "address": "20 Market Pl, Baltimore, MD 21202"
+  },
+  "MAC Lima": {
+   "address": "Av. Grau 1511, Barranco, Lima 15063"
+  },
+  "Museo de Arte de Lima (MALI)": {
+   "address": "Paseo Colón 125, Cercado de Lima"
+  },
+  "Centro Cultural Inca Garcilaso": {
+   "address": "Jr. Ucayali 391, Cercado de Lima"
+  },
+  "Galería Casa Tambo": {
+   "address": "Jr. de la Unión 1066, Cercado de Lima"
+  },
+  "LUM – Lugar de la Memoria": {
+   "address": "Bajada San Martín 151, Miraflores"
+  },
+  "Gran Teatro Nacional": {
+   "address": "Av. Javier Prado Este 2225, San Borja"
+  },
+  "Teatro Municipal de Lima": {
+   "address": "Jr. Ica 377, Cercado de Lima"
   }
  }
 }

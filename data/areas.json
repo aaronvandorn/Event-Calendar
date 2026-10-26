@@ -12,7 +12,8 @@
    "name": "Lima, Peru",
    "from": "2026-11-27",
    "to": "2026-12-04",
-   "note": "Added from the calendar. Agent fills in timezone and events on the next run."
+   "note": "Added from the calendar. Trip Nov 27 – Dec 4; events researched on the Oct 26 run.",
+   "timezone": "America/Lima"
   }
  ]
 }
