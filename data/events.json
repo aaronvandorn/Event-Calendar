@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T08:55:00-04:00",
+ "updated": "2026-10-29T12:14:14-04:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -3505,6 +3505,2011 @@
     "art"
    ],
    "source": "Británico"
+  },
+  {
+   "id": "2026-10-29-free-fall-disco-ghost-workshop-avam",
+   "area": "baltimore",
+   "title": "Free Fall: Disco Ghost Workshop & Free After-Hours Admission",
+   "category": "museum",
+   "start": "2026-10-29T17:00",
+   "end": "2026-10-29T19:00",
+   "venue": "American Visionary Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.avam.org/event-details/free-fall-disco-ghost-workshop-free-after-hours-admission",
+   "base": 45,
+   "description": "AVAM's annual Halloween celebration: free after-hours admission to the campus and newest exhibition, plus a Disco Ghost craft in the Tall Sculpture Barn. Costumes encouraged, all ages.",
+   "tags": [
+    "art",
+    "halloween",
+    "local"
+   ],
+   "source": "avam.org"
+  },
+  {
+   "id": "2026-10-30-walters-conservation-window",
+   "area": "baltimore",
+   "title": "Conservation Window at the Walters",
+   "category": "museum",
+   "start": "2026-10-30T10:00",
+   "end": "2026-10-30T13:00",
+   "venue": "Walters Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://thewalters.org/event/conservation-window/2026-10-30/",
+   "base": 35,
+   "description": "Drop-in chance to watch Walters conservators at work and ask questions.",
+   "summary": "Also Sat Oct 31, 12:30–4 pm.",
+   "tags": [
+    "art",
+    "history"
+   ],
+   "source": "thewalters.org events listing"
+  },
+  {
+   "id": "2026-10-15-jones-falls-2076-exhibition",
+   "area": "baltimore",
+   "title": "Jones Falls 2076 Exhibition",
+   "category": "museum",
+   "start": "2026-10-15",
+   "allDay": true,
+   "until": "2026-11-22",
+   "venue": "The Peale",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/jones-falls-2076-exhibition/",
+   "base": 60,
+   "description": "Artists, designers, writers and community members imagine alternative futures for the Jones Falls river; the second and final Jones Falls 2076 exhibition, with participatory design activities.",
+   "summary": "Open Thu–Fri 3–7 pm, Sat–Sun 10 am–4 pm.",
+   "tags": [
+    "art",
+    "history",
+    "nature",
+    "architecture",
+    "local"
+   ],
+   "source": "baltimore.org; Baltimore Fishbowl Nov 2026 calendar"
+  },
+  {
+   "id": "2026-11-01-rosemary-s-baby-senator-revival",
+   "area": "baltimore",
+   "title": "Rosemary's Baby (Senator Revival)",
+   "category": "film",
+   "start": "2026-11-01T10:00",
+   "venue": "Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 58,
+   "description": "Roman Polanski's 1968 horror classic on the Senator's big screen as part of its revival series.",
+   "summary": "Encore Mon Nov 2 at 4 pm ($7).",
+   "tags": [
+    "revival",
+    "horror",
+    "film"
+   ],
+   "source": "thesenatortheatre.com/movies/revivals"
+  },
+  {
+   "id": "2026-11-02-after-life-kore-eda-revival-encore",
+   "area": "baltimore",
+   "title": "After Life (Kore-eda) – Revival Encore",
+   "category": "film",
+   "start": "2026-11-02T19:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/revival-series/",
+   "base": 58,
+   "description": "Monday-evening encore of the Charles revival series screening of Hirokazu Kore-eda's 1998 After Life, in which the newly dead choose a single memory to keep.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "cinemaclock.com Charles Theatre listings"
+  },
+  {
+   "id": "2026-11-04-amores-perros-senator-revival",
+   "area": "baltimore",
+   "title": "Amores Perros (One Night Only)",
+   "category": "film",
+   "start": "2026-11-04T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 55,
+   "description": "One-night-only revival screening of Alejandro G. Iñárritu's 2000 film on the Senator's big screen.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-04-stories-and-stitches-avam",
+   "area": "baltimore",
+   "title": "Stories and Stitches: Community Art Share Night",
+   "category": "museum",
+   "start": "2026-11-04T18:00",
+   "end": "2026-11-04T21:00",
+   "venue": "American Visionary Art Museum",
+   "cost": "Free ($10 suggested donation)",
+   "free": true,
+   "url": "https://www.avam.org/event-details/stories-and-stitches-community-art-share-night",
+   "base": 55,
+   "description": "Docent tour (6–7 pm) of the exhibition Esther and the Dream of One Loving Human Family, featuring work by Holocaust survivor Esther Nisenthal Krinitz, followed by local artists sharing stories through their artmaking. Presented with Art and Remembrance.",
+   "tags": [
+    "storytelling",
+    "art",
+    "gallery",
+    "history"
+   ],
+   "source": "avam.org"
+  },
+  {
+   "id": "2026-11-07-luxury-loss-feather-shell-tusk-horn",
+   "area": "baltimore",
+   "title": "Luxury & Loss: Feather, Shell, Tusk, Horn (exhibition)",
+   "category": "museum",
+   "start": "2026-11-07",
+   "allDay": true,
+   "until": "2027-01-24",
+   "venue": "Walters Art Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thewalters.org/exhibitions/luxury-loss/",
+   "base": 58,
+   "description": "Exhibition of historical luxury objects made from kingfisher feathers, tortoise shell, rhinoceros horn and elephant ivory, drawn from the Walters' Asian, European, American and African collections, examining humanity's changing relationship with wild animals.",
+   "tags": [
+    "art",
+    "history",
+    "nature"
+   ],
+   "source": "thewalters.org"
+  },
+  {
+   "id": "2026-11-07-b-o-civil-war-tour",
+   "area": "baltimore",
+   "title": "Civil War Tour at the B&O Railroad Museum",
+   "category": "museum",
+   "start": "2026-11-07T10:30",
+   "venue": "B&O Railroad Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.borail.org/visit-the-bo/tours-experiences/tours",
+   "base": 50,
+   "description": "Guided public tour on the B&O Railroad's impact on the outcome of the Civil War and how people interacted with the railroad in that era.",
+   "summary": "Tours at 10:30 am and 1 pm.",
+   "tags": [
+    "history",
+    "tour"
+   ],
+   "source": "borail.org tours page"
+  },
+  {
+   "id": "2026-11-08-b-o-restoration-shop-tour",
+   "area": "baltimore",
+   "title": "Restoration Shop Tour at the B&O Railroad Museum",
+   "category": "museum",
+   "start": "2026-11-08T10:30",
+   "venue": "B&O Railroad Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.borail.org/visit-the-bo/tours-experiences/tours",
+   "base": 55,
+   "description": "Behind-the-scenes look at the museum's locomotive and car Restoration Shop; the experience starts with a train ride departing at 10:30 am.",
+   "tags": [
+    "history",
+    "tour",
+    "maker"
+   ],
+   "source": "borail.org tours page"
+  },
+  {
+   "id": "2026-11-09-sabotage-hitchcock-revival-encore",
+   "area": "baltimore",
+   "title": "Sabotage (Hitchcock, 1936) – Revival Encore",
+   "category": "film",
+   "start": "2026-11-09T19:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/revival-series/",
+   "base": 66,
+   "description": "Monday-evening encore of the Charles revival series screening of Hitchcock's 1936 British thriller Sabotage, adapted from Conrad's The Secret Agent.",
+   "tags": [
+    "revival",
+    "hitchcock",
+    "film",
+    "noir"
+   ],
+   "source": "cinemaclock.com Charles Theatre listings"
+  },
+  {
+   "id": "2026-11-11-the-birds-senator-revival",
+   "area": "baltimore",
+   "title": "The Birds (Senator Revival)",
+   "category": "film",
+   "start": "2026-11-11T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 72,
+   "description": "Hitchcock's 1963 The Birds on the Senator's big screen as part of its revival series.",
+   "summary": "Repeats Sun Nov 15 10 am and Mon Nov 16 4 pm ($7).",
+   "tags": [
+    "revival",
+    "hitchcock",
+    "film",
+    "horror"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-16-the-birds-senator-revival-matinee",
+   "area": "baltimore",
+   "title": "The Birds (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-11-16T16:00",
+   "venue": "Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 60,
+   "description": "Monday-afternoon repeat of the Senator's revival screening of Hitchcock's The Birds (1963).",
+   "tags": [
+    "revival",
+    "hitchcock",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-11-more-than-religious-freedom-jewish-museum",
+   "area": "baltimore",
+   "title": "More Than Religious Freedom: Eric Eisner on the 1826 Jew Bill",
+   "category": "talk",
+   "start": "2026-11-11T18:00",
+   "end": "2026-11-11T20:00",
+   "venue": "Jewish Museum of Maryland",
+   "cost": "Sliding scale (advance registration)",
+   "free": false,
+   "url": "https://jewishmuseummd.org/event/more-than-religious-freedom/",
+   "base": 62,
+   "description": "Core Connections talk by scholar Eric Eisner on Maryland's controversial 1826 'Jew Bill,' which allowed Jewish men to hold state and local office; a copy of the bill is on view in the core exhibition.",
+   "summary": "Doors/exhibit 6 pm, talk 6:30 pm, Q&A after.",
+   "tags": [
+    "history",
+    "talk"
+   ],
+   "source": "jewishmuseummd.org"
+  },
+  {
+   "id": "2026-11-12-momentum-award-conversation",
+   "area": "baltimore",
+   "title": "Momentum Award Conversation: Leghari, Mojtahedi & Nguyen",
+   "category": "museum",
+   "start": "2026-11-12T18:30",
+   "end": "2026-11-12T20:00",
+   "venue": "Creative Alliance",
+   "cost": "Free (RSVP requested)",
+   "free": true,
+   "url": "https://creativealliance.org/event/momentum-award-conversation-madyha-leghari-ghazal-mojtahedi-and-bao-nguyen/",
+   "base": 55,
+   "description": "Juror Tae Hwang moderates a gallery conversation with artists Madyha Leghari, Ghazal Mojtahedi and Bao Nguyen about the work in the Patricia Massey Momentum Award Exhibition.",
+   "tags": [
+    "gallery",
+    "art",
+    "talk",
+    "local"
+   ],
+   "source": "creativealliance.org"
+  },
+  {
+   "id": "2026-11-13-winterfest-2026-exhibition-clayworks",
+   "area": "baltimore",
+   "title": "Winterfest 2026 Exhibition",
+   "category": "museum",
+   "start": "2026-11-13",
+   "allDay": true,
+   "until": "2026-12-23",
+   "venue": "Baltimore Clayworks",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/winterfest-2026-exhibition/",
+   "base": 40,
+   "description": "Juried show of functional ceramics by 17 nationally recognized artists; everything on display can be bought and taken home the same day.",
+   "summary": "10 am–5 pm.",
+   "tags": [
+    "gallery",
+    "art",
+    "maker",
+    "holiday"
+   ],
+   "source": "baltimore.org"
+  },
+  {
+   "id": "2026-11-18-network-senator-revival",
+   "area": "baltimore",
+   "title": "Network (Senator Revival)",
+   "category": "film",
+   "start": "2026-11-18T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 60,
+   "description": "Sidney Lumet's 1976 satire Network on the Senator's big screen as part of its revival series.",
+   "summary": "Repeats Sun Nov 22 10 am and Mon Nov 23 4 pm ($7).",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-22-network-senator-revival-matinee",
+   "area": "baltimore",
+   "title": "Network (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-11-22T10:00",
+   "venue": "Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 52,
+   "description": "Sunday-morning repeat of the Senator's revival screening of Sidney Lumet's Network (1976).",
+   "summary": "Also Mon Nov 23 at 4 pm.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-21-can-i-kick-it-the-warriors",
+   "area": "baltimore",
+   "title": "Can I Kick It?: The Warriors (live DJ score)",
+   "category": "film",
+   "start": "2026-11-21T19:30",
+   "venue": "Creative Alliance",
+   "cost": "$23 ($20 members)",
+   "free": false,
+   "url": "https://creativealliance.org/event/can-i-kick-it-the-warriors/",
+   "base": 55,
+   "description": "Walter Hill's 1979 cult gang film screened with DJ 2-Tone Jones providing a live scene-by-scene soundtrack mixing hip hop, soul, rock and more.",
+   "tags": [
+    "revival",
+    "film",
+    "dj"
+   ],
+   "source": "creativealliance.org"
+  },
+  {
+   "id": "2026-11-23-holiday-festival-of-trains",
+   "area": "baltimore",
+   "title": "Holiday Festival of Trains",
+   "category": "museum",
+   "start": "2026-11-23",
+   "allDay": true,
+   "until": "2026-12-31",
+   "venue": "B&O Railroad Museum",
+   "cost": "$28 adults, $24 seniors, $18 children",
+   "free": false,
+   "url": "https://www.borail.org/events/hfot-3",
+   "base": 40,
+   "description": "Holiday model train layouts (O scale in the Roundhouse, G scale garden, HO layout), decorations and seasonal crafts at the historic B&O roundhouse.",
+   "summary": "10 am–4 pm on select days: Nov 23–25, 27, 30; Dec 1–4, 7–11, 14–18, 21–23, 28–31. Closed Thanksgiving.",
+   "tags": [
+    "history",
+    "holiday"
+   ],
+   "source": "borail.org"
+  },
+  {
+   "id": "2026-11-25-anatomy-of-a-murder-senator",
+   "area": "baltimore",
+   "title": "Anatomy of a Murder (One Night Only)",
+   "category": "film",
+   "start": "2026-11-25T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 72,
+   "description": "One-night-only revival screening of Otto Preminger's 1959 courtroom drama Anatomy of a Murder.",
+   "tags": [
+    "revival",
+    "film",
+    "noir"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-02-phantom-thread-senator-revival",
+   "area": "baltimore",
+   "title": "Phantom Thread (Senator Revival)",
+   "category": "film",
+   "start": "2026-12-02T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 62,
+   "description": "Paul Thomas Anderson's 2017 Phantom Thread on the Senator's big screen as part of its revival series.",
+   "summary": "Repeats Sun Dec 6 10 am and Mon Dec 7 4 pm ($7).",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-07-phantom-thread-senator-revival-matinee",
+   "area": "baltimore",
+   "title": "Phantom Thread (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-12-07T16:00",
+   "venue": "Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 50,
+   "description": "Monday-afternoon repeat of the Senator's revival screening of Phantom Thread (2017).",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-02-munch-exhibition-on-screen",
+   "area": "baltimore",
+   "title": "Exhibition on Screen: Munch",
+   "category": "film",
+   "start": "2026-12-02T19:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/",
+   "base": 55,
+   "description": "Exhibition on Screen art documentary on Edvard Munch, shown as a two-screening event at the Charles.",
+   "summary": "Second screening Sat Dec 5 at 11:45 am.",
+   "tags": [
+    "film",
+    "art"
+   ],
+   "source": "thecharles.com/movies"
+  },
+  {
+   "id": "2026-12-03-twin-peaks-season-two-eps-8-9",
+   "area": "baltimore",
+   "title": "Twin Peaks Season Two, Episodes 8–9",
+   "category": "film",
+   "start": "2026-12-03T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/",
+   "base": 82,
+   "description": "The Charles continues its one-night-only Thursday big-screen run through Twin Peaks season two with episodes 8 and 9.",
+   "tags": [
+    "lynch",
+    "film",
+    "revival"
+   ],
+   "source": "thecharles.com/movies"
+  },
+  {
+   "id": "2026-12-04-past-present-future-opening",
+   "area": "baltimore",
+   "title": "Exhibition Opening: Past, Present, Future – Celebrating the Arts of Johns Hopkins",
+   "category": "museum",
+   "start": "2026-12-04T18:00",
+   "end": "2026-12-04T21:00",
+   "venue": "Creative Alliance",
+   "cost": "Free (RSVP requested)",
+   "free": true,
+   "url": "https://creativealliance.org/event/exhibition-opening-past-present-future/",
+   "base": 50,
+   "description": "Opening reception for a juried interdisciplinary exhibition of visual art, writing, music and performance by Johns Hopkins students and alumni; on view through Jan 1, 2027.",
+   "tags": [
+    "gallery",
+    "art",
+    "local"
+   ],
+   "source": "creativealliance.org"
+  },
+  {
+   "id": "2026-12-04-interactive-movie-night-die-hard",
+   "area": "baltimore",
+   "title": "Interactive Movie Night: Die Hard",
+   "category": "film",
+   "start": "2026-12-04T20:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/interactive-movie-night-die-hard/",
+   "base": 35,
+   "description": "Audience-participation screening of Die Hard with shout-alongs, games, trivia and prizes for the best Die Hard attire.",
+   "tags": [
+    "film",
+    "holiday"
+   ],
+   "source": "creativealliance.org"
+  },
+  {
+   "id": "2026-12-05-an-enchanted-evergreen",
+   "area": "baltimore",
+   "title": "An Enchanted Evergreen",
+   "category": "museum",
+   "start": "2026-12-05T11:00",
+   "end": "2026-12-05T14:00",
+   "venue": "Evergreen Museum & Library",
+   "cost": "$7 ($5 Friends of JHU Museums; free with JCard)",
+   "free": false,
+   "url": "https://baltimore.org/event/an-enchanted-evergreen-2/",
+   "base": 68,
+   "description": "Annual holiday program touring the decorated first floor of the Gilded Age Evergreen mansion with carolers from Clear Harmonies, plus holiday shopping, an evergreen-themed craft and treats in the North Wing.",
+   "tags": [
+    "old houses",
+    "history",
+    "holiday",
+    "architecture"
+   ],
+   "source": "baltimore.org"
+  },
+  {
+   "id": "2026-12-05-the-king-of-marvin-gardens-revival",
+   "area": "baltimore",
+   "title": "The King of Marvin Gardens (Revival Series)",
+   "category": "film",
+   "start": "2026-12-05",
+   "allDay": true,
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/revival-series/",
+   "base": 65,
+   "description": "Bob Rafelson's 1972 drama with Jack Nicholson and Bruce Dern is the Charles revival series pick for the week of Dec 5.",
+   "summary": "Showtime not yet posted; the series usually plays Saturday late morning with a Monday-evening encore — check the Charles site.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thecharles.com/movies"
+  },
+  {
+   "id": "2026-12-06-curator-tour-luxury-loss",
+   "area": "baltimore",
+   "title": "Curator Tour: Luxury & Loss",
+   "category": "museum",
+   "start": "2026-12-06T14:00",
+   "venue": "Walters Art Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thewalters.org/event/cctour-luxury-loss/",
+   "base": 42,
+   "description": "Curator-led tour of the exhibition Luxury & Loss: Feather, Shell, Tusk, Horn.",
+   "summary": "Listing showed a 2 pm start; some Walters curator tours are limited to Giving Partners — check registration.",
+   "tags": [
+    "art",
+    "history",
+    "tour"
+   ],
+   "source": "thewalters.org events listing"
+  },
+  {
+   "id": "2026-12-09-now-voyager-senator-revival",
+   "area": "baltimore",
+   "title": "Now, Voyager (Senator Revival)",
+   "category": "film",
+   "start": "2026-12-09T19:00",
+   "venue": "Senator Theatre",
+   "cost": "$10 ($9 students/seniors)",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 65,
+   "description": "The 1942 Bette Davis melodrama Now, Voyager on the Senator's big screen as part of its revival series.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-10-city-on-fire-one-night-only",
+   "area": "baltimore",
+   "title": "City on Fire (One Night Only)",
+   "category": "film",
+   "start": "2026-12-10T21:00",
+   "venue": "The Charles Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://thecharles.com/movies/",
+   "base": 55,
+   "description": "Thursday one-night-only screening at the Charles.",
+   "tags": [
+    "film",
+    "revival"
+   ],
+   "source": "thecharles.com/movies"
+  },
+  {
+   "id": "2026-12-10-craft-and-cinema-muppet-christmas-carol",
+   "area": "baltimore",
+   "title": "Craft and Cinema Night: The Muppet Christmas Carol",
+   "category": "film",
+   "start": "2026-12-10T19:30",
+   "venue": "Creative Alliance",
+   "cost": "$18 ($13 members)",
+   "free": false,
+   "url": "https://creativealliance.org/event/craft-and-cinema-night-the-muppets-christmas-carol/",
+   "base": 40,
+   "description": "Bring knitting, sketching or other handwork and watch The Muppet Christmas Carol in a dimly lit theater; all skill levels welcome.",
+   "tags": [
+    "film",
+    "holiday",
+    "diy"
+   ],
+   "source": "creativealliance.org"
+  },
+  {
+   "id": "2026-10-31-flamingosis",
+   "area": "baltimore",
+   "title": "Flamingosis",
+   "category": "music",
+   "start": "2026-10-31T20:00",
+   "venue": "The 8x10",
+   "cost": "$20–$45",
+   "free": false,
+   "url": "https://app.songkick.com/concerts/43425917-flamingosis-at-8x10",
+   "base": 42,
+   "description": "Halloween-night headlining set from beat producer Flamingosis at the Federal Hill club.",
+   "summary": "Doors 8pm. Tickets via Tixr.",
+   "tags": [
+    "electronic",
+    "dance",
+    "halloween"
+   ],
+   "source": "Songkick (Tixr listing)"
+  },
+  {
+   "id": "2026-10-31-danceoween-at-library-nineteen",
+   "area": "baltimore",
+   "title": "Danceoween at Library Nineteen",
+   "category": "nightlife",
+   "start": "2026-10-31T19:00",
+   "end": "2026-10-31T23:00",
+   "venue": "Library Nineteen, Fells Point",
+   "cost": "$17",
+   "free": false,
+   "url": "https://www.baltimoremagazine.com/section/community/best-baltimore-halloween-events-parties-2026/",
+   "base": 45,
+   "description": "Halloween dance party with non-stop DJ sets by Cadeem Lamar, Muse o Fire and Disconesia, recorded live.",
+   "tags": [
+    "dj",
+    "dance",
+    "halloween",
+    "local"
+   ],
+   "source": "Baltimore Magazine Halloween guide 2026"
+  },
+  {
+   "id": "2026-10-31-darkness-falls-halloween-vampire-soiree",
+   "area": "baltimore",
+   "title": "Darkness Falls: A Halloween Vampire Soirée",
+   "category": "nightlife",
+   "start": "2026-10-31T19:00",
+   "venue": "Hotel Ulysses, Mount Vernon",
+   "cost": "$70",
+   "free": false,
+   "url": "https://www.baltimoremagazine.com/section/community/best-baltimore-halloween-events-parties-2026/",
+   "base": 38,
+   "description": "Costumed Halloween soirée at Hotel Ulysses with live jazz, DJ sets and a costume contest.",
+   "tags": [
+    "jazz",
+    "dj",
+    "halloween"
+   ],
+   "source": "Baltimore Magazine Halloween guide 2026"
+  },
+  {
+   "id": "2026-11-01-demola-live",
+   "area": "baltimore",
+   "title": "DEMOLA Live!",
+   "category": "music",
+   "start": "2026-11-01T17:00",
+   "end": "2026-11-01T18:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/demola-live-11532/",
+   "base": 35,
+   "description": "Violinist and singer-songwriter DEMOLA blends classical violin with Afrobeats, R&B, gospel and cinematic orchestration. He was the official violinist for Tony! Toni! Toné! from 2018 to 2022, and this is his first Baltimore show.",
+   "summary": "Two listings on Nov 1; 5pm set confirmed.",
+   "tags": [
+    "jazz",
+    "violin"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-11-09-monday-django-jazz-jam",
+   "area": "baltimore",
+   "title": "Monday Django Jazz Jam (Hot Club of Baltimore)",
+   "category": "music",
+   "start": "2026-11-09T19:00",
+   "end": "2026-11-09T22:00",
+   "venue": "Bluebird Pub, Hampden",
+   "cost": "Free (no cover)",
+   "free": true,
+   "url": "https://www.baltimorejazz.com/event/monday-django-jazz-jam-11707/",
+   "base": 50,
+   "description": "Hot Club of Baltimore has hosted this Gypsy jazz and swing jam since 2012, with acoustic guitars, violin, upright bass, horns and accordion. The sets run from Django tunes to bebop, Brazilian pieces and French waltzes, and listeners are welcome.",
+   "tags": [
+    "jazz",
+    "local",
+    "jam"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-13-infinity-knives-brian-ennals",
+   "area": "baltimore",
+   "title": "Infinity Knives & Brian Ennals w/ Swoll, Babas",
+   "category": "music",
+   "start": "2026-11-13T20:00",
+   "venue": "Metro Baltimore",
+   "cost": "From $20",
+   "free": false,
+   "url": "https://songkick.com/concerts/43423071-infinity-knives-and-brian-ennals-at-metro-baltimore",
+   "base": 55,
+   "description": "Baltimore's Infinity Knives and Brian Ennals headline Metro, with Swoll and NYC's Babas supporting. The show is all ages.",
+   "summary": "Doors 7pm, show 8pm. Tickets via DICE.",
+   "tags": [
+    "local",
+    "experimental",
+    "hip-hop"
+   ],
+   "source": "Songkick (DICE listing)"
+  },
+  {
+   "id": "2026-11-14-dan-deacon",
+   "area": "baltimore",
+   "title": "Dan Deacon",
+   "category": "music",
+   "start": "2026-11-14T20:00",
+   "venue": "The 8x10",
+   "cost": "$47.09–$86.94",
+   "free": false,
+   "url": "https://app.songkick.com/concerts/43466055-dan-deacon-at-8x10",
+   "base": 72,
+   "description": "Hometown show from Baltimore electronic composer Dan Deacon, known for interactive, crowd-participation live sets that grew out of the city's DIY spaces.",
+   "summary": "Doors 8pm. Tickets via Tixr.",
+   "tags": [
+    "electronic",
+    "synth",
+    "local",
+    "experimental"
+   ],
+   "source": "Songkick (Tixr listing)"
+  },
+  {
+   "id": "2026-11-16-monday-django-jazz-jam",
+   "area": "baltimore",
+   "title": "Monday Django Jazz Jam (Hot Club of Baltimore)",
+   "category": "music",
+   "start": "2026-11-16T19:00",
+   "end": "2026-11-16T22:00",
+   "venue": "Bluebird Pub, Hampden",
+   "cost": "Free (no cover)",
+   "free": true,
+   "url": "https://www.baltimorejazz.com/event/monday-django-jazz-jam-11708/",
+   "base": 50,
+   "description": "Weekly Gypsy jazz and swing jam hosted by Hot Club of Baltimore, with guitars, violin, bass, horns and accordion. Listeners are welcome.",
+   "tags": [
+    "jazz",
+    "local",
+    "jam"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-17-ed-hrybyk-trio-at-blooms",
+   "area": "baltimore",
+   "title": "Ed Hrybyk Trio",
+   "category": "music",
+   "start": "2026-11-17T19:00",
+   "end": "2026-11-17T22:00",
+   "venue": "Bloom's (Hotel Ulysses), Mount Vernon",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/ed-hrybyk-trio-11609/",
+   "base": 38,
+   "description": "Tuesday-night jazz trio set at Bloom's in Mount Vernon.",
+   "summary": "Listed as a restaurant/club date.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-18-aaron-rimbui-trio",
+   "area": "baltimore",
+   "title": "Aaron Rimbui Trio",
+   "category": "music",
+   "start": "2026-11-18T19:00",
+   "end": "2026-11-18T20:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/aaron-rimbui-trio-11692/",
+   "base": 62,
+   "description": "Kenyan pianist Aaron Rimbui combines jazz piano with East African rhythms. He has played with Hugh Masekela and Richard Bona and won a 2018 Mzantsi Jazz Award. Timothy Norton plays bass and Temitope Idowu plays drums.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-19-cg-project-dennis-chambers-gary-grainger",
+   "area": "baltimore",
+   "title": "The CG Project w/ Dennis Chambers & Gary Grainger",
+   "category": "music",
+   "start": "2026-11-19T19:00",
+   "end": "2026-11-19T20:30",
+   "venue": "Keystone Korner",
+   "cost": "$35 regular, $45 premium, $15 stream",
+   "free": false,
+   "url": "https://www.baltimorejazz.com/event/the-cg-project-with-dennis-chambers-gary-grainger-chris-fischer-jon-lee-paul-saroka-11693/",
+   "base": 62,
+   "description": "Fusion band led by drummer Dennis Chambers (John Scofield, Santana, John McLaughlin) and Baltimore bassist Gary Grainger, with Jon Lee on guitar, Paul Saroka on sax and lyricon, and Chris Fischer on keys.",
+   "tags": [
+    "jazz",
+    "fusion",
+    "local"
+   ],
+   "source": "Visit Baltimore listing; Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-20-mark-farina",
+   "area": "baltimore",
+   "title": "Mark Farina w/ DJ Lovegrove",
+   "category": "nightlife",
+   "start": "2026-11-20T20:00",
+   "venue": "The 8x10",
+   "cost": "$28.72–$58.48",
+   "free": false,
+   "url": "https://app.songkick.com/concerts/43475478-mark-farina-at-8x10",
+   "base": 62,
+   "description": "San Francisco DJ Mark Farina, known for house and his acid-jazz and downtempo \"Mushroom Jazz\" style, with DJ Lovegrove supporting.",
+   "summary": "Doors 8pm. Tickets via Tixr.",
+   "tags": [
+    "dj",
+    "electronic",
+    "house",
+    "dance"
+   ],
+   "source": "Songkick (Tixr listing)"
+  },
+  {
+   "id": "2026-11-21-akua-allrich-the-tribe",
+   "area": "baltimore",
+   "title": "Akua Allrich & The Tribe",
+   "category": "music",
+   "start": "2026-11-21T19:30",
+   "venue": "Hemingway Room at Little Havana, Federal Hill",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/akua-allrich-the-tribe-11650/",
+   "base": 50,
+   "description": "Vocalist Akua Allrich and her band play two concert sets in the Hemingway Room upstairs at Little Havana.",
+   "summary": "Two sets: 7:30pm and 9pm. Tickets via Eventbrite.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-23-monday-django-jazz-jam",
+   "area": "baltimore",
+   "title": "Monday Django Jazz Jam (Hot Club of Baltimore)",
+   "category": "music",
+   "start": "2026-11-23T19:00",
+   "end": "2026-11-23T22:00",
+   "venue": "Bluebird Pub, Hampden",
+   "cost": "Free (no cover)",
+   "free": true,
+   "url": "https://www.baltimorejazz.com/event/monday-django-jazz-jam-11709/",
+   "base": 50,
+   "description": "Weekly Gypsy jazz and swing jam hosted by Hot Club of Baltimore, with guitars, violin, bass, horns and accordion. Listeners are welcome.",
+   "tags": [
+    "jazz",
+    "local",
+    "jam"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-24-ed-hrybyk-trio-at-blooms",
+   "area": "baltimore",
+   "title": "Ed Hrybyk Trio",
+   "category": "music",
+   "start": "2026-11-24T19:00",
+   "end": "2026-11-24T22:00",
+   "venue": "Bloom's (Hotel Ulysses), Mount Vernon",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/ed-hrybyk-trio-11610/",
+   "base": 38,
+   "description": "Tuesday-night jazz trio set at Bloom's in Mount Vernon.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-11-28-drumstix-18-roni-size-x-dieselboy",
+   "area": "baltimore",
+   "title": "Drumstix 18: Roni Size x Dieselboy",
+   "category": "nightlife",
+   "start": "2026-11-28T20:00",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimoresoundstage.com/events/drumstix-18-roni-size-x-dieselboy/",
+   "base": 55,
+   "description": "Drum & bass night from 3D Productions x Boosted, headlined by Roni Size and Dieselboy, with Circadian, Spinscott and MC Messinan.",
+   "summary": "Doors and show 8pm. Tickets via Ticketmaster.",
+   "tags": [
+    "electronic",
+    "dj",
+    "drum and bass",
+    "dance"
+   ],
+   "source": "Baltimore Soundstage"
+  },
+  {
+   "id": "2026-11-30-monday-django-jazz-jam",
+   "area": "baltimore",
+   "title": "Monday Django Jazz Jam (Hot Club of Baltimore)",
+   "category": "music",
+   "start": "2026-11-30T19:00",
+   "end": "2026-11-30T22:00",
+   "venue": "Bluebird Pub, Hampden",
+   "cost": "Free (no cover)",
+   "free": true,
+   "url": "https://www.baltimorejazz.com/event/monday-django-jazz-jam-11710/",
+   "base": 50,
+   "description": "Weekly Gypsy jazz and swing jam hosted by Hot Club of Baltimore, with guitars, violin, bass, horns and accordion. Listeners are welcome.",
+   "tags": [
+    "jazz",
+    "local",
+    "jam"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-12-01-ed-hrybyk-trio-at-blooms",
+   "area": "baltimore",
+   "title": "Ed Hrybyk Trio",
+   "category": "music",
+   "start": "2026-12-01T19:00",
+   "end": "2026-12-01T22:00",
+   "venue": "Bloom's (Hotel Ulysses), Mount Vernon",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/ed-hrybyk-trio-11611/",
+   "base": 36,
+   "description": "Tuesday-night jazz trio set at Bloom's in Mount Vernon.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-12-02-warren-wolf-christmas-vibes-ft-tia-fuller",
+   "area": "baltimore",
+   "title": "Warren Wolf: Christmas Vibes ft. Tia Fuller",
+   "category": "music",
+   "start": "2026-12-02T19:00",
+   "end": "2026-12-02T20:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/warren-wolf-christmas-vibes-featuring-tia-fuller-11823/",
+   "base": 66,
+   "description": "Baltimore vibraphonist Warren Wolf plays music from his Christmas Vibes album, joined by Grammy-nominated saxophonist Tia Fuller.",
+   "summary": "In person and livestreamed.",
+   "tags": [
+    "jazz",
+    "holiday",
+    "local"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-12-03-lunasa",
+   "area": "baltimore",
+   "title": "Lúnasa",
+   "category": "music",
+   "start": "2026-12-03T19:30",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/lunasa/",
+   "base": 58,
+   "description": "Concert by the Irish traditional instrumental band Lúnasa.",
+   "tags": [
+    "folk",
+    "irish",
+    "creative alliance"
+   ],
+   "source": "Creative Alliance events calendar"
+  },
+  {
+   "id": "2026-12-03-a-charlie-brown-christmas-eric-byrd-trio",
+   "area": "baltimore",
+   "title": "A Charlie Brown Christmas with the Eric Byrd Trio",
+   "category": "music",
+   "start": "2026-12-03T20:30",
+   "end": "2026-12-03T22:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/a-charlie-brown-christmas-with-the-eric-byrd-trio-11759/",
+   "base": 55,
+   "description": "The Eric Byrd Trio (Eric Byrd on piano and vocals, Will Hazel on bass, Alphonso Young Jr. on drums) plays Vince Guaraldi's score live alongside the animated special.",
+   "tags": [
+    "jazz",
+    "holiday"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-12-07-lizz-wright-with-kenny-banks-sr",
+   "area": "baltimore",
+   "title": "Lizz Wright with Kenny Banks Sr.",
+   "category": "music",
+   "start": "2026-12-07T19:00",
+   "end": "2026-12-07T20:30",
+   "venue": "Keystone Korner",
+   "cost": "$65 regular, $75 premium",
+   "free": false,
+   "url": "https://baltimore.org/event/lizz-wright-with-kenny-banks-sr/",
+   "base": 68,
+   "description": "Singer Lizz Wright and pianist and organist Kenny Banks Sr. play music from their duo album Nearness, which mixes American Songbook standards with Black spirituals.",
+   "summary": "No streaming passes; Keystone Kards not valid.",
+   "tags": [
+    "jazz",
+    "vocal"
+   ],
+   "source": "Visit Baltimore listing; Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-12-08-bria-skonberg-jingle-bell-swing",
+   "area": "baltimore",
+   "title": "Bria Skonberg: Jingle Bell Swing",
+   "category": "music",
+   "start": "2026-12-08T19:00",
+   "end": "2026-12-08T21:00",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/bria-skonberg-jingle-bell-swing-11805/",
+   "base": 58,
+   "description": "Holiday swing show from Juno-winning trumpeter and singer Bria Skonberg, with Dennis Lichtman on reeds, Jon Thomas on piano, Mark Lewandowski on bass and Curtis Nowasad on drums.",
+   "tags": [
+    "jazz",
+    "holiday"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-12-09-kindred-spirits-jazz-quartet",
+   "area": "baltimore",
+   "title": "Kindred Spirits Jazz Quartet",
+   "category": "music",
+   "start": "2026-12-09T19:00",
+   "end": "2026-12-09T21:00",
+   "venue": "Benny's Restaurant, Little Italy",
+   "cost": "Free (no cover)",
+   "free": true,
+   "url": "https://www.baltimorejazz.com/events/list/page/9/",
+   "base": 35,
+   "description": "Classic jazz in the ground-floor bar at Benny's from pianist Michael Friedman, bassist Tom Hensler, saxophonist Bob Jacobson and vocalist Cait Lee.",
+   "summary": "No-cover status and lineup come from the quartet's Nov 11 listing at the same venue.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Baltimore Jazz Alliance calendar"
+  },
+  {
+   "id": "2026-10-31-historic-green-mount-cemetery-tour",
+   "area": "baltimore",
+   "title": "Historic Green Mount Cemetery (Baltimore Heritage tour)",
+   "category": "talk",
+   "start": "2026-10-31T09:30",
+   "venue": "Green Mount Cemetery",
+   "cost": "$20",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/historic-green-mount-cemetery-62/",
+   "base": 80,
+   "description": "Baltimore Heritage walking tour of Green Mount, opened in 1839 as one of the country's early urban-rural cemeteries and the resting place of many notable Marylanders.",
+   "tags": [
+    "history",
+    "tour",
+    "architecture",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-10-31T11:30",
+   "summary": "Mostly uneven grass and cobblestone terrain. Also offered Nov 7 and Dec 5."
+  },
+  {
+   "id": "2026-10-31-150-years-walking-through-history-maryland-zoo",
+   "area": "baltimore",
+   "title": "150 Years & Counting: Walking Through History at the Maryland Zoo",
+   "category": "talk",
+   "start": "2026-10-31T09:00",
+   "venue": "The Maryland Zoo in Baltimore",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/150-years-counting-walking-through-history-at-the-maryland-zoo-12/",
+   "base": 62,
+   "description": "Zoo-staff-led history walk marking the zoo's 150th anniversary, covering historic landmarks on the grounds, followed by a book signing with author Ian Shelley.",
+   "tags": [
+    "history",
+    "tour",
+    "nature",
+    "books"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-10-31T10:30",
+   "summary": "Zoo admission not included."
+  },
+  {
+   "id": "2026-10-31-baltimore-by-boat",
+   "area": "baltimore",
+   "title": "Baltimore by Boat: narrated harbor history tour",
+   "category": "talk",
+   "start": "2026-10-31T10:00",
+   "venue": "Harborplace Water Taxi Stop",
+   "cost": "$27.50",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/baltimore-by-boat-36/",
+   "base": 60,
+   "description": "Baltimore Heritage's 90-minute live-narrated boat tour of the Inner Harbor out to Fort McHenry and back, covering the waterfront's history.",
+   "tags": [
+    "history",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-10-31T11:30"
+  },
+  {
+   "id": "2026-11-01-historic-baltimore-town-walking-tour",
+   "area": "baltimore",
+   "title": "Historic Baltimore Town: A Walking Tour",
+   "category": "talk",
+   "start": "2026-11-01T09:30",
+   "venue": "501 E Pratt St (Inner Harbor)",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/historic-baltimore-town-a-walking-tour/",
+   "base": 62,
+   "description": "Walk through the Inner Harbor's industrial and tourism history, including public art, ship ballast reused as street pavers, and the National Aquarium's Harbor Wetlands project.",
+   "tags": [
+    "history",
+    "tour",
+    "architecture"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-01T10:30"
+  },
+  {
+   "id": "2026-11-01-meshtastic-101-companion-node-build-party",
+   "area": "baltimore",
+   "title": "Meshtastic 101 & Companion Node Build Party",
+   "category": "community",
+   "start": "2026-11-01T10:00",
+   "venue": "Red Emma's (Free School Classroom)",
+   "cost": "See site (kits by donation)",
+   "free": null,
+   "url": "https://redemmas.org/events/building-the-people-s-network-meshtastic-101-and-companion-node-build-party",
+   "base": 70,
+   "description": "Hands-on workshop building a pocket-sized open-source LoRa radio node, with a soldering tutorial, then an intro to Meshtastic for sending decentralized encrypted messages without a carrier. Beginners welcome.",
+   "tags": [
+    "maker",
+    "diy",
+    "synth",
+    "electronics"
+   ],
+   "source": "Red Emma's",
+   "summary": "Bring a smartphone; limited build kits for a donation, pre-buy recommended."
+  },
+  {
+   "id": "2026-11-02-christopher-freeburg-soul",
+   "area": "baltimore",
+   "title": "Christopher Freeburg: \"Soul\" (Writers LIVE)",
+   "category": "talk",
+   "start": "2026-11-02T19:00",
+   "venue": "Enoch Pratt Central Library, Poe Reading Room",
+   "cost": "Free (register)",
+   "free": true,
+   "url": "https://calendar.prattlibrary.org/event/christopher-freeburg-soul",
+   "base": 58,
+   "description": "UIUC professor Christopher Freeburg discusses his book on how Black Americans used 'soul' to turn defeat into moral courage, from Phillis Wheatley to Nina Simone, in conversation with The Atlantic's Vann Newkirk.",
+   "tags": [
+    "talk",
+    "books",
+    "history"
+   ],
+   "source": "Enoch Pratt Free Library",
+   "end": "2026-11-02T20:00",
+   "summary": "Doors 6pm; Eventbrite registration for in-person; also streamed."
+  },
+  {
+   "id": "2026-11-05-seeing-like-a-naturalist-sketching-waterfowl",
+   "area": "baltimore",
+   "title": "Seeing Like a Naturalist: Sketching Waterfowl",
+   "category": "community",
+   "start": "2026-11-05T17:30",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.mdhistory.org/calendar/pnc-wayfinder-workshop-series-seeing-like-a-naturalist-sketching-waterfowl/",
+   "base": 66,
+   "description": "Adult hands-on workshop with Baltimore artist Asho Buckingham studying the form, color and movement of waterfowl and making painted studies; part of the PNC WayFinder series (pairs with the new Decoys of the Chesapeake show).",
+   "tags": [
+    "nature",
+    "art",
+    "history"
+   ],
+   "source": "baltimore.org / MCHC",
+   "end": "2026-11-05T19:30"
+  },
+  {
+   "id": "2026-11-05-andre-carrington-audiofuturism",
+   "area": "baltimore",
+   "title": "andré m. carrington: \"Audiofuturism\"",
+   "category": "talk",
+   "start": "2026-11-05T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/andr-carrington-presents-audiofuturism-science-fiction-radio-drama-and-the-black-fantastic-imagination",
+   "base": 62,
+   "description": "Book talk on the history of Black speculative radio drama from the 1950s on, including the experimental radio play of Delany's The Star-Pit and the Seeing Ear Theatre adaptation of Octavia Butler's Kindred.",
+   "tags": [
+    "talk",
+    "books",
+    "podcast",
+    "history"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-05-tyson-williams-mahalia-jackson",
+   "area": "baltimore",
+   "title": "Timothy Tyson & Mary Williams: \"Mahalia Jackson, Moving On Up a Little Higher\"",
+   "category": "talk",
+   "start": "2026-11-05T19:00",
+   "venue": "Enoch Pratt Central Library, Wheeler Auditorium",
+   "cost": "Free (register)",
+   "free": true,
+   "url": "https://calendar.prattlibrary.org/event/timothy-tyson-and-mary-williams-mahalia-jackson-moving-on-up-a-little-higher",
+   "base": 60,
+   "description": "Authors of a new Mahalia Jackson biography trace her path from New Orleans poverty to stardom and her little-known civil rights role, moderated by Vann Newkirk.",
+   "tags": [
+    "talk",
+    "books",
+    "history",
+    "music"
+   ],
+   "source": "Enoch Pratt Free Library",
+   "end": "2026-11-05T20:00"
+  },
+  {
+   "id": "2026-11-07-science-slam-bugss",
+   "area": "baltimore",
+   "title": "Science Slam with BUGSS",
+   "category": "talk",
+   "start": "2026-11-07T15:00",
+   "venue": "Red Emma's",
+   "cost": "See site (Eventbrite)",
+   "free": null,
+   "url": "https://redemmas.org/events/science-slam-with-baltimore-under-ground-science-space-bugss",
+   "base": 58,
+   "description": "Local scientists, students and citizen scientists give 5–10 minute talks on their research, with prizes for the most creative and clear; hosted by the community biolab Baltimore Under Ground Science Space.",
+   "tags": [
+    "talk",
+    "maker",
+    "diy"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-07-art-and-industry-tour-clipper-mill",
+   "area": "baltimore",
+   "title": "Art and Industry Tour of Clipper Mill",
+   "category": "talk",
+   "start": "2026-11-07T11:00",
+   "venue": "Clipper Mill (outside Woodberry Kitchen)",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/art-and-industry-tour-of-clipper-mill/",
+   "base": 78,
+   "description": "Baltimore Heritage tour of Clipper Mill's industrial past and present-day craft, including a visit to Gutierrez Studios' furniture/architectural workshop and a new Woodberry mural, with local artists speaking.",
+   "tags": [
+    "history",
+    "tour",
+    "architecture",
+    "art",
+    "maker"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-07T12:00"
+  },
+  {
+   "id": "2026-11-10-sarah-trembath-this-past-was-waiting",
+   "area": "baltimore",
+   "title": "Sarah Trembath: \"This Past Was Waiting for Me\"",
+   "category": "talk",
+   "start": "2026-11-10T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/sarah-trembath-presents-this-past-was-waiting-for-me-a-chronicle-at-quarter-century",
+   "base": 48,
+   "description": "American University professor reads from a genre-blending book of poetry, art and essay recovering overlooked Black history, from the Middle Passage to the gentrification of DC's Shaw neighborhood.",
+   "tags": [
+    "talk",
+    "books",
+    "history"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-14-the-book-thing-giveaway-day",
+   "area": "baltimore",
+   "title": "The Book Thing Giveaway Day",
+   "category": "community",
+   "start": "2026-11-14T09:00",
+   "venue": "The Book Thing",
+   "cost": "Free",
+   "free": true,
+   "url": "https://bookthing.org/",
+   "base": 55,
+   "description": "The warehouse of free books opens to the public for its monthly giveaway day; take what you want, donations accepted.",
+   "tags": [
+    "books",
+    "local",
+    "community"
+   ],
+   "source": "Baltimore Fishbowl Nov 2026 roundup",
+   "end": "2026-11-14T17:00"
+  },
+  {
+   "id": "2026-11-17-paul-prescod-against-black-nationalism",
+   "area": "baltimore",
+   "title": "Paul Prescod: \"Against Black Nationalism\"",
+   "category": "talk",
+   "start": "2026-11-17T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/paul-prescod-presents-against-black-nationalism-garvey-randolph-and-the-class-alternative",
+   "base": 48,
+   "description": "Book talk comparing Marcus Garvey's UNIA with A. Philip Randolph's organizing of the Brotherhood of Sleeping Car Porters, and why Randolph's labor approach produced lasting gains.",
+   "tags": [
+    "talk",
+    "books",
+    "history"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-17-rachel-beanland-the-half-life",
+   "area": "baltimore",
+   "title": "Rachel Beanland: \"The Half Life\"",
+   "category": "talk",
+   "start": "2026-11-17T19:00",
+   "venue": "Enoch Pratt Central Library, Poe Reading Room",
+   "cost": "Free (register)",
+   "free": true,
+   "url": "https://calendar.prattlibrary.org/event/rachel-beanland-the-half-life",
+   "base": 50,
+   "description": "Novelist Rachel Beanland discusses her new book about a naval officer's wife on an Italian island hosting nuclear submarines, where contamination fears spark protests.",
+   "tags": [
+    "talk",
+    "books"
+   ],
+   "source": "Enoch Pratt Free Library",
+   "end": "2026-11-17T20:00"
+  },
+  {
+   "id": "2026-11-18-maryland-museum-of-natural-sciences-behind-the-scenes",
+   "area": "baltimore",
+   "title": "Maryland Museum of Natural Sciences: Behind-the-Scenes Tour",
+   "category": "talk",
+   "start": "2026-11-18T17:00",
+   "venue": "Maryland Museum of Natural Sciences, Overlea",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/maryland-museum-of-natural-sciences-a-behind-the-scenes-tour/",
+   "base": 68,
+   "description": "Baltimore Heritage guided behind-the-scenes look at the state's official natural sciences museum, founded in 1929, with collections spanning geology, paleontology, botany and more.",
+   "tags": [
+    "history",
+    "nature",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-18T18:00"
+  },
+  {
+   "id": "2026-11-18-the-grand-baltimore-masonic-temple-tour",
+   "area": "baltimore",
+   "title": "The Grand Baltimore: Masonic Temple Tour",
+   "category": "talk",
+   "start": "2026-11-18T18:30",
+   "venue": "The Grand Baltimore (225 N Charles St)",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/the-grand-baltimore/",
+   "base": 80,
+   "description": "Tour of the restored 1866–69 Masonic Temple on Charles Street, covering the Freemasons' history in Baltimore, their first Grand Lodge and its Civil War use as a federal courthouse.",
+   "tags": [
+    "history",
+    "architecture",
+    "tour",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-18T19:30"
+  },
+  {
+   "id": "2026-11-21-booth-baltimore-lincoln-assassination-green-mount",
+   "area": "baltimore",
+   "title": "Booth, Baltimore & Lincoln's Assassination: Green Mount Cemetery Walk",
+   "category": "talk",
+   "start": "2026-11-21T09:30",
+   "venue": "Green Mount Cemetery",
+   "cost": "$20",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/booth-baltimore-lincolns-assassination-a-walking-tour-of-green-mount-cemetery-20/",
+   "base": 78,
+   "description": "Baltimore Heritage walk exploring John Wilkes Booth's Baltimore roots, Civil War Baltimore and the plots against Lincoln, ending at Booth's unmarked grave.",
+   "tags": [
+    "history",
+    "tour",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-21T11:30"
+  },
+  {
+   "id": "2026-11-21-nevermore-hot-sauce-festival-iii",
+   "area": "baltimore",
+   "title": "Nevermore Hot Sauce Festival III",
+   "category": "food",
+   "start": "2026-11-21T12:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://nevermorehot.com/",
+   "base": 42,
+   "description": "Sample and buy sauces from 20+ hot sauce makers at Peabody Heights Brewery.",
+   "tags": [
+    "food",
+    "market",
+    "local"
+   ],
+   "source": "Baltimore Fishbowl Nov 2026 roundup",
+   "end": "2026-11-21T18:00"
+  },
+  {
+   "id": "2026-11-22-fells-point-walking-tour",
+   "area": "baltimore",
+   "title": "Fell's Point Walking Tour",
+   "category": "talk",
+   "start": "2026-11-22T09:30",
+   "venue": "821 S Broadway, Fells Point",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/fells-point-14/",
+   "base": 74,
+   "description": "Baltimore Heritage walk through Fell's Point's waterfront history since the 1730s: trade, immigration, the slave trade, historic homes and industry.",
+   "tags": [
+    "history",
+    "tour",
+    "architecture",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-22T10:30"
+  },
+  {
+   "id": "2026-11-22-catacombs-under-westminster-poe",
+   "area": "baltimore",
+   "title": "The Catacombs Under Westminster: Tombs & Poe's Gravesite",
+   "category": "talk",
+   "start": "2026-11-22T11:00",
+   "venue": "Westminster Hall and Burying Ground",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/the-catacombs-under-westminster-two-hundred-years-of-tombs-and-edgar-allan-poes-gravesite-57/",
+   "base": 80,
+   "description": "Tour of the catacombs beneath Westminster Hall and the 200-year-old burying ground around it, including Edgar Allan Poe's grave. Rain or shine.",
+   "tags": [
+    "history",
+    "tour",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-22T12:00",
+   "summary": "Repeats Dec 6, 11am."
+  },
+  {
+   "id": "2026-11-28-zion-church-christkindlmarkt",
+   "area": "baltimore",
+   "title": "Zion Church 29th Annual Christkindlmarkt",
+   "category": "festival",
+   "start": "2026-11-28T10:00",
+   "venue": "Zion Lutheran Church",
+   "cost": "$2",
+   "free": false,
+   "url": "https://baltimore.org/event/zion-church-29th-annual-christkindlmarkt/",
+   "base": 62,
+   "description": "German Christmas market in the historic downtown church with crafts vendors, a German Christmas shop, Glühwein and German food, the Christkind and St. Nikolaus, zither and Saengerbund music, and church tours.",
+   "tags": [
+    "holiday",
+    "market",
+    "history",
+    "old houses"
+   ],
+   "source": "baltimore.org / zionbaltimore.org",
+   "until": "2026-11-29",
+   "summary": "Sat Nov 28 10am–5pm; Sun Nov 29 11am–4pm (confirm Sunday hours)."
+  },
+  {
+   "id": "2026-11-28-hampden-holiday-market",
+   "area": "baltimore",
+   "title": "Hampden Holiday Market",
+   "category": "festival",
+   "start": "2026-11-28T11:00",
+   "venue": "St. Luke's Church on the Avenue",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/hampden-holiday-markets/",
+   "base": 52,
+   "description": "40+ local artists and makers selling handmade work on Small Business Saturday, with music and hot soups; same day as the Miracle on 34th Street lighting.",
+   "tags": [
+    "holiday",
+    "market",
+    "local",
+    "art"
+   ],
+   "source": "baltimore.org",
+   "end": "2026-11-28T16:30"
+  },
+  {
+   "id": "2026-11-28-miracle-on-34th-street-lights",
+   "area": "baltimore",
+   "title": "Miracle on 34th Street lights (opening night)",
+   "category": "festival",
+   "start": "2026-11-28T18:00",
+   "venue": "W. 34th St, Hampden",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/miracle-on-34th-street/",
+   "base": 55,
+   "description": "Hampden's famous block of over-the-top rowhouse Christmas lights switches on for the season.",
+   "tags": [
+    "holiday",
+    "local"
+   ],
+   "source": "baltimore.org",
+   "until": "2027-01-01",
+   "summary": "After opening night, on at dark until ~10pm (midnight Fri/Sat); very crowded weekends."
+  },
+  {
+   "id": "2026-11-28-fire-museum-holiday-train-garden",
+   "area": "baltimore",
+   "title": "Holiday Train Garden at the Fire Museum of Maryland",
+   "category": "museum",
+   "start": "2026-11-28T10:00",
+   "venue": "Fire Museum of Maryland, Lutherville",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.firemuseummd.org/train-garden",
+   "base": 45,
+   "description": "Annual O-scale holiday train garden with operating trains, Baltimore-area businesses and a 'working fire' scene, continuing the Baltimore firehouse train-garden tradition dating to 1917.",
+   "tags": [
+    "holiday",
+    "history"
+   ],
+   "source": "firemuseummd.org / Baltimore Fishbowl",
+   "summary": "Santa 11am–2pm Nov 28; also Sat/Sun through December (Sun noon–4pm)."
+  },
+  {
+   "id": "2026-11-29-the-mirror-crackd-everyman",
+   "area": "baltimore",
+   "title": "Agatha Christie's The Mirror Crack'd",
+   "category": "theater",
+   "start": "2026-11-29T19:00",
+   "venue": "Everyman Theatre",
+   "cost": "Pay-what-you-choose (Nov 29); see site",
+   "free": null,
+   "url": "https://everymantheatre.org/event/mirror-crackd/",
+   "base": 58,
+   "description": "Rachel Wagstaff's stage adaptation of the Miss Marple mystery, set in a 1960s English village after a murder at a Hollywood star's party, performed mostly by Everyman's resident company.",
+   "tags": [
+    "theater"
+   ],
+   "source": "Everyman Theatre",
+   "until": "2026-12-30",
+   "summary": "Nov 29 is a pay-what-you-choose final dress; previews Dec 1–3."
+  },
+  {
+   "id": "2026-12-01-nikki-luke-electric-life",
+   "area": "baltimore",
+   "title": "Nikki Luke: \"Electric Life\"",
+   "category": "talk",
+   "start": "2026-12-01T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/nikki-luke-presents-electric-life-utility-regulation-and-the-fight-for-energy-democracy-in-conversation-w-patrick-bigger",
+   "base": 42,
+   "description": "Book talk on how utility regulation can advance energy democracy, in conversation with Patrick Bigger.",
+   "tags": [
+    "talk",
+    "books"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-12-02-goodyear-gordon-life-after-cars",
+   "area": "baltimore",
+   "title": "Sarah Goodyear & Doug Gordon: \"Life After Cars\"",
+   "category": "talk",
+   "start": "2026-12-02T19:00",
+   "venue": "Enoch Pratt Central Library, Poe Reading Room",
+   "cost": "Free (register)",
+   "free": true,
+   "url": "https://calendar.prattlibrary.org/event/sarah-goodyear-and-doug-gordon-life-after-cars",
+   "base": 52,
+   "description": "Authors Sarah Goodyear and Doug Gordon, joined by former co-host Aaron Naparstek, discuss the harms of car dependence and how better transportation ties to social equity.",
+   "tags": [
+    "talk",
+    "books",
+    "podcast"
+   ],
+   "source": "Enoch Pratt Free Library",
+   "end": "2026-12-02T20:00"
+  },
+  {
+   "id": "2026-12-03-stoop-democracy-in-our-lives",
+   "area": "baltimore",
+   "title": "Stoop Storytelling: Democracy in Our Lives",
+   "category": "talk",
+   "start": "2026-12-03T18:00",
+   "venue": "SNF Agora Institute, Johns Hopkins",
+   "cost": "See site (page lists free and $15–$25)",
+   "free": null,
+   "url": "https://stoopstorytelling.com/event/stoop-storytelling-series-in-partnership-with-the-stavros-niarchos-foundation-agora-institute-present-democracy-in-our-lives/",
+   "base": 68,
+   "description": "Stoop Storytelling and the SNF Agora Institute present true personal stories about democracy, belonging and civic life, with musical guest Letitia Van Sant.",
+   "tags": [
+    "storytelling",
+    "talk",
+    "local"
+   ],
+   "source": "stoopstorytelling.com"
+  },
+  {
+   "id": "2026-12-03-washington-monument-lighting",
+   "area": "baltimore",
+   "title": "Washington Monument Lighting, Mount Vernon Place",
+   "category": "festival",
+   "start": "2026-12-03",
+   "venue": "Mount Vernon Place",
+   "cost": "Free",
+   "free": true,
+   "url": "https://mountvernonplace.org/monument-lighting/",
+   "base": 58,
+   "description": "Baltimore's unofficial start of the holiday season: live music, a holiday vendor village and fireworks as the Washington Monument's lights come on.",
+   "tags": [
+    "holiday",
+    "history",
+    "local"
+   ],
+   "source": "mountvernonplace.org",
+   "allDay": true,
+   "summary": "Time not yet posted; traditionally early evening (5:30–7:30pm in past years)."
+  },
+  {
+   "id": "2026-12-05-hampton-nhs-holidays-at-hampton",
+   "area": "baltimore",
+   "title": "Holidays at Hampton",
+   "category": "museum",
+   "start": "2026-12-05T11:00",
+   "venue": "Hampton National Historic Site, Towson",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.nps.gov/hamp/planyourvisit/holidays-at-hampton.htm",
+   "base": 76,
+   "description": "Free open house of the decorated Georgian mansion with a Revolutionary-era exhibit, a living-history sing-along, choir performances, an ornament craft made from Hampton wood, and cider and cookies.",
+   "tags": [
+    "holiday",
+    "history",
+    "old houses",
+    "architecture"
+   ],
+   "source": "NPS",
+   "end": "2026-12-05T17:00",
+   "summary": "Park at Towson United Methodist Church; free shuttle 10:30am–6pm."
+  },
+  {
+   "id": "2026-12-06-catacombs-under-westminster-poe",
+   "area": "baltimore",
+   "title": "The Catacombs Under Westminster: Tombs & Poe's Gravesite",
+   "category": "talk",
+   "start": "2026-12-06T11:00",
+   "venue": "Westminster Hall and Burying Ground",
+   "cost": "$10–$15",
+   "free": false,
+   "url": "https://baltimoreheritage.org/event/the-catacombs-under-westminster-two-hundred-years-of-tombs-and-edgar-allan-poes-gravesite-58/",
+   "base": 76,
+   "description": "Tour of the catacombs and burying ground at Westminster Hall, including Poe's grave. Rain or shine.",
+   "tags": [
+    "history",
+    "tour",
+    "old houses"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-12-06T12:00"
+  },
+  {
+   "id": "2026-12-10-stoop-holiday-show-senator",
+   "area": "baltimore",
+   "title": "Stoop Storytelling Holiday Show: Ghosts of Christmases Past",
+   "category": "talk",
+   "start": "2026-12-10T19:00",
+   "venue": "The Senator Theatre",
+   "cost": "$25 ($15 students)",
+   "free": false,
+   "url": "https://stoopstorytelling.com/event/tidings-of-comfort-chaos-the-stoops-annual-holiday-show-at-the-senator/",
+   "base": 74,
+   "description": "The Stoop's annual holiday show of funny and heartfelt true stories about 'the most complicated time of the year,' with live music from Eyas, in the 1939 Art Deco Senator.",
+   "tags": [
+    "storytelling",
+    "holiday",
+    "local"
+   ],
+   "source": "stoopstorytelling.com"
+  },
+  {
+   "id": "2026-12-10-harjant-gill-coming-of-age-in-macholand",
+   "area": "baltimore",
+   "title": "Harjant Gill: \"Coming of Age in Macholand\" w/ Manil Suri",
+   "category": "talk",
+   "start": "2026-12-10T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/harjant-gill-presents-coming-of-age-in-macholand-masculinity-patriarchy-and-the-search-for-freedom-in-indian-punjab-in-conversation-w-manil-suri",
+   "base": 40,
+   "description": "Anthropologist and filmmaker Harjant Gill discusses his book on masculinity and patriarchy in Indian Punjab, in conversation with novelist Manil Suri.",
+   "tags": [
+    "talk",
+    "books"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-11-meatless-thanksgiving-feast-supper-club",
+   "area": "baltimore",
+   "title": "A Meatless Thanksgiving Feast with Farmers Market Supper Club",
+   "category": "food",
+   "start": "2026-11-11T18:30",
+   "venue": "Red Emma's (Free School Classroom)",
+   "cost": "See site (RSVP required)",
+   "free": null,
+   "url": "https://redemmas.org/events/a-meatless-thanksgiving-feat-with-farmers-market-supper-club-rsvp-required",
+   "base": 40,
+   "description": "Community potluck of vegetable-forward Thanksgiving dishes hosted by the Farmers Market Supper Club.",
+   "tags": [
+    "food",
+    "community"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-28-adams-rib",
+   "area": "lima-peru-2026-11",
+   "title": "Adam's Rib (George Cukor, 1949) – XII Ciclo La Música en el Cine",
+   "category": "film",
+   "start": "2026-11-28T11:00",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "Free (first come, first served; limited capacity)",
+   "free": true,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5400-adams-rib.html",
+   "base": 62,
+   "description": "Saturday-morning screening of Cukor's 1949 black-and-white comedy in which two married New York lawyers end up on opposite sides of a courtroom case about a woman who shot her unfaithful husband. Part of the Sociedad Filarmónica de Lima / Filmoteca PUCP cycle on music in film.",
+   "summary": "Free entry; arrive early, seating is first come first served.",
+   "tags": [
+    "film",
+    "revival",
+    "classic"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-11-28-la-cena-premios-goya",
+   "area": "lima-peru-2026-11",
+   "title": "La cena (Manuel Gómez Pereira, 2025) – Proyecciones Premios Goya",
+   "category": "film",
+   "start": "2026-11-28T18:00",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "Free (first come, first served; limited capacity)",
+   "free": true,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5444-la-cena.html",
+   "base": 48,
+   "description": "Spanish black comedy set weeks after the Civil War: Franco orders a victory banquet at the Hotel Palace, prepared by Republican prisoners who are skilled cooks, while a plot simmers in the kitchen. Part of a free touring selection of films from the 40th Goya Awards.",
+   "tags": [
+    "film",
+    "indie"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-11-28-arriba-del-nivel-adn-ciclo-de-jazz-europeo-y-peruano",
+   "area": "lima-peru-2026-11",
+   "title": "Arriba del Nivel (A.D.N.) – Ciclo de Jazz Europeo y Peruano",
+   "category": "music",
+   "start": "2026-11-28T18:00",
+   "venue": "Auditorio Goethe-Institut Perú",
+   "cost": "Free",
+   "free": true,
+   "url": "https://ccelima.aecid.es/w/ciclo-de-jazz-europeo-y-peruano",
+   "base": 60,
+   "description": "Free jazz-fusion concert (latin funk, bossa nova, bolero, timba) by an ensemble of young musicians from PUCP and the Universidad Nacional de Música, celebrating 60 years of the Goethe-Institut Perú. Part of EUNIC Peru's 4th European & Peruvian Jazz Cycle.",
+   "tags": [
+    "jazz",
+    "local",
+    "music"
+   ],
+   "source": "CCE Lima (AECID) event page"
+  },
+  {
+   "id": "2026-11-28-minotauro",
+   "area": "lima-peru-2026-11",
+   "title": "Minotauro (Andrey Zvyagintsev, 2026)",
+   "category": "film",
+   "start": "2026-11-28T20:15",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "S/ 17 general; S/ 15 students/seniors",
+   "free": false,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5464-minotauro.html",
+   "base": 55,
+   "description": "New film from Russian director Andrey Zvyagintsev, set in Russia in 2022: a successful company director's carefully ordered life unravels under corporate pressure and an increasingly unstable world.",
+   "summary": "Also screens Wed Dec 2 at 6:00 pm and Sun Dec 6 at 8:15 pm.",
+   "tags": [
+    "film",
+    "indie"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-11-29-leonera-35-mm",
+   "area": "lima-peru-2026-11",
+   "title": "Leonera (Pablo Trapero, 2008) – 30 en 35 mm",
+   "category": "film",
+   "start": "2026-11-29T19:30",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "S/ 10",
+   "free": false,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5454-leonera-35-mm.html",
+   "base": 55,
+   "description": "35mm print of Trapero's Argentine prison drama: Julia wakes beside two bloodied men, is imprisoned and gives birth in a prison for mothers. Part of '30 en 35 mm', a series screening Lima Film Festival archive titles on original 35mm with Filmoteca PUCP.",
+   "tags": [
+    "film",
+    "revival",
+    "35mm"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-11-30-el-secreto-de-sus-ojos-35-mm",
+   "area": "lima-peru-2026-11",
+   "title": "El secreto de sus ojos (Juan José Campanella, 2009) – 30 en 35 mm",
+   "category": "film",
+   "start": "2026-11-30T18:30",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "S/ 10",
+   "free": false,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5448-el-secreto-de-sus-ojos.html",
+   "base": 66,
+   "description": "35mm screening, followed by a discussion, of the Oscar-winning Argentine crime drama: a retired Buenos Aires court investigator becomes obsessed with a 1974 murder case while writing a novel about it, reviving an unspoken love. With Ricardo Darín and Soledad Villamil.",
+   "summary": "Monday show includes a conversatorio; a second screening is Thu Dec 3 at 8:30 pm.",
+   "tags": [
+    "film",
+    "revival",
+    "noir",
+    "35mm"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-12-01-la-odisea-35-mm",
+   "area": "lima-peru-2026-11",
+   "title": "La Odisea (Christopher Nolan, 2026) on 35mm",
+   "category": "film",
+   "start": "2026-12-01T17:30",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "S/ 17 general; S/ 15 students/seniors",
+   "free": false,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5465-la-odisea-35-mm.html",
+   "base": 38,
+   "description": "35mm projection of Nolan's The Odyssey, following Odysseus' long journey home to Ithaca after the Trojan War.",
+   "tags": [
+    "film",
+    "35mm"
+   ],
+   "source": "Centro Cultural PUCP film page"
+  },
+  {
+   "id": "2026-12-01-transcinema-festival-internacional-de-no-ficcion",
+   "area": "lima-peru-2026-11",
+   "title": "Transcinema – Festival Internacional de No Ficción 2026",
+   "category": "film",
+   "start": "2026-12-01",
+   "allDay": true,
+   "until": "2026-12-06",
+   "venue": "Various venues, Lima",
+   "cost": "See site",
+   "free": null,
+   "url": "https://catalanfilms.cat/es/festivals/transcinema-festival-internacional-de-no-ficcion/2026",
+   "base": 60,
+   "description": "Lima's international festival of non-fiction and independent cinema, known for adventurous documentary and hybrid films. The 2026 edition is listed for December 1–6 in Lima.",
+   "summary": "Venues and programme not yet published; check Transcinema's social channels closer to the date. Past editions included free screenings at LUM and CCE Lima.",
+   "tags": [
+    "film",
+    "festival",
+    "experimental",
+    "indie"
+   ],
+   "source": "Catalan Films festival listing (dates); festival programme not yet out"
+  },
+  {
+   "id": "2026-11-27-tour-del-miedo-cementerio-presbitero-maestro",
+   "area": "lima-peru-2026-11",
+   "title": "Night tour: Cementerio Presbítero Matías Maestro (Tour del Miedo 2026)",
+   "category": "community",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-20",
+   "venue": "Museo Cementerio Presbítero Maestro (Puerta 1)",
+   "cost": "S/ 60 without transport; S/ 80 with transport",
+   "free": false,
+   "url": "https://teleticket.com.pe/evento/tour-del-miedo-2026-cementerio-presbitero-matias-maestro-2026_cercado-de-lima",
+   "base": 62,
+   "description": "Two-hour evening walking tour of Lima's 1808 cemetery-museum, mixing city history with ghost stories, with stops at pavilions, crypts and mausoleums. Registration at Gate 1 by 7:30 pm (ends about 9:30 pm); the with-transport option meets at 6:20 pm by the Casa Matusita.",
+   "summary": "Spanish-language. Teleticket lists the run through Dec 20 but not individual session dates; resellers indicate Friday and Saturday nights. Confirm a session before going.",
+   "tags": [
+    "history",
+    "tour",
+    "architecture",
+    "walking tour"
+   ],
+   "source": "Teleticket listing; Experiencias.com.pe and Atrápalo for schedule pattern"
   }
  ]
 }
