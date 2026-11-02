@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:14:14-04:00",
+ "updated": "2026-11-02T09:45:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -5507,9 +5507,298 @@
     "history",
     "tour",
     "architecture",
-    "walking tour"
+    "tour"
    ],
    "source": "Teleticket listing; Experiencias.com.pe and Atrápalo for schedule pattern"
+  },
+  {
+   "id": "2026-11-02-tatiana-figueroa-ramirez-exhume",
+   "title": "Tatiana Figueroa Ramírez: \"Exhume\"",
+   "category": "talk",
+   "start": "2026-11-02T19:00",
+   "end": "2026-11-02T20:30",
+   "venue": "Greedy Reads Remington",
+   "cost": "See site",
+   "free": null,
+   "url": "https://greedyreads.com/events/51822",
+   "base": 58,
+   "description": "Book talk for Tatiana Figueroa Ramírez's \"Exhume,\" about women's legacies, in conversation with Maryland State Poet Laureate Lady Brion.",
+   "tags": [
+    "books",
+    "poetry"
+   ],
+   "source": "Baltimore Beat",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-02-ben-gucciardi-arguments-poems",
+   "title": "Ben Gucciardi with Edgar Kunz & Samuel Cheney: \"Arguments\"",
+   "category": "talk",
+   "start": "2026-11-02T18:00",
+   "venue": "Bird in Hand",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/ben-gucciardi-with-edgar-kunz-samuel-cheney-arguments-poems-tickets-2002171820813",
+   "base": 50,
+   "description": "Poetry reading from Ben Gucciardi's collection \"Arguments,\" with Baltimore poets Edgar Kunz and Samuel Cheney reading their own work.",
+   "tags": [
+    "books",
+    "poetry"
+   ],
+   "source": "Baltimore Beat",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-04-benjamin-robert-siegel-markets-of-pain",
+   "title": "Benjamin Robert Siegel: \"Markets of Pain\"",
+   "category": "talk",
+   "start": "2026-11-04T19:00",
+   "end": "2026-11-04T20:30",
+   "venue": "Greedy Reads Remington",
+   "cost": "See site",
+   "free": null,
+   "url": "https://greedyreads.com/events/51862",
+   "base": 62,
+   "description": "Historian Benjamin Robert Siegel talks about the history of the legal opium trade from his book \"Markets of Pain,\" in conversation with Alicia Puglionesi and Devin Hernandez.",
+   "tags": [
+    "books",
+    "history"
+   ],
+   "source": "Baltimore Beat",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-06-waterfall-dances-jane-goodall-in-memoriam",
+   "title": "Waterfall Dances: Jane Goodall in memoriam",
+   "category": "music",
+   "start": "2026-11-06T19:30",
+   "venue": "St. David's Church",
+   "cost": "Free (suggested donation)",
+   "free": true,
+   "url": "https://stdavidsbaltimore.org/music/event-tickets/",
+   "base": 55,
+   "description": "Organist Douglas Buchanan plays nature-inspired works honoring Jane Goodall, a year after her death, in St. David's Church, Roland Park.",
+   "tags": [
+    "classical",
+    "organ",
+    "nature"
+   ],
+   "source": "Baltimore Fishbowl",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-07-historic-green-mount-cemetery-tour",
+   "title": "Historic Green Mount Cemetery (Baltimore Heritage tour)",
+   "category": "community",
+   "start": "2026-11-07T09:30",
+   "end": "2026-11-07T11:30",
+   "venue": "Green Mount Cemetery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/historic-green-mount-cemetery-63/",
+   "base": 74,
+   "description": "A Baltimore Heritage walking tour of the 1839 park-style cemetery where many notable Marylanders are buried. Uneven grass and cobblestones.",
+   "tags": [
+    "history",
+    "architecture",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-08-patterson-park-history-walk",
+   "title": "Patterson Park (Baltimore Heritage tour)",
+   "category": "community",
+   "start": "2026-11-08T09:30",
+   "end": "2026-11-08T10:30",
+   "venue": "Patterson Park",
+   "address": "28 S Patterson Park Ave, Baltimore, MD 21231",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/patterson-park-14/",
+   "base": 66,
+   "description": "A walk through Patterson Park's history, from its 1827 founding through its wartime roles and its growth to 137 acres.",
+   "tags": [
+    "history",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-09-nemanja-radulovic-double-sens",
+   "title": "Nemanja Radulović & Double Sens: The Four Seasons",
+   "category": "music",
+   "start": "2026-11-09T19:30",
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://my.bsomusic.org/overview/20542",
+   "base": 42,
+   "description": "Serbian violinist Nemanja Radulović and his ensemble Double Sens play Vivaldi's Four Seasons in recital.",
+   "tags": [
+    "classical"
+   ],
+   "source": "Baltimore Fishbowl",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-13-hoodstock-xxiii",
+   "title": "Hoodstock XXIII",
+   "category": "music",
+   "start": "2026-11-13T19:00",
+   "end": "2026-11-13T23:00",
+   "venue": "Baltimore Museum of Industry",
+   "cost": "See site",
+   "free": null,
+   "url": "https://unified.org/hoodstock/",
+   "base": 48,
+   "description": "A grassroots music-festival fundraiser for Unified Community Connections at the Baltimore Museum of Industry, with live music, food, drinks, raffles and a silent auction.",
+   "tags": [
+    "local",
+    "fundraiser"
+   ],
+   "source": "Baltimore Fishbowl",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-14-jonestown-walking-tour",
+   "title": "Jonestown: A Walking Tour (Baltimore Heritage)",
+   "category": "community",
+   "start": "2026-11-14T09:30",
+   "end": "2026-11-14T11:00",
+   "venue": "Carroll Mansion",
+   "address": "800 E Lombard St, Baltimore, MD 21202",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/jonestown-a-walking-tour-4/",
+   "base": 72,
+   "description": "Guide Bev Rosen leads a tour of one of Baltimore's oldest neighborhoods, highlighting its Eastern European Jewish heritage and early landmarks like the McKim Free School and Lloyd Street Synagogue.",
+   "tags": [
+    "history",
+    "architecture",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-15-brewers-hill-walking-tour",
+   "title": "Brewer's Hill: Where Immigrants Brewed a Community (Baltimore Heritage)",
+   "category": "community",
+   "start": "2026-11-15T09:30",
+   "end": "2026-11-15T10:30",
+   "venue": "The Knotty Pine",
+   "address": "801 S Conkling St, Baltimore, MD 21224",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/brewers-hill-where-immigrants-brewed-a-community-3/",
+   "base": 70,
+   "description": "A one-mile walk through a former farming area that became an immigrant brewing neighborhood: its rowhouses and breweries like National Bohemian and Gunther.",
+   "tags": [
+    "history",
+    "architecture",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-15-celtic-recital-evensong",
+   "title": "Celtic Recital & Evensong",
+   "category": "music",
+   "start": "2026-11-15T16:30",
+   "venue": "St. David's Church",
+   "cost": "Free (suggested donation)",
+   "free": true,
+   "url": "https://stdavidsbaltimore.org/music/event-tickets/",
+   "base": 56,
+   "description": "The Choir of St. David's sings with Celtic harpist Liv Castor for the feast of St. Margaret of Scotland.",
+   "tags": [
+    "classical",
+    "folk",
+    "celtic"
+   ],
+   "source": "Baltimore Fishbowl",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-22-helene-grimaud-shriver-hall",
+   "title": "Hélène Grimaud (Shriver Hall Concert Series)",
+   "category": "music",
+   "start": "2026-11-22T17:30",
+   "end": "2026-11-22T19:10",
+   "venue": "Shriver Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.shriverconcerts.org/grimaud",
+   "base": 50,
+   "description": "French pianist Hélène Grimaud plays Beethoven's and Schubert's final piano sonatas.",
+   "tags": [
+    "classical",
+    "piano"
+   ],
+   "source": "Baltimore Fishbowl",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-05-historic-green-mount-cemetery-tour",
+   "title": "Historic Green Mount Cemetery (Baltimore Heritage tour)",
+   "category": "community",
+   "start": "2026-12-05T09:30",
+   "end": "2026-12-05T11:30",
+   "venue": "Green Mount Cemetery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/historic-green-mount-cemetery-64/",
+   "base": 70,
+   "description": "A Baltimore Heritage walking tour of the 1839 park-style cemetery and its notable burials. Runs rain or shine.",
+   "tags": [
+    "history",
+    "architecture",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-11-artemis-sketches-of-miles",
+   "title": "Artemis: Sketches of Miles",
+   "category": "music",
+   "start": "2026-12-11T18:00",
+   "until": "2026-12-12",
+   "venue": "Keystone Korner",
+   "cost": "$45–55 ($15 stream)",
+   "free": false,
+   "url": "https://baltimore.org/event/artemis-sketches-of-miles-featuring-renee-rosnes-ingrid-jensen-nicole-glover-noriko-ueda-allison-miller/",
+   "base": 80,
+   "description": "The all-star quintet Artemis — Renee Rosnes, Ingrid Jensen, Nicole Glover, Noriko Ueda, Allison Miller — marks Miles Davis's centennial with modal-era and electric-era arrangements alongside originals. DownBeat readers' #1 jazz group 2023–25.",
+   "summary": "Fri Dec 11 & Sat Dec 12.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Visit Baltimore",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-12-booth-baltimore-lincoln-assassination-green-mount",
+   "title": "Booth, Baltimore & Lincoln's Assassination: Green Mount walking tour",
+   "category": "community",
+   "start": "2026-12-12T09:30",
+   "end": "2026-12-12T11:30",
+   "venue": "Green Mount Cemetery",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/booth-baltimore-lincolns-assassination-a-walking-tour-of-green-mount-cemetery-21/",
+   "base": 68,
+   "description": "A walk tracing John Wilkes Booth's Baltimore roots and the plots against Lincoln, ending at Booth's unmarked grave in Green Mount Cemetery.",
+   "tags": [
+    "history",
+    "tour"
+   ],
+   "source": "Baltimore Heritage",
+   "area": "baltimore"
   }
  ]
 }
