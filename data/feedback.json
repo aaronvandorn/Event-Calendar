@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-04T21:21:36.665Z",
+ "updated": "2026-11-04T21:21:54.258Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -327,6 +327,25 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-04T21:21:34.592Z"
+    }
+   }
+  },
+  "2026-11-05-andre-carrington-audiofuturism": {
+   "title": "andré m. carrington: \"Audiofuturism\"",
+   "category": "talk",
+   "venue": "Red Emma's",
+   "tags": [
+    "talk",
+    "books",
+    "podcast",
+    "history"
+   ],
+   "start": "2026-11-05T19:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-04T21:21:52.463Z"
     }
    }
   }
