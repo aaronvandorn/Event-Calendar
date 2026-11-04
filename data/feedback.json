@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-04T21:21:54.258Z",
+ "updated": "2026-11-04T21:22:10.387Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -346,6 +346,23 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-04T21:21:52.463Z"
+    }
+   }
+  },
+  "2026-11-05-experimental-music-with-john-berndt-and-friends": {
+   "title": "Experimental Music with John Berndt and Friends",
+   "category": "music",
+   "venue": "The Red Room at Normals Books and Records",
+   "tags": [
+    "experimental",
+    "local"
+   ],
+   "start": "2026-11-05T20:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-04T21:22:08.596Z"
     }
    }
   }
