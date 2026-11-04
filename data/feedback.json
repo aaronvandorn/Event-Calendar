@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-10-22T22:23:10.074Z",
+ "updated": "2026-11-04T21:21:36.665Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -311,6 +311,22 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-10-22T22:23:07.842Z"
+    }
+   }
+  },
+  "2026-11-04-peabody-jazz-faculty": {
+   "title": "Peabody Jazz Faculty",
+   "category": "music",
+   "venue": "Keystone Korner",
+   "tags": [
+    "jazz"
+   ],
+   "start": "2026-11-04T19:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-04T21:21:34.592Z"
     }
    }
   }
