@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-04T21:22:10.387Z",
+ "updated": "2026-11-04T21:22:42.716Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -363,6 +363,26 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-04T21:22:08.596Z"
+    }
+   }
+  },
+  "2026-11-07-art-and-industry-tour-clipper-mill": {
+   "title": "Art and Industry Tour of Clipper Mill",
+   "category": "talk",
+   "venue": "Clipper Mill (outside Woodberry Kitchen)",
+   "tags": [
+    "history",
+    "tour",
+    "architecture",
+    "art",
+    "maker"
+   ],
+   "start": "2026-11-07T11:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-04T21:22:40.884Z"
     }
    }
   }
