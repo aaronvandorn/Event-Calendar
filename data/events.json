@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T09:45:00-05:00",
+ "updated": "2026-11-05T12:45:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -2260,20 +2260,20 @@
   {
    "id": "2026-11-08-hubert-laws",
    "area": "baltimore",
-   "title": "Hubert Laws",
+   "title": "Hubert Laws (Canceled)",
    "category": "music",
    "start": "2026-11-08T17:00",
    "venue": "Keystone Korner",
    "cost": "See site",
    "free": null,
    "url": "https://www.keystonekornerbaltimore.com/",
-   "base": 58,
-   "summary": "",
+   "base": 10,
+   "summary": "Canceled: Songkick and the Baltimore Jazz calendar both list this show as canceled.",
    "tags": [
     "jazz"
    ],
    "source": "Keystone Korner",
-   "description": "Hubert Laws, one of jazz's great flutists, plays his own shows at Keystone Korner. 5 & 8 p.m."
+   "description": "Hubert Laws, one of jazz's great flutists, was scheduled to play Keystone Korner. 5 & 8 p.m."
   },
   {
    "id": "2026-11-08-curator-tour-impermanence-and-buddhist-art",
@@ -3399,7 +3399,7 @@
    "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=13376",
    "base": 42,
    "description": "Stephen Mallatratt's stage adaptation of Susan Hill's ghost story, directed by Norma Martínez, with Alberto Isola and Nicolás Galindo.",
-   "summary": "Thu–Sat 20:00, Sun 19:00. Likely in Spanish. One source says the run ends Nov 29 — check before going.",
+   "summary": "Thu–Sat 20:00, Sun 19:00. In Spanish. Británico's agenda lists the run Sep 19 – Dec 6, 2026.",
    "tags": [
     "theater",
     "gothic"
@@ -5799,6 +5799,1566 @@
    ],
    "source": "Baltimore Heritage",
    "area": "baltimore"
+  },
+  {
+   "id": "2026-11-06-zbigniew-zukowski-opening-reception",
+   "area": "baltimore",
+   "title": "Zbigniew Zukowski: Opening Reception",
+   "category": "museum",
+   "start": "2026-11-06T18:00",
+   "venue": "Gallery 1448",
+   "cost": "Free",
+   "free": true,
+   "url": "http://gallery1448.com",
+   "base": 48,
+   "description": "Opening for an exhibition of mixed-media work by Polish-American artist Zbigniew Zukowski; the artist is on hand to talk about the work.",
+   "tags": [
+    "art",
+    "gallery"
+   ],
+   "source": "Baltimore Style",
+   "end": "2026-11-06T21:00"
+  },
+  {
+   "id": "2026-11-07-nina-gala-nothing-is-like-it-was-before",
+   "area": "baltimore",
+   "title": "Nina Gala: Nothing Is Like It Was Before",
+   "category": "music",
+   "start": "2026-11-07T19:00",
+   "venue": "Mount Vernon Place Church",
+   "cost": "Free (RSVP required)",
+   "free": true,
+   "url": "https://partiful.com/e/PVdOjIPSIQ970O9vhWgl",
+   "base": 60,
+   "description": "Singer-songwriter Nina Gala performs inside Mount Vernon Place United Methodist Church during Emma Childs's Chora installation.",
+   "tags": [
+    "music",
+    "local",
+    "art"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-07-wondering-wandering-photo-workshop",
+   "area": "baltimore",
+   "title": "Wondering & Wandering: Photo Workshop",
+   "category": "community",
+   "start": "2026-11-07T15:30",
+   "venue": "Creative Alliance",
+   "cost": "$35 ($30 members)",
+   "free": false,
+   "url": "https://creativealliance.org/event/wondering-wandering-photo-workshop/",
+   "base": 66,
+   "description": "Three-hour hands-on street-photography workshop walking Highlandtown, learning to notice patterns and capture city life. Led by Lyon, a Baltimore photographer and designer who teaches at MICA, UMBC and BSA; bring a phone or a camera on auto. All skill levels.",
+   "tags": [
+    "photography",
+    "making",
+    "creative alliance"
+   ],
+   "source": "Creative Alliance",
+   "end": "2026-11-07T18:30"
+  },
+  {
+   "id": "2026-11-07-mother-earth-poetry-vibe-featuring-freequency",
+   "area": "baltimore",
+   "title": "Mother Earth Poetry Vibe featuring FreeQuency",
+   "category": "talk",
+   "start": "2026-11-07T18:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/red-emma-s-mother-earth-poetry-vibe-featuring-freequency",
+   "base": 40,
+   "description": "Red Emma's Mother Earth Poetry Vibe reading series, this edition featuring the poet FreeQuency.",
+   "tags": [
+    "poetry",
+    "local"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-08-profs-pints-how-ancient-athens-restored-democracy",
+   "area": "baltimore",
+   "title": "Profs & Pints: How Ancient Athens Restored Democracy",
+   "category": "talk",
+   "start": "2026-11-08T16:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/",
+   "base": 66,
+   "description": "Nicholas D. Cross, a U.S. Naval Academy historian, explains how Athenians rebuilt a divided community after the rule of the Thirty Tyrants. Doors 3 p.m.",
+   "tags": [
+    "talk",
+    "history"
+   ],
+   "source": "Profs and Pints"
+  },
+  {
+   "id": "2026-11-08-bso-sh-h-razade-sibelius",
+   "area": "baltimore",
+   "title": "BSO: Shéhérazade & Sibelius",
+   "category": "music",
+   "start": "2026-11-08T15:00",
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://my.bsomusic.org/overview/20344",
+   "base": 48,
+   "description": "The Baltimore Symphony Orchestra and music director Jonathon Heyward with mezzo-soprano Fleur Barron in Ravel's Shéhérazade song cycle, plus Sibelius.",
+   "tags": [
+    "classical"
+   ],
+   "source": "Baltimore Fishbowl"
+  },
+  {
+   "id": "2026-11-09-girl-island-the-sandy-stone-story",
+   "area": "baltimore",
+   "title": "Girl Island: The Sandy Stone Story",
+   "category": "film",
+   "start": "2026-11-09T17:30",
+   "venue": "Baltimore Center Stage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/celebrate-sandy-stone-girl-island-and-trans-awareness-month-in-baltimore-tickets-2002761197655",
+   "base": 50,
+   "description": "Trans Awareness Month evening around Girl Island, the documentary on Sandy Stone, the trans pioneer, recording engineer and media theorist, with screenings, food, drink, conversation and dancing; the 89-year-old Stone is the guest of honor. 20% of proceeds go to Maryland Safe Haven.",
+   "tags": [
+    "film",
+    "community"
+   ],
+   "source": "Baltimore Fishbowl",
+   "end": "2026-11-09T21:30"
+  },
+  {
+   "id": "2026-11-11-see-it-loud-the-globe-poster-story-world-premiere",
+   "area": "baltimore",
+   "title": "See It Loud: The Globe Poster Story (World Premiere)",
+   "category": "film",
+   "start": "2026-11-11T19:00",
+   "venue": "MICA Falvey Hall",
+   "cost": "$20 ($15 MICA; $100 Super Fan)",
+   "free": false,
+   "url": "https://baltimore.org/event/see-it-loud-the-globe-poster-story-world-premiere/",
+   "base": 80,
+   "description": "World premiere of John Lewis and Rei Perri's hour-long documentary on Baltimore's Globe Poster and its influence on music, design and pop culture, with interviews with musicians who commissioned the posters, the printers who made them, and the MICA folks carrying on the tradition. Afterward: original Globe posters for sale from the Cicero Archive and the Globe exhibition in the Pinkard Gallery.",
+   "tags": [
+    "film",
+    "history",
+    "prints",
+    "design",
+    "local"
+   ],
+   "source": "Visit Baltimore",
+   "summary": "Doors 6:30 p.m. Super Fan tickets add early shopping of the Cicero Archive, 5–6:45 p.m."
+  },
+  {
+   "id": "2026-10-26-globe-posters-for-the-people",
+   "area": "baltimore",
+   "title": "Globe Posters for the People",
+   "category": "museum",
+   "start": "2026-10-26",
+   "venue": "MICA Bunting Center, Pinkard Gallery",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.mica.edu/events-exhibitions/current-upcoming-exhibitions/details/globe-posters-for-the-people/",
+   "base": 72,
+   "description": "Near-centennial retrospective of Globe Poster, the Baltimore printer behind showcard posters for musicians, political campaigns, rodeos and circuses, drawn from an archive of more than 15,000 items now owned by MICA.",
+   "tags": [
+    "prints",
+    "design",
+    "history",
+    "exhibition"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-12-08",
+   "allDay": true,
+   "summary": "Mon–Fri 10–5, Sun 12–6."
+  },
+  {
+   "id": "2026-11-11-alice-miranda-ollstein-side-effects",
+   "area": "baltimore",
+   "title": "Alice Miranda Ollstein: Side Effects",
+   "category": "talk",
+   "start": "2026-11-11T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/alice-miranda-ollstein-presents-side-effects-how-abortion-bans-impact-everyone-s-health-in-conversation-w-jaisal-noor",
+   "base": 42,
+   "description": "Health-policy journalist Alice Miranda Ollstein presents Side Effects: How Abortion Bans Impact Everyone's Health, in conversation with Jaisal Noor.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-12-shawn-gude-american-socialist-eugene-v-debs",
+   "area": "baltimore",
+   "title": "Shawn Gude: American Socialist (Eugene V. Debs)",
+   "category": "talk",
+   "start": "2026-11-12T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/shawn-gude-presents-american-socialist-the-life-and-legacy-of-eugene-v-debs-in-conversation-w-lester-spence",
+   "base": 58,
+   "description": "Shawn Gude presents American Socialist: The Life and Legacy of Eugene V. Debs, a biography of the labor leader and five-time presidential candidate, in conversation with Johns Hopkins political scientist Lester Spence.",
+   "tags": [
+    "books",
+    "talk",
+    "history"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-12-gardener-s-workshop-gardening-in-late-fall",
+   "area": "baltimore",
+   "title": "Gardener's Workshop: Gardening in Late Fall",
+   "category": "community",
+   "start": "2026-11-12T14:00",
+   "venue": "Cylburn Arboretum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/gardeners-workshop-gardening-in-late-fall-tickets-2003173732558",
+   "base": 62,
+   "description": "Cylburn Arboretum Friends horticulture staff lead an interactive tour of the grounds with live demonstrations of November garden practices. Meet at the Nature Education Center porch behind the mansion; bring garden gloves.",
+   "tags": [
+    "gardening",
+    "nature",
+    "outdoors"
+   ],
+   "source": "Cylburn Arboretum Friends",
+   "end": "2026-11-12T15:30"
+  },
+  {
+   "id": "2026-11-12-profs-pints-how-to-feel-worthy",
+   "area": "baltimore",
+   "title": "Profs & Pints: How to Feel Worthy",
+   "category": "talk",
+   "start": "2026-11-12T18:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/",
+   "base": 38,
+   "description": "Psychologist and author Marisa G. Franco gives an interactive talk on self-worth and shifting long-held negative beliefs about yourself. Doors 5 p.m.",
+   "tags": [
+    "talk",
+    "science"
+   ],
+   "source": "Profs and Pints"
+  },
+  {
+   "id": "2026-11-12-the-stars-andrew-schneider",
+   "area": "baltimore",
+   "title": "The Stars: Andrew Schneider",
+   "category": "theater",
+   "start": "2026-11-12",
+   "venue": "The Voxel",
+   "cost": "$10–20",
+   "free": false,
+   "url": "https://voxel.org/events/the-stars-2026",
+   "base": 68,
+   "description": "Immersive LED-and-sound installation by Andrew Schneider at the Voxel in Remington.",
+   "tags": [
+    "immersive",
+    "experimental",
+    "art"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2026-11-29",
+   "allDay": true,
+   "summary": "Times vary; book a slot on the Voxel site."
+  },
+  {
+   "id": "2026-11-12-priya-parker-the-art-of-fighting",
+   "area": "baltimore",
+   "title": "Priya Parker: The Art of Fighting",
+   "category": "talk",
+   "start": "2026-11-12T19:00",
+   "venue": "Third Space at Shaarei Tfiloh",
+   "cost": "$36–118",
+   "free": false,
+   "url": "https://www.thirdspacest.org/event/priya-parker/",
+   "base": 42,
+   "description": "Priya Parker, author of The Art of Gathering, talks about navigating conflict, drawing on her new book The Art of Fighting.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-13-an-evening-of-literature-and-music",
+   "area": "baltimore",
+   "title": "An Evening of Literature and Music",
+   "category": "talk",
+   "start": "2026-11-13T19:00",
+   "venue": "Black Cherry Puppet Theater",
+   "cost": "Sliding scale",
+   "free": false,
+   "url": "https://www.blackcherry.org/upcoming-events.html",
+   "base": 60,
+   "description": "Readings and music at Black Cherry with Lee Bains III, Baltimore writer Baynard Woods, Eze Jackson and Papess. Doors 6:30 p.m.",
+   "tags": [
+    "books",
+    "music",
+    "local"
+   ],
+   "source": "Black Cherry Puppet Theater"
+  },
+  {
+   "id": "2026-11-14-puppet-slamwich",
+   "area": "baltimore",
+   "title": "Puppet Slamwich",
+   "category": "theater",
+   "start": "2026-11-14T18:30",
+   "venue": "Black Cherry Puppet Theater",
+   "cost": "$15–25 sliding scale",
+   "free": false,
+   "url": "https://www.blackcherry.org/puppet-slams.html",
+   "base": 66,
+   "description": "Black Cherry's adults-only evening of short puppetry acts: Alex Hart & Annajane, Schroeder Cherry and His Puppets, Leave No Trace, Fox e. Martin, Convulsionistas and Sari Langholt, hosted by musical guest Makeshift Hammer.",
+   "tags": [
+    "theater",
+    "local",
+    "art"
+   ],
+   "source": "Black Cherry Puppet Theater",
+   "summary": "Two shows, 6:30 and 9:30 p.m.; doors 30 min before."
+  },
+  {
+   "id": "2026-11-14-47th-annual-saturday-with-sherlock-holmes",
+   "area": "baltimore",
+   "title": "47th Annual Saturday with Sherlock Holmes",
+   "category": "talk",
+   "start": "2026-11-14T10:30",
+   "venue": "Enoch Pratt Central Library, Wheeler Auditorium",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/47th-annual-saturday-with-sherlock-holmes-at-the-pratt-library/",
+   "base": 60,
+   "description": "Baltimore's long-running gathering of Sherlockians: presenters give talks on the Holmes stories, this year on the theme \"International Holmes.\" Coffee and bagels 10:30, program 11:30–1:30.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Visit Baltimore",
+   "end": "2026-11-14T13:30"
+  },
+  {
+   "id": "2026-11-14-evergreen-holiday-makers-market",
+   "area": "baltimore",
+   "title": "Evergreen Holiday Makers' Market",
+   "category": "community",
+   "start": "2026-11-14T11:00",
+   "venue": "Evergreen Museum & Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://jhu.libcal.com/event/17522354?hs=a",
+   "base": 55,
+   "description": "Local makers sell their work at the Garrett family's Gilded Age mansion, followed by a self-guided tour of the museum and gardens.",
+   "tags": [
+    "market",
+    "making",
+    "historic house"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-14T15:00"
+  },
+  {
+   "id": "2026-11-14-rodrigo-nunes-anatomy-of-disintegration",
+   "area": "baltimore",
+   "title": "Rodrigo Nunes: Anatomy of Disintegration",
+   "category": "talk",
+   "start": "2026-11-14T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/rodrigo-nunes-presents-anatomy-of-disintegration-what-brazil-reveals-about-the-global-far-right-in-conversation-w-mike-mcguire",
+   "base": 38,
+   "description": "Philosopher Rodrigo Nunes presents Anatomy of Disintegration: What Brazil Reveals About the Global Far Right, in conversation with Mike McGuire.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-15-baseball-in-baltimore-a-walking-tour",
+   "area": "baltimore",
+   "title": "Baseball in Baltimore: A Walking Tour",
+   "category": "community",
+   "start": "2026-11-15T10:00",
+   "venue": "Babe Ruth Birthplace and Museum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/baseball-in-baltimore-a-walking-tour/",
+   "base": 55,
+   "description": "Baltimore Heritage walk from Babe Ruth's birthplace covering Ruth's early life in Baltimore, Brooks Robinson's career and the city's Negro Leagues history.",
+   "tags": [
+    "tour",
+    "history"
+   ],
+   "source": "Baltimore Heritage",
+   "end": "2026-11-15T11:00"
+  },
+  {
+   "id": "2026-11-15-baker-artist-awards-live",
+   "area": "baltimore",
+   "title": "Baker Artist Awards Live!",
+   "category": "community",
+   "start": "2026-11-15T14:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/baker-artist-awards-live/",
+   "base": 52,
+   "description": "Live presentation of the Baker Artist Awards, the yearly prizes for Baltimore-area artists, at Creative Alliance's Patterson theater.",
+   "tags": [
+    "art",
+    "local",
+    "creative alliance"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-11-18-profs-pints-the-power-of-cults",
+   "area": "baltimore",
+   "title": "Profs & Pints: The Power of Cults",
+   "category": "talk",
+   "start": "2026-11-18T18:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/",
+   "base": 50,
+   "description": "George Mason psychologist Mariah Wilkerson on how cults recruit, how they keep members from leaving, and why leaving is so hard. Doors 5 p.m.",
+   "tags": [
+    "talk",
+    "science"
+   ],
+   "source": "Profs and Pints"
+  },
+  {
+   "id": "2026-11-18-meg-berkobien-mar-a-cristina-hall-goodbye-ramona",
+   "area": "baltimore",
+   "title": "Meg Berkobien & María Cristina Hall: Goodbye, Ramona",
+   "category": "talk",
+   "start": "2026-11-18T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/meg-berkobien-and-mar-a-cristina-hall-present-goodbye-ramona",
+   "base": 42,
+   "description": "Meg Berkobien and María Cristina Hall present the book Goodbye, Ramona at Red Emma's.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-18-belonging-opening-reception",
+   "area": "baltimore",
+   "title": "Belonging: Opening Reception",
+   "category": "museum",
+   "start": "2026-11-18T18:00",
+   "venue": "Connect + Collect Gallery",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.connectcollect.org/",
+   "base": 70,
+   "description": "Photographs by five Baltimore photographers featured in the book In Light and Verse. Reception 6–8 p.m.; afterward the show is open by appointment through Jan. 29.",
+   "tags": [
+    "photography",
+    "gallery",
+    "local"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-18T20:00",
+   "until": "2027-01-29"
+  },
+  {
+   "id": "2026-11-18-wednesday-walk-forest-layers",
+   "area": "baltimore",
+   "title": "Wednesday Walk: Forest Layers",
+   "category": "community",
+   "start": "2026-11-18T12:00",
+   "venue": "Cylburn Arboretum",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/wednesday-walk-forest-layers-tickets-1999790926494",
+   "base": 50,
+   "description": "Cylburn Arboretum Friends' midday Wednesday walk, this one looking at the layers of the forest.",
+   "tags": [
+    "nature",
+    "outdoors"
+   ],
+   "source": "Cylburn Arboretum Friends"
+  },
+  {
+   "id": "2026-11-19-lecture-cherokee-boarding-school-experiences-in-the-mid-atla",
+   "area": "baltimore",
+   "title": "Lecture: Cherokee Boarding School Experiences in the Mid-Atlantic",
+   "category": "talk",
+   "start": "2026-11-19T12:00",
+   "venue": "Maryland Center for History and Culture",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.mdhistory.org/calendar/lecture-cherokee-boarding-school-experiences-in-the-mid-atlantic/",
+   "base": 55,
+   "description": "David Armenti of the Maryland Center for History and Culture shares genealogical research on members of the Eastern Band of Cherokee Indians, from the Big Cove community in North Carolina, who attended boarding schools in the Chesapeake region.",
+   "tags": [
+    "history",
+    "talk"
+   ],
+   "source": "Visit Baltimore",
+   "end": "2026-11-19T13:00"
+  },
+  {
+   "id": "2026-11-19-isabella-weber-anti-fascist-economics",
+   "area": "baltimore",
+   "title": "Isabella Weber: Anti-Fascist Economics",
+   "category": "talk",
+   "start": "2026-11-19T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/isabella-weber-presents-anti-fascist-economics-in-defense-of-affordability-dignity-and-democracy-in-conversation-with-osita-nwanevu",
+   "base": 52,
+   "description": "Economist Isabella Weber, known for her work on price controls and inflation, presents Anti-Fascist Economics: In Defense of Affordability, Dignity, and Democracy, in conversation with journalist Osita Nwanevu.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-20-maria-s-nchez-coromoto",
+   "area": "baltimore",
+   "title": "Maria Sánchez: Coromoto",
+   "category": "museum",
+   "start": "2026-11-20",
+   "venue": "Current Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.currentspace.com",
+   "base": 58,
+   "description": "Installation by Maria Sánchez on feminine deities, at the artist-run Current Space.",
+   "tags": [
+    "art",
+    "gallery"
+   ],
+   "source": "Baltimore Magazine",
+   "until": "2027-01-15",
+   "allDay": true,
+   "summary": "Gallery hours Sat 1–5 p.m."
+  },
+  {
+   "id": "2026-11-21-john-washington-how-to-close-a-camp",
+   "area": "baltimore",
+   "title": "John Washington: How to Close a Camp",
+   "category": "talk",
+   "start": "2026-11-21T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/john-washington-presents-how-to-close-a-camp",
+   "base": 42,
+   "description": "Journalist John Washington presents his book How to Close a Camp.",
+   "tags": [
+    "books",
+    "talk"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-11-21-50th-annual-baltimore-pow-wow",
+   "area": "baltimore",
+   "title": "50th Annual Baltimore Pow-Wow",
+   "category": "festival",
+   "start": "2026-11-21T11:00",
+   "venue": "Timonium Fairgrounds",
+   "cost": "Free–$10",
+   "free": false,
+   "url": "https://www.eventbrite.com/e/baic-annual-50th-pow-wow-tickets-2002565144254",
+   "base": 50,
+   "description": "The Baltimore American Indian Center marks its 50th anniversary with dance, performances, Indigenous food and vendors. Grand entrances at noon and 4 p.m.",
+   "tags": [
+    "festival",
+    "community",
+    "history"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-21T19:00"
+  },
+  {
+   "id": "2026-11-22-hail-bright-cecilia-remembering-benjamin-britten",
+   "area": "baltimore",
+   "title": "Hail, Bright Cecilia: Remembering Benjamin Britten",
+   "category": "music",
+   "start": "2026-11-22T16:00",
+   "venue": "Emmanuel Episcopal Church",
+   "cost": "$25 advance, $35 door, $10 reduced",
+   "free": false,
+   "url": "https://events.baltimoremagazine.com/event/hail-bright-cecilia-remembering-benjamin-britten",
+   "base": 50,
+   "description": "A concert remembering the English composer Benjamin Britten, given on St. Cecilia's Day, which was also Britten's birthday.",
+   "tags": [
+    "classical",
+    "vocal"
+   ],
+   "source": "Baltimore Magazine",
+   "end": "2026-11-22T18:00"
+  },
+  {
+   "id": "2026-11-22-baltimore-museum-of-industry-45th-anniversary-celebration",
+   "area": "baltimore",
+   "title": "Baltimore Museum of Industry 45th Anniversary Celebration",
+   "category": "museum",
+   "start": "2026-11-22T09:00",
+   "venue": "Baltimore Museum of Industry",
+   "cost": "$1",
+   "free": false,
+   "url": "https://www.thebmi.org/event/45-anniversary-celebration/",
+   "base": 62,
+   "description": "The BMI recreates its 1981 opening day: metalworking and printmaking demonstrations, trade demos, an oyster-shucking contest, a Baltimore trivia challenge, an '80s film in the theater and live music, with Evan Woodard of Salvage Arc as emcee.",
+   "tags": [
+    "history",
+    "making",
+    "museum"
+   ],
+   "source": "Baltimore Museum of Industry",
+   "end": "2026-11-22T16:00",
+   "summary": "$1 admission all day."
+  },
+  {
+   "id": "2026-11-23-network-senator-revival-monday-matinee",
+   "area": "baltimore",
+   "title": "Network (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-11-23T16:00",
+   "venue": "The Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 52,
+   "description": "Monday-afternoon repeat of the Senator's revival screening of Sidney Lumet's Network (1976), Paddy Chayefsky's savage satire of TV news ratings wars with Peter Finch as the 'mad as hell' anchorman.",
+   "tags": [
+    "revival",
+    "film",
+    "classic",
+    "satire"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-11-24-screening-fault-lines-presents-dying-in-detention",
+   "area": "baltimore",
+   "title": "Screening: Fault Lines presents \"Dying in Detention\"",
+   "category": "film",
+   "start": "2026-11-24T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/screening-fault-lines-presents-dying-in-detention-w-physicians-for-human-rights-and-al-jazeera/",
+   "base": 48,
+   "description": "Al Jazeera's Fault Lines documentary about a man who died in an immigration detention facility in California, screened with Physicians for Human Rights and followed by a Q&A with participants and the filmmakers.",
+   "summary": "Baltimore Magazine lists it as free.",
+   "tags": [
+    "film",
+    "talk",
+    "community"
+   ],
+   "source": "Red Emma's; Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-24-sade-s-collective",
+   "area": "baltimore",
+   "title": "Sade's Collective",
+   "category": "music",
+   "start": "2026-11-24T19:00",
+   "end": "2026-11-24T20:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/sade-s-collective-11697/",
+   "base": 50,
+   "description": "Young jazz group with Ayomilekan Akinbinu (guitar, alto sax), Kofi Boateng (keys, trumpet), Lucas Hanson (keys) and Imran Musa, playing the early set in Keystone Korner's small room.",
+   "tags": [
+    "jazz",
+    "local"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-11-25-cris-jacobs-family-reunion",
+   "area": "baltimore",
+   "title": "Cris Jacobs Family Reunion",
+   "category": "music",
+   "start": "2026-11-25T18:30",
+   "venue": "The Recher",
+   "cost": "$48.07",
+   "free": false,
+   "url": "https://therechermd.com/event/cris-jacobs-family-reunion-w-members-of-greensky-bluegrass-cabinet-the-bridge-and-more/the-recher/towson-maryland/",
+   "base": 45,
+   "description": "Baltimore roots guitarist Cris Jacobs's Thanksgiving-eve reunion show, with guests from Greensky Bluegrass, Cabinet and his old band The Bridge.",
+   "tags": [
+    "bluegrass",
+    "folk",
+    "local"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-20-coromoto-maria-s-nchez",
+   "area": "baltimore",
+   "title": "Coromoto: Maria Sánchez",
+   "category": "museum",
+   "start": "2026-11-20",
+   "allDay": true,
+   "until": "2027-01-15",
+   "venue": "Current Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.currentspace.com",
+   "base": 62,
+   "description": "Photography, film and installation by Maria Sánchez exploring feminine deities, in the artist-run Current Space gallery. Open Saturdays 1-5 p.m.",
+   "tags": [
+    "photography",
+    "art",
+    "gallery",
+    "exhibition"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-18-belonging-five-baltimore-photographers",
+   "area": "baltimore",
+   "title": "Belonging: Five Baltimore Photographers",
+   "category": "museum",
+   "start": "2026-11-18",
+   "allDay": true,
+   "until": "2027-01-29",
+   "venue": "Connect + Collect Gallery",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.connectcollect.org/",
+   "base": 55,
+   "description": "Group show of photographs from five Baltimore artists at the small Charles Village gallery Connect + Collect. Viewing by appointment.",
+   "tags": [
+    "photography",
+    "gallery",
+    "local",
+    "exhibition"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-27-bazaart-holiday-market-at-avam",
+   "area": "baltimore",
+   "title": "BAZAART Holiday Market at AVAM",
+   "category": "festival",
+   "start": "2026-11-27T12:00",
+   "end": "2026-11-27T17:00",
+   "until": "2026-11-28",
+   "venue": "American Visionary Art Museum",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.avam.org/bazaart",
+   "base": 40,
+   "description": "AVAM's annual holiday market of work by regional artists and makers, held at the visionary-art museum on Key Highway. Fri. 12-5 p.m., Sat. 10 a.m.-5 p.m.",
+   "summary": "You're in Lima Nov 27-Dec 4.",
+   "tags": [
+    "market",
+    "art",
+    "maker",
+    "holiday"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-28-a-christmas-carol-chesapeake-shakespeare",
+   "area": "baltimore",
+   "title": "A Christmas Carol (Chesapeake Shakespeare)",
+   "category": "theater",
+   "start": "2026-11-28T20:00",
+   "until": "2026-12-23",
+   "venue": "Chesapeake Shakespeare Company",
+   "cost": "$35-97",
+   "free": false,
+   "url": "https://www.chesapeakeshakespeare.com/shows-tickets/carol/",
+   "base": 50,
+   "description": "Chesapeake Shakespeare Company's Dickens adaptation, reset in 19th-century Baltimore, performed in its restored 1885 bank-building theater downtown.",
+   "summary": "Shows Dec 4 8pm; Dec 5, 6, 12, 13 2pm; Dec 11 8pm; Dec 17 7:30pm; more through Dec 23.",
+   "tags": [
+    "theater",
+    "holiday",
+    "victorian",
+    "history"
+   ],
+   "source": "Baltimore Magazine; WYPR community calendar"
+  },
+  {
+   "id": "2026-12-01-christmas-with-baltimore-choral-arts",
+   "area": "baltimore",
+   "title": "Christmas with Baltimore Choral Arts",
+   "category": "music",
+   "start": "2026-12-01T19:30",
+   "end": "2026-12-01T21:30",
+   "venue": "Baltimore Basilica",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorechoralarts.org/music",
+   "base": 40,
+   "description": "Baltimore Choral Arts Society's annual Christmas concert in the Basilica, the first Catholic cathedral in the US.",
+   "summary": "You're in Lima.",
+   "tags": [
+    "classical",
+    "vocal",
+    "holiday"
+   ],
+   "source": "Baltimore Choral Arts; Visit Baltimore"
+  },
+  {
+   "id": "2026-12-02-the-art-gray-noizz-quintet-genre-is-death-sexfaces-credit",
+   "area": "baltimore",
+   "title": "The Art Gray Noizz Quintet, Genre is Death, Sexfaces, Credit",
+   "category": "music",
+   "start": "2026-12-02T19:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.etix.com/ticket/p/78021339/the-art-gray-noizz-quintetgenre-is-deathsexfacescredit-baltimore-ottobar?partner_id=100",
+   "base": 42,
+   "description": "All-ages bill at Ottobar led by the Art Gray Noizz Quintet, alongside local acts Genre is Death, Sexfaces and Credit.",
+   "summary": "You're in Lima.",
+   "tags": [
+    "experimental",
+    "local",
+    "punk"
+   ],
+   "source": "Ottobar calendar"
+  },
+  {
+   "id": "2026-12-03-ariel-bierbaum-schools-for-sale",
+   "area": "baltimore",
+   "title": "Ariel Bierbaum: \"Schools for Sale\"",
+   "category": "talk",
+   "start": "2026-12-03T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/ariel-bierbaum-presents-schools-for-sale-disinvestment-dispossession-and-school-building-reuse-in-philadelphia",
+   "base": 38,
+   "description": "Planner Ariel Bierbaum on her book about what happens to school buildings after closures: disinvestment, dispossession and building reuse in Philadelphia.",
+   "summary": "You're in Lima.",
+   "tags": [
+    "talk",
+    "books",
+    "architecture"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-12-05-mortified-baltimore-winter-break",
+   "area": "baltimore",
+   "title": "Mortified Baltimore: Winter Break",
+   "category": "comedy",
+   "start": "2026-12-05T19:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/mortified-baltimore-winter-break/",
+   "base": 55,
+   "description": "Mortified's live show, where adults read their actual teenage diaries, letters and poems on stage to a roomful of strangers; the Baltimore chapter's winter edition.",
+   "tags": [
+    "storytelling",
+    "creative alliance"
+   ],
+   "source": "Creative Alliance"
+  },
+  {
+   "id": "2026-12-05-fell-s-point-olde-tyme-christmas",
+   "area": "baltimore",
+   "title": "Fell's Point Olde Tyme Christmas",
+   "category": "festival",
+   "start": "2026-12-05T09:00",
+   "end": "2026-12-05T18:30",
+   "venue": "Fell's Point waterfront",
+   "map": false,
+   "cost": "Free",
+   "free": true,
+   "url": "https://fellspointmainstreet.org",
+   "base": 45,
+   "description": "Fell's Point's holiday day: Santa arrives by tugboat at 9 a.m. at Broadway Pier, the Broadway Square tree is lit at 5:45 p.m., and a lighted boat parade passes the waterfront at 6 p.m.",
+   "tags": [
+    "holiday",
+    "history",
+    "community"
+   ],
+   "source": "Fell's Point Main Street"
+  },
+  {
+   "id": "2026-12-06-phantom-thread-senator-revival-sunday-matinee",
+   "area": "baltimore",
+   "title": "Phantom Thread (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-12-06T10:00",
+   "venue": "The Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 48,
+   "description": "Sunday-morning repeat of the Senator's revival screening of Paul Thomas Anderson's Phantom Thread (2017), with Daniel Day-Lewis as an exacting 1950s London couturier.",
+   "tags": [
+    "revival",
+    "film"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-06-maker-s-night-market-at-ottobar",
+   "area": "baltimore",
+   "title": "Maker's Night Market at Ottobar",
+   "category": "community",
+   "start": "2026-12-06",
+   "allDay": true,
+   "venue": "Ottobar",
+   "cost": "Free",
+   "free": true,
+   "url": "https://theottobar.com/calendar/",
+   "base": 55,
+   "description": "Free maker's market on Ottobar's main floor, with local makers selling their work in the Remington rock club. Time not yet posted.",
+   "tags": [
+    "market",
+    "maker",
+    "local",
+    "holiday"
+   ],
+   "source": "Ottobar calendar"
+  },
+  {
+   "id": "2026-12-06-jazmin-ghent-holiday-soul",
+   "area": "baltimore",
+   "title": "Jazmin Ghent: Holiday Soul",
+   "category": "music",
+   "start": "2026-12-06T17:00",
+   "end": "2026-12-06T18:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimore.org/event/jazmin-ghent-holiday-soul-2/",
+   "base": 40,
+   "description": "Saxophonist Jazmin Ghent plays a holiday set of soul-jazz at Keystone Korner.",
+   "tags": [
+    "jazz",
+    "holiday",
+    "soul"
+   ],
+   "source": "Visit Baltimore; Songkick"
+  },
+  {
+   "id": "2026-12-11-bit-brigade-zelda-castlevania-tetris-live",
+   "area": "baltimore",
+   "title": "Bit Brigade: Zelda + Castlevania + Tetris Live",
+   "category": "music",
+   "start": "2026-12-11T19:00",
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.etix.com/ticket/p/57093814/bit-brigade-performs-the-legend-of-zeldacastlevaniatetrislive-baltimore-ottobar?partner_id=100",
+   "base": 48,
+   "description": "Bit Brigade plays the soundtracks to The Legend of Zelda, Castlevania and Tetris live as a rock band while a speedrunner plays the games on the big screen.",
+   "tags": [
+    "rock",
+    "games"
+   ],
+   "source": "Ottobar calendar"
+  },
+  {
+   "id": "2026-12-11-handel-s-messiah-at-the-baltimore-basilica",
+   "area": "baltimore",
+   "title": "Handel's Messiah at the Baltimore Basilica",
+   "category": "music",
+   "start": "2026-12-11T19:00",
+   "until": "2026-12-12",
+   "venue": "Baltimore Basilica",
+   "cost": "$20-85",
+   "free": false,
+   "url": "https://www.americasfirstcathedral.org/concertseries",
+   "base": 58,
+   "description": "The complete Messiah, led by Edward Polochick with the Baltimore Basilica Festival Orchestra and Choir and soloists, in Benjamin Latrobe's 1821 Basilica, 'America's First Cathedral.'",
+   "summary": "Also Sat Dec 12 at 7pm. Kids 12 and under free.",
+   "tags": [
+    "classical",
+    "vocal",
+    "holiday",
+    "architecture"
+   ],
+   "source": "Visit Baltimore"
+  },
+  {
+   "id": "2026-12-12-station-north-holiday-market",
+   "area": "baltimore",
+   "title": "Station North Holiday Market",
+   "category": "community",
+   "start": "2026-12-12T12:00",
+   "end": "2026-12-12T17:00",
+   "venue": "Station North Holiday Market (W. North Ave)",
+   "address": "12-30 W North Ave, Baltimore, MD",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.wypr.org/community-calendar/event/station-north-holiday-market-29-10-2026-10-29-30",
+   "base": 55,
+   "description": "Indoor/outdoor holiday market in the Station North Arts District with 100+ Baltimore artists, makers, performers and small businesses, plus food, drink and live music.",
+   "tags": [
+    "market",
+    "maker",
+    "art",
+    "local",
+    "holiday"
+   ],
+   "source": "WYPR community calendar; Visit Baltimore"
+  },
+  {
+   "id": "2026-12-12-holiday-heap",
+   "area": "baltimore",
+   "title": "Holiday Heap",
+   "category": "community",
+   "start": "2026-12-12",
+   "allDay": true,
+   "venue": "2640 Space",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.charmcitycraftmafia.com/",
+   "base": 58,
+   "description": "Charm City Craft Mafia's juried indie craft fair, a long-running Baltimore holiday tradition, filling the 2640 Space church hall with local makers. Hours not yet posted.",
+   "tags": [
+    "market",
+    "maker",
+    "diy",
+    "local",
+    "holiday"
+   ],
+   "source": "Charm City Craft Mafia; The Craft Map"
+  },
+  {
+   "id": "2026-12-12-handel-choir-of-baltimore-messiah",
+   "area": "baltimore",
+   "title": "Handel Choir of Baltimore: Messiah",
+   "category": "music",
+   "start": "2026-12-12T15:00",
+   "end": "2026-12-12T17:00",
+   "venue": "Church of the Redeemer",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.handelchoir.org/renewal",
+   "base": 52,
+   "description": "The Handel Choir of Baltimore's annual Messiah, now in its 92nd season, at the Church of the Redeemer on North Charles Street (moved from Grace UMC).",
+   "summary": "Also Dec 13, 3:30pm at Church of the Resurrection, Timonium (and livestream).",
+   "tags": [
+    "classical",
+    "vocal",
+    "holiday"
+   ],
+   "source": "Handel Choir of Baltimore"
+  },
+  {
+   "id": "2026-12-12-choral-arts-chamber-singers",
+   "area": "baltimore",
+   "title": "Choral Arts Chamber Singers",
+   "category": "music",
+   "start": "2026-12-12T15:30",
+   "venue": "Immanuel Lutheran Church",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorechoralarts.org/music",
+   "base": 38,
+   "description": "Baltimore Choral Arts Society's Chamber Singers in a December afternoon concert at Immanuel Lutheran Church.",
+   "tags": [
+    "classical",
+    "vocal",
+    "holiday"
+   ],
+   "source": "Baltimore Choral Arts"
+  },
+  {
+   "id": "2026-12-12-fell-s-point-eggnog-tasting-tour",
+   "area": "baltimore",
+   "title": "Fell's Point Eggnog Tasting Tour",
+   "category": "food",
+   "start": "2026-12-12T13:30",
+   "end": "2026-12-12T16:30",
+   "venue": "Fell's Point (participating businesses)",
+   "map": false,
+   "cost": "See site",
+   "free": null,
+   "url": "https://fellspointmainstreet.org",
+   "base": 35,
+   "description": "Fell's Point Main Street's annual eggnog tasting walk through the historic waterfront neighborhood's bars and restaurants.",
+   "summary": "Tickets go on sale in early November.",
+   "tags": [
+    "food",
+    "holiday",
+    "cocktails"
+   ],
+   "source": "Fell's Point Main Street"
+  },
+  {
+   "id": "2026-12-13-danielle-brown-art-opening",
+   "area": "baltimore",
+   "title": "Danielle Brown Art Opening",
+   "category": "museum",
+   "start": "2026-12-13T18:00",
+   "venue": "Ottobar Upstairs",
+   "cost": "See site",
+   "free": null,
+   "url": "https://theottobar.com/calendar/",
+   "base": 45,
+   "description": "Opening of an art show by Danielle Brown in the upstairs bar at Ottobar.",
+   "tags": [
+    "art",
+    "local",
+    "gallery"
+   ],
+   "source": "Ottobar calendar"
+  },
+  {
+   "id": "2026-12-14-now-voyager-senator-revival-matinee",
+   "area": "baltimore",
+   "title": "Now, Voyager (Senator Revival Matinee)",
+   "category": "film",
+   "start": "2026-12-14T16:00",
+   "venue": "The Senator Theatre",
+   "cost": "$7",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 55,
+   "description": "Monday-afternoon repeat of the Senator's revival of Irving Rapper's Now, Voyager (1942), with Bette Davis as a repressed Boston heiress who blossoms after a breakdown; a classic of the sad, humane women's picture.",
+   "summary": "Also Sun Dec 13 at 10am.",
+   "tags": [
+    "revival",
+    "film",
+    "classic",
+    "sad"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-15-delio-v-squez-huey-p-newton-i-am-we",
+   "area": "baltimore",
+   "title": "Delio Vásquez: \"Huey P. Newton: I Am We\"",
+   "category": "talk",
+   "start": "2026-12-15T19:00",
+   "venue": "Red Emma's",
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/delio-v-squez-presents-huey-p-newton-i-am-we-in-conversation-w-omavi-shukur",
+   "base": 50,
+   "description": "Scholar Delio Vásquez discusses his book on Black Panther co-founder Huey P. Newton's ideas and the distortions around his legacy, in conversation with Omavi Shukur.",
+   "tags": [
+    "talk",
+    "books",
+    "history"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-12-16-victor-victoria-senator-revival",
+   "area": "baltimore",
+   "title": "Victor/Victoria (Senator Revival)",
+   "category": "film",
+   "start": "2026-12-16T19:00",
+   "venue": "The Senator Theatre",
+   "cost": "$10 / $9",
+   "free": false,
+   "url": "https://thesenatortheatre.com/movies/revivals/",
+   "base": 55,
+   "description": "Blake Edwards's 1982 musical comedy with Julie Andrews as a broke soprano in 1930s Paris who becomes a star posing as a man playing a woman; Robert Preston and James Garner co-star.",
+   "tags": [
+    "revival",
+    "film",
+    "classic",
+    "musical"
+   ],
+   "source": "thesenatortheatre.com"
+  },
+  {
+   "id": "2026-12-17-lori-williams-an-evening-of-holiday-jazz-soul",
+   "area": "baltimore",
+   "title": "Lori Williams: An Evening of Holiday Jazz & Soul",
+   "category": "music",
+   "start": "2026-12-17T19:00",
+   "end": "2026-12-17T20:30",
+   "venue": "Keystone Korner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.baltimorejazz.com/event/an-evening-of-holiday-jazz-soul-w-lori-williams-11821/",
+   "base": 48,
+   "description": "DC-area jazz singer Lori Williams sings original jazz and soul grooves plus holiday material.",
+   "tags": [
+    "jazz",
+    "vocal",
+    "holiday"
+   ],
+   "source": "Baltimore Jazz Alliance calendar; Songkick"
+  },
+  {
+   "id": "2026-12-17-fell-s-point-cookie-crawl",
+   "area": "baltimore",
+   "title": "Fell's Point Cookie Crawl",
+   "category": "food",
+   "start": "2026-12-17T16:00",
+   "end": "2026-12-17T19:00",
+   "venue": "Fell's Point (participating businesses)",
+   "map": false,
+   "cost": "See site",
+   "free": null,
+   "url": "https://fellspointmainstreet.org",
+   "base": 35,
+   "description": "Fell's Point Main Street's 6th annual cookie crawl: pick up a cookie map and bag at Su Casa Furniture (901 S Bond St) and collect cookies from shops around the neighborhood.",
+   "tags": [
+    "food",
+    "holiday",
+    "community"
+   ],
+   "source": "Fell's Point Main Street"
+  },
+  {
+   "id": "2026-12-17-sue-foley-and-ga-20",
+   "area": "baltimore",
+   "title": "Sue Foley and GA-20",
+   "category": "music",
+   "start": "2026-12-17",
+   "allDay": true,
+   "venue": "The 8x10",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/venues/1892-8x10/calendar",
+   "base": 35,
+   "description": "Texas blues guitarist Sue Foley shares a bill with Boston's GA-20, a trio playing raw, '50s-style Chicago blues. Show time not yet listed.",
+   "tags": [
+    "rock",
+    "music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-23-makari-kurt-travis-mella-and-resilia",
+   "area": "baltimore",
+   "title": "Makari, Kurt Travis, Mella and Resilia",
+   "category": "music",
+   "start": "2026-11-23",
+   "allDay": true,
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.etix.com/ticket/p/92396378/makarikurt-travismella-and-resilia-baltimore-ottobar?partner_id=100",
+   "base": 28,
+   "description": "All-ages post-hardcore bill at Ottobar: Makari with singer Kurt Travis, Mella and Resilia. Door time not listed.",
+   "tags": [
+    "rock",
+    "indie"
+   ],
+   "source": "Ottobar calendar"
+  },
+  {
+   "id": "2026-11-27-marc-almond",
+   "title": "Marc Almond – Live in Concert",
+   "category": "music",
+   "start": "2026-11-27T21:00",
+   "venue": "Centro de Convenciones Teatro Leguía",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.jambase.com/show/marc-almond-centro-de-convenciones-teatro-leguia-20261127",
+   "base": 70,
+   "description": "Marc Almond, the voice of the British synth-pop duo Soft Cell (\"Tainted Love\") and a long-running solo torch singer, plays what is billed as his first-ever Lima concert.",
+   "summary": "21:00 per JamBase; tickets via Ticketmaster Perú (price not published in sources checked).",
+   "tags": [
+    "synth",
+    "electronic",
+    "indie"
+   ],
+   "source": "JamBase; Trome",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-los-barbaros",
+   "title": "Los bárbaros (Javier Barbero & Martín Guerra, 2025)",
+   "category": "film",
+   "start": "2026-11-27T18:20",
+   "venue": "Cine del Centro Cultural PUCP",
+   "cost": "S/ 17 general; S/ 15 students/seniors",
+   "free": false,
+   "url": "https://centrocultural.pucp.edu.pe/cine/item/5455-los-barbaros.html",
+   "base": 52,
+   "description": "Spanish-Peruvian drama (102 min): three young people from an outlying neighbourhood, with no work and no future, make a home in an abandoned half-built building and form an unlikely community — until construction restarts and they have to leave.",
+   "summary": "Last listed screening of its run.",
+   "tags": [
+    "film",
+    "local"
+   ],
+   "source": "Centro Cultural PUCP film page",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-david-bowie-station-to-station",
+   "title": "David Bowie: Station to Station",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-19",
+   "venue": "Galería Earl of St Andrew's, Británico Miraflores",
+   "cost": "Free",
+   "free": true,
+   "url": "https://britanico.edu.pe/cultural/?post_type=bri-evt-evento&p=15109",
+   "base": 72,
+   "description": "Exhibition tracing Bowie's reinventions from his early Shel Talmy recordings to the late 'Toy' project through photographs by Masayoshi Sukita, Mick Rock, Terry O'Neill, Brian Duffy, Andrew Kent and others, plus records and sleeves, letters, manuscripts and posters from the Perú33RPM archive. Curated by Alberto Candia.",
+   "summary": "Mon–Sat 10:00–18:00; free. Runs Oct 29 – Dec 19.",
+   "tags": [
+    "photography",
+    "art",
+    "gallery",
+    "music"
+   ],
+   "source": "Británico",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-el-arte-de-mirarnos",
+   "title": "El arte de mirarnos – 200 years of photography and dress",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-28",
+   "venue": "Galería L'Imaginaire, Alianza Francesa de Lima",
+   "cost": "Free",
+   "free": true,
+   "url": "https://enlima.pe/agenda-cultural/exposicion/el-arte-de-mirarnos",
+   "base": 66,
+   "description": "Marking 200 years of photography, curator Angela Kusen pairs archival Peruvian images with work by a new generation of Peruvian fashion photographers to look at how dressed bodies — and Peru's social and cultural changes — have been pictured across generations. French magazine Purple is a special guest.",
+   "summary": "Gallery hours Mon–Fri 8:00–20:00, Sat 8:00–13:30; closed Sunday. Runs Nov 5 – Dec 28.",
+   "tags": [
+    "photography",
+    "gallery",
+    "art",
+    "history"
+   ],
+   "source": "EnLima",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-museo-larco",
+   "title": "Museo Larco – pre-Columbian collection (open daily)",
+   "category": "museum",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-04",
+   "venue": "Museo Larco",
+   "cost": "S/ 50 (S/ 35 seniors 60+; S/ 25 students)",
+   "free": false,
+   "url": "https://museolarco.org/en/",
+   "base": 76,
+   "description": "Lima's great private museum of ancient Peruvian art, set in an 18th-century viceregal mansion in Pueblo Libre: Moche ceramics, gold and silver work, textiles, a walk-through visible storeroom of tens of thousands of pots, and the famous erotic-ceramics gallery, surrounded by bougainvillea gardens.",
+   "summary": "Open every day 9:00–19:00 (good for Monday, when MAC Lima and many museums close). Online tickets are discounted. Entrance on Calle Navarra.",
+   "tags": [
+    "history",
+    "art",
+    "old houses",
+    "nature"
+   ],
+   "source": "Museo Larco",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-circuito-magico-del-agua",
+   "title": "Circuito Mágico del Agua (fountain park, nightly light shows)",
+   "category": "community",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-04",
+   "venue": "Circuito Mágico del Agua, Parque de la Reserva",
+   "cost": "S/ 4 (children S/ 2)",
+   "free": false,
+   "url": "https://howtoperu.com/answers/magic-water-circuit-in-lima-worth-it-for-couples-families-or-first-time-visitors/",
+   "base": 40,
+   "description": "A park of illuminated fountains in the 1920s Parque de la Reserva in central Lima; the Fantasía fountain show combines water, lasers and projected images after dark.",
+   "summary": "Wed–Sun 15:00–22:00 (closed Mon & Tue); Fantasía shows 19:15, 20:15 and 21:30. Hours from a mid-2026 guide — confirm locally. Bring small bills.",
+   "tags": [
+    "outdoors",
+    "local",
+    "family"
+   ],
+   "source": "How to Peru",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-las-irresponsables",
+   "title": "Las irresponsables (Javier Daulte)",
+   "category": "theater",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-12-07",
+   "venue": "Teatro NOS",
+   "cost": "S/ 48.40–198",
+   "free": false,
+   "url": "https://teleticket.com.pe/lasirresponsables-2026",
+   "base": 34,
+   "description": "Comedy by Argentine playwright Javier Daulte: after a breakup, three friends (Claudia Berninzon, Norma Martínez, Johanna San Miguel) spend a weekend in a house and make a pact to each do something she would never do for herself. A DEA Teatro production; about 90 minutes, in Spanish.",
+   "summary": "Teleticket lists the run Nov 5 – Dec 7; show times not published on the listing.",
+   "tags": [
+    "theater"
+   ],
+   "source": "Teleticket",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-28-the-jazz-room-new-orleans",
+   "title": "The Jazz Room: Un viaje al corazón de Nueva Orleans",
+   "category": "music",
+   "start": "2026-11-28T18:00",
+   "venue": "Aforo Barranco",
+   "cost": "S/ 40–130",
+   "free": false,
+   "url": "https://feverup.com/m/740299/en",
+   "base": 44,
+   "description": "An hour-long, 1920s-style New Orleans trad-jazz set with horns and vocals — 'St. James Infirmary', 'Basin Street Blues', 'On the Sunny Side of the Street' and other standards with room for improvisation. Performers are not named.",
+   "summary": "Part of a Fever series running Nov 20 – Jan 22 (sessions at 18:00 and 21:00 on show nights); Nov 28 18:00 is the date confirmed in the trip window. 18+.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Fever; Concerts50",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-28-bioferia-de-miraflores",
+   "title": "Bioferia de Miraflores (Saturday organic market)",
+   "category": "food",
+   "start": "2026-11-28T08:00",
+   "end": "2026-11-28T14:00",
+   "venue": "Bioferia de Miraflores (Parque Reducto No. 2)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.limaeasy.com/lima-guide/have-fun/parks-gardens-lima/parque-reducto-no-2",
+   "base": 55,
+   "description": "Lima's long-running Saturday organic and farmers' market beside Parque Reducto No. 2 in Miraflores — produce, breads, cheeses and prepared food from small growers.",
+   "summary": "Saturdays 8:00–14:00 per LimaEasy's guide; confirm it's on before going.",
+   "tags": [
+    "market",
+    "food",
+    "local"
+   ],
+   "source": "LimaEasy",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-12-04-dina-summer-local-suicide",
+   "title": "Dina Summer + Local Suicide",
+   "category": "music",
+   "start": "2026-12-04T19:00",
+   "venue": "Centro de Convenciones Kantaro Teatro",
+   "cost": "From S/ 80",
+   "free": false,
+   "url": "https://songkick.com/concerts/43410869-dina-summer-at-centro-de-convenciones-kantaro-teatro",
+   "base": 80,
+   "description": "Dina Summer, the Berlin dark-wave/synth-pop live band project, headlines with Local Suicide — the Berlin DJ/production duo behind it, known for dark-disco sets mixing new wave, Italo, post-disco, EBM and dark techno.",
+   "summary": "19:00 is doors. Tickets via Passline from S/ 80.",
+   "tags": [
+    "electronic",
+    "dj",
+    "synth"
+   ],
+   "source": "Songkick; Local Suicide press kit",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-12-04-undercaos-resurreccion-2026",
+   "title": "Undercaos Resurrección 2026 (Deafkids, Hate Moss, Vinnum Sabbathi)",
+   "category": "music",
+   "start": "2026-12-04",
+   "allDay": true,
+   "venue": "Expresarte",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/metro-areas/31493-peru-lima/genre/rock",
+   "base": 58,
+   "description": "One-night underground festival with Brazil's DEAFKIDS (noise/psychedelic hardcore), Hate Moss (Italian-Brazilian electronic post-punk duo), Mexican stoner-doom band Vinnum Sabbathi and El Jefazo.",
+   "summary": "Time, price and address not found; Bandsintown lists Hate Moss at 20:00 at ExpresArte academia de música.",
+   "tags": [
+    "experimental",
+    "rock",
+    "indie"
+   ],
+   "source": "Songkick; Bandsintown",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-12-04-argy",
+   "title": "Argy",
+   "category": "nightlife",
+   "start": "2026-12-04T22:30",
+   "venue": "Club Cultural Lima",
+   "cost": "From S/ 115",
+   "free": false,
+   "url": "https://diariocorreo.pe/espectaculos/argy-llega-a-lima-este-4-de-diciembre-entradas-lugar-y-detalles-del-show-noticia/",
+   "base": 48,
+   "description": "Greek DJ/producer Argy (behind the melodic-techno hit 'Aria') plays a big-room night with cinematic visuals, supported by Peruvian DJs to be announced, promoted by Vastion.",
+   "summary": "22:30 per Bandsintown; tickets on the Bombo app from S/ 115. Club is in Chorrillos.",
+   "tags": [
+    "electronic",
+    "dj"
+   ],
+   "source": "Diario Correo; Bandsintown",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-12-04-feria-del-patio-edicion-navidad",
+   "title": "Feria del Patio – Christmas edition at MALI",
+   "category": "food",
+   "start": "2026-12-04T12:00",
+   "end": "2026-12-04T20:00",
+   "until": "2026-12-06",
+   "venue": "Museo de Arte de Lima (MALI)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://mali.pe/es/activity/feria-del-patio-edicion-navidad/",
+   "base": 58,
+   "description": "The 8th edition of MALI's design and makers' market, filling the museum's patio, Gran Hall and atrium with independent design, illustration, ceramics, jewelry, local brands and food stalls, plus free workshops, talks and music.",
+   "summary": "Dec 4–6, from 12:00 (listed until 20:00). Combine with the Pacchas and Cusco textiles exhibitions upstairs.",
+   "tags": [
+    "market",
+    "art",
+    "maker",
+    "food",
+    "holiday"
+   ],
+   "source": "MALI",
+   "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-12-04-mi-voz-es-mensajera",
+   "title": "Mi voz es mensajera",
+   "category": "theater",
+   "start": "2026-12-04T20:00",
+   "until": "2026-12-05",
+   "venue": "Centro Cultural Ricardo Palma",
+   "cost": "S/ 55–80",
+   "free": false,
+   "url": "https://www.infobae.com/peru/2026/10/30/agenda-cultural-de-lima-del-30-de-octubre-al-6-de-noviembre-hombres-g-av-larco-el-musical-jarana-criolla-y-diversion-infantil/",
+   "base": 42,
+   "description": "Musical-theatre piece in Coco Llaque's 'Trilogía Criolla': sixteen original songs in the Peruvian criollo tradition sung by Mariella Fonseca, Ebelin Ortiz and María del Carmen Padilla with a live orchestra led by Agustín Rojas; written and directed by Rudy Bezir.",
+   "summary": "Fri Dec 4 and Sat Dec 5 at 20:00; tickets on Joinnus. In Spanish.",
+   "tags": [
+    "theater",
+    "folk",
+    "local"
+   ],
+   "source": "Infobae",
+   "area": "lima-peru-2026-11"
   }
  ]
 }

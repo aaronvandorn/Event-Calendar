@@ -17,18 +17,18 @@
   "Pub crawls and generic bar parties"
  ],
  "learned": {
-  "updated": "2026-11-02T14:42",
+  "updated": "2026-11-05T17:11",
   "aaron": {
    "category": {
     "nightlife": 0.5,
     "theater": 0.333,
     "film": 0.5,
     "comedy": 0.333,
-    "music": 0.667,
+    "music": 0.75,
     "community": 0.667,
     "festival": 0.5,
     "museum": 0.333,
-    "talk": 0.5
+    "talk": 0.667
    },
    "venue": {
     "Peabody Heights Brewery": 0.333,
@@ -47,7 +47,11 @@
     "Baltimore Museum of Art": 0.333,
     "Enoch Pratt Central Library": 0.333,
     "Guilford Hall Brewery": 0.333,
-    "Baltimore Museum of Industry": 0.333
+    "Baltimore Museum of Industry": 0.333,
+    "Keystone Korner": 0.333,
+    "Red Emma's": 0.333,
+    "The Red Room at Normals Books and Records": 0.333,
+    "Clipper Mill (outside Woodberry Kitchen)": 0.333
    },
    "tag": {
     "electronic": 0.333,
@@ -55,24 +59,30 @@
     "horror": 0.333,
     "festival": 0.333,
     "classical": 0.333,
-    "architecture": 0.333,
-    "history": 0.6,
+    "architecture": 0.5,
+    "history": 0.714,
     "old houses": 0.5,
     "gardening": 0.333,
     "nature": 0.5,
-    "art": 0.333,
+    "art": 0.5,
     "parade": 0.333,
     "community": 0.333,
     "revival": 0.333,
     "sad": 0.333,
     "halloween": 0.5,
     "psych": 0.333,
-    "local": 0.333,
+    "local": 0.5,
     "textiles": 0.333,
-    "books": 0.333,
+    "books": 0.5,
     "science": 0.333,
     "making": 0.333,
-    "folk": 0.333
+    "folk": 0.333,
+    "jazz": 0.333,
+    "talk": 0.333,
+    "podcast": 0.333,
+    "experimental": 0.333,
+    "tour": 0.333,
+    "maker": 0.333
    }
   }
  },

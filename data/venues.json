@@ -279,6 +279,81 @@
   },
   "Bird in Hand": {
    "address": "11 E 33rd St, Baltimore, MD"
+  },
+  "Centro de Convenciones Teatro Leguía": {
+   "address": "Av. Arequipa 834, Cercado de Lima"
+  },
+  "Galería L'Imaginaire, Alianza Francesa de Lima": {
+   "address": "Av. Arequipa 4595, Miraflores, Lima"
+  },
+  "Museo Larco": {
+   "address": "Av. Simón Bolívar 1515, Pueblo Libre, Lima"
+  },
+  "Circuito Mágico del Agua, Parque de la Reserva": {
+   "address": "Jr. Madre de Dios & Av. Petit Thouars, Parque de la Reserva, Cercado de Lima"
+  },
+  "Teatro NOS": {
+   "address": "Av. Camino Real 1037, San Isidro, Lima"
+  },
+  "Aforo Barranco": {
+   "address": "Av. Almte. Miguel Grau 264, Barranco, Lima 15063"
+  },
+  "Bioferia de Miraflores (Parque Reducto No. 2)": {
+   "address": "Av. Benavides & Av. Paseo de la República, Miraflores, Lima"
+  },
+  "Centro de Convenciones Kantaro Teatro": {
+   "address": "Av. Tacna 225, Cercado de Lima"
+  },
+  "Club Cultural Lima": {
+   "address": "Av. Alameda Sur 1530, Chorrillos, Lima"
+  },
+  "Centro Cultural Ricardo Palma": {
+   "address": "Av. Larco 770, Miraflores, Lima"
+  },
+  "Connect + Collect Gallery": {
+   "address": "2519 N Charles St, Baltimore, MD"
+  },
+  "The Recher": {
+   "address": "512 York Rd, Towson, MD"
+  },
+  "Baltimore Basilica": {
+   "address": "409 Cathedral St, Baltimore, MD 21201"
+  },
+  "Church of the Redeemer": {
+   "address": "5603 N Charles St, Baltimore, MD"
+  },
+  "Fell's Point waterfront": {
+   "map": false
+  },
+  "Fell's Point (participating businesses)": {
+   "map": false
+  },
+  "Black Cherry Puppet Theater": {
+   "address": "1115 Hollins St, Baltimore, MD 21223"
+  },
+  "Guilford Hall Brewery": {
+   "address": "1611 Guilford Ave, Baltimore, MD 21202"
+  },
+  "Babe Ruth Birthplace and Museum": {
+   "address": "216 Emory St, Baltimore, MD"
+  },
+  "MICA Falvey Hall": {
+   "address": "1301 W Mount Royal Ave, Baltimore, MD 21217"
+  },
+  "MICA Bunting Center, Pinkard Gallery": {
+   "address": "1401 W Mount Royal Ave, Baltimore, MD"
+  },
+  "The Voxel": {
+   "address": "9 W 25th St, Baltimore, MD"
+  },
+  "Third Space at Shaarei Tfiloh": {
+   "address": "2001 Liberty Heights Ave, Baltimore, MD"
+  },
+  "Baltimore Center Stage": {
+   "address": "700 N Calvert St, Baltimore, MD"
+  },
+  "Timonium Fairgrounds": {
+   "address": "2200 York Rd, Timonium, MD"
   }
  }
 }
