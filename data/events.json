@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T12:45:00-05:00",
+ "updated": "2026-11-09T08:55:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -6321,41 +6321,21 @@
   {
    "id": "2026-11-19-isabella-weber-anti-fascist-economics",
    "area": "baltimore",
-   "title": "Isabella Weber: Anti-Fascist Economics",
+   "title": "CANCELLED — Isabella Weber: Anti-Fascist Economics",
    "category": "talk",
    "start": "2026-11-19T19:00",
    "venue": "Red Emma's",
    "cost": "See site",
    "free": null,
-   "url": "https://redemmas.org/events/isabella-weber-presents-anti-fascist-economics-in-defense-of-affordability-dignity-and-democracy-in-conversation-with-osita-nwanevu",
-   "base": 52,
+   "url": "https://redemmas.org/events/cancelled-isabella-weber-presents-anti-fascist-economics-in-defense-of-affordability-dignity-and-democracy-in-conversation-with-osita-nwanevu",
+   "base": 5,
    "description": "Economist Isabella Weber, known for her work on price controls and inflation, presents Anti-Fascist Economics: In Defense of Affordability, Dignity, and Democracy, in conversation with journalist Osita Nwanevu.",
    "tags": [
     "books",
     "talk"
    ],
-   "source": "Red Emma's"
-  },
-  {
-   "id": "2026-11-20-maria-s-nchez-coromoto",
-   "area": "baltimore",
-   "title": "Maria Sánchez: Coromoto",
-   "category": "museum",
-   "start": "2026-11-20",
-   "venue": "Current Space",
-   "cost": "Free",
-   "free": true,
-   "url": "https://www.currentspace.com",
-   "base": 58,
-   "description": "Installation by Maria Sánchez on feminine deities, at the artist-run Current Space.",
-   "tags": [
-    "art",
-    "gallery"
-   ],
-   "source": "Baltimore Magazine",
-   "until": "2027-01-15",
-   "allDay": true,
-   "summary": "Gallery hours Sat 1–5 p.m."
+   "source": "Red Emma's",
+   "summary": "Cancelled per Red Emma's; they may reschedule."
   },
   {
    "id": "2026-11-21-john-washington-how-to-close-a-camp",
@@ -7359,6 +7339,94 @@
    ],
    "source": "Infobae",
    "area": "lima-peru-2026-11"
+  },
+  {
+   "id": "2026-11-27-baltimore-indie-bookstore-crawl",
+   "area": "baltimore",
+   "title": "1st Annual Baltimore Indie Bookstore Crawl",
+   "category": "community",
+   "start": "2026-11-27",
+   "allDay": true,
+   "until": "2026-11-29",
+   "venue": "15 independent bookstores citywide",
+   "map": false,
+   "cost": "See site",
+   "free": null,
+   "url": "https://redemmas.org/events/1st-annual-baltimore-indie-bookstore-crawl-day-1",
+   "base": 70,
+   "description": "Baltimore's first Black Friday-weekend bookstore crawl across about fifteen indie shops — Red Emma's, Normals, Greedy Reads (Remington and Fells Point), Bird in Hand, The Ivy, Atomic Books, Charm City Books and more. Visit and buy at four or more stores, then turn in your bookstore passport for a prize drawing; extra stores mean extra entries.",
+   "summary": "Fri Nov 27 – Sun Nov 29; follow each store's own hours.",
+   "tags": [
+    "books",
+    "local",
+    "community"
+   ],
+   "source": "Red Emma's"
+  },
+  {
+   "id": "2026-10-16-unidos-en-el-arte",
+   "area": "baltimore",
+   "title": "Unidos en el Arte",
+   "category": "museum",
+   "start": "2026-10-16",
+   "allDay": true,
+   "until": "2026-12-04",
+   "venue": "Creative Alliance",
+   "cost": "Free",
+   "free": true,
+   "url": "https://creativealliance.org/event/unidos-en-el-arte/",
+   "base": 50,
+   "description": "Group art exhibition in the galleries at Creative Alliance's Patterson building in Highlandtown.",
+   "summary": "Gallery hours Tue–Sat 12–5 p.m.; through Dec 4.",
+   "tags": [
+    "art",
+    "gallery",
+    "exhibition",
+    "local"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-13-peabody-heights-15th-anniversary-party",
+   "area": "baltimore",
+   "title": "Peabody Heights 15th Anniversary Party",
+   "category": "festival",
+   "start": "2026-11-13T16:00",
+   "end": "2026-11-13T23:00",
+   "until": "2026-11-14",
+   "venue": "Peabody Heights Brewery",
+   "cost": "$10",
+   "free": false,
+   "url": "https://www.eventbrite.com/e/peabody-heights-15th-anniversary-party-tickets-2003360369795",
+   "base": 38,
+   "description": "Two-day party marking 15 years of Peabody Heights Brewery, the Abell brewery that hosts many of the city's DJ and drum & bass nights.",
+   "summary": "Fri 4–11 p.m.; Sat 12–10 p.m.",
+   "tags": [
+    "local",
+    "beer"
+   ],
+   "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-11-15-indigenous-peoples-celebration-irvine",
+   "area": "baltimore",
+   "title": "Indigenous Peoples Celebration",
+   "category": "community",
+   "start": "2026-11-15T10:30",
+   "end": "2026-11-15T15:30",
+   "venue": "Irvine Nature Center",
+   "address": "11201 Garrison Forest Rd, Owings Mills, MD",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.explorenature.org/event/indigenous-peoples-celebration-free-event/",
+   "base": 45,
+   "description": "Free day-long celebration of Indigenous culture at Irvine Nature Center in Owings Mills, on the center's trails and grounds.",
+   "tags": [
+    "nature",
+    "history",
+    "community"
+   ],
+   "source": "Baltimore Magazine"
   }
  ]
 }
