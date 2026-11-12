@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-12T22:31:37.597Z",
+ "updated": "2026-11-12T22:31:45.001Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -436,6 +436,24 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-12T22:31:35.708Z"
+    }
+   }
+  },
+  "2026-11-12-gardener-s-workshop-gardening-in-late-fall": {
+   "title": "Gardener's Workshop: Gardening in Late Fall",
+   "category": "community",
+   "venue": "Cylburn Arboretum",
+   "tags": [
+    "gardening",
+    "nature",
+    "outdoors"
+   ],
+   "start": "2026-11-12T14:00",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-12T22:31:43.216Z"
     }
    }
   }
