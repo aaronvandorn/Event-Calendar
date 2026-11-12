@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-04T21:22:42.716Z",
+ "updated": "2026-11-12T21:02:30.384Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -383,6 +383,24 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-04T21:22:40.884Z"
+    }
+   }
+  },
+  "2026-11-28-bioferia-de-miraflores": {
+   "title": "Bioferia de Miraflores (Saturday organic market)",
+   "category": "food",
+   "venue": "Bioferia de Miraflores (Parque Reducto No. 2)",
+   "tags": [
+    "market",
+    "food",
+    "local"
+   ],
+   "start": "2026-11-28T08:00",
+   "area": "lima-peru-2026-11",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-12T21:02:28.455Z"
     }
    }
   }
