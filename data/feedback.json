@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-12T21:02:30.384Z",
+ "updated": "2026-11-12T22:31:08.867Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -401,6 +401,24 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-12T21:02:28.455Z"
+    }
+   }
+  },
+  "2026-11-12-the-stars-andrew-schneider": {
+   "title": "The Stars: Andrew Schneider",
+   "category": "theater",
+   "venue": "The Voxel",
+   "tags": [
+    "immersive",
+    "experimental",
+    "art"
+   ],
+   "start": "2026-11-12",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-12T22:31:06.139Z"
     }
    }
   }
