@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T08:55:00-05:00",
+ "updated": "2026-11-12T11:55:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -7427,6 +7427,125 @@
     "community"
    ],
    "source": "Baltimore Magazine"
+  },
+  {
+   "id": "2026-12-09-hardcover-minibooks-workshop",
+   "area": "baltimore",
+   "title": "Hardcover Minibooks (bookbinding workshop)",
+   "category": "community",
+   "start": "2026-12-09T17:30",
+   "end": "2026-12-09T20:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/hardcover-minibooks/",
+   "base": 60,
+   "description": "Hands-on bookbinding workshop at Creative Alliance where you make two miniature hardcover books.",
+   "tags": [
+    "books",
+    "making",
+    "workshop"
+   ],
+   "source": "creativealliance.org events calendar"
+  },
+  {
+   "id": "2026-12-11-highlandtown-holiday-night-market",
+   "area": "baltimore",
+   "title": "Highlandtown Holiday Night Market",
+   "category": "community",
+   "start": "2026-12-11T17:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/highlandtown-holiday-night-market/",
+   "base": 52,
+   "description": "Evening holiday market of handmade goods from local artists and vendors, hosted at Creative Alliance in Highlandtown.",
+   "tags": [
+    "market",
+    "local",
+    "art"
+   ],
+   "source": "creativealliance.org events calendar"
+  },
+  {
+   "id": "2026-12-13-painted-screens-a-baltimore-folk-art",
+   "area": "baltimore",
+   "title": "Painted Screens: A Baltimore Folk Art (workshop)",
+   "category": "community",
+   "start": "2026-12-13T12:00",
+   "end": "2026-12-13T14:30",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/painted-screens-a-baltimore-folk-art-2/",
+   "base": 72,
+   "description": "Workshop on Baltimore's painted window-screen tradition, the rowhouse folk art of East Baltimore; you finish by painting a small screen to take home.",
+   "tags": [
+    "history",
+    "local",
+    "making",
+    "art"
+   ],
+   "source": "creativealliance.org events calendar"
+  },
+  {
+   "id": "2026-12-19-bluegrass-nutcracker",
+   "area": "baltimore",
+   "title": "Bluegrass Nutcracker",
+   "category": "music",
+   "start": "2026-12-19T19:30",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/bluegrass_nutcracker/",
+   "base": 55,
+   "description": "Creative Alliance's featured holiday show: Tchaikovsky's Nutcracker reworked as a bluegrass performance.",
+   "tags": [
+    "folk",
+    "holiday"
+   ],
+   "source": "creativealliance.org events calendar"
+  },
+  {
+   "id": "2026-12-20-candlelight-carols-organ-recital",
+   "area": "baltimore",
+   "title": "Candlelight Carols & Organ Recital",
+   "category": "music",
+   "start": "2026-12-20T18:30",
+   "end": "2026-12-20T20:30",
+   "venue": "Emmanuel Episcopal Church",
+   "address": "811 Cathedral St, Baltimore, MD",
+   "cost": "Free (donation welcome)",
+   "free": true,
+   "url": "https://tickets.emmanueldowntown.org/events/musicatemmanuel/2235883",
+   "base": 58,
+   "description": "Emmanuel's annual Festival of Lessons and Carols, directed by Christian Lane: a holiday organ recital, then a candlelit service of carols and readings by the Emmanuel Choir and guest readers in the Mount Vernon church.",
+   "summary": "Free reservations encouraged.",
+   "tags": [
+    "classical",
+    "holiday",
+    "old houses"
+   ],
+   "source": "Emmanuel Episcopal Church tickets"
+  },
+  {
+   "id": "2026-12-22-christian-sands-trio-christmas-stories",
+   "area": "baltimore",
+   "title": "Christian Sands Trio: Christmas Stories",
+   "category": "music",
+   "start": "2026-12-22T18:00",
+   "end": "2026-12-22T19:30",
+   "venue": "Keystone Korner",
+   "cost": "$15–45",
+   "free": false,
+   "url": "https://www.wypr.org/community-calendar/event/christian-sands-trio-christmas-stories-19-10-2026-02-02-42",
+   "base": 68,
+   "description": "Pianist Christian Sands, a five-time Grammy nominee who has played with Wynton Marsalis, Dianne Reeves and Yo-Yo Ma, leads his trio through a cinematic take on holiday standards.",
+   "tags": [
+    "jazz",
+    "holiday"
+   ],
+   "source": "WYPR community calendar"
   }
  ]
 }
