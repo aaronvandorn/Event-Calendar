@@ -1,6 +1,6 @@
 {
  "version": 2,
- "updated": "2026-11-12T22:32:34.911Z",
+ "updated": "2026-11-12T22:32:51.596Z",
  "items": {
   "2026-10-22-junglist-heights-drum-bass": {
    "title": "Junglist Heights (drum & bass)",
@@ -471,6 +471,25 @@
     "aaron": {
      "status": "interested",
      "ts": "2026-11-12T22:32:32.693Z"
+    }
+   }
+  },
+  "2026-10-26-globe-posters-for-the-people": {
+   "title": "Globe Posters for the People",
+   "category": "museum",
+   "venue": "MICA Bunting Center, Pinkard Gallery",
+   "tags": [
+    "prints",
+    "design",
+    "history",
+    "exhibition"
+   ],
+   "start": "2026-10-26",
+   "area": "baltimore",
+   "by": {
+    "aaron": {
+     "status": "interested",
+     "ts": "2026-11-12T22:32:49.721Z"
     }
    }
   }
