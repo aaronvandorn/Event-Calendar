@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:55:00-05:00",
+ "updated": "2026-11-16T09:30:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -3102,53 +3102,16 @@
    "area": "baltimore"
   },
   {
-   "id": "2026-11-20-diffusion-night-3-marcin-pietrewszewski-max-eilbacher",
-   "title": "DIFFUSION Night 3 — Marcin Pietrewszewski + Max Eilbacher",
-   "category": "music",
-   "start": "2026-11-20T20:00",
-   "venue": "2640 Space",
-   "cost": "$15",
-   "free": false,
-   "url": "https://www.redroom.org/category/events/",
-   "base": 76,
-   "description": "New multichannel electronic works by Polish composer Marcin Pietrewszewski and Baltimore's Max Eilbacher, presented by the Red Room's DIFFUSION series at the 2640 St. Paul Street space.",
-   "tags": [
-    "electronic",
-    "experimental"
-   ],
-   "source": "The Red Room",
-   "area": "baltimore"
-  },
-  {
-   "id": "2026-11-21-diffusion-night-four-multichannel-electro-acoustic-music-of-poland",
-   "title": "DIFFUSION Night Four — Multichannel electro-acoustic music of Poland",
-   "category": "music",
-   "start": "2026-11-21T20:00",
-   "venue": "The Red Room at Normals Books and Records",
-   "cost": "$15",
-   "free": false,
-   "url": "https://www.redroom.org/category/events/",
-   "base": 70,
-   "description": "Marcin Pietrewszewski presents a listening history of Polish electro-acoustic music, played in multichannel sound.",
-   "tags": [
-    "electronic",
-    "experimental",
-    "history"
-   ],
-   "source": "The Red Room",
-   "area": "baltimore"
-  },
-  {
    "id": "2026-12-07-quentin-tolimieri-electronics-melodica",
-   "title": "Quentin Tolimieri: Electronics & Melodica",
+   "title": "Quentin Tolimieri: Electronics & Melodica, with S. Parker, J. Garza, Grandma Dunhurst",
    "category": "music",
    "start": "2026-12-07T20:00",
    "venue": "The Red Room at Normals Books and Records",
    "cost": "$10–20",
    "free": false,
-   "url": "https://www.redroom.org/category/events/",
-   "base": 64,
-   "description": "Berlin-based pianist, composer and improviser Quentin Tolimieri plays electronics and melodica; his recent work is minimal and reduced, closer to sound sculpture than a conventional concert.",
+   "url": "https://www.redroom.org/quentin-tolimieri-electronics-melodica/",
+   "base": 70,
+   "description": "Berlin-based pianist, composer and improviser Quentin Tolimieri plays melodica with extended techniques like long circular breathing, run through electronic processing. Opening set by local performers Sarah Parker (modified instruments, live electronics), Josiah Garza and Grandma Dunhurst.",
    "tags": [
     "experimental",
     "electronic",
@@ -7546,6 +7509,127 @@
     "holiday"
    ],
    "source": "WYPR community calendar"
+  },
+  {
+   "id": "2026-11-20-diffusion-night-three-historical-electroacoustic-music-of-poland",
+   "area": "baltimore",
+   "title": "DIFFUSION Night Three — Historical electroacoustic music and sound art from Poland",
+   "category": "music",
+   "start": "2026-11-20T20:00",
+   "venue": "2640 Space",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.redroom.org/diffusion-night-four-multichannel-electro-acoustic-music-of-poland/",
+   "base": 74,
+   "description": "Electronic/computer musician Marcin Pietruszewski diffuses a program of historical electroacoustic music and sound art from Poland through the Red Room's multichannel speaker array. Part of DIFFUSION, the Red Room's tenth-year series of spatialized sound.",
+   "summary": "Venue page lists 2640 St. Paul St.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "history"
+   ],
+   "source": "The Red Room"
+  },
+  {
+   "id": "2026-11-21-diffusion-wavefield-afternoon",
+   "area": "baltimore",
+   "title": "DIFFUSION Wavefield Afternoon — 32-speaker wavefield concert",
+   "category": "music",
+   "start": "2026-11-21T13:00",
+   "venue": "2640 Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.redroom.org/diffusion-night-3-2640-st-paul-space-marcin-pietrewszevski-max-eilbacher/",
+   "base": 72,
+   "description": "A free afternoon diffusion concert on a 32-speaker wavefield synthesis array, which places sound in the room so there's no single sweet spot. Program: Obie Feldi's How to Dissect, plus recent pieces by Jason Charney, Forrest Wentzel, Chris DeLaurenti and Lyn Goeringer.",
+   "summary": "Same concert repeats at 3 p.m.; arrive on time and quietly.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "ambient"
+   ],
+   "source": "The Red Room"
+  },
+  {
+   "id": "2026-11-21-diffusion-night-four-marcin-pietruszewski-max-eilbacher",
+   "area": "baltimore",
+   "title": "DIFFUSION Night Four — Marcin Pietruszewski + Max Eilbacher",
+   "category": "music",
+   "start": "2026-11-21T20:00",
+   "venue": "2640 Space",
+   "cost": "$15 sliding scale",
+   "free": false,
+   "url": "https://www.redroom.org/diffusion-night-3-2640-st-paul-space-marcin-pietrewszevski-max-eilbacher/",
+   "base": 78,
+   "description": "New multichannel electronic works by Marcin Pietruszewski (developer of the nuPG pulsar generator, teaches at Bauhaus-Universität Weimar) and Baltimore's Max Eilbacher of Horse Lords, who has worked with Arnold Dreyblatt and Matmos.",
+   "summary": "Doors 7:30, concert 8.",
+   "tags": [
+    "electronic",
+    "experimental",
+    "local"
+   ],
+   "source": "The Red Room"
+  },
+  {
+   "id": "2026-11-20-grown-up-field-trip-clue",
+   "area": "baltimore",
+   "title": "Grown Up Field Trip: Clue",
+   "category": "community",
+   "start": "2026-11-20T19:00",
+   "end": "2026-11-20T22:00",
+   "venue": "Maryland Science Center",
+   "cost": "$40",
+   "free": false,
+   "url": "https://baltimore.org/event/grown-up-field-trip-clue/",
+   "base": 50,
+   "description": "An adults-only (21+) night at the Science Center themed on the Clue film and board game: match fingerprints against a crime scene, look at a sheep's brain, and run a murder-mystery scavenger hunt. Drinks from Pherm Brewing, tacos from Ruben's Taco Truck.",
+   "summary": "Expected to sell out; ID required.",
+   "tags": [
+    "science",
+    "film"
+   ],
+   "source": "baltimore.org"
+  },
+  {
+   "id": "2026-11-22-jones-falls-2076-closing-roundtable-and-ritual",
+   "area": "baltimore",
+   "title": "Jones Falls 2076: Closing Roundtable and Ritual",
+   "category": "talk",
+   "start": "2026-11-22T14:00",
+   "end": "2026-11-22T15:30",
+   "venue": "The Peale",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/e/2004033926421",
+   "base": 66,
+   "description": "Closing day of The Peale's Jones Falls 2076 exhibition, 14 speculative works imagining a restored Jones Falls plus a survey of past plans for the river. A roundtable with curators and contributors, then a procession to the river for a closing ritual.",
+   "tags": [
+    "history",
+    "art",
+    "local",
+    "talk"
+   ],
+   "source": "The Peale"
+  },
+  {
+   "id": "2026-11-21-belvedere-square-holiday-makers-market",
+   "area": "baltimore",
+   "title": "Belvedere Square Holiday Makers Market",
+   "category": "community",
+   "start": "2026-11-21T11:00",
+   "end": "2026-11-21T14:00",
+   "venue": "Belvedere Square",
+   "cost": "Free",
+   "free": true,
+   "url": "https://baltimore.org/event/belvedere-square-holiday-makers-market/",
+   "base": 42,
+   "description": "Local artists, crafters and makers sell holiday gifts at Belvedere Square, with live music, food from the market's merchants and a holiday edition of Gigi's Living Room Karaoke.",
+   "tags": [
+    "market",
+    "local",
+    "art"
+   ],
+   "source": "baltimore.org"
   }
  ]
 }
