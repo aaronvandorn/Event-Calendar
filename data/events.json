@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:30:00-05:00",
+ "updated": "2026-11-19T12:30:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -7630,6 +7630,281 @@
     "art"
    ],
    "source": "baltimore.org"
+  },
+  {
+   "title": "OFFSTAGE Presents: DEVAULT",
+   "category": "nightlife",
+   "start": "2026-11-21T21:00",
+   "end": "2026-11-22T02:00",
+   "venue": "Baltimore Soundstage",
+   "cost": "$35",
+   "free": false,
+   "url": "https://baltimore.org/?p=105216",
+   "base": 45,
+   "tags": [
+    "electronic",
+    "dj",
+    "dance"
+   ],
+   "source": "baltimore.org",
+   "description": "Offstage Sessions brings DJ and producer DEVAULT to Soundstage for a late night of dark, melodic electronic dance music.",
+   "summary": "9 pm – 2 am.",
+   "id": "2026-11-21-offstage-presents-devault",
+   "area": "baltimore"
+  },
+  {
+   "title": "Goldie & Photek",
+   "category": "music",
+   "start": "2026-12-04",
+   "allDay": true,
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://songkick.com/venues/1450713-baltimore-soundstage",
+   "base": 74,
+   "tags": [
+    "electronic",
+    "drum-and-bass",
+    "dj"
+   ],
+   "source": "Songkick",
+   "description": "Two pioneers of UK drum and bass on one bill: Goldie (Metalheadz, 'Timeless') and Photek, known for his intricate, cinematic jungle productions.",
+   "summary": "Door time and prices not yet posted; check the venue.",
+   "id": "2026-12-04-goldie-photek",
+   "area": "baltimore"
+  },
+  {
+   "title": "Sheer Mag & King Tuff w/ Mod Lang",
+   "category": "music",
+   "start": "2026-12-03",
+   "allDay": true,
+   "venue": "Ottobar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/venues/38549-ottobar",
+   "base": 45,
+   "tags": [
+    "rock",
+    "indie"
+   ],
+   "source": "Songkick",
+   "description": "Co-headline tour: Philadelphia's Sheer Mag play hooky, '70s-style power-pop rock, and King Tuff brings glammy garage rock. Mod Lang opens.",
+   "id": "2026-12-03-sheer-mag-king-tuff-w-mod-lang",
+   "area": "baltimore"
+  },
+  {
+   "title": "Charles Street Eclectic: A Walking Tour",
+   "category": "community",
+   "start": "2026-12-12T11:00",
+   "end": "2026-12-12T12:00",
+   "venue": "The Grand Baltimore (225 N Charles St)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/charles-street-eclectic-a-walking-tour/",
+   "base": 74,
+   "tags": [
+    "history",
+    "architecture",
+    "walking-tour"
+   ],
+   "source": "Baltimore Heritage",
+   "description": "Baltimore Heritage tour of the mix of architectural styles along the 200 and 300 blocks of Charles Street, led by UMBC professor Melissa Blair.",
+   "id": "2026-12-12-charles-street-eclectic-a-walking-tour",
+   "area": "baltimore"
+  },
+  {
+   "title": "History & Holidays Along Charles Street",
+   "category": "community",
+   "start": "2026-12-12T13:00",
+   "end": "2026-12-12T14:00",
+   "venue": "The Grand Baltimore (225 N Charles St)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/history-holidays-along-charles-street/",
+   "base": 70,
+   "tags": [
+    "history",
+    "walking-tour",
+    "holiday"
+   ],
+   "source": "Baltimore Heritage",
+   "description": "A holiday-themed stroll led by Baltimore Heritage's executive director, taking in Maryland's oldest churches, the city's philanthropists and the history of Maryland rye whiskey.",
+   "id": "2026-12-12-history-holidays-along-charles-street",
+   "area": "baltimore"
+  },
+  {
+   "title": "Historic Govanstown: From Turnpike Town to City Neighborhood",
+   "category": "community",
+   "start": "2026-12-13T10:00",
+   "end": "2026-12-13T11:30",
+   "venue": "5611 York Rd (Govans tour meeting point)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimoreheritage.org/event/historic-govanstown-from-turnpike-town-to-city-neighborhood/",
+   "base": 72,
+   "tags": [
+    "history",
+    "walking-tour",
+    "local"
+   ],
+   "source": "Baltimore Heritage",
+   "description": "A Baltimore Heritage walk along York Road tracing how Govans grew from a rural plantation landscape and turnpike town into a city neighborhood.",
+   "summary": "Meets in front of the Wendy's at 5611 York Rd.",
+   "id": "2026-12-13-historic-govanstown-from-turnpike-town-to-city-neighborhood",
+   "area": "baltimore"
+  },
+  {
+   "title": "JDXMAS",
+   "category": "music",
+   "start": "2026-12-27T20:00",
+   "venue": "The Red Room at Normals Books and Records",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.redroom.org/jdxmas-2/",
+   "base": 52,
+   "tags": [
+    "experimental",
+    "local"
+   ],
+   "source": "The Red Room",
+   "description": "The Red Room's year-end JDXMAS night at Normals Books; the listing doesn't name performers yet. The Red Room is a volunteer-run High Zero space for experimental music.",
+   "id": "2026-12-27-jdxmas",
+   "area": "baltimore"
+  },
+  {
+   "title": "Miki Howard",
+   "category": "music",
+   "start": "2026-12-26T18:00",
+   "until": "2026-12-27",
+   "venue": "Keystone Korner",
+   "cost": "$45–55 ($15 stream)",
+   "free": false,
+   "url": "https://baltimore.org/?p=105264",
+   "base": 40,
+   "tags": [
+    "jazz",
+    "soul"
+   ],
+   "source": "baltimore.org",
+   "description": "GRAMMY-nominated singer Miki Howard, whose catalog runs through soul, funk and jazz-inflected R&B hits like 'Love Under New Management'.",
+   "summary": "Sat 6 & 8:30 pm; Sun 5 & 7:30 pm.",
+   "id": "2026-12-26-miki-howard",
+   "area": "baltimore"
+  },
+  {
+   "title": "BSO Holiday Pops with Megan Hilty",
+   "category": "music",
+   "start": "2026-12-19",
+   "until": "2026-12-20",
+   "allDay": true,
+   "venue": "Meyerhoff Symphony Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimore.org/event/baltimore-symphony-orchestra-holiday-pops/",
+   "base": 34,
+   "tags": [
+    "classical",
+    "holiday"
+   ],
+   "source": "baltimore.org",
+   "description": "Broadway's Megan Hilty joins the BSO and Baltimore Choral Arts Society under Stuart Chafetz for holiday songs, sing-alongs and tap-dancing Santas.",
+   "id": "2026-12-19-bso-holiday-pops-with-megan-hilty",
+   "area": "baltimore"
+  },
+  {
+   "title": "TVBOO",
+   "category": "nightlife",
+   "start": "2026-12-11T20:00",
+   "venue": "Baltimore Soundstage",
+   "cost": "See site",
+   "free": null,
+   "url": "https://baltimore.org/?p=104291",
+   "base": 28,
+   "tags": [
+    "electronic",
+    "dj"
+   ],
+   "source": "baltimore.org",
+   "description": "Heavy, distorted dubstep-rooted bass music from DJ/producer TVBOO, with Business In The Front, Party In The Back, TwoPercent and others.",
+   "id": "2026-12-11-tvboo",
+   "area": "baltimore"
+  },
+  {
+   "title": "Bah Humbug: A Christmas Carol (Mostly) Improvised",
+   "category": "comedy",
+   "start": "2026-12-22T19:30",
+   "end": "2026-12-22T21:00",
+   "until": "2026-12-23",
+   "venue": "Creative Alliance",
+   "cost": "$35 ($25 members)",
+   "free": false,
+   "url": "https://creativealliance.org/event/bahhumbug/",
+   "base": 42,
+   "tags": [
+    "improv",
+    "holiday"
+   ],
+   "source": "Creative Alliance",
+   "description": "MidAtlantic Improv builds A Christmas Carol from audience suggestions — same arc from 'Bah Humbug' to the closing blessing, wildly different plot each night.",
+   "id": "2026-12-22-bah-humbug-a-christmas-carol-mostly-improvised",
+   "area": "baltimore"
+  },
+  {
+   "title": "Break My Game (playtest night)",
+   "category": "community",
+   "start": "2026-12-14T18:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/break-my-game/2026-12-14/",
+   "base": 50,
+   "tags": [
+    "games",
+    "local",
+    "diy"
+   ],
+   "source": "Creative Alliance",
+   "description": "Local game developers bring unreleased games for people to play and give feedback on.",
+   "id": "2026-12-14-break-my-game-playtest-night",
+   "area": "baltimore"
+  },
+  {
+   "title": "Pangea: Human Nature (exhibition)",
+   "category": "museum",
+   "start": "2026-12-18",
+   "until": "2027-01-15",
+   "allDay": true,
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/pangea-human-nature/",
+   "base": 40,
+   "tags": [
+    "art",
+    "local"
+   ],
+   "source": "Creative Alliance",
+   "description": "First show from Pangea, a student-run exhibition group set up to give young Baltimore artists a way into the professional art world.",
+   "id": "2026-12-18-pangea-human-nature-exhibition",
+   "area": "baltimore"
+  },
+  {
+   "title": "Sip, Steep, and Spice: Holiday Mixology Make and Take",
+   "category": "food",
+   "start": "2026-12-18T18:00",
+   "venue": "Creative Alliance",
+   "cost": "See site",
+   "free": null,
+   "url": "https://creativealliance.org/event/sip-steep-and-spice-holiday-mixology-make-and-take/",
+   "base": 38,
+   "tags": [
+    "workshop",
+    "holiday"
+   ],
+   "source": "Creative Alliance",
+   "description": "Hands-on workshop with Eudemonia Herbs making herbal holiday gifts, with a seasonal herbal cocktail or mocktail.",
+   "id": "2026-12-18-sip-steep-and-spice-holiday-mixology-make-and-take",
+   "area": "baltimore"
   }
  ]
 }

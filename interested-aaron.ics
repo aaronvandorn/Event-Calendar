@@ -5,7 +5,7 @@ X-WR-CALNAME:Event Calendar — Aaron interested
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:2026-10-04-flashback-two-centuries-of-baltimore-photography@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261004
 SUMMARY:Flashback: Two Centuries of Baltimore Photography
 LOCATION:Baltimore Museum of Art
@@ -14,7 +14,7 @@ URL:https://artbma.org/exhibition/flashback-baltimore-photography/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-25-woven-monuments-tapestry-and-identity-in-senegal-opens@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:Woven Monuments: Tapestry and Identity in Senegal (opens)
 LOCATION:Baltimore Museum of Art
@@ -23,7 +23,7 @@ URL:https://artbma.org
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-18-different-words-for-happiness@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Different Words for Happiness
 LOCATION:Everyman Theatre
@@ -32,7 +32,7 @@ URL:https://everymantheatre.org/event/different-words/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-beth-lapides-it-s-a-lot@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261022T193000
 DTEND;TZID=America/New_York:20261022T213000
 SUMMARY:Beth Lapides: It's A Lot
@@ -42,7 +42,7 @@ URL:https://creativealliance.org/event/beth-lapides-its-a-lot/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22-junglist-heights-drum-bass@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261022T180000
 DTEND;TZID=America/New_York:20261022T200000
 SUMMARY:Junglist Heights (drum & bass)
@@ -52,7 +52,7 @@ URL:https://peabodyheightsbrewery.com/event/junglist-heights/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-bmore-horror-film-fest@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261023
 SUMMARY:Bmore Horror Film Fest
 LOCATION:Old Major\, 2640 Space\, Black Cherry Puppet Theater
@@ -61,7 +61,7 @@ URL:https://www.bmorehorrorfest.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-23-trio-sir-nes@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261023T193000
 DTEND;TZID=America/New_York:20261023T213000
 SUMMARY:Trio Sirènes
@@ -71,7 +71,7 @@ URL:https://stdavidsbaltimore.org/music/event-tickets/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-doors-open-baltimore@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261024T100000
 DTEND;TZID=America/New_York:20261024T170000
 SUMMARY:Doors Open Baltimore
@@ -81,7 +81,7 @@ URL:https://www.doorsopenbaltimore.org/sites/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-great-baltimore-lantern-parade-d-a-de-los-muertos-festival@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261024T160000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:Great Baltimore Lantern Parade + Día de los Muertos Festival
@@ -91,7 +91,7 @@ URL:https://creativealliance.org/event/the-great-baltimore-lantern-parade/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-mushroom-city-arts-festival@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261024T120000
 DTEND;TZID=America/New_York:20261024T140000
 SUMMARY:Mushroom City Arts Festival
@@ -101,7 +101,7 @@ URL:https://www.facebook.com/events/1052371247444380/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-a-very-no-land-beyond-halloween-battle-of-the-bands@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261024T190000
 DTEND;TZID=America/New_York:20261024T210000
 SUMMARY:A Very No Land Beyond Halloween Battle of the Bands
@@ -111,7 +111,7 @@ URL:https://www.instagram.com/p/DdkJvXHDZPX/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-24-microgreens-workshop@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261024T110000
 DTEND;TZID=America/New_York:20261024T130000
 SUMMARY:Microgreens Workshop
@@ -121,7 +121,7 @@ URL:https://filbertstreetgarden.org/baltimore-garden-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27-bat-walk@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261027T200000
 DTEND;TZID=America/New_York:20261027T220000
 SUMMARY:Bat Walk
@@ -131,7 +131,7 @@ URL:https://filbertstreetgarden.org/baltimore-garden-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27-riley-black-tyrant-lizard-queen@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261027T190000
 DTEND;TZID=America/New_York:20261027T210000
 SUMMARY:Riley Black: Tyrant Lizard Queen
@@ -141,7 +141,7 @@ URL:https://www.eventbrite.com/e/riley-black-tyrant-lizard-queen-tickets-1992774
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28-profs-pints-the-haunted-house@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261028T183000
 DTEND;TZID=America/New_York:20261028T203000
 SUMMARY:Profs & Pints: The Haunted House
@@ -151,7 +151,7 @@ URL:https://www.facebook.com/events/3301416703377038/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28-industry-social-club-confections@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261028T173000
 DTEND;TZID=America/New_York:20261028T200000
 SUMMARY:Industry Social Club: Confections
@@ -161,7 +161,7 @@ URL:https://www.thebmi.org/event/industry-social-club-confections/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-halloween-atp-21@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261030T180000
 DTEND;TZID=America/New_York:20261030T200000
 SUMMARY:Halloween ATP (21+)
@@ -171,7 +171,7 @@ URL:https://pools.events/event/zmmSicAW/halloween-atp/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30-fairies-foes-false-lovers-a-celtic-halloween@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261030T193000
 DTEND;TZID=America/New_York:20261030T213000
 SUMMARY:Fairies\, Foes & False Lovers: A Celtic Halloween
@@ -181,7 +181,7 @@ URL:https://creativealliance.org/event/fairies-foes-and-false-lovers-a-celtic-ha
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-31-after-life-kore-eda-revival@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261031T113000
 DTEND;TZID=America/New_York:20261031T133000
 SUMMARY:After Life (Kore-eda) — Revival
@@ -191,7 +191,7 @@ URL:https://thecharles.com/movie/after-life/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-04-peabody-jazz-faculty@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261104T190000
 DTEND;TZID=America/New_York:20261104T210000
 SUMMARY:Peabody Jazz Faculty
@@ -201,7 +201,7 @@ URL:https://www.keystonekornerbaltimore.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-06-arbouretum-stinking-lizaveta-deathbird-earth-darsombra-sol@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261106T200000
 DTEND;TZID=America/New_York:20261106T220000
 SUMMARY:Arbouretum\, Stinking Lizaveta\, Deathbird Earth\, Darsombra Sol
@@ -211,7 +211,7 @@ URL:https://theottobar.com/event/arbouretum-stinking-lizaveta-deathbird-earth-da
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-experimental-music-with-john-berndt-and-friends@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261105T200000
 DTEND;TZID=America/New_York:20261105T220000
 SUMMARY:Experimental Music with John Berndt and Friends
@@ -221,7 +221,7 @@ URL:https://www.redroom.org/category/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-05-andre-carrington-audiofuturism@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261105T190000
 DTEND;TZID=America/New_York:20261105T210000
 SUMMARY:andré m. carrington: "Audiofuturism"
@@ -231,7 +231,7 @@ URL:https://redemmas.org/events/andr-carrington-presents-audiofuturism-science-f
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-07-art-and-industry-tour-clipper-mill@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261107T110000
 DTEND;TZID=America/New_York:20261107T120000
 SUMMARY:Art and Industry Tour of Clipper Mill
@@ -241,7 +241,7 @@ URL:https://baltimoreheritage.org/event/art-and-industry-tour-of-clipper-mill/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-26-globe-posters-for-the-people@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Globe Posters for the People
 LOCATION:MICA Bunting Center\, Pinkard Gallery
@@ -250,7 +250,7 @@ URL:https://www.mica.edu/events-exhibitions/current-upcoming-exhibitions/details
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-gardener-s-workshop-gardening-in-late-fall@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261112T140000
 DTEND;TZID=America/New_York:20261112T153000
 SUMMARY:Gardener's Workshop: Gardening in Late Fall
@@ -260,7 +260,7 @@ URL:https://www.eventbrite.com/e/gardeners-workshop-gardening-in-late-fall-ticke
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-profs-pints-how-to-feel-worthy@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/New_York:20261112T180000
 DTEND;TZID=America/New_York:20261112T200000
 SUMMARY:Profs & Pints: How to Feel Worthy
@@ -270,7 +270,7 @@ URL:https://www.meetup.com/profs-and-pints-baltimore/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-the-stars-andrew-schneider@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;VALUE=DATE:20261112
 SUMMARY:The Stars: Andrew Schneider
 LOCATION:The Voxel
@@ -279,7 +279,7 @@ URL:https://voxel.org/events/the-stars-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-28-bioferia-de-miraflores@event-calendar
-DTSTAMP:20261116T134306Z
+DTSTAMP:20261119T165500Z
 DTSTART;TZID=America/Lima:20261128T080000
 DTEND;TZID=America/Lima:20261128T140000
 SUMMARY:Bioferia de Miraflores (Saturday organic market)
