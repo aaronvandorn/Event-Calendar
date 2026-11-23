@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:30:00-05:00",
+ "updated": "2026-11-23T09:15:00-05:00",
  "events": [
   {
    "id": "2026-10-04-flashback-two-centuries-of-baltimore-photography",
@@ -7904,6 +7904,234 @@
    "source": "Creative Alliance",
    "description": "Hands-on workshop with Eudemonia Herbs making herbal holiday gifts, with a seasonal herbal cocktail or mocktail.",
    "id": "2026-12-18-sip-steep-and-spice-holiday-mixology-make-and-take",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-03-profs-pints-when-dickens-came-to-baltimore",
+   "title": "Profs & Pints: When Dickens Came to Baltimore",
+   "category": "talk",
+   "start": "2026-12-03T18:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/events/317433407/",
+   "base": 78,
+   "description": "Loyola University Maryland writing professor Brian Murray on Charles Dickens's two American tours (1842 and 1868) and how Americans — Baltimoreans included — received him.",
+   "summary": "Doors 5 p.m., talk 6:30.",
+   "tags": [
+    "talk",
+    "history",
+    "books"
+   ],
+   "source": "Profs and Pints",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-06-profs-pints-the-green-knight-and-medieval-yule",
+   "title": "Profs & Pints: The Green Knight and Medieval Yule",
+   "category": "talk",
+   "start": "2026-12-06T16:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/events/317402406/",
+   "base": 68,
+   "description": "Medievalist Larissa \"Kat\" Tracy on Sir Gawain and the Green Knight, the Arthurian poem set at Christmastime, and the pre-Christian \"Green Man\" imagery behind it.",
+   "summary": "Talk starts 4:30.",
+   "tags": [
+    "talk",
+    "history",
+    "books"
+   ],
+   "source": "Profs and Pints",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-09-profs-pints-you-better-watch-out",
+   "title": "Profs & Pints: You Better Watch Out",
+   "category": "talk",
+   "start": "2026-12-09T18:00",
+   "venue": "Guilford Hall Brewery",
+   "cost": "$13.50 advance, $17 door ($15 student)",
+   "free": false,
+   "url": "https://www.meetup.com/profs-and-pints-baltimore/events/317488664/",
+   "base": 66,
+   "description": "Folklorist Brittany Warman on lesser-known frightening figures of winter folklore from around the world.",
+   "summary": "Doors 5 p.m., talk 6:30.",
+   "tags": [
+    "talk",
+    "history",
+    "folklore"
+   ],
+   "source": "Profs and Pints",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-12-05-jazz-funk-soul",
+   "title": "Jazz Funk Soul: Jeff Lorber, Everette Harp & Paul Jackson Jr.",
+   "category": "music",
+   "start": "2026-12-05T18:00",
+   "end": "2026-12-05T22:30",
+   "venue": "Keystone Korner",
+   "cost": "$55 regular, $65 premium, $15 stream",
+   "free": false,
+   "url": "https://baltimore.org/event/jazz-funk-soul/",
+   "base": 52,
+   "description": "Smooth-jazz supergroup of keyboardist Jeff Lorber, saxophonist Everette Harp and guitarist Paul Jackson Jr., playing jazz, soul and funk from their album Simpatico.",
+   "summary": "Visit Baltimore lists Dec 5; Songkick lists Dec 4 — check the venue before going.",
+   "tags": [
+    "jazz"
+   ],
+   "source": "Visit Baltimore",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-28-spectral-relay-album-release",
+   "title": "Spectral Relay Album Release",
+   "category": "music",
+   "start": "2026-11-28T19:30",
+   "venue": "2640 Space",
+   "cost": "$10",
+   "free": false,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 60,
+   "description": "Album-release show for Spectral Relay at the 2640 Space, the artist-run church hall in Charles Village. The listing gives no lineup details beyond the release.",
+   "tags": [
+    "local",
+    "experimental"
+   ],
+   "source": "Baltimore Show Place",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-27-black-friday-music-arts-expo",
+   "title": "Black Friday Music & Arts Expo",
+   "category": "community",
+   "start": "2026-11-27T14:00",
+   "venue": "2640 Space",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 55,
+   "description": "Free afternoon music and arts expo at the 2640 Space on Black Friday — a DIY alternative to the malls.",
+   "tags": [
+    "local",
+    "market",
+    "art"
+   ],
+   "source": "Baltimore Show Place",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-29-bmore-zinefest",
+   "title": "Bmore Zinefest",
+   "category": "community",
+   "start": "2026-11-29T16:00",
+   "end": "2026-11-29T20:00",
+   "venue": "Peabody Heights Brewery",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 62,
+   "description": "Free DIY zine fest: tables of self-published zines, comics and small-press work from Baltimore makers.",
+   "tags": [
+    "books",
+    "local",
+    "making"
+   ],
+   "source": "Baltimore Show Place",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-27-darkness-rising",
+   "title": "Darkness Rising w/ DJs Zombot, Who?, Spookster",
+   "category": "nightlife",
+   "start": "2026-11-27T21:00",
+   "venue": "The Depot",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 45,
+   "description": "Free goth/darkwave DJ night at The Depot with DJs Zombot, Who? and Spookster.",
+   "tags": [
+    "dj",
+    "local"
+   ],
+   "source": "Baltimore Show Place",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-28-rod-lee-at-the-compound",
+   "title": "Sweet Chunk, Areola & Club Kings present: Rod Lee",
+   "category": "nightlife",
+   "start": "2026-11-28",
+   "allDay": true,
+   "venue": "The Compound",
+   "cost": "See site",
+   "free": null,
+   "url": "https://ra.co/events/2568817",
+   "base": 58,
+   "description": "Baltimore club music pioneer Rod Lee plays a party thrown by the Sweet Chunk, Areola and Club Kings crews.",
+   "tags": [
+    "dj",
+    "electronic",
+    "local"
+   ],
+   "source": "Resident Advisor",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-28-karizma-record-release-party",
+   "title": "noted… Karizma's Record Release Party",
+   "category": "nightlife",
+   "start": "2026-11-28",
+   "allDay": true,
+   "venue": "Stem And Vine",
+   "cost": "See site",
+   "free": null,
+   "url": "https://ra.co/events/2588775",
+   "base": 60,
+   "description": "Record-release party for Karizma, the Baltimore house DJ and producer known for deep, jazz-inflected house.",
+   "tags": [
+    "dj",
+    "electronic",
+    "local"
+   ],
+   "source": "Resident Advisor",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-26-veil-parting",
+   "title": "Veil Parting",
+   "category": "music",
+   "start": "2026-11-26T21:00",
+   "venue": "Upstairs @ Ottobar",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 40,
+   "description": "Free Thanksgiving-night show upstairs at the Ottobar. The listing gives no genre or lineup details.",
+   "tags": [
+    "local"
+   ],
+   "source": "Baltimore Show Place",
+   "area": "baltimore"
+  },
+  {
+   "id": "2026-11-29-extended-release",
+   "title": "Extended Release",
+   "category": "music",
+   "start": "2026-11-29T20:00",
+   "venue": "Fadensonnen",
+   "cost": "Free",
+   "free": true,
+   "url": "https://www.tumblr.com/baltshowplace",
+   "base": 42,
+   "description": "Free Sunday-night show at Fadensonnen, the Station North bar and venue. The listing gives no further details.",
+   "tags": [
+    "local"
+   ],
+   "source": "Baltimore Show Place",
    "area": "baltimore"
   }
  ]
