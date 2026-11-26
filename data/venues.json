@@ -363,6 +363,81 @@
   },
   "Upstairs @ Ottobar": {
    "address": "2549 N Howard St, Baltimore, MD 21218"
+  },
+  "Checkerspot Brewing Co.": {
+   "address": "1421 Ridgely St, Baltimore, MD 21230"
+  },
+  "Roosevelt Park, Hampden": {
+   "address": "1221 W 36th St, Baltimore, MD"
+  },
+  "Mosaic": {
+   "address": "4 Market Place, Baltimore, MD 21202"
+  },
+  "The Lyric": {
+   "address": "140 W Mount Royal Ave, Baltimore, MD 21201"
+  },
+  "Bird in Hand Coffee & Books": {
+   "address": "11 E 33rd St, Baltimore, MD 21218"
+  },
+  "Baltimore waterfront (Canton to Inner Harbor)": {
+   "map": false
+  },
+  "Hampden and Medfield (parade route)": {
+   "map": false
+  },
+  "An die Musik Live!": {
+   "address": "409 N Charles St, Baltimore, MD 21201"
+  },
+  "St. David's Church": {
+   "address": "4700 Roland Ave, Baltimore, MD"
+  },
+  "600 Water Street": {
+   "address": "600 Water St, Baltimore, MD 21202"
+  },
+  "Inner Harbor": {
+   "map": false
+  },
+  "The Avenue, Hampden": {
+   "map": false
+  },
+  "Espacio 303": {
+   "address": "Jr. Domeyer 303, Barranco, Lima"
+  },
+  "Jazz Zone": {
+   "address": "Av. La Paz 656, Pasaje El Suche, Miraflores, Lima"
+  },
+  "Casa de la Cultura Criolla Rosa Mercedes Ayarza": {
+   "address": "Jr. Moquegua 376, Cercado de Lima"
+  },
+  "Casa Bulbo": {
+   "address": "Av. Francisco Bolognesi 660, Barranco, Lima"
+  },
+  "Centro Cultural Juan Parra del Riego": {
+   "address": "Av. Pedro de Osma 135, Barranco, Lima"
+  },
+  "Galería Oders": {
+   "address": "Jr. Domeyer 270, 2nd floor, Barranco, Lima"
+  },
+  "Ministerio de Relaciones Exteriores": {
+   "address": "Jr. Lampa 545, Cercado de Lima"
+  },
+  "Museo Metropolitano de Lima": {
+   "address": "Av. 28 de Julio 800, Cercado de Lima"
+  },
+  "Galería Municipal de Arte Pancho Fierro": {
+   "address": "Pasaje Santa Rosa, Cercado de Lima"
+  },
+  "Ministerio de Cultura del Perú": {
+   "address": "Av. Javier Prado Este 2465, San Borja, Lima"
+  },
+  "Centro Cultural Peruano Japonés": {
+   "address": "Av. Gregorio Escobedo 803, Jesús María, Lima"
+  },
+  "Parque Kennedy, Miraflores": {
+   "address": "Parque Kennedy, Av. Oscar R. Benavides, Miraflores, Lima"
+  },
+  "Parque Alfredo Salazar, Miraflores": {
+   "address": "Parque Alfredo Salazar, Miraflores, Lima"
   }
  }
 }
